@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "@app/*": ["./app/*"]
+    },
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  },
+  "exclude": ["node_modules"]
+}

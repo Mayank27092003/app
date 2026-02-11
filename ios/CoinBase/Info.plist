@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>GOFRTS</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>gofrts</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>GMSApiKey</key>
+	<string>AIzaSyBdBvnankCo84RWZUzD-xegUJzi9Mwk9zQ</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>LSSupportsOpeningDocumentsInPlace</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<false/>
+		<key>NSAllowsLocalNetworking</key>
+		<true/>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>This app requires access to the camera for video calls and job verification photos.</string>
+	<key>NSDocumentsFolderUsageDescription</key>
+	<string>This app needs access to documents</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>This app needs continuous access to your location to track deliveries in the background and provide accurate trip tracking even when the app is not in use.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>This app needs continuous access to your location to track deliveries in the background and provide real-time location updates to customers.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>This app needs access to your location to show your current position, track deliveries, and find nearby jobs.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>This app needs access to your microphone for audio calls and voice messages.</string>
+	<key>NSMotionUsageDescription</key>
+	<string>This app uses motion detection to improve location tracking accuracy and determine when you are moving or stationary.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>This app needs access to your photo library to select photos.</string>
+	<key>NSUserNotificationUsageDescription</key>
+	<string>This app needs to send you notifications about job updates, messages, and important updates.</string>
+	<key>RCTNewArchEnabled</key>
+	<true/>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+		<string>location</string>
+		<string>audio</string>
+		<string>voip</string>
+		<string>fetch</string>
+		<string>external-accessory</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>arm64</string>
+		<string>microphone</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>

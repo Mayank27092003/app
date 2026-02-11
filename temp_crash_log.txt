@@ -1,0 +1,222 @@
+﻿--------- beginning of main
+02-10 11:26:48.461 I/Process ( 4093): Sending signal. PID: 4093 SIG: 9
+02-10 11:26:48.724 I/com.coinbase( 6255): Late-enabling -Xcheck:jni
+02-10 11:26:48.790 I/bpuk    (31351): onPause
+02-10 11:26:48.814 I/com.coinbase( 6255): Using CollectorTypeCC GC.
+02-10 11:26:48.940 E/com.coinbase( 6255): BBinder_init Processname  <pre-initialized>  
+02-10 11:26:48.940 E/com.coinbase( 6255): BBinder_init hasGetProcessName  <pre-initialized>
+02-10 11:26:49.383 I/bpuk    (31351): onStop
+02-10 11:26:49.475 I/FirebaseApp( 6255): Device unlocked: initializing all Firebase APIs for app [DEFAULT]
+02-10 11:26:49.491 I/FirebaseInitProvider( 6255): FirebaseApp initialization successful
+02-10 11:26:49.564 I/AudioEffect( 6255): queryNumberEffects(): *numEffects = 27, ret = 0
+02-10 11:26:49.572 I/org.webrtc.Logging( 6255): WebRtcAudioManagerExternal: Sample rate is set to 48000 Hz
+02-10 11:26:49.572 I/org.webrtc.Logging( 6255): WebRtcAudioManagerExternal: Sample rate is set to 48000 Hz
+02-10 11:26:49.572 I/org.webrtc.Logging( 6255): JavaAudioDeviceModule: createAudioDeviceModule
+02-10 11:26:49.572 I/org.webrtc.Logging( 6255): JavaAudioDeviceModule: HW NS will be used.
+02-10 11:26:49.573 I/org.webrtc.Logging( 6255): JavaAudioDeviceModule: HW AEC will be used.
+02-10 11:26:49.574 I/org.webrtc.Logging( 6255): WebRtcAudioEffectsExternal: ctor@[name=main, id=2]
+02-10 11:26:49.574 I/org.webrtc.Logging( 6255): WebRtcAudioRecordExternal: ctor@[name=main, id=2]
+02-10 11:26:49.575 I/org.webrtc.Logging( 6255): WebRtcAudioTrackExternal: ctor@[name=main, id=2]
+02-10 11:26:49.577 W/SoLoader( 6255): Initializing SoLoader: 0
+02-10 11:26:49.578 W/SoLoader( 6255): Recording new base apk path: /data/app/~~RaZebeiP1GZ3BgUFof3wDg==/com.coinbase-1ImdznhE6a304Amv8rgx6Q==/base.apk
+02-10 11:26:49.578 W/SoLoader( 6255): Previously recorded 0 base apk paths.
+02-10 11:26:49.580 I/SoLoader( 6255): Preparing SO source: DirectorySoSource[root = /vendor/lib64 flags = 2]
+02-10 11:26:49.580 I/SoLoader( 6255): Preparing SO source: DirectorySoSource[root = /system/lib64 flags = 2]
+02-10 11:26:49.581 I/SoLoader( 6255): Preparing SO source: DirectApkSoSource[root = [/data/app/~~RaZebeiP1GZ3BgUFof3wDg==/com.coinbase-1ImdznhE6a304Amv8rgx6Q==/base.apk!/lib/arm64-v8a]]
+02-10 11:26:49.760 I/SoLoader( 6255): Preparing SO source: ApplicationSoSource[DirectorySoSource[root = /data/app/~~RaZebeiP1GZ3BgUFof3wDg==/com.coinbase-1ImdznhE6a304Amv8rgx6Q==/lib/arm64 flags = 0]]
+02-10 11:26:49.760 I/SoLoader( 6255): init finish: 4 SO sources prepared
+02-10 11:26:49.760 W/SoLoader( 6255): SoLoader initialized: 8
+02-10 11:26:49.769 I/PowerHalWrapper( 6255): PowerHalWrapper.getInstance 
+02-10 11:26:49.769 I/M-ProMotion( 6255): M-ProMotion is disabled
+02-10 11:26:49.940 W/libc    ( 6255): Access denied finding property "persist.vivo.ltw.enabled"
+02-10 11:26:49.946 W/HWUI    ( 6255): Unknown dataspace 0
+02-10 11:26:50.378 I/Nitro.HybridObjectRegistry( 6255): Registering HybridObject "Sound"...
+02-10 11:26:50.378 I/Nitro.HybridObjectRegistry( 6255): Successfully registered HybridObject "Sound"!
+02-10 11:26:50.382 W/SoLoader( 6255): SoLoader already initialized
+02-10 11:26:50.501 W/SoLoader( 6255): SoLoader already initialized
+02-10 11:26:50.522 I/com.coinbase( 6255): hiddenapi: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (runtime_flags=0, domain=platform, api=unsupported) from Landroidx/appcompat/widget/ViewUtils; (domain=app, TargetSdkVersion=35) using reflection: allowed
+02-10 11:26:50.531 I/PowerHalWrapper( 6255): PowerHalWrapper.getInstance 
+02-10 11:26:50.547 I/Choreographer( 6255): Skipped 62 frames!  The application may be doing too much work on its main thread.
+02-10 11:26:50.560 E/TSLocationManager( 6255): ΓòöΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+02-10 11:26:50.560 E/TSLocationManager( 6255): Γòæ LICENSE VALIDATION FAILURE: com.coinbase
+02-10 11:26:50.560 E/TSLocationManager( 6255): ΓòáΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+02-10 11:26:50.560 E/TSLocationManager( 6255): ΓòƒΓöÇ Failed to find license key in AndroidManifest.  Ensure you've added the key within <application><meta-data android:name="com.transistorsoft.locationmanager.license" android:value="<YOUR LICENSE KEY>" />
+02-10 11:26:50.560 E/TSLocationManager( 6255): ΓòƒΓöÇ BackgroundGeolocation is fully functional in DEBUG builds without a license so you can 'try before you buy'.
+02-10 11:26:50.560 E/TSLocationManager( 6255): ΓòÜΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+02-10 11:26:50.620 I/com.coinbase( 6255): hiddenapi: Accessing hidden method Landroid/app/AppGlobals;->getInitialApplication()Landroid/app/Application; (runtime_flags=0, domain=platform, api=unsupported) from Lch/qos/logback/core/android/AndroidContextUtil; (domain=app, TargetSdkVersion=35) using reflection: allowed
+02-10 11:26:50.627 I/org.webrtc.Logging( 6255): NativeLibrary: Loading native library: jingle_peerconnection_so
+02-10 11:26:50.627 I/org.webrtc.Logging( 6255): LibraryLoader: Loading library: jingle_peerconnection_so
+02-10 11:26:50.633 I/GrallocExtra( 6255): gralloc_extra_query:is_SW3D 0
+02-10 11:26:50.647 I/org.webrtc.Logging( 6255): PeerConnectionFactory: PeerConnectionFactory was initialized without an injected Loggable. Any existing Loggable will be deleted.
+02-10 11:26:50.651 I/org.webrtc.Logging( 6255): EglBase14Impl: Using OpenGL ES version 2
+02-10 11:26:50.664 I/HWUI    ( 6255): Davey! duration=1120ms; Flags=1, FrameTimelineVsyncId=576484353, IntendedVsync=1110838914607002, Vsync=1110839947940356, InputEventId=0, HandleInputStart=1110839948992518, AnimationStart=1110839949094441, PerformTraversalsStart=1110839949298364, DrawStart=1110839975885518, FrameDeadline=1110838931207002, FrameInterval=1110839948118056, FrameStartTime=16666667, SyncQueued=1110839977307595, SyncStart=1110839977546441, IssueDrawCommandsStart=1110839979224902, SwapBuffers=1110840028639902, FrameCompleted=1110840034873210, DequeueBufferDuration=1493462, QueueBufferDuration=512923, GpuCompleted=1110840034696595, SwapBuffersCompleted=1110840034873210, DisplayPresentTime=0, CommandSubmissionCompleted=1110840028639902, 
+02-10 11:26:50.672 W/MediaCodec-JNI( 6255): pid:6255,client name:com.coinbase
+02-10 11:26:50.688 W/AudioCapabilities( 6255): Unsupported mime audio/x-ms-wma
+02-10 11:26:50.691 W/AudioCapabilities( 6255): Unsupported mime audio/x-ms-wma
+02-10 11:26:50.692 W/AudioCapabilities( 6255): Unsupported mime audio/mpeg-L1
+02-10 11:26:50.694 W/AudioCapabilities( 6255): Unsupported mime audio/mpeg-L2
+02-10 11:26:50.695 W/AudioCapabilities( 6255): Unsupported mime audio/mpeg-L1
+02-10 11:26:50.695 W/AudioCapabilities( 6255): Unsupported mime audio/mpeg-L2
+02-10 11:26:50.696 W/AudioCapabilities( 6255): Unsupported mime audio/ra
+02-10 11:26:50.696 W/AudioCapabilities( 6255): Unsupported mime audio/ra
+02-10 11:26:50.696 W/AudioCapabilities( 6255): Unsupported mime audio/alac
+02-10 11:26:50.697 I/HWUI    ( 6255): Davey! duration=1159ms; Flags=1, FrameTimelineVsyncId=576484353, IntendedVsync=1110838914607002, Vsync=1110839947940356, InputEventId=0, HandleInputStart=1110839948992518, AnimationStart=1110839949094441, PerformTraversalsStart=1110839949298364, DrawStart=1110840054778748, FrameDeadline=1110838931207002, FrameInterval=1110839948118056, FrameStartTime=16666667, SyncQueued=1110840055566672, SyncStart=1110840055676902, IssueDrawCommandsStart=1110840055743672, SwapBuffers=1110840073612518, FrameCompleted=1110840074123056, DequeueBufferDuration=1097769, QueueBufferDuration=204924, GpuCompleted=1110840073730441, SwapBuffersCompleted=1110840074123056, DisplayPresentTime=0, CommandSubmissionCompleted=1110840073612518, 
+02-10 11:26:50.701 W/AudioCapabilities( 6255): Unsupported mime audio/alac
+02-10 11:26:50.702 W/AudioCapabilities( 6255): Unsupported mime audio/ape
+02-10 11:26:50.703 W/AudioCapabilities( 6255): Unsupported mime audio/x-ape
+02-10 11:26:50.703 W/AudioCapabilities( 6255): Unsupported mime audio/ape
+02-10 11:26:50.707 W/AudioCapabilities( 6255): Unsupported mime audio/x-ape
+02-10 11:26:50.707 I/ActivityTaskManager( 1892): Displayed com.coinbase/.MainActivity for user 0: +2s50ms
+02-10 11:26:50.708 W/AudioCapabilities( 6255): Unsupported mime audio/adpcm
+02-10 11:26:50.708 W/AudioCapabilities( 6255): Unsupported mime audio/x-ms-adpcm
+02-10 11:26:50.709 W/AudioCapabilities( 6255): Unsupported mime audio/pcm
+02-10 11:26:50.709 W/AudioCapabilities( 6255): Unsupported mime audio/pcm
+02-10 11:26:50.710 W/AudioCapabilities( 6255): Unsupported mime audio/dsd
+02-10 11:26:50.710 W/AudioCapabilities( 6255): Unsupported mime audio/dsd
+02-10 11:26:50.713 W/VideoCapabilities( 6255): Unsupported mime video/rv
+02-10 11:26:50.715 W/VideoCapabilities( 6255): Unsupported mime video/rv
+02-10 11:26:50.728 W/VideoCapabilities( 6255): Unsupported mime video/x-ms-wmv
+02-10 11:26:50.728 W/VideoCapabilities( 6255): Unsupported mime video/x-ms-wmv2
+02-10 11:26:50.729 W/VideoCapabilities( 6255): Unsupported mime video/x-ms-wmv
+02-10 11:26:50.730 W/VideoCapabilities( 6255): Unsupported mime video/x-ms-wmv2
+02-10 11:26:50.734 W/VideoCapabilities( 6255): Unsupported mime video/divx3
+02-10 11:26:50.735 W/VideoCapabilities( 6255): Unsupported mime video/divx3
+02-10 11:26:50.736 W/VideoCapabilities( 6255): Unsupported mime video/flv1
+02-10 11:26:50.737 W/VideoCapabilities( 6255): Unsupported mime video/x-flv
+02-10 11:26:50.747 W/VideoCapabilities( 6255): Unsupported mime video/flv1
+02-10 11:26:50.748 W/VideoCapabilities( 6255): Unsupported mime video/x-flv
+02-10 11:26:50.749 W/VideoCapabilities( 6255): Unsupported mime video/mjpeg
+02-10 11:26:50.750 W/VideoCapabilities( 6255): Unsupported mime video/x-motion-jpeg
+02-10 11:26:50.751 W/VideoCapabilities( 6255): Unsupported mime video/mjpeg
+02-10 11:26:50.752 W/VideoCapabilities( 6255): Unsupported mime video/x-motion-jpeg
+02-10 11:26:50.755 W/AudioCapabilities( 6255): Unsupported mime audio/x-adpcm-dvi-ima
+02-10 11:26:50.756 W/AudioCapabilities( 6255): Unsupported mime audio/x-adpcm-dvi-ima
+02-10 11:26:50.757 W/AudioCapabilities( 6255): Unsupported mime audio/x-adpcm-ms
+02-10 11:26:50.757 W/AudioCapabilities( 6255): Unsupported mime audio/x-adpcm-ms
+02-10 11:26:50.758 W/AudioCapabilities( 6255): Unsupported mime audio/alac
+02-10 11:26:50.758 W/AudioCapabilities( 6255): Unsupported mime audio/alac
+02-10 11:26:50.786 W/VideoCapabilities( 6255): Unsupported mime image/vnd.android.heic
+02-10 11:26:50.787 W/VideoCapabilities( 6255): Unsupported mime image/vnd.android.heic
+02-10 11:26:50.788 W/VideoCapabilities( 6255): Unsupported mime image/vnd.android.heic
+02-10 11:26:50.795 W/VideoCapabilities( 6255): Unrecognized profile/level 32768/256 for video/mp4v-es
+02-10 11:26:50.796 W/VideoCapabilities( 6255): Unrecognized profile/level 32768/256 for video/mp4v-es
+02-10 11:26:50.828 I/org.webrtc.Logging( 6255): WebRtcAudioRecordExternal: enableBuiltInAEC(true)
+02-10 11:26:50.828 I/org.webrtc.Logging( 6255): WebRtcAudioEffectsExternal: setAEC(true)
+02-10 11:26:50.828 I/org.webrtc.Logging( 6255): WebRtcAudioRecordExternal: enableBuiltInNS(true)
+02-10 11:26:50.828 I/org.webrtc.Logging( 6255): WebRtcAudioEffectsExternal: setNS(true)
+02-10 11:26:50.829 I/org.webrtc.Logging( 6255): PeerConnectionFactory: onNetworkThreadReady
+02-10 11:26:50.829 I/org.webrtc.Logging( 6255): PeerConnectionFactory: onWorkerThreadReady
+02-10 11:26:50.829 I/org.webrtc.Logging( 6255): PeerConnectionFactory: onSignalingThreadReady
+--------- beginning of crash
+02-10 11:26:50.852 E/AndroidRuntime( 6255): FATAL EXCEPTION: create_react_context
+02-10 11:26:50.852 E/AndroidRuntime( 6255): Process: com.coinbase, PID: 6255
+02-10 11:26:50.852 E/AndroidRuntime( 6255): java.lang.RuntimeException: Unable to load script.
+02-10 11:26:50.852 E/AndroidRuntime( 6255): 
+02-10 11:26:50.852 E/AndroidRuntime( 6255): Make sure you're running Metro or that your bundle 'index.android.bundle' is packaged correctly for release.
+02-10 11:26:50.852 E/AndroidRuntime( 6255): 
+02-10 11:26:50.852 E/AndroidRuntime( 6255): The device must either be USB connected (with bundler set to "localhost:8081") or be on the same Wi-Fi network as your computer (with bundler set to your computer IP) to connect to Metro.
+02-10 11:26:50.852 E/AndroidRuntime( 6255): 
+02-10 11:26:50.852 E/AndroidRuntime( 6255): If you're using USB on a physical device, make sure you also run this command:
+02-10 11:26:50.852 E/AndroidRuntime( 6255):   adb reverse tcp:8081 tcp:8081
+02-10 11:26:50.852 E/AndroidRuntime( 6255): 	at com.facebook.react.bridge.CatalystInstanceImpl.jniLoadScriptFromAssets(Native Method)
+02-10 11:26:50.852 E/AndroidRuntime( 6255): 	at com.facebook.react.bridge.CatalystInstanceImpl.loadScriptFromAssets(CatalystInstanceImpl.java:245)
+02-10 11:26:50.852 E/AndroidRuntime( 6255): 	at com.facebook.react.bridge.JSBundleLoader$Companion$createAssetLoader$1.loadScript(JSBundleLoader.kt:33)
+02-10 11:26:50.852 E/AndroidRuntime( 6255): 	at com.facebook.react.bridge.CatalystInstanceImpl.runJSBundle(CatalystInstanceImpl.java:274)
+02-10 11:26:50.852 E/AndroidRuntime( 6255): 	at com.facebook.react.ReactInstanceManager.createReactContext(ReactInstanceManager.java:1520)
+02-10 11:26:50.852 E/AndroidRuntime( 6255): 	at com.facebook.react.ReactInstanceManager.lambda$runCreateReactContextOnNewThread$2(ReactInstanceManager.java:1217)
+02-10 11:26:50.852 E/AndroidRuntime( 6255): 	at com.facebook.react.ReactInstanceManager.$r8$lambda$PrBhihCbbAFk4ZReAALGanVLCyc(Unknown Source:0)
+02-10 11:26:50.852 E/AndroidRuntime( 6255): 	at com.facebook.react.ReactInstanceManager$$ExternalSyntheticLambda1.run(D8$$SyntheticClass:0)
+02-10 11:26:50.852 E/AndroidRuntime( 6255): 	at java.lang.Thread.run(Thread.java:1563)
+02-10 11:26:50.918 I/Process ( 6255): Sending signal. PID: 6255 SIG: 9
+02-10 11:26:50.935 I/bpuk    (31351): onStart
+02-10 11:26:50.939 I/bnrq    (31351): (REDACTED) [%s] onStart()
+02-10 11:26:50.940 I/bntz    (31351): Reloading theme data
+02-10 11:26:50.959 I/bpuk    (31351): onResume
+02-10 11:27:01.177 W/ConsentManagerApiServic(26559): Consent Manager API is not enabled. [CONTEXT service_id=460 ]
+02-10 11:27:19.797 I/Choreographer(29893): Skipped 4310 frames!  The application may be doing too much work on its main thread.
+02-10 11:27:19.810 E/msys    (29893): E[N MQTT]readErr(151)=>TCPStreamTransport readErr
+02-10 11:27:19.810 E/msys    (29893): E[N MQTT]onReadError(657)=>Read Error: AsyncSocketException: recv() failed (peer=[2a03:2880:f315:90:face:b00c:0:8e]:443), type = Internal error, errno = 103 (Software caused connection abort)
+02-10 11:27:19.811 E/msys    (29893): E[N mccw.liger]onReadError(732)=>read/error - ex: AsyncSocketException: recv() failed (peer=[2a03:2880:f312:24:face:b00c:0:6e2e]:5222), type = Internal error, errno = 103 (Software caused connection abort), errno: 103
+02-10 11:27:19.816 E/MQTTBypassDGWStreamGroupCallbacks.cpp(29893): onStreamGroupError TransientError domain: MNSQUICConnection code: 1 detail: Local error: 0x40000015: 35 seconds timeout
+02-10 11:27:19.817 W/MQTTBypassDGWStreamGroupConnection.cpp(29893): Restarting due to reason: StreamError
+02-10 11:27:19.820 E/msys    (29893): E[N mns]_OnDiskCacheGetData(632)=>Start post callback cache refresh DNS resolution
+02-10 11:27:19.823 W/RealtimeClientManager(29893): Channel state: MqttChannelState{mConnectionState=DISCONNECTED, mDisconnectionReason=null, mLastConnectionMs=2164435255, mLastDisconnectMs=2164515455}
+02-10 11:27:19.855 E/msys    (29893): E[N WA]_WCCXMPPStreamDisconnectHandler(335)=>xmpp/disconnect - WCIStreamStateErrorCode: 2, domain: WCIStreamState, subdomain: MCCWLigerStream: Error Domain=WCIStreamState Code=2 UserInfo=0xb400007930bf82b0 {MCFErrorDirectUnderlyingErrorKey=0xb400007830470f50 "Error Domain=MCCWLigerStream Code=2 UserInfo=0xb400007930cc8a50 {MCFErrorDirectLocalizedFailureReasonKey=AsyncSocketException: recv() failed (peer=[2a03:2880:f312:24:face:b00c:0:6e2e]:5222), type = Internal error, errno = 103 (Software caused connection abort)}"}
+02-10 11:27:19.856 E/msys    (29893): E[N WA]_WCCConnectionDefaultLifecycleEventHandler(2076)=>[INFO] connection/xmpp/lifecycle_event/not-connected, [80.0611s]
+02-10 11:27:19.856 E/msys    (29893): E[N WA]_WCCXMPPStreamDoDisconnect(1223)=>xmpp/disconnect - flags: 256
+02-10 11:27:19.857 E/msys    (29893): E[N WA]_WCCConnectionDefaultDisconnectHandler(2182)=>connection/disconnected, peer reset
+02-10 11:27:19.857 E/msys    (29893): E[N WA]_WCCConnectionDefaultEmitStateChange(3059)=>[INFO] connection/new_state/not-connected [connection_id=793949879, wcc_source=1, wcc_reason=18]
+02-10 11:27:19.860 E/msys    (29893): E[C 1]MCCLogErrorWithTraceOrQPL(281)=>8/374/3970/65536
+02-10 11:27:19.860 E/msys    (29893): E[C 1]MCCLogErrorWithTraceOrQPL(281)=>8/374/3972/18
+02-10 11:27:19.861 E/msys    (29893): E[C mem.context]_LogConnectFailure(4894)=>Establishing connection failure reason and flags: disconnect/Doze/-1/reason/18/flags/65536/[-, -, -, -, -, -, -, -, -, peer_reset, -, -, -, -]
+02-10 11:27:19.861 E/msys    (29893): E[C mem.context]_LogConnectFailure(4926)=>[Happy Eyeball] Connect failed with source=1, winner stream ip=2a03:2880:f312:24:face:b00c:0:6e2e, port=5222, dnsResolutionMethod=1, combined_ip_addresses=2a03:2880:f312:24:face:b00c:0:6e2e, 57.144.48.36
+02-10 11:27:19.861 E/msys    (29893): E[N mns]_OnDiskCacheGetData(632)=>Start post callback cache refresh DNS resolution
+02-10 11:27:19.862 E/msys    (29893): E[N WA]_WCCConnectionDefaultDisconnectHandler(2207)=>[INFO] connection/disconnected/[did-connect, did-read-bytes]
+02-10 11:27:19.865 E/msys    (29893): E[N mns]_OnSystemDNSSuccessCallback(340)=>Cache refresh succeeded with system DNS resolver. IP count: 2
+02-10 11:27:19.866 E/msys    (29893): E[N WA]_WCCConnectionDefaultEmitStateChange(3059)=>[INFO] connection/new_state/connecting [connection_id=793949880, wcc_source=1, wcc_reason=18]
+02-10 11:27:19.876 E/msys    (29893): E[N mns]_OnSystemDNSSuccessCallback(340)=>Cache refresh succeeded with system DNS resolver. IP count: 2
+02-10 11:27:19.880 W/RealtimeClientManager(29893): Channel state: MqttChannelState{mConnectionState=DISCONNECTED, mDisconnectionReason=null, mLastConnectionMs=2164435255, mLastDisconnectMs=2164515515}
+02-10 11:27:19.881 W/RealtimeClientManager(29893): Channel state: MqttChannelState{mConnectionState=CONNECTING, mDisconnectionReason=null, mLastConnectionMs=2164435255, mLastDisconnectMs=2164515515}
+02-10 11:27:19.881 E/SlowAppComponent(29893): 0ms: IgBgFetchSchedulerService instantiatingΓÇª
+02-10 11:27:19.881 E/SlowAppComponent(29893): Main thread was blocked for 45ms in the background starting with IgBgFetchSchedulerService
+02-10 11:27:19.883 W/RealtimeClientManager(29893): Channel state: MqttChannelState{mConnectionState=DISCONNECTED, mDisconnectionReason=null, mLastConnectionMs=2164435255, mLastDisconnectMs=2164515518}
+02-10 11:27:19.886 E/msys    (29893): E[N WA]_WCCConnectionDefaultDoConnectWithAuthKeys(1494)=>[INFO] connection/connect/start/[host=z-p42-chat-e2ee-ig.facebook.com port=5222]/[57.144.48.36:5222]
+02-10 11:27:19.887 E/msys    (29893): E[N WA]_WCCConnectionDefaultLifecycleEventHandler(2068)=>[INFO] connection/xmpp/lifecycle_event/will-connect
+02-10 11:27:19.887 E/msys    (29893): E[A WA]WCCHandshakeCreate(178)=>handshake/create, pq mode:0
+02-10 11:27:19.965 E/msys    (29893): E[N WA]_WCCConnectionDefaultLifecycleEventHandler(2076)=>[INFO] connection/xmpp/lifecycle_event/did-connect, [0.0774s]
+02-10 11:27:19.973 E/msys    (29893): E[N WA]_WCCConnectionDefaultLifecycleEventHandler(2076)=>[INFO] connection/xmpp/lifecycle_event/did-send-initial-payload, [0.0078s]
+02-10 11:27:20.072 E/msys    (29893): E[N mns]_OnDiskCacheGetData(632)=>Start post callback cache refresh DNS resolution
+02-10 11:27:20.101 E/msys    (29893): E[N mns]_OnSystemDNSSuccessCallback(340)=>Cache refresh succeeded with system DNS resolver. IP count: 2
+02-10 11:27:20.106 W/MqttDozeAwareClientWrapper(29893): Doze mode disabled. Starting client
+02-10 11:27:20.126 W/RealtimeClientManager(29893): Channel state: MqttChannelState{mConnectionState=CONNECTING, mDisconnectionReason=null, mLastConnectionMs=2164435255, mLastDisconnectMs=2164515518}
+02-10 11:27:20.171 W/RealtimeClientManager(29893): Channel state: MqttChannelState{mConnectionState=CONNECTED, mDisconnectionReason=null, mLastConnectionMs=2164435255, mLastDisconnectMs=2164515518}
+02-10 11:27:20.233 E/msys    (29893): E[N WA]_WCCConnectionDefaultLifecycleEventHandler(2076)=>[INFO] connection/xmpp/lifecycle_event/will-handshake, [0.2598s]
+02-10 11:27:20.236 E/msys    (29893): E[N WA]_WCCConnectionDefaultLifecycleEventHandler(2076)=>[INFO] connection/xmpp/lifecycle_event/did-handshake, [0.0020s]
+02-10 11:27:20.253 E/msys    (29893): E[N WA]_WCCConnectionDefaultReceiveHandler(2236)=>[INFO] connection/receive/login-success
+02-10 11:27:20.253 E/msys    (29893): E[N WA]_WCCConnectionDefaultEmitStateChange(3059)=>[INFO] connection/new_state/connected [connection_id=793949880, wcc_source=1, wcc_reason=18]
+02-10 11:27:20.459 W/RealtimeClientManager(29893): Channel state: MqttChannelState{mConnectionState=CONNECTED_AND_ACKED, mDisconnectionReason=null, mLastConnectionMs=2164516093, mLastDisconnectMs=2164515518}
+02-10 11:27:22.137 E/msys    (29893): E[N mns]_OnDiskCacheGetData(632)=>Start post callback cache refresh DNS resolution
+02-10 11:27:22.191 E/msys    (29893): E[N mns]_OnSystemDNSSuccessCallback(340)=>Cache refresh succeeded with system DNS resolver. IP count: 2
+02-10 11:27:22.342 I/stagram.android(29893): Compiler allocated 4447KB to compile X.QpR X.5lz.A00(X.I93, com.instagram.common.session.UserSession, java.lang.String, boolean, boolean)
+02-10 11:27:23.173 W/HeroManager(29893): mediaPreload.prefetchInternal : source: Type: DASH_VOD
+02-10 11:27:23.173 W/HeroManager(29893): 	Id: 3825786189698382714_77550108037
+02-10 11:27:23.173 W/HeroManager(29893): 	Uri: https://instagram.fidr4-3.fna.fbcdn.net/o1/v/t2/f2/m86/AQMeWChaOqpnu8dDFskTC_06kZ3D7Vp-AE3t6rysXIJphGcxXJGG6NOkz0_3zXKopXiULEdMDJijQI0wbh2jLPzqpHdctO9nd1vTK6w.mp4?_nc_cat=110&_nc_oc=AdnQxmPlK-2gDozix1w-yCSkZmGWMK5WHk_KikwNu_cDZsNfM3cTDLv-GfoRFb224pFzb9piR8SK_BvS3KZbfWnY&_nc_sid=5e9851&_nc_ht=instagram.fidr4-3.fna.fbcdn.net&_nc_ohc=3l5iEqqjkD0Q7kNvwHG4c1R&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc4NjI0MjU5NjE1ODg2NTAsImFzc2V0X2FnZV9kYXlzIjo0LCJ2aV91c2VjYXNlX2lkIjoxMDgyNywiZHVyYXRpb25fcyI6NTIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=xze2xR68jCQIQGmbBj45XQ&_nc_zt=28&vs=1a601b64f4e42d6d&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9CMjRDODAzMjk0REVBRkFENjAxMzE5QzhDRDA5NzE5NF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzVGNDI0NkRGNTU3QzZGQkM0RjMzNzYzMEU1MUU1OUIyX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbUnqOkhPK6PxUCKAJDMywXQEoAAAAAAAAYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZZapAQA&oh=00_Afv-PfiJSY3jYC-G4NP8YzRuao2MfVUQ4I2zGVKDN3VsJg&oe=698CB93F
+02-10 11:27:23.173 W/HeroManager(29893): 	Origin: feed_timeline_background_prefetch
+02-10 11:27:23.173 W/HeroManager(29893): 	PrefetchOrigin: UNKNOWN
+02-10 11:27:23.173 W/HeroManager(29893): 	DashMPD: 17477
+02-10 11:27:23.173 W/HeroManager(29893): 	Codec: av01.0.05M.08.0.111.01.01.01.0
+02-10 11:27:23.173 W/HeroManager(29893): 	liveLatency: -1
+02-10 11:27:23.173 W/HeroManager(29893): 	liveLatencyTolerance: -1
+02-10 11:27:23.173 W/HeroManager(29893): 	isSpherical: false
+02-10 11:27:23.173 W/HeroManager(29893): 	isSponsored: false
+02-10 11:27:23.173 W/HeroManager(29893): 	isAdBreak: false
+02-10 11:27:23.173 W/HeroManager(29893): 	isLiveTraceEnabled: false
+02-10 11:27:23.173 W/HeroManager(29893): 	renderMode: AUDIO_VIDEO
+02-10 11:27:23.173 W/HeroManager(29893): 	isBroadcast: false
+02-10 11:27:23.173 W/HeroManager(29893): 	contentType: GENERAL
+02-10 11:27:23.173 W/HeroManager(29893): 	isAudioDataListenerEnabled: false
+02-10 11:27:23.173 W/HeroManager(29893): 	liveViewerCount: -1, type: DASH_VOD
+02-10 11:27:23.177 W/HeroManager(29893): mediaPreload.prefetchInternal : source: Type: DASH_VOD
+02-10 11:27:23.177 W/HeroManager(29893): 	Id: 3828669859899166349_2009569149
+02-10 11:27:23.177 W/HeroManager(29893): 	Uri: https://instagram.fidr4-3.fna.fbcdn.net/o1/v/t16/f2/m69/AQNegrMlwAmwrVViBzSzJEilnGYRVrGW292rMRfFEU00wSwLtF0MdJ7qJtxfFNBZ17pqQyGfhahjgPSPZcSuoOUE.mp4?strext=1&_nc_cat=110&_nc_oc=AdliXeZ38VimZMcwBpwFvvo63Lrg-me7U_GY6WDW0uBiBGjbZw8MJwOL2lHcazyfCPYQ4jF2FiW0ueTwozkN89Rm&_nc_sid=5e9851&_nc_ht=instagram.fidr4-3.fna.fbcdn.net&_nc_ohc=6zLhdVHERxYQ7kNvwEkI6cT&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTg1NTgyOTM0MDQwNjUxNTAsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6OTMsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=xze2xR68jCQIQGmbBj45XQ&_nc_zt=28&vs=5fee94170e51f2dd&_nc_vs=HBksFQIYOnBhc3N0aHJvdWdoX2V2ZXJzdG9yZS9HRzJMZ2lYU1lVRTkxdmdFQUoyeWQ4QnVpcEpBYnNwVEFRQUYVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzQ0NEFFNUM0RURCMEE2QzU2RDM5RDJEM0M3RTg5Q0E1X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACb89eTf7Kr3QRUCKAJDMywXQFd90vGp--cYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&oh=00_AfvjvRV7qBMOgtWI9286zLzZlmzFH_tBZEibQLrRT_onLg&oe=6990868E
+02-10 11:27:23.177 W/HeroManager(29893): 	Origin: feed_timeline_background_prefetch
+02-10 11:27:23.177 W/HeroManager(29893): 	PrefetchOrigin: UNKNOWN
+02-10 11:27:23.177 W/HeroManager(29893): 	DashMPD: 11570
+02-10 11:27:23.177 W/HeroManager(29893): 	Codec: vp09.00.21.08.00.01.01.01.00
+02-10 11:27:23.177 W/HeroManager(29893): 	liveLatency: -1
+02-10 11:27:23.177 W/HeroManager(29893): 	liveLatencyTolerance: -1
+02-10 11:27:23.177 W/HeroManager(29893): 	isSpherical: false
+02-10 11:27:23.177 W/HeroManager(29893): 	isSponsored: false
+02-10 11:27:23.177 W/HeroManager(29893): 	isAdBreak: false
+02-10 11:27:23.177 W/HeroManager(29893): 	isLiveTraceEnabled: false
+02-10 11:27:23.177 W/HeroManager(29893): 	renderMode: AUDIO_VIDEO
+02-10 11:27:23.177 W/HeroManager(29893): 	isBroadcast: false
+02-10 11:27:23.177 W/HeroManager(29893): 	contentType: GENERAL
+02-10 11:27:23.177 W/HeroManager(29893): 	isAudioDataListenerEnabled: false
+02-10 11:27:23.177 W/HeroManager(29893): 	liveViewerCount: -1, type: DASH_VOD
+02-10 11:27:23.183 E/msys    (29893): E[N mns]_OnDiskCacheGetData(632)=>Start post callback cache refresh DNS resolution
+02-10 11:27:23.228 E/msys    (29893): E[N mns]_OnSystemDNSSuccessCallback(340)=>Cache refresh succeeded with system DNS resolver. IP count: 2
+02-10 11:27:23.338 E/IdleQueuePayloadBasedServiceLayer(29893): Request empty, but still some servings left: 125452
+02-10 11:27:23.405 E/IdleQueuePayloadBasedServiceLayer(29893): Request empty, but still some servings left: -125452
+02-10 11:27:23.420 E/msys    (29893): E[N mns]_OnDiskCacheGetData(632)=>Start post callback cache refresh DNS resolution
+02-10 11:27:23.446 E/msys    (29893): E[N mns]_OnSystemDNSSuccessCallback(340)=>Cache refresh succeeded with system DNS resolver. IP count: 2

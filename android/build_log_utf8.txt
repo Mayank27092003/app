@@ -1,0 +1,5484 @@
+﻿> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:shared:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:shared:compileJava NO-SOURCE
+> Task :gradle-plugin:shared:processResources NO-SOURCE
+> Task :gradle-plugin:shared:classes UP-TO-DATE
+> Task :gradle-plugin:shared:jar UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:settings-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:jar UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:react-native-gradle-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:jar UP-TO-DATE
+
+> Configure project :notifee_react-native
+:notifee_react-native @notifee/react-native found at D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\@notifee\react-native
+:notifee_react-native package.json found at D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\@notifee\react-native\package.json
+:notifee_react-native:version set from package.json: 9.1.8 (9,1,8 - 9001008)
+:notifee_react-native:android.compileSdk using custom value: 35
+:notifee_react-native:android.targetSdk using custom value: 35
+:notifee_react-native:android.minSdk using custom value: 24
+:notifee_react-native:reactNativeAndroidDir D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\react-native
+
+> Configure project :react-native-firebase_app
+:react-native-firebase_app package.json found at D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\@react-native-firebase\app\package.json
+:react-native-firebase_app:firebase.bom using default value: 34.3.0
+:react-native-firebase_app:play.play-services-auth using default value: 21.4.0
+:react-native-firebase_app package.json found at D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\@react-native-firebase\app\package.json
+:react-native-firebase_app:version set from package.json: 23.4.0 (23,4,0 - 23004000)
+:react-native-firebase_app:android.compileSdk using custom value: 35
+:react-native-firebase_app:android.targetSdk using custom value: 35
+:react-native-firebase_app:android.minSdk using custom value: 24
+:react-native-firebase_app:reactNativeAndroidDir D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\react-native
+
+> Configure project :react-native-firebase_messaging
+:react-native-firebase_messaging package.json found at D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\@react-native-firebase\messaging\package.json
+:react-native-firebase_app package.json found at D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\@react-native-firebase\app\package.json
+:react-native-firebase_messaging:firebase.bom using default value: 34.3.0
+:react-native-firebase_messaging package.json found at D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\@react-native-firebase\messaging\package.json
+:react-native-firebase_messaging:version set from package.json: 23.4.0 (23,4,0 - 23004000)
+:react-native-firebase_messaging:android.compileSdk using custom value: 35
+:react-native-firebase_messaging:android.targetSdk using custom value: 35
+:react-native-firebase_messaging:android.minSdk using custom value: 24
+:react-native-firebase_messaging:reactNativeAndroidDir D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\react-native
+
+> Configure project :react-native-nitro-modules
+[NitroModules] ? Your app is boosted by nitro modules!
+
+> Configure project :react-native-nitro-sound
+[NitroModules] ? NitroSound is boosted by nitro!
+
+> Configure project :react-native-reanimated
+Android gradle plugin: 8.9.2
+Gradle: 8.14.1
+
+> Task :app:generateAutolinkingNewArchitectureFiles UP-TO-DATE
+> Task :app:generateAutolinkingPackageList UP-TO-DATE
+> Task :app:generateCodegenSchemaFromJavaScript SKIPPED
+> Task :app:generateCodegenArtifactsFromSchema SKIPPED
+> Task :app:generateReactNativeEntryPoint UP-TO-DATE
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :react-native-nitro-modules:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-nitro-modules:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-nitro-modules:prepareHeaders UP-TO-DATE
+> Task :react-native-nitro-modules:preBuild UP-TO-DATE
+> Task :react-native-nitro-modules:preReleaseBuild UP-TO-DATE
+> Task :react-native-nitro-modules:configureCMakeRelWithDebInfo[arm64-v8a]
+> Task :react-native-nitro-modules:buildCMakeRelWithDebInfo[arm64-v8a]
+> Task :react-native-nitro-modules:configureCMakeRelWithDebInfo[armeabi-v7a]
+
+> Task :react-native-nitro-modules:buildCMakeRelWithDebInfo[armeabi-v7a] FAILED
+C/C++: ninja: error: manifest 'build.ninja' still dirty after 100 tries
+
+[Incubating] Problems report is available at: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/android/build/reports/problems/problems-report.html
+.\gradlew.bat : 
+At line:1 char:1
++ .\gradlew.bat 
+assembleRelease 
+--stacktrace > 
+build_log.txt 2>&1
++ ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (:String   
+ ) [], RemoteExce    
+ption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+FAILURE: Build 
+failed with an 
+exception.
+
+* What went wrong:
+Execution failed for 
+task ':react-native-n
+itro-modules:buildCMa
+keRelWithDebInfo[arme
+abi-v7a]'.
+> com.android.ide.com
+mon.process.ProcessEx
+ception: ninja: 
+Entering directory `D
+:\logistic-fix-audio-
+call-issues-1\logisti
+c-fix-audio-call-issu
+es-1\node_modules\rea
+ct-native-nitro-modul
+es\android\.cxx\RelWi
+thDebInfo\2v4xb6d2\ar
+meabi-v7a'
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  [0/1] Re-running 
+CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files 
+have been written 
+to: D:/logistic-fix-a
+udio-call-issues-1/lo
+gistic-fix-audio-call
+-issues-1/node_module
+s/react-native-nitro-
+modules/android/.cxx/
+RelWithDebInfo/2v4xb6
+d2/armeabi-v7a
+  
+  C++ build system 
+[build] failed while 
+executing:
+      @echo off
+      "C:\\Users\\Hp\
+\AppData\\Local\\Andr
+oid\\Sdk\\cmake\\3.22
+.1\\bin\\ninja.exe" ^
+        -C ^
+        "D:\\logistic
+-fix-audio-call-issue
+s-1\\logistic-fix-aud
+io-call-issues-1\\nod
+e_modules\\react-nati
+ve-nitro-modules\\and
+roid\\.cxx\\RelWithDe
+bInfo\\2v4xb6d2\\arme
+abi-v7a" ^
+        NitroModules
+    from D:\logistic-
+fix-audio-call-issues
+-1\logistic-fix-audio
+-call-issues-1\node_m
+odules\react-native-n
+itro-modules\android
+  ninja: error: 
+manifest 
+'build.ninja' still 
+dirty after 100 tries
+  
+
+* Try:
+> Run with --info or 
+--debug option to 
+get more log output.
+> Run with --scan to 
+get full insights.
+> Get more help at ht
+tps://help.gradle.org
+.
+
+* Exception is:
+org.gradle.api.tasks.
+TaskExecutionExceptio
+n: Execution failed 
+for task ':react-nati
+ve-nitro-modules:buil
+dCMakeRelWithDebInfo[
+armeabi-v7a]'.
+	at org.gradle.api.in
+ternal.tasks.executio
+n.ExecuteActionsTaskE
+xecuter.lambda$execut
+eIfValid$1(ExecuteAct
+ionsTaskExecuter.java
+:130)
+	at org.gradle.intern
+al.Try$Failure.ifSucc
+essfulOrElse(Try.java
+:293)
+	at org.gradle.api.in
+ternal.tasks.executio
+n.ExecuteActionsTaskE
+xecuter.executeIfVali
+d(ExecuteActionsTaskE
+xecuter.java:128)
+	at org.gradle.api.in
+ternal.tasks.executio
+n.ExecuteActionsTaskE
+xecuter.execute(Execu
+teActionsTaskExecuter
+.java:116)
+	at org.gradle.api.in
+ternal.tasks.executio
+n.ProblemsTaskPathTra
+ckingTaskExecuter.exe
+cute(ProblemsTaskPath
+TrackingTaskExecuter.
+java:41)
+	at org.gradle.api.in
+ternal.tasks.executio
+n.FinalizePropertiesT
+askExecuter.execute(F
+inalizePropertiesTask
+Executer.java:46)
+	at org.gradle.api.in
+ternal.tasks.executio
+n.ResolveTaskExecutio
+nModeExecuter.execute
+(ResolveTaskExecution
+ModeExecuter.java:51)
+	at org.gradle.api.in
+ternal.tasks.executio
+n.SkipTaskWithNoActio
+nsExecuter.execute(Sk
+ipTaskWithNoActionsEx
+ecuter.java:57)
+	at org.gradle.api.in
+ternal.tasks.executio
+n.SkipOnlyIfTaskExecu
+ter.execute(SkipOnlyI
+fTaskExecuter.java:74
+)
+	at org.gradle.api.in
+ternal.tasks.executio
+n.CatchExceptionTaskE
+xecuter.execute(Catch
+ExceptionTaskExecuter
+.java:36)
+	at org.gradle.api.in
+ternal.tasks.executio
+n.EventFiringTaskExec
+uter$1.executeTask(Ev
+entFiringTaskExecuter
+.java:77)
+	at org.gradle.api.in
+ternal.tasks.executio
+n.EventFiringTaskExec
+uter$1.call(EventFiri
+ngTaskExecuter.java:5
+5)
+	at org.gradle.api.in
+ternal.tasks.executio
+n.EventFiringTaskExec
+uter$1.call(EventFiri
+ngTaskExecuter.java:5
+2)
+	at org.gradle.intern
+al.operations.Default
+BuildOperationRunner$
+CallableBuildOperatio
+nWorker.execute(Defau
+ltBuildOperationRunne
+r.java:210)
+	at org.gradle.intern
+al.operations.Default
+BuildOperationRunner$
+CallableBuildOperatio
+nWorker.execute(Defau
+ltBuildOperationRunne
+r.java:205)
+	at org.gradle.intern
+al.operations.Default
+BuildOperationRunner$
+2.execute(DefaultBuil
+dOperationRunner.java
+:67)
+	at org.gradle.intern
+al.operations.Default
+BuildOperationRunner$
+2.execute(DefaultBuil
+dOperationRunner.java
+:60)
+	at org.gradle.intern
+al.operations.Default
+BuildOperationRunner.
+execute(DefaultBuildO
+perationRunner.java:1
+67)
+	at org.gradle.intern
+al.operations.Default
+BuildOperationRunner.
+execute(DefaultBuildO
+perationRunner.java:6
+0)
+	at org.gradle.intern
+al.operations.Default
+BuildOperationRunner.
+call(DefaultBuildOper
+ationRunner.java:54)
+	at org.gradle.api.in
+ternal.tasks.executio
+n.EventFiringTaskExec
+uter.execute(EventFir
+ingTaskExecuter.java:
+52)
+	at org.gradle.execut
+ion.plan.LocalTaskNod
+eExecutor.execute(Loc
+alTaskNodeExecutor.ja
+va:42)
+	at org.gradle.execut
+ion.taskgraph.Default
+TaskExecutionGraph$In
+vokeNodeExecutorsActi
+on.execute(DefaultTas
+kExecutionGraph.java:
+331)
+	at org.gradle.execut
+ion.taskgraph.Default
+TaskExecutionGraph$In
+vokeNodeExecutorsActi
+on.execute(DefaultTas
+kExecutionGraph.java:
+318)
+	at org.gradle.execut
+ion.taskgraph.Default
+TaskExecutionGraph$Bu
+ildOperationAwareExec
+utionAction.lambda$ex
+ecute$0(DefaultTaskEx
+ecutionGraph.java:314
+)
+	at org.gradle.intern
+al.operations.Current
+BuildOperationRef.wit
+h(CurrentBuildOperati
+onRef.java:85)
+	at org.gradle.execut
+ion.taskgraph.Default
+TaskExecutionGraph$Bu
+ildOperationAwareExec
+utionAction.execute(D
+efaultTaskExecutionGr
+aph.java:314)
+	at org.gradle.execut
+ion.taskgraph.Default
+TaskExecutionGraph$Bu
+ildOperationAwareExec
+utionAction.execute(D
+efaultTaskExecutionGr
+aph.java:303)
+	at org.gradle.execut
+ion.plan.DefaultPlanE
+xecutor$ExecutorWorke
+r.execute(DefaultPlan
+Executor.java:459)
+	at org.gradle.execut
+ion.plan.DefaultPlanE
+xecutor$ExecutorWorke
+r.run(DefaultPlanExec
+utor.java:376)
+	at org.gradle.intern
+al.concurrent.Executo
+rPolicy$CatchAndRecor
+dFailures.onExecute(E
+xecutorPolicy.java:64
+)
+	at org.gradle.intern
+al.concurrent.Abstrac
+tManagedExecutor$1.ru
+n(AbstractManagedExec
+utor.java:48)
+Caused by: org.gradle
+.internal.UncheckedEx
+ception: com.android.
+ide.common.process.Pr
+ocessException: 
+ninja: Entering 
+directory `D:\logisti
+c-fix-audio-call-issu
+es-1\logistic-fix-aud
+io-call-issues-1\node
+_modules\react-native
+-nitro-modules\androi
+d\.cxx\RelWithDebInfo
+\2v4xb6d2\armeabi-v7a
+'
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+
+C++ build system 
+[build] failed while 
+executing:
+    @echo off
+    "C:\\Users\\Hp\\A
+ppData\\Local\\Androi
+d\\Sdk\\cmake\\3.22.1
+\\bin\\ninja.exe" ^
+      -C ^
+      "D:\\logistic-f
+ix-audio-call-issues-
+1\\logistic-fix-audio
+-call-issues-1\\node_
+modules\\react-native
+-nitro-modules\\andro
+id\\.cxx\\RelWithDebI
+nfo\\2v4xb6d2\\armeab
+i-v7a" ^
+      NitroModules
+  from D:\logistic-fi
+x-audio-call-issues-1
+\logistic-fix-audio-c
+all-issues-1\node_mod
+ules\react-native-nit
+ro-modules\android
+ninja: error: 
+manifest 
+'build.ninja' still 
+dirty after 100 tries
+
+
+	at org.gradle.intern
+al.UncheckedException
+.throwAsUncheckedExce
+ption(UncheckedExcept
+ion.java:69)
+	at org.gradle.intern
+al.UncheckedException
+.throwAsUncheckedExce
+ption(UncheckedExcept
+ion.java:42)
+	at org.gradle.intern
+al.reflect.JavaMethod
+.invoke(JavaMethod.ja
+va:128)
+	at org.gradle.api.in
+ternal.project.taskfa
+ctory.StandardTaskAct
+ion.doExecute(Standar
+dTaskAction.java:58)
+	at org.gradle.api.in
+ternal.project.taskfa
+ctory.StandardTaskAct
+ion.execute(StandardT
+askAction.java:51)
+	at org.gradle.api.in
+ternal.project.taskfa
+ctory.StandardTaskAct
+ion.execute(StandardT
+askAction.java:29)
+	at org.gradle.api.in
+ternal.tasks.executio
+n.TaskExecution$3.run
+(TaskExecution.java:2
+44)
+	at org.gradle.intern
+al.operations.Default
+BuildOperationRunner$
+1.execute(DefaultBuil
+dOperationRunner.java
+:30)
+	at org.gradle.intern
+al.operations.Default
+BuildOperationRunner$
+1.execute(DefaultBuil
+dOperationRunner.java
+:27)
+	at org.gradle.intern
+al.operations.Default
+BuildOperationRunner$
+2.execute(DefaultBuil
+dOperationRunner.java
+:67)
+	at org.gradle.intern
+al.operations.Default
+BuildOperationRunner$
+2.execute(DefaultBuil
+dOperationRunner.java
+:60)
+	at org.gradle.intern
+al.operations.Default
+BuildOperationRunner.
+execute(DefaultBuildO
+perationRunner.java:1
+67)
+	at org.gradle.intern
+al.operations.Default
+BuildOperationRunner.
+execute(DefaultBuildO
+perationRunner.java:6
+0)
+	at org.gradle.intern
+al.operations.Default
+BuildOperationRunner.
+run(DefaultBuildOpera
+tionRunner.java:48)
+	at org.gradle.api.in
+ternal.tasks.executio
+n.TaskExecution.execu
+teAction(TaskExecutio
+n.java:229)
+	at org.gradle.api.in
+ternal.tasks.executio
+n.TaskExecution.execu
+teActions(TaskExecuti
+on.java:212)
+	at org.gradle.api.in
+ternal.tasks.executio
+n.TaskExecution.execu
+teWithPreviousOutputF
+iles(TaskExecution.ja
+va:195)
+	at org.gradle.api.in
+ternal.tasks.executio
+n.TaskExecution.execu
+te(TaskExecution.java
+:162)
+	at org.gradle.intern
+al.execution.steps.Ex
+ecuteStep.executeInte
+rnal(ExecuteStep.java
+:105)
+	at org.gradle.intern
+al.execution.steps.Ex
+ecuteStep.access$000(
+ExecuteStep.java:44)
+	at org.gradle.intern
+al.execution.steps.Ex
+ecuteStep$1.call(Exec
+uteStep.java:59)
+	at org.gradle.intern
+al.execution.steps.Ex
+ecuteStep$1.call(Exec
+uteStep.java:56)
+	at org.gradle.intern
+al.operations.Default
+BuildOperationRunner$
+CallableBuildOperatio
+nWorker.execute(Defau
+ltBuildOperationRunne
+r.java:210)
+	at org.gradle.intern
+al.operations.Default
+BuildOperationRunner$
+CallableBuildOperatio
+nWorker.execute(Defau
+ltBuildOperationRunne
+r.java:205)
+	at org.gradle.intern
+al.operations.Default
+BuildOperationRunner$
+2.execute(DefaultBuil
+dOperationRunner.java
+:67)
+	at org.gradle.intern
+al.operations.Default
+BuildOperationRunner$
+2.execute(DefaultBuil
+dOperationRunner.java
+:60)
+	at org.gradle.intern
+al.operations.Default
+BuildOperationRunner.
+execute(DefaultBuildO
+perationRunner.java:1
+67)
+	at org.gradle.intern
+al.operations.Default
+BuildOperationRunner.
+execute(DefaultBuildO
+perationRunner.java:6
+0)
+	at org.gradle.intern
+al.operations.Default
+BuildOperationRunner.
+call(DefaultBuildOper
+ationRunner.java:54)
+	at org.gradle.intern
+al.execution.steps.Ex
+ecuteStep.execute(Exe
+cuteStep.java:56)
+	at org.gradle.intern
+al.execution.steps.Ex
+ecuteStep.execute(Exe
+cuteStep.java:44)
+	at org.gradle.intern
+al.execution.steps.Ca
+ncelExecutionStep.exe
+cute(CancelExecutionS
+tep.java:42)
+	at org.gradle.intern
+al.execution.steps.Ti
+meoutStep.executeWith
+outTimeout(TimeoutSte
+p.java:75)
+	at org.gradle.intern
+al.execution.steps.Ti
+meoutStep.execute(Tim
+eoutStep.java:55)
+	at org.gradle.intern
+al.execution.steps.Pr
+eCreateOutputParentsS
+tep.execute(PreCreate
+OutputParentsStep.jav
+a:50)
+	at org.gradle.intern
+al.execution.steps.Pr
+eCreateOutputParentsS
+tep.execute(PreCreate
+OutputParentsStep.jav
+a:28)
+	at org.gradle.intern
+al.execution.steps.Re
+movePreviousOutputsSt
+ep.execute(RemovePrev
+iousOutputsStep.java:
+67)
+	at org.gradle.intern
+al.execution.steps.Re
+movePreviousOutputsSt
+ep.execute(RemovePrev
+iousOutputsStep.java:
+37)
+	at org.gradle.intern
+al.execution.steps.Br
+oadcastChangingOutput
+sStep.execute(Broadca
+stChangingOutputsStep
+.java:61)
+	at org.gradle.intern
+al.execution.steps.Br
+oadcastChangingOutput
+sStep.execute(Broadca
+stChangingOutputsStep
+.java:26)
+	at org.gradle.intern
+al.execution.steps.Ca
+ptureOutputsAfterExec
+utionStep.execute(Cap
+tureOutputsAfterExecu
+tionStep.java:69)
+	at org.gradle.intern
+al.execution.steps.Ca
+ptureOutputsAfterExec
+utionStep.execute(Cap
+tureOutputsAfterExecu
+tionStep.java:46)
+	at org.gradle.intern
+al.execution.steps.Re
+solveInputChangesStep
+.execute(ResolveInput
+ChangesStep.java:40)
+	at org.gradle.intern
+al.execution.steps.Re
+solveInputChangesStep
+.execute(ResolveInput
+ChangesStep.java:29)
+	at org.gradle.intern
+al.execution.steps.Bu
+ildCacheStep.executeW
+ithoutCache(BuildCach
+eStep.java:189)
+	at org.gradle.intern
+al.execution.steps.Bu
+ildCacheStep.lambda$e
+xecute$1(BuildCacheSt
+ep.java:75)
+	at org.gradle.intern
+al.Either$Right.fold(
+Either.java:175)
+	at org.gradle.intern
+al.execution.caching.
+CachingState.fold(Cac
+hingState.java:62)
+	at org.gradle.intern
+al.execution.steps.Bu
+ildCacheStep.execute(
+BuildCacheStep.java:7
+3)
+	at org.gradle.intern
+al.execution.steps.Bu
+ildCacheStep.execute(
+BuildCacheStep.java:4
+8)
+	at org.gradle.intern
+al.execution.steps.St
+oreExecutionStateStep
+.execute(StoreExecuti
+onStateStep.java:46)
+	at org.gradle.intern
+al.execution.steps.St
+oreExecutionStateStep
+.execute(StoreExecuti
+onStateStep.java:35)
+	at org.gradle.intern
+al.execution.steps.Sk
+ipUpToDateStep.execut
+eBecause(SkipUpToDate
+Step.java:75)
+	at org.gradle.intern
+al.execution.steps.Sk
+ipUpToDateStep.lambda
+$execute$2(SkipUpToDa
+teStep.java:53)
+	at org.gradle.intern
+al.execution.steps.Sk
+ipUpToDateStep.execut
+e(SkipUpToDateStep.ja
+va:53)
+	at org.gradle.intern
+al.execution.steps.Sk
+ipUpToDateStep.execut
+e(SkipUpToDateStep.ja
+va:35)
+	at org.gradle.intern
+al.execution.steps.le
+gacy.MarkSnapshotting
+InputsFinishedStep.ex
+ecute(MarkSnapshottin
+gInputsFinishedStep.j
+ava:37)
+	at org.gradle.intern
+al.execution.steps.le
+gacy.MarkSnapshotting
+InputsFinishedStep.ex
+ecute(MarkSnapshottin
+gInputsFinishedStep.j
+ava:27)
+	at org.gradle.intern
+al.execution.steps.Re
+solveIncrementalCachi
+ngStateStep.executeDe
+legate(ResolveIncreme
+ntalCachingStateStep.
+java:49)
+	at org.gradle.intern
+al.execution.steps.Re
+solveIncrementalCachi
+ngStateStep.executeDe
+legate(ResolveIncreme
+ntalCachingStateStep.
+java:27)
+	at org.gradle.intern
+al.execution.steps.Ab
+stractResolveCachingS
+tateStep.execute(Abst
+ractResolveCachingSta
+teStep.java:71)
+	at org.gradle.intern
+al.execution.steps.Ab
+stractResolveCachingS
+tateStep.execute(Abst
+ractResolveCachingSta
+teStep.java:39)
+	at org.gradle.intern
+al.execution.steps.Re
+solveChangesStep.exec
+ute(ResolveChangesSte
+p.java:65)
+	at org.gradle.intern
+al.execution.steps.Re
+solveChangesStep.exec
+ute(ResolveChangesSte
+p.java:36)
+	at org.gradle.intern
+al.execution.steps.Va
+lidateStep.execute(Va
+lidateStep.java:107)
+	at org.gradle.intern
+al.execution.steps.Va
+lidateStep.execute(Va
+lidateStep.java:56)
+	at org.gradle.intern
+al.execution.steps.Ab
+stractCaptureStateBef
+oreExecutionStep.exec
+ute(AbstractCaptureSt
+ateBeforeExecutionSte
+p.java:64)
+	at org.gradle.intern
+al.execution.steps.Ab
+stractCaptureStateBef
+oreExecutionStep.exec
+ute(AbstractCaptureSt
+ateBeforeExecutionSte
+p.java:43)
+	at org.gradle.intern
+al.execution.steps.Ab
+stractSkipEmptyWorkSt
+ep.executeWithNonEmpt
+ySources(AbstractSkip
+EmptyWorkStep.java:12
+5)
+	at org.gradle.intern
+al.execution.steps.Ab
+stractSkipEmptyWorkSt
+ep.execute(AbstractSk
+ipEmptyWorkStep.java:
+56)
+	at org.gradle.intern
+al.execution.steps.Ab
+stractSkipEmptyWorkSt
+ep.execute(AbstractSk
+ipEmptyWorkStep.java:
+36)
+	at org.gradle.intern
+al.execution.steps.le
+gacy.MarkSnapshotting
+InputsStartedStep.exe
+cute(MarkSnapshotting
+InputsStartedStep.jav
+a:38)
+	at org.gradle.intern
+al.execution.steps.Lo
+adPreviousExecutionSt
+ateStep.execute(LoadP
+reviousExecutionState
+Step.java:36)
+	at org.gradle.intern
+al.execution.steps.Lo
+adPreviousExecutionSt
+ateStep.execute(LoadP
+reviousExecutionState
+Step.java:23)
+	at org.gradle.intern
+al.execution.steps.Ha
+ndleStaleOutputsStep.
+execute(HandleStaleOu
+tputsStep.java:75)
+	at org.gradle.intern
+al.execution.steps.Ha
+ndleStaleOutputsStep.
+execute(HandleStaleOu
+tputsStep.java:41)
+	at org.gradle.intern
+al.execution.steps.As
+signMutableWorkspaceS
+tep.lambda$execute$0(
+AssignMutableWorkspac
+eStep.java:35)
+	at org.gradle.api.in
+ternal.tasks.executio
+n.TaskExecution$4.wit
+hWorkspace(TaskExecut
+ion.java:289)
+	at org.gradle.intern
+al.execution.steps.As
+signMutableWorkspaceS
+tep.execute(AssignMut
+ableWorkspaceStep.jav
+a:31)
+	at org.gradle.intern
+al.execution.steps.As
+signMutableWorkspaceS
+tep.execute(AssignMut
+ableWorkspaceStep.jav
+a:22)
+	at org.gradle.intern
+al.execution.steps.Ch
+oosePipelineStep.exec
+ute(ChoosePipelineSte
+p.java:40)
+	at org.gradle.intern
+al.execution.steps.Ch
+oosePipelineStep.exec
+ute(ChoosePipelineSte
+p.java:23)
+	at org.gradle.intern
+al.execution.steps.Ex
+ecuteWorkBuildOperati
+onFiringStep.lambda$e
+xecute$2(ExecuteWorkB
+uildOperationFiringSt
+ep.java:67)
+	at org.gradle.intern
+al.execution.steps.Ex
+ecuteWorkBuildOperati
+onFiringStep.execute(
+ExecuteWorkBuildOpera
+tionFiringStep.java:6
+7)
+	at org.gradle.intern
+al.execution.steps.Ex
+ecuteWorkBuildOperati
+onFiringStep.execute(
+ExecuteWorkBuildOpera
+tionFiringStep.java:3
+9)
+	at org.gradle.intern
+al.execution.steps.Id
+entityCacheStep.execu
+te(IdentityCacheStep.
+java:46)
+	at org.gradle.intern
+al.execution.steps.Id
+entityCacheStep.execu
+te(IdentityCacheStep.
+java:34)
+	at org.gradle.intern
+al.execution.steps.Id
+entifyStep.execute(Id
+entifyStep.java:48)
+	at org.gradle.intern
+al.execution.steps.Id
+entifyStep.execute(Id
+entifyStep.java:35)
+	at org.gradle.intern
+al.execution.impl.Def
+aultExecutionEngine$1
+.execute(DefaultExecu
+tionEngine.java:64)
+	at org.gradle.api.in
+ternal.tasks.executio
+n.ExecuteActionsTaskE
+xecuter.executeIfVali
+d(ExecuteActionsTaskE
+xecuter.java:127)
+	at org.gradle.api.in
+ternal.tasks.executio
+n.ExecuteActionsTaskE
+xecuter.execute(Execu
+teActionsTaskExecuter
+.java:116)
+	at org.gradle.api.in
+ternal.tasks.executio
+n.ProblemsTaskPathTra
+ckingTaskExecuter.exe
+cute(ProblemsTaskPath
+TrackingTaskExecuter.
+java:41)
+	at org.gradle.api.in
+ternal.tasks.executio
+n.FinalizePropertiesT
+askExecuter.execute(F
+inalizePropertiesTask
+Executer.java:46)
+	at org.gradle.api.in
+ternal.tasks.executio
+n.ResolveTaskExecutio
+nModeExecuter.execute
+(ResolveTaskExecution
+ModeExecuter.java:51)
+	at org.gradle.api.in
+ternal.tasks.executio
+n.SkipTaskWithNoActio
+nsExecuter.execute(Sk
+ipTaskWithNoActionsEx
+ecuter.java:57)
+	at org.gradle.api.in
+ternal.tasks.executio
+n.SkipOnlyIfTaskExecu
+ter.execute(SkipOnlyI
+fTaskExecuter.java:74
+)
+	at org.gradle.api.in
+ternal.tasks.executio
+n.CatchExceptionTaskE
+xecuter.execute(Catch
+ExceptionTaskExecuter
+.java:36)
+	at org.gradle.api.in
+ternal.tasks.executio
+n.EventFiringTaskExec
+uter$1.executeTask(Ev
+entFiringTaskExecuter
+.java:77)
+	at org.gradle.api.in
+ternal.tasks.executio
+n.EventFiringTaskExec
+uter$1.call(EventFiri
+ngTaskExecuter.java:5
+5)
+	at org.gradle.api.in
+ternal.tasks.executio
+n.EventFiringTaskExec
+uter$1.call(EventFiri
+ngTaskExecuter.java:5
+2)
+	at org.gradle.intern
+al.operations.Default
+BuildOperationRunner$
+CallableBuildOperatio
+nWorker.execute(Defau
+ltBuildOperationRunne
+r.java:210)
+	at org.gradle.intern
+al.operations.Default
+BuildOperationRunner$
+CallableBuildOperatio
+nWorker.execute(Defau
+ltBuildOperationRunne
+r.java:205)
+	at org.gradle.intern
+al.operations.Default
+BuildOperationRunner$
+2.execute(DefaultBuil
+dOperationRunner.java
+:67)
+	at org.gradle.intern
+al.operations.Default
+BuildOperationRunner$
+2.execute(DefaultBuil
+dOperationRunner.java
+:60)
+	at org.gradle.intern
+al.operations.Default
+BuildOperationRunner.
+execute(DefaultBuildO
+perationRunner.java:1
+67)
+	at org.gradle.intern
+al.operations.Default
+BuildOperationRunner.
+execute(DefaultBuildO
+perationRunner.java:6
+0)
+	at org.gradle.intern
+al.operations.Default
+BuildOperationRunner.
+call(DefaultBuildOper
+ationRunner.java:54)
+	at org.gradle.api.in
+ternal.tasks.executio
+n.EventFiringTaskExec
+uter.execute(EventFir
+ingTaskExecuter.java:
+52)
+	at org.gradle.execut
+ion.plan.LocalTaskNod
+eExecutor.execute(Loc
+alTaskNodeExecutor.ja
+va:42)
+	at org.gradle.execut
+ion.taskgraph.Default
+TaskExecutionGraph$In
+vokeNodeExecutorsActi
+on.execute(DefaultTas
+kExecutionGraph.java:
+331)
+	at org.gradle.execut
+ion.taskgraph.Default
+TaskExecutionGraph$In
+vokeNodeExecutorsActi
+on.execute(DefaultTas
+kExecutionGraph.java:
+318)
+	at org.gradle.execut
+ion.taskgraph.Default
+TaskExecutionGraph$Bu
+ildOperationAwareExec
+utionAction.lambda$ex
+ecute$0(DefaultTaskEx
+ecutionGraph.java:314
+)
+	at org.gradle.intern
+al.operations.Current
+BuildOperationRef.wit
+h(CurrentBuildOperati
+onRef.java:85)
+	at org.gradle.execut
+ion.taskgraph.Default
+TaskExecutionGraph$Bu
+ildOperationAwareExec
+utionAction.execute(D
+efaultTaskExecutionGr
+aph.java:314)
+	at org.gradle.execut
+ion.taskgraph.Default
+TaskExecutionGraph$Bu
+ildOperationAwareExec
+utionAction.execute(D
+efaultTaskExecutionGr
+aph.java:303)
+	at org.gradle.execut
+ion.plan.DefaultPlanE
+xecutor$ExecutorWorke
+r.execute(DefaultPlan
+Executor.java:459)
+	at org.gradle.execut
+ion.plan.DefaultPlanE
+xecutor$ExecutorWorke
+r.run(DefaultPlanExec
+utor.java:376)
+	at org.gradle.intern
+al.concurrent.Executo
+rPolicy$CatchAndRecor
+dFailures.onExecute(E
+xecutorPolicy.java:64
+)
+	at org.gradle.intern
+al.concurrent.Abstrac
+tManagedExecutor$1.ru
+n(AbstractManagedExec
+utor.java:48)
+Caused by: com.androi
+d.ide.common.process.
+ProcessException: 
+ninja: Entering 
+directory `D:\logisti
+c-fix-audio-call-issu
+es-1\logistic-fix-aud
+io-call-issues-1\node
+_modules\react-native
+-nitro-modules\androi
+d\.cxx\RelWithDebInfo
+\2v4xb6d2\armeabi-v7a
+'
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.14.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+20 actionable tasks: 4 executed, 16 up-to-date
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+[0/1] Re-running 
+CMake...
+-- Configuring done
+-- Generating done
+-- Build files have 
+been written to: D:/l
+ogistic-fix-audio-cal
+l-issues-1/logistic-f
+ix-audio-call-issues-
+1/node_modules/react-
+native-nitro-modules/
+android/.cxx/RelWithD
+ebInfo/2v4xb6d2/armea
+bi-v7a
+
+C++ build system 
+[build] failed while 
+executing:
+    @echo off
+    "C:\\Users\\Hp\\A
+ppData\\Local\\Androi
+d\\Sdk\\cmake\\3.22.1
+\\bin\\ninja.exe" ^
+      -C ^
+      "D:\\logistic-f
+ix-audio-call-issues-
+1\\logistic-fix-audio
+-call-issues-1\\node_
+modules\\react-native
+-nitro-modules\\andro
+id\\.cxx\\RelWithDebI
+nfo\\2v4xb6d2\\armeab
+i-v7a" ^
+      NitroModules
+  from D:\logistic-fi
+x-audio-call-issues-1
+\logistic-fix-audio-c
+all-issues-1\node_mod
+ules\react-native-nit
+ro-modules\android
+ninja: error: 
+manifest 
+'build.ninja' still 
+dirty after 100 tries
+
+
+	at com.android.build
+.gradle.internal.cxx.
+process.ExecuteProces
+sKt.execute(ExecutePr
+ocess.kt:288)
+	at com.android.build
+.gradle.internal.cxx.
+process.ExecuteProces
+sKt$executeProcess$1.
+invoke(ExecuteProcess
+.kt:108)
+	at com.android.build
+.gradle.internal.cxx.
+process.ExecuteProces
+sKt$executeProcess$1.
+invoke(ExecuteProcess
+.kt:106)
+	at com.android.build
+.gradle.internal.cxx.
+timing.TimingEnvironm
+entKt.time(TimingEnvi
+ronment.kt:32)
+	at com.android.build
+.gradle.internal.cxx.
+process.ExecuteProces
+sKt.executeProcess(Ex
+ecuteProcess.kt:106)
+	at com.android.build
+.gradle.internal.cxx.
+process.ExecuteProces
+sKt.executeProcess$de
+fault(ExecuteProcess.
+kt:85)
+	at com.android.build
+.gradle.internal.cxx.
+build.CxxRegularBuild
+er.executeProcessBatc
+h(CxxRegularBuilder.k
+t:332)
+	at com.android.build
+.gradle.internal.cxx.
+build.CxxRegularBuild
+er.build(CxxRegularBu
+ilder.kt:129)
+	at com.android.build
+.gradle.tasks.Externa
+lNativeBuildTask.doTa
+skAction(ExternalNati
+veBuildTask.kt:72)
+	at com.android.build
+.gradle.internal.task
+s.UnsafeOutputsTask$t
+askAction$$inlined$re
+cordTaskAction$1.invo
+ke(BaseTask.kt:59)
+	at com.android.build
+.gradle.internal.task
+s.Blocks.recordSpan(B
+locks.java:51)
+	at com.android.build
+.gradle.internal.task
+s.UnsafeOutputsTask.t
+askAction(UnsafeOutpu
+tsTask.kt:81)
+	at java.base/jdk.int
+ernal.reflect.NativeM
+ethodAccessorImpl.inv
+oke0(Native Method)
+	at java.base/jdk.int
+ernal.reflect.NativeM
+ethodAccessorImpl.inv
+oke(NativeMethodAcces
+sorImpl.java:77)
+	at java.base/jdk.int
+ernal.reflect.Delegat
+ingMethodAccessorImpl
+.invoke(DelegatingMet
+hodAccessorImpl.java:
+43)
+	at org.gradle.intern
+al.reflect.JavaMethod
+.invoke(JavaMethod.ja
+va:125)
+	... 117 more
+Caused by: com.androi
+d.ide.common.process.
+ProcessException: 
+Error while 
+executing process C:\
+Users\Hp\AppData\Loca
+l\Android\Sdk\cmake\3
+.22.1\bin\ninja.exe 
+with arguments {-C D:
+\logistic-fix-audio-c
+all-issues-1\logistic
+-fix-audio-call-issue
+s-1\node_modules\reac
+t-native-nitro-module
+s\android\.cxx\RelWit
+hDebInfo\2v4xb6d2\arm
+eabi-v7a 
+NitroModules}
+	at com.android.build
+.gradle.internal.proc
+ess.GradleProcessResu
+lt.buildProcessExcept
+ion(GradleProcessResu
+lt.java:73)
+	at com.android.build
+.gradle.internal.proc
+ess.GradleProcessResu
+lt.assertNormalExitVa
+lue(GradleProcessResu
+lt.java:48)
+	at com.android.build
+.gradle.internal.cxx.
+process.ExecuteProces
+sKt.execute(ExecutePr
+ocess.kt:277)
+	... 132 more
+Caused by: org.gradle
+.process.internal.Exe
+cException: Process 
+'command 'C:\Users\Hp
+\AppData\Local\Androi
+d\Sdk\cmake\3.22.1\bi
+n\ninja.exe'' 
+finished with 
+non-zero exit value 1
+	at org.gradle.proces
+s.internal.DefaultExe
+cHandle$ExecResultImp
+l.assertNormalExitVal
+ue(DefaultExecHandle.
+java:442)
+	at com.android.build
+.gradle.internal.proc
+ess.GradleProcessResu
+lt.assertNormalExitVa
+lue(GradleProcessResu
+lt.java:46)
+	... 133 more
+
+
+BUILD FAILED in 1m 2s

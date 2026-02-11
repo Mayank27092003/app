@@ -1,0 +1,758 @@
+﻿--------- beginning of main
+02-10 13:22:18.789 21371 21371 E cmd     : BBinder_init Processname  cmd  
+02-10 13:22:18.790 21371 21371 E cmd     : BBinder_init hasGetProcessName  cmd
+02-10 13:22:19.241 21387 21387 E com.coinbase: BBinder_init Processname  <pre-initialized>  
+02-10 13:22:19.241 21387 21387 E com.coinbase: BBinder_init hasGetProcessName  <pre-initialized>
+02-10 13:22:20.954 21387 21462 E TSLocationManager: ΓòöΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+02-10 13:22:20.954 21387 21462 E TSLocationManager: Γòæ LICENSE VALIDATION FAILURE: com.coinbase
+02-10 13:22:20.954 21387 21462 E TSLocationManager: ΓòáΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+02-10 13:22:20.954 21387 21462 E TSLocationManager: ΓòƒΓöÇ Invalid license key: YOUR_LICENSE_KEY_HERE
+02-10 13:22:20.954 21387 21462 E TSLocationManager: ΓòƒΓöÇ BackgroundGeolocation is fully functional in DEBUG builds without a license so you can 'try before you buy'.
+02-10 13:22:20.954 21387 21462 E TSLocationManager: ΓòÜΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+02-10 13:22:38.460 21548 21548 E m.meesho.supply: BBinder_init Processname  <pre-initialized>  
+02-10 13:22:38.460 21548 21548 E m.meesho.supply: BBinder_init hasGetProcessName  <pre-initialized>
+02-10 13:22:38.864 21548 21589 E m.meesho.supply: No package ID 6a found for resource ID 0x6a0b0013.
+02-10 13:22:44.306 21548 21653 E m.meesho.supply: containsHtml: No HTML tag found in text = Candle Holders 
+02-10 13:22:44.306 21548 21653 E m.meesho.supply: containsHtml: No HTML tag found in text = At Rs. 132!
+02-10 13:22:44.306 21548 21653 E m.meesho.supply: containsHtml: No HTML tag found in text = For you
+02-10 13:22:59.654 21387 21491 E ReactNativeJS: Error: Text strings must be rendered within a <Text> component.
+02-10 13:22:59.654 21387 21491 E ReactNativeJS: 
+02-10 13:22:59.654 21387 21491 E ReactNativeJS: This error is located at:
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at RCTView (<anonymous>)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at anonymous (index.android.bundle:74:1102)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at anonymous (index.android.bundle:359:828)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at y (index.android.bundle:328:986)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at RCTView (<anonymous>)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at anonymous (index.android.bundle:74:1102)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at RCTView (<anonymous>)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at anonymous (index.android.bundle:74:1102)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at anonymous (index.android.bundle:896:611)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at RCTView (<anonymous>)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at anonymous (index.android.bundle:74:1102)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at L (index.android.bundle:449:1104)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at anonymous (index.android.bundle:13158:154)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at anonymous (index.android.bundle:812:646)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at anonymous (index.android.bundle:749:139)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at anonymous (index.android.bundle:810:142)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at RNSScreenContentWrapper (<anonymous>)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at RNSScreen (<anonymous>)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at anonymous (index.android.bundle:359:828)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at t (index.android.bundle:12705:791)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at Suspense (<anonymous>)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at anonymous (index.android.bundle:12705:111)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at anonymous (index.android.bundle:12704:178)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at anonymous (index.android.bundle:12702:616)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at anonymous (index.android.bundle:12702:4122)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at anonymous (index.android.bundle:12718:895)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at s (index.android.bundle:12854:2606)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at RNSScreenStack (<anonymous>)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at anonymous (index.android.bundle:12717:247)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at anonymous (index.android.bundle:12715:709)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at o (index.android.bundle:12365:1077)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at anonymous (index.android.bundle:12365:150)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at RCTView (<anonymous>)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at anonymous (index.android.bundle:74:1102)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at c (index.android.bundle:12388:898)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at anonymous (index.android.bundle:12854:148)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at anonymous (index.android.bundle:758:154)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at anonymous (index.android.bundle:815:164)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at n (index.android.bundle:814:929)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at anonymous (index.android.bundle:814:228)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at o (index.android.bundle:12862:841)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at p (index.android.bundle:894:755)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at anonymous (index.android.bundle:13154:694)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at anonymous (index.android.bundle:750:131)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at anonymous (index.android.bundle:749:139)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at anonymous (index.android.bundle:723:962)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at c (index.android.bundle:836:793)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at anonymous (index.android.bundle:894:2326)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at RNCSafeAreaView (<anonymous>)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at anonymous (index.android.bundle:12321:778)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at c (index.android.bundle:533:914)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at f (index.android.bundle:13800:1309)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at anonymous (index.android.bundle:885:10008)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at RNCSafeAreaProvider (<anonymous>)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at anonymous (index.android.bundle:12318:521)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at RCTView (<anonymous>)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at anonymous (index.android.bundle:74:1102)
+02-10 13:22:59.654 21387 21491 E ReactNativeJS:     at anonymous (index.android.bundle:263:688), js engine: hermes
+--------- beginning of crash
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: FATAL EXCEPTION: mqt_native_modules
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: Process: com.coinbase, PID: 21387
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: com.facebook.react.common.JavascriptException: Error: Text strings must be rendered within a <Text> component.
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: 
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: This error is located at:
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at RCTView (<anonymous>)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at anonymous (index.android.bundle:74:1102)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at anonymous (index.android.bundle:359:828)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at y (index.android.bundle:328:986)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at RCTView (<anonymous>)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at anonymous (index.android.bundle:74:1102)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at RCTView (<anonymous>)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at anonymous (index.android.bundle:74:1102)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at anonymous (index.android.bundle:896:611)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at RCTView (<anonymous>)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at anonymous (index.android.bundle:74:1102)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at L (index.android.bundle:449:1104)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at anonymous (index.android.bundle:13158:154)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at anonymous (index.android.bundle:812:646)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at anonymous (index.android.bundle:749:139)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at anonymous (index.android.bundle:810:142)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at RNSScreenContentWrapper (<anonymous>)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at RNSScreen (<anonymous>)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at anonymous (index.android.bundle:359:828)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at t (index.android.bundle:12705:791)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at Suspense (<anonymous>)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at anonymous (index.android.bundle:12705:111)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at anonymous (index.android.bundle:12704:178)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at anonymous (index.android.bundle:12702:616)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at anonymous (index.android.bundle:12702:4122)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at anonymous (index.android.bundle:12718:895)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at s (index.android.bundle:12854:2606)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at RNSScreenStack (<anonymous>)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at anonymous (index.android.bundle:12717:247)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at anonymous (index.android.bundle:12715:709)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at o (index.android.bundle:12365:1077)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at anonymous (index.android.bundle:12365:150)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at RCTView (<anonymous>)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at anonymous (index.android.bundle:74:1102)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at c (index.android.bundle:12388:898)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at anonymous (index.android.bundle:12854:148)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at anonymous (index.android.bundle:758:154)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at anonymous (index.android.bundle:815:164)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at n (index.android.bundle:814:929)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at anonymous (index.android.bundle:814:228)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at o (index.android.bundle:12862:841)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at p (index.android.bundle:894:755)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at anonymous (index.android.bundle:13154:694)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at anonymous (index.android.bundle:750:131)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at anonymous (index.android.bundle:749:139)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at anonymous (index.android.bundle:723:962)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at c (index.android.bundle:836:793)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at anonymous (index.android.bundle:894:2326)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at RNCSafeAreaView (<anonymous>)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at anonymous (index.android.bundle:12321:778)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at c (index.android.bundle:533:914)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at f (index.android.bundle:13800:1309)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at anonymous (index.android.bundle:885:10008)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at RNCSafeAreaProvider (<anonymous>)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at anonymous (index.android.bundle:12318:521)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at RCTView (<anonymous>)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at anonymous (index.android.bundle:74:1102)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime:     at anonymous (index.android.bundle:263:688), js engine: hermes, stack:
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: ki@305:85255
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: ho@305:109648
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: co@305:108900
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: uo@305:107820
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: io@305:107662
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: Gu@305:104661
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: Bt@305:32755
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: Qt@305:31150
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: Xu@305:104509
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: yl@305:46305
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: anonymous@305:46165
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: anonymous@729:1222
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: setState@729:1201
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: anonymous@795:1664
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: anonymous@725:324
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: anonymous@802:852
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: t@805:377
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: anonymous@723:2146
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: anonymous@806:400
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: anonymous@723:2116
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: anonymous@725:324
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: navigate@716:521
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: ?anon_0_t@13797:1944
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: p@641:8151
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: l@641:8474
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: anonymous@171:1718
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: p@171:544
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: w@171:934
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: callReactNativeMicrotasks@171:3102
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: value@46:3009
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: anonymous@46:1089
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: value@46:2633
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: value@46:1048
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: value@46:830
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: 
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: 	at com.facebook.react.modules.core.ExceptionsManagerModule.reportException(ExceptionsManagerModule.kt:52)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: 	at com.facebook.react.bridge.JavaMethodWrapper.invoke(JavaMethodWrapper.java:380)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: 	at com.facebook.react.bridge.JavaModuleWrapper.invoke(JavaModuleWrapper.kt:134)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: 	at com.facebook.jni.NativeRunnable.run(Native Method)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:1014)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadHandler.dispatchMessage(MessageQueueThreadHandler.kt:21)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:250)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:340)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.startNewBackgroundThread$lambda$1(MessageQueueThreadImpl.kt:175)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.$r8$lambda$ldnZnqelhYFctGaUKkOKYj5rxo4(Unknown Source:0)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+02-10 13:22:59.678 21387 21492 E AndroidRuntime: 	at java.lang.Thread.run(Thread.java:1563)
+02-10 13:24:29.924 21849 21849 E artd    : BBinder_init Processname  /apex/com.android.art/bin/artd  
+02-10 13:24:29.924 21849 21849 E artd    : BBinder_init hasGetProcessName  /apex/com.android.art/bin/artd
+02-10 13:24:29.983 21884 21884 E ogle.android.gm: BBinder_init Processname  <pre-initialized>  
+02-10 13:24:29.983 21884 21884 E ogle.android.gm: BBinder_init hasGetProcessName  <pre-initialized>
+02-10 13:24:30.734 21884 21977 E bcqk    : Sync subscriptions not available
+02-10 13:24:30.735 21884 21963 E bcqk    : Sync subscriptions not available
+02-10 13:24:30.889 21884 22074 E GoogleApiManager: Failed to get service from broker. 
+02-10 13:24:30.889 21884 22074 E GoogleApiManager: java.lang.SecurityException: Unknown calling package name 'com.google.android.gms'.
+02-10 13:24:30.889 21884 22074 E GoogleApiManager: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3255)
+02-10 13:24:30.889 21884 22074 E GoogleApiManager: 	at android.os.Parcel.createException(Parcel.java:3239)
+02-10 13:24:30.889 21884 22074 E GoogleApiManager: 	at android.os.Parcel.readException(Parcel.java:3222)
+02-10 13:24:30.889 21884 22074 E GoogleApiManager: 	at android.os.Parcel.readException(Parcel.java:3164)
+02-10 13:24:30.889 21884 22074 E GoogleApiManager: 	at bdxh.a(:com.google.android.gms@260235035@26.02.35 (260400-862924022):36)
+02-10 13:24:30.889 21884 22074 E GoogleApiManager: 	at bdvi.z(:com.google.android.gms@260235035@26.02.35 (260400-862924022):143)
+02-10 13:24:30.889 21884 22074 E GoogleApiManager: 	at bdbk.run(:com.google.android.gms@260235035@26.02.35 (260400-862924022):42)
+02-10 13:24:30.889 21884 22074 E GoogleApiManager: 	at android.os.Handler.handleCallback(Handler.java:1014)
+02-10 13:24:30.889 21884 22074 E GoogleApiManager: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+02-10 13:24:30.889 21884 22074 E GoogleApiManager: 	at crvb.mD(:com.google.android.gms@260235035@26.02.35 (260400-862924022):1)
+02-10 13:24:30.889 21884 22074 E GoogleApiManager: 	at crvb.dispatchMessage(:com.google.android.gms@260235035@26.02.35 (260400-862924022):5)
+02-10 13:24:30.889 21884 22074 E GoogleApiManager: 	at android.os.Looper.loopOnce(Looper.java:250)
+02-10 13:24:30.889 21884 22074 E GoogleApiManager: 	at android.os.Looper.loop(Looper.java:340)
+02-10 13:24:30.889 21884 22074 E GoogleApiManager: 	at android.os.HandlerThread.run(HandlerThread.java:107)
+02-10 13:24:31.300 22158 22158 E eddit.frontpage: BBinder_init Processname  <pre-initialized>  
+02-10 13:24:31.300 22158 22158 E eddit.frontpage: BBinder_init hasGetProcessName  <pre-initialized>
+02-10 13:24:31.841 22158 22220 E eddit.frontpage: Invalid resource ID 0x00000000.
+02-10 13:24:32.507 22322 22322 E android.youtube: BBinder_init Processname  <pre-initialized>  
+02-10 13:24:32.507 22322 22322 E android.youtube: BBinder_init hasGetProcessName  <pre-initialized>
+02-10 13:24:32.713 22345 22345 E org.npci.upiapp: BBinder_init Processname  <pre-initialized>  
+02-10 13:24:32.713 22345 22345 E org.npci.upiapp: BBinder_init hasGetProcessName  <pre-initialized>
+02-10 13:24:33.500 22465 22465 E com.jio.myjio: BBinder_init Processname  <pre-initialized>  
+02-10 13:24:33.500 22465 22465 E com.jio.myjio: BBinder_init hasGetProcessName  <pre-initialized>
+02-10 13:24:33.738 22345 22532 E org.npci.upiapp: No package ID 6a found for resource ID 0x6a0b0013.
+02-10 13:24:34.551 22737 22737 E android.rkpdapp: BBinder_init Processname  <pre-initialized>  
+02-10 13:24:34.551 22737 22737 E android.rkpdapp: BBinder_init hasGetProcessName  <pre-initialized>
+02-10 13:24:34.768 22322 22322 E YT.mlplayer: setAudioDrc(enabled=1)
+02-10 13:24:35.470 22861 22861 E cmd     : BBinder_init Processname  cmd  
+02-10 13:24:35.471 22861 22861 E cmd     : BBinder_init hasGetProcessName  cmd
+02-10 13:24:35.616 22885 22885 E cmd     : BBinder_init Processname  cmd  
+02-10 13:24:35.616 22885 22885 E cmd     : BBinder_init hasGetProcessName  cmd
+02-10 13:24:35.752 22465 22905 E com.jio.myjio: No package ID 6a found for resource ID 0x6a0b0013.
+02-10 13:24:36.129 22322 22519 E VivoJsonResourceManager: mmap ok
+02-10 13:24:36.157 22322 22519 E VivoJsonResourceManager: mmap ok
+02-10 13:24:36.163 22981 22981 E cmd     : BBinder_init Processname  cmd  
+02-10 13:24:36.164 22981 22981 E cmd     : BBinder_init hasGetProcessName  cmd
+02-10 13:24:36.270 22990 22990 E cmd     : BBinder_init Processname  cmd  
+02-10 13:24:36.271 22990 22990 E cmd     : BBinder_init hasGetProcessName  cmd
+02-10 13:24:36.423 23000 23000 E cmd     : BBinder_init Processname  cmd  
+02-10 13:24:36.423 23000 23000 E cmd     : BBinder_init hasGetProcessName  cmd
+02-10 13:24:36.568 23020 23020 E cmd     : BBinder_init Processname  cmd  
+02-10 13:24:36.569 23020 23020 E cmd     : BBinder_init hasGetProcessName  cmd
+02-10 13:24:36.703 23032 23032 E cmd     : BBinder_init Processname  cmd  
+02-10 13:24:36.704 23032 23032 E cmd     : BBinder_init hasGetProcessName  cmd
+02-10 13:24:37.183 23065 23065 E cmd     : BBinder_init Processname  cmd  
+02-10 13:24:37.184 23065 23065 E cmd     : BBinder_init hasGetProcessName  cmd
+02-10 13:24:37.357 23072 23072 E cmd     : BBinder_init Processname  cmd  
+02-10 13:24:37.358 23072 23072 E cmd     : BBinder_init hasGetProcessName  cmd
+02-10 13:24:37.508 23087 23087 E cmd     : BBinder_init Processname  cmd  
+02-10 13:24:37.508 23087 23087 E cmd     : BBinder_init hasGetProcessName  cmd
+02-10 13:24:37.927 23118 23118 E cmd     : BBinder_init Processname  cmd  
+02-10 13:24:37.928 23118 23118 E cmd     : BBinder_init hasGetProcessName  cmd
+02-10 13:24:38.067 23138 23138 E cmd     : BBinder_init Processname  cmd  
+02-10 13:24:38.068 23138 23138 E cmd     : BBinder_init hasGetProcessName  cmd
+02-10 13:24:38.454 23174 23174 E cmd     : BBinder_init Processname  cmd  
+02-10 13:24:38.455 23174 23174 E cmd     : BBinder_init hasGetProcessName  cmd
+02-10 13:24:38.594 23183 23183 E cmd     : BBinder_init Processname  cmd  
+02-10 13:24:38.594 23183 23183 E cmd     : BBinder_init hasGetProcessName  cmd
+02-10 13:24:38.780 23200 23200 E cmd     : BBinder_init Processname  cmd  
+02-10 13:24:38.781 23200 23200 E cmd     : BBinder_init hasGetProcessName  cmd
+02-10 13:24:38.883 23214 23214 E cmd     : BBinder_init Processname  cmd  
+02-10 13:24:38.883 23214 23214 E cmd     : BBinder_init hasGetProcessName  cmd
+02-10 13:24:39.137 23231 23231 E cmd     : BBinder_init Processname  cmd  
+02-10 13:24:39.137 23231 23231 E cmd     : BBinder_init hasGetProcessName  cmd
+02-10 13:24:39.235 23237 23237 E cmd     : BBinder_init Processname  cmd  
+02-10 13:24:39.236 23237 23237 E cmd     : BBinder_init hasGetProcessName  cmd
+02-10 13:24:39.351 23247 23247 E cmd     : BBinder_init Processname  cmd  
+02-10 13:24:39.352 23247 23247 E cmd     : BBinder_init hasGetProcessName  cmd
+02-10 13:24:39.680 23265 23265 E cmd     : BBinder_init Processname  cmd  
+02-10 13:24:39.681 23265 23265 E cmd     : BBinder_init hasGetProcessName  cmd
+02-10 13:24:39.780 23271 23271 E cmd     : BBinder_init Processname  cmd  
+02-10 13:24:39.781 23271 23271 E cmd     : BBinder_init hasGetProcessName  cmd
+02-10 13:24:39.882 23275 23275 E cmd     : BBinder_init Processname  cmd  
+02-10 13:24:39.883 23275 23275 E cmd     : BBinder_init hasGetProcessName  cmd
+02-10 13:24:39.972 23279 23279 E cmd     : BBinder_init Processname  cmd  
+02-10 13:24:39.972 23279 23279 E cmd     : BBinder_init hasGetProcessName  cmd
+02-10 13:24:40.053 23283 23283 E cmd     : BBinder_init Processname  cmd  
+02-10 13:24:40.054 23283 23283 E cmd     : BBinder_init hasGetProcessName  cmd
+02-10 13:24:40.133 23287 23287 E cmd     : BBinder_init Processname  cmd  
+02-10 13:24:40.134 23287 23287 E cmd     : BBinder_init hasGetProcessName  cmd
+02-10 13:24:40.210 23291 23291 E cmd     : BBinder_init Processname  cmd  
+02-10 13:24:40.211 23291 23291 E cmd     : BBinder_init hasGetProcessName  cmd
+02-10 13:24:40.292 23295 23295 E cmd     : BBinder_init Processname  cmd  
+02-10 13:24:40.292 23295 23295 E cmd     : BBinder_init hasGetProcessName  cmd
+02-10 13:24:40.465 23305 23305 E cmd     : BBinder_init Processname  cmd  
+02-10 13:24:40.465 23305 23305 E cmd     : BBinder_init hasGetProcessName  cmd
+02-10 13:24:40.561 23312 23312 E cmd     : BBinder_init Processname  cmd  
+02-10 13:24:40.561 23312 23312 E cmd     : BBinder_init hasGetProcessName  cmd
+02-10 13:24:40.651 23317 23317 E cmd     : BBinder_init Processname  cmd  
+02-10 13:24:40.652 23317 23317 E cmd     : BBinder_init hasGetProcessName  cmd
+02-10 13:24:40.919 23330 23330 E cmd     : BBinder_init Processname  cmd  
+02-10 13:24:40.922 23330 23330 E cmd     : BBinder_init hasGetProcessName  cmd
+02-10 13:24:41.224 23371 23371 E cmd     : BBinder_init Processname  cmd  
+02-10 13:24:41.225 23371 23371 E cmd     : BBinder_init hasGetProcessName  cmd
+02-10 13:24:41.435 23398 23398 E cmd     : BBinder_init Processname  cmd  
+02-10 13:24:41.436 23398 23398 E cmd     : BBinder_init hasGetProcessName  cmd
+02-10 13:24:42.775 23470 23470 E .ai.intellicore: BBinder_init Processname  <pre-initialized>  
+02-10 13:24:42.776 23470 23470 E .ai.intellicore: BBinder_init hasGetProcessName  <pre-initialized>
+02-10 13:29:53.917 12702 23951 E VivoPush.Client.PushPackageUtils: (12702)client is null
+02-10 13:29:53.918 12702 23949 E VivoPush.Client.Utility: (12702)client is null
+02-10 13:29:53.926 12702 23949 E VivoPush.Client.Utility: (12702)client is null
+02-10 13:30:16.023 23981 23981 E mytrain.android: BBinder_init Processname  <pre-initialized>  
+02-10 13:30:16.023 23981 23981 E mytrain.android: BBinder_init hasGetProcessName  <pre-initialized>
+02-10 13:30:16.330 24019 24019 E .updater:remote: BBinder_init Processname  <pre-initialized>  
+02-10 13:30:16.330 24019 24019 E .updater:remote: BBinder_init hasGetProcessName  <pre-initialized>
+02-10 13:30:16.393 23981 24054 E mytrain.android: No package ID 6a found for resource ID 0x6a0b0013.
+02-10 13:30:16.649 24019 24099 E VgcSdkManager: VgcSdkManager init versionName:1.0.0.2
+02-10 13:36:56.157 12702 24823 E VivoPush.Client.Utility: (12702)client is null
+02-10 13:36:59.174 12702 12702 E VivoPush.Client.AidlManager: (12702)In connect, bind core service time out
+--------- beginning of system
+02-10 13:40:22.636 26559 25214 E ActivityThread: Failed to find provider info for subscribedfeeds
+02-10 13:41:25.483 26174 26174 E dget.cleanspeed: BBinder_init Processname  <pre-initialized>  
+02-10 13:41:25.483 26174 26174 E dget.cleanspeed: BBinder_init hasGetProcessName  <pre-initialized>
+02-10 13:41:29.412 26559 10674 E DCU_ContactsLogService: Failed to mark incremental upload successful [CONTEXT service_id=135 ]
+02-10 13:41:29.412 26559 10674 E DCU_ContactsLogService: java.util.concurrent.ExecutionException: ftql: sync policy is not enabled
+02-10 13:41:29.412 26559 10674 E DCU_ContactsLogService: 	at gvzi.j(:com.google.android.gms@260235035@26.02.35 (260400-862924022):21)
+02-10 13:41:29.412 26559 10674 E DCU_ContactsLogService: 	at gvzr.u(:com.google.android.gms@260235035@26.02.35 (260400-862924022):71)
+02-10 13:41:29.412 26559 10674 E DCU_ContactsLogService: 	at com.google.android.gms.romanesco.service.ContactsLoggerUploadService.a(:com.google.android.gms@260235035@26.02.35 (260400-862924022):244)
+02-10 13:41:29.412 26559 10674 E DCU_ContactsLogService: 	at crxa.call(:com.google.android.gms@260235035@26.02.35 (260400-862924022):30)
+02-10 13:41:29.412 26559 10674 E DCU_ContactsLogService: 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+02-10 13:41:29.412 26559 10674 E DCU_ContactsLogService: 	at beqw.c(:com.google.android.gms@260235035@26.02.35 (260400-862924022):50)
+02-10 13:41:29.412 26559 10674 E DCU_ContactsLogService: 	at beqw.run(:com.google.android.gms@260235035@26.02.35 (260400-862924022):73)
+02-10 13:41:29.412 26559 10674 E DCU_ContactsLogService: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+02-10 13:41:29.412 26559 10674 E DCU_ContactsLogService: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+02-10 13:41:29.412 26559 10674 E DCU_ContactsLogService: 	at bewn.run(:com.google.android.gms@260235035@26.02.35 (260400-862924022):8)
+02-10 13:41:29.412 26559 10674 E DCU_ContactsLogService: 	at java.lang.Thread.run(Thread.java:1563)
+02-10 13:41:29.412 26559 10674 E DCU_ContactsLogService: Caused by: ftql: sync policy is not enabled
+02-10 13:41:29.412 26559 10674 E DCU_ContactsLogService: 	at ftnw.d(:com.google.android.gms@260235035@26.02.35 (260400-862924022):151)
+02-10 13:41:29.412 26559 10674 E DCU_ContactsLogService: 	at ftnt.a(:com.google.android.gms@260235035@26.02.35 (260400-862924022):17)
+02-10 13:41:29.412 26559 10674 E DCU_ContactsLogService: 	at gnkv.a(:com.google.android.gms@260235035@26.02.35 (260400-862924022):13)
+02-10 13:41:29.412 26559 10674 E DCU_ContactsLogService: 	at gvzt.d(:com.google.android.gms@260235035@26.02.35 (260400-862924022):3)
+02-10 13:41:29.412 26559 10674 E DCU_ContactsLogService: 	at gvzv.run(:com.google.android.gms@260235035@26.02.35 (260400-862924022):38)
+02-10 13:41:29.412 26559 10674 E DCU_ContactsLogService: 	at gwbh.execute(:com.google.android.gms@260235035@26.02.35 (260400-862924022):1)
+02-10 13:41:29.412 26559 10674 E DCU_ContactsLogService: 	at gvzi.f(:com.google.android.gms@260235035@26.02.35 (260400-862924022):1)
+02-10 13:41:29.412 26559 10674 E DCU_ContactsLogService: 	at gvzi.m(:com.google.android.gms@260235035@26.02.35 (260400-862924022):99)
+02-10 13:41:29.412 26559 10674 E DCU_ContactsLogService: 	at gvzi.q(:com.google.android.gms@260235035@26.02.35 (260400-862924022):13)
+02-10 13:41:29.412 26559 10674 E DCU_ContactsLogService: 	at gvzu.e(:com.google.android.gms@260235035@26.02.35 (260400-862924022):1)
+02-10 13:41:29.412 26559 10674 E DCU_ContactsLogService: 	at gvzv.run(:com.google.android.gms@260235035@26.02.35 (260400-862924022):44)
+02-10 13:41:29.412 26559 10674 E DCU_ContactsLogService: 	at gwbh.execute(:com.google.android.gms@260235035@26.02.35 (260400-862924022):1)
+02-10 13:41:29.412 26559 10674 E DCU_ContactsLogService: 	at gvzi.f(:com.google.android.gms@260235035@26.02.35 (260400-862924022):1)
+02-10 13:41:29.412 26559 10674 E DCU_ContactsLogService: 	at gvzi.m(:com.google.android.gms@260235035@26.02.35 (260400-862924022):99)
+02-10 13:41:29.412 26559 10674 E DCU_ContactsLogService: 	at gvzi.q(:com.google.android.gms@260235035@26.02.35 (260400-862924022):13)
+02-10 13:41:29.412 26559 10674 E DCU_ContactsLogService: 	at gvza.run(:com.google.android.gms@260235035@26.02.35 (260400-862924022):120)
+02-10 13:41:29.412 26559 10674 E DCU_ContactsLogService: 	at gwbh.execute(:com.google.android.gms@260235035@26.02.35 (260400-862924022):1)
+02-10 13:41:29.412 26559 10674 E DCU_ContactsLogService: 	at gvzi.f(:com.google.android.gms@260235035@26.02.35 (260400-862924022):1)
+02-10 13:41:29.412 26559 10674 E DCU_ContactsLogService: 	at gvzi.m(:com.google.android.gms@260235035@26.02.35 (260400-862924022):99)
+02-10 13:41:29.412 26559 10674 E DCU_ContactsLogService: 	at gvzi.q(:com.google.android.gms@260235035@26.02.35 (260400-862924022):13)
+02-10 13:41:29.412 26559 10674 E DCU_ContactsLogService: 	at gvzu.e(:com.google.android.gms@260235035@26.02.35 (260400-862924022):1)
+02-10 13:41:29.412 26559 10674 E DCU_ContactsLogService: 	at gvzv.run(:com.google.android.gms@260235035@26.02.35 (260400-862924022):44)
+02-10 13:41:29.412 26559 10674 E DCU_ContactsLogService: 	at gwbh.execute(:com.google.android.gms@260235035@26.02.35 (260400-862924022):1)
+02-10 13:41:29.412 26559 10674 E DCU_ContactsLogService: 	at gvzi.f(:com.google.android.gms@260235035@26.02.35 (260400-862924022):1)
+02-10 13:41:29.412 26559 10674 E DCU_ContactsLogService: 	at gvzi.m(:com.google.android.gms@260235035@26.02.35 (260400-862924022):99)
+02-10 13:41:29.412 26559 10674 E DCU_ContactsLogService: 	at gvzi.q(:com.google.android.gms@260235035@26.02.35 (260400-862924022):13)
+02-10 13:41:29.412 26559 10674 E DCU_ContactsLogService: 	at gvzu.e(:com.google.android.gms@260235035@26.02.35 (260400-862924022):1)
+02-10 13:41:29.412 26559 10674 E DCU_ContactsLogService: 	at gvzv.run(:com.google.android.gms@260235035@26.02.35 (260400-862924022):44)
+02-10 13:41:29.412 26559 10674 E DCU_ContactsLogService: 	at gwbh.execute(:com.google.android.gms@260235035@26.02.35 (260400-862924022):1)
+02-10 13:41:29.412 26559 10674 E DCU_ContactsLogService: 	at gvzi.f(:com.google.android.gms@260235035@26.02.35 (260400-862924022):1)
+02-10 13:41:29.412 26559 10674 E DCU_ContactsLogService: 	at gvzi.m(:com.google.android.gms@260235035@26.02.35 (260400-862924022):99)
+02-10 13:41:29.412 26559 10674 E DCU_ContactsLogService: 	at gvzi.t(:com.google.android.gms@260235035@26.02.35 (260400-862924022):26)
+02-10 13:41:29.412 26559 10674 E DCU_ContactsLogService: 	at gwce.run(:com.google.android.gms@260235035@26.02.35 (260400-862924022):5)
+02-10 13:41:29.412 26559 10674 E DCU_ContactsLogService: 	at gwbh.execute(:com.google.android.gms@260235035@26.02.35 (260400-862924022):1)
+02-10 13:41:29.412 26559 10674 E DCU_ContactsLogService: 	at gvzi.f(:com.google.android.gms@260235035@26.02.35 (260400-862924022):1)
+02-10 13:41:29.412 26559 10674 E DCU_ContactsLogService: 	at gvzi.m(:com.google.android.gms@260235035@26.02.35 (260400-862924022):99)
+02-10 13:41:29.412 26559 10674 E DCU_ContactsLogService: 	at gvzi.t(:com.google.android.gms@260235035@26.02.35 (260400-862924022):26)
+02-10 13:41:29.413 26559 10674 E DCU_ContactsLogService: 	at gwce.run(:com.google.android.gms@260235035@26.02.35 (260400-862924022):5)
+02-10 13:41:29.413 26559 10674 E DCU_ContactsLogService: 	at gwbh.execute(:com.google.android.gms@260235035@26.02.35 (260400-862924022):1)
+02-10 13:41:29.413 26559 10674 E DCU_ContactsLogService: 	at gvzi.f(:com.google.android.gms@260235035@26.02.35 (260400-862924022):1)
+02-10 13:41:29.413 26559 10674 E DCU_ContactsLogService: 	at gvzi.m(:com.google.android.gms@260235035@26.02.35 (260400-862924022):99)
+02-10 13:41:29.413 26559 10674 E DCU_ContactsLogService: 	at gvzi.t(:com.google.android.gms@260235035@26.02.35 (260400-862924022):26)
+02-10 13:41:29.413 26559 10674 E DCU_ContactsLogService: 	at gwds.e(:com.google.android.gms@260235035@26.02.35 (260400-862924022):5)
+02-10 13:41:29.413 26559 10674 E DCU_ContactsLogService: 	at gwct.run(:com.google.android.gms@260235035@26.02.35 (260400-862924022):73)
+02-10 13:41:29.413 26559 10674 E DCU_ContactsLogService: 	at gwdu.run(:com.google.android.gms@260235035@26.02.35 (260400-862924022):5)
+02-10 13:41:29.413 26559 10674 E DCU_ContactsLogService: 	at gwbq.run(:com.google.android.gms@260235035@26.02.35 (260400-862924022):20)
+02-10 13:41:29.413 26559 10674 E DCU_ContactsLogService: 	... 6 more
+02-10 13:42:24.441 26272 26272 E oadcastreceiver: BBinder_init Processname  <pre-initialized>  
+02-10 13:42:24.441 26272 26272 E oadcastreceiver: BBinder_init hasGetProcessName  <pre-initialized>
+02-10 13:42:27.111 26302 26302 E chbox:googleapp: BBinder_init Processname  <pre-initialized>  
+02-10 13:42:27.111 26302 26302 E chbox:googleapp: BBinder_init hasGetProcessName  <pre-initialized>
+02-10 13:44:52.619 26937 26937 E com.coinbase: BBinder_init Processname  <pre-initialized>  
+02-10 13:44:52.619 26937 26937 E com.coinbase: BBinder_init hasGetProcessName  <pre-initialized>
+02-10 13:44:54.532 26937 27065 E TSLocationManager: ΓòöΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+02-10 13:44:54.532 26937 27065 E TSLocationManager: Γòæ LICENSE VALIDATION FAILURE: com.coinbase
+02-10 13:44:54.532 26937 27065 E TSLocationManager: ΓòáΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+02-10 13:44:54.532 26937 27065 E TSLocationManager: ΓòƒΓöÇ Invalid license key: YOUR_LICENSE_KEY_HERE
+02-10 13:44:54.532 26937 27065 E TSLocationManager: ΓòƒΓöÇ BackgroundGeolocation is fully functional in DEBUG builds without a license so you can 'try before you buy'.
+02-10 13:44:54.532 26937 27065 E TSLocationManager: ΓòÜΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+02-10 13:45:04.819 26937 27094 E ReactNativeJS: 'Error registering FCM token:', { message: 'No response from server. Check your internet or server.' }
+02-10 13:45:04.837 26937 27097 E unknown:ReactNative: console.error: Error registering FCM token: {"message":"No response from server. Check your internet or server."}, js engine: hermes, stack:
+02-10 13:45:04.837 26937 27097 E unknown:ReactNative: anonymous@179:100
+02-10 13:45:04.837 26937 27097 E unknown:ReactNative: r@177:333
+02-10 13:45:04.837 26937 27097 E unknown:ReactNative: s@176:617
+02-10 13:45:04.837 26937 27097 E unknown:ReactNative: R@176:2284
+02-10 13:45:04.837 26937 27097 E unknown:ReactNative: ?anon_0_@12934:8958
+02-10 13:45:04.837 26937 27097 E unknown:ReactNative: n@393:72
+02-10 13:45:04.837 26937 27097 E unknown:ReactNative: s@393:319
+02-10 13:45:04.837 26937 27097 E unknown:ReactNative: anonymous@171:1718
+02-10 13:45:04.837 26937 27097 E unknown:ReactNative: p@171:544
+02-10 13:45:04.837 26937 27097 E unknown:ReactNative: w@171:934
+02-10 13:45:04.837 26937 27097 E unknown:ReactNative: callReactNativeMicrotasks@171:3102
+02-10 13:45:04.837 26937 27097 E unknown:ReactNative: value@46:3009
+02-10 13:45:04.837 26937 27097 E unknown:ReactNative: anonymous@46:1089
+02-10 13:45:04.837 26937 27097 E unknown:ReactNative: value@46:2633
+02-10 13:45:04.837 26937 27097 E unknown:ReactNative: value@46:1048
+02-10 13:45:04.837 26937 27097 E unknown:ReactNative: value@46:830
+02-10 13:45:05.445 27220 27220 E .android.gms.ui: BBinder_init Processname  <pre-initialized>  
+02-10 13:45:05.445 27220 27220 E .android.gms.ui: BBinder_init hasGetProcessName  <pre-initialized>
+02-10 13:45:14.912 26937 27094 E ReactNativeJS: '≡ƒöî Socket connection error:', [Error: websocket error]
+02-10 13:45:14.913 26937 27094 E ReactNativeJS: '≡ƒöî Error message:', 'websocket error'
+02-10 13:45:14.913 26937 27094 E ReactNativeJS: '≡ƒöî Error type:', 'TransportError'
+02-10 13:45:14.916 26937 27094 E ReactNativeJS: '≡ƒöî Error description:', { _defaultPrevented: false,
+02-10 13:45:14.916 26937 27094 E ReactNativeJS:   _timeStamp: 1119144310.852705,
+02-10 13:45:14.916 26937 27094 E ReactNativeJS:   _type: 'error',
+02-10 13:45:14.916 26937 27094 E ReactNativeJS:   _bubbles: false,
+02-10 13:45:14.916 26937 27094 E ReactNativeJS:   _cancelable: false,
+02-10 13:45:14.916 26937 27094 E ReactNativeJS:   _composed: false }
+02-10 13:45:14.930 26937 27097 E unknown:ReactNative: console.error: ≡ƒöî Socket connection error: Error: websocket error, js engine: hermes, stack:
+02-10 13:45:14.930 26937 27097 E unknown:ReactNative: anonymous@179:100
+02-10 13:45:14.930 26937 27097 E unknown:ReactNative: r@177:333
+02-10 13:45:14.930 26937 27097 E unknown:ReactNative: s@176:617
+02-10 13:45:14.930 26937 27097 E unknown:ReactNative: R@176:2284
+02-10 13:45:14.930 26937 27097 E unknown:ReactNative: anonymous@606:2143
+02-10 13:45:14.930 26937 27097 E unknown:ReactNative: anonymous@621:1114
+02-10 13:45:14.930 26937 27097 E unknown:ReactNative: value@635:4539
+02-10 13:45:14.930 26937 27097 E unknown:ReactNative: anonymous@621:1114
+02-10 13:45:14.930 26937 27097 E unknown:ReactNative: c@629:3157
+02-10 13:45:14.930 26937 27097 E unknown:ReactNative: anonymous@621:1114
+02-10 13:45:14.930 26937 27097 E unknown:ReactNative: value@625:7186
+02-10 13:45:14.930 26937 27097 E unknown:ReactNative: anonymous@621:1114
+02-10 13:45:14.930 26937 27097 E unknown:ReactNative: anonymous@619:372
+02-10 13:45:14.930 26937 27097 E unknown:ReactNative: value@619:1212
+02-10 13:45:14.930 26937 27097 E unknown:ReactNative: anonymous@622:1586
+02-10 13:45:14.930 26937 27097 E unknown:ReactNative: s@193:3763
+02-10 13:45:14.930 26937 27097 E unknown:ReactNative: u@193:2918
+02-10 13:45:14.930 26937 27097 E unknown:ReactNative: value@193:2106
+02-10 13:45:14.930 26937 27097 E unknown:ReactNative: anonymous@215:3851
+02-10 13:45:14.930 26937 27097 E unknown:ReactNative: value@30:817
+02-10 13:45:14.930 26937 27097 E unknown:ReactNative: anonymous@22:922
+02-10 13:45:14.930 26937 27097 E unknown:ReactNative: value@22:931
+02-10 13:45:14.930 26937 27097 E unknown:ReactNative: value@46:4010
+02-10 13:45:14.930 26937 27097 E unknown:ReactNative: anonymous@46:803
+02-10 13:45:14.930 26937 27097 E unknown:ReactNative: value@46:2633
+02-10 13:45:14.930 26937 27097 E unknown:ReactNative: value@46:775
+02-10 13:45:14.935 26937 27097 E unknown:ReactNative: console.error: ≡ƒöî Error message: websocket error, js engine: hermes, stack:
+02-10 13:45:14.935 26937 27097 E unknown:ReactNative: anonymous@179:100
+02-10 13:45:14.935 26937 27097 E unknown:ReactNative: r@177:333
+02-10 13:45:14.935 26937 27097 E unknown:ReactNative: s@176:617
+02-10 13:45:14.935 26937 27097 E unknown:ReactNative: R@176:2284
+02-10 13:45:14.935 26937 27097 E unknown:ReactNative: anonymous@606:2200
+02-10 13:45:14.935 26937 27097 E unknown:ReactNative: anonymous@621:1114
+02-10 13:45:14.935 26937 27097 E unknown:ReactNative: value@635:4539
+02-10 13:45:14.935 26937 27097 E unknown:ReactNative: anonymous@621:1114
+02-10 13:45:14.935 26937 27097 E unknown:ReactNative: c@629:3157
+02-10 13:45:14.935 26937 27097 E unknown:ReactNative: anonymous@621:1114
+02-10 13:45:14.935 26937 27097 E unknown:ReactNative: value@625:7186
+02-10 13:45:14.935 26937 27097 E unknown:ReactNative: anonymous@621:1114
+02-10 13:45:14.935 26937 27097 E unknown:ReactNative: anonymous@619:372
+02-10 13:45:14.935 26937 27097 E unknown:ReactNative: value@619:1212
+02-10 13:45:14.935 26937 27097 E unknown:ReactNative: anonymous@622:1586
+02-10 13:45:14.935 26937 27097 E unknown:ReactNative: s@193:3763
+02-10 13:45:14.935 26937 27097 E unknown:ReactNative: u@193:2918
+02-10 13:45:14.935 26937 27097 E unknown:ReactNative: value@193:2106
+02-10 13:45:14.935 26937 27097 E unknown:ReactNative: anonymous@215:3851
+02-10 13:45:14.935 26937 27097 E unknown:ReactNative: value@30:817
+02-10 13:45:14.935 26937 27097 E unknown:ReactNative: anonymous@22:922
+02-10 13:45:14.935 26937 27097 E unknown:ReactNative: value@22:931
+02-10 13:45:14.935 26937 27097 E unknown:ReactNative: value@46:4010
+02-10 13:45:14.935 26937 27097 E unknown:ReactNative: anonymous@46:803
+02-10 13:45:14.935 26937 27097 E unknown:ReactNative: value@46:2633
+02-10 13:45:14.935 26937 27097 E unknown:ReactNative: value@46:775
+02-10 13:45:14.943 26937 27097 E unknown:ReactNative: console.error: ≡ƒöî Error type: TransportError, js engine: hermes, stack:
+02-10 13:45:14.943 26937 27097 E unknown:ReactNative: anonymous@179:100
+02-10 13:45:14.943 26937 27097 E unknown:ReactNative: r@177:333
+02-10 13:45:14.943 26937 27097 E unknown:ReactNative: s@176:617
+02-10 13:45:14.943 26937 27097 E unknown:ReactNative: R@176:2284
+02-10 13:45:14.943 26937 27097 E unknown:ReactNative: anonymous@606:2255
+02-10 13:45:14.943 26937 27097 E unknown:ReactNative: anonymous@621:1114
+02-10 13:45:14.943 26937 27097 E unknown:ReactNative: value@635:4539
+02-10 13:45:14.943 26937 27097 E unknown:ReactNative: anonymous@621:1114
+02-10 13:45:14.943 26937 27097 E unknown:ReactNative: c@629:3157
+02-10 13:45:14.943 26937 27097 E unknown:ReactNative: anonymous@621:1114
+02-10 13:45:14.943 26937 27097 E unknown:ReactNative: value@625:7186
+02-10 13:45:14.943 26937 27097 E unknown:ReactNative: anonymous@621:1114
+02-10 13:45:14.943 26937 27097 E unknown:ReactNative: anonymous@619:372
+02-10 13:45:14.943 26937 27097 E unknown:ReactNative: value@619:1212
+02-10 13:45:14.943 26937 27097 E unknown:ReactNative: anonymous@622:1586
+02-10 13:45:14.943 26937 27097 E unknown:ReactNative: s@193:3763
+02-10 13:45:14.943 26937 27097 E unknown:ReactNative: u@193:2918
+02-10 13:45:14.943 26937 27097 E unknown:ReactNative: value@193:2106
+02-10 13:45:14.943 26937 27097 E unknown:ReactNative: anonymous@215:3851
+02-10 13:45:14.943 26937 27097 E unknown:ReactNative: value@30:817
+02-10 13:45:14.943 26937 27097 E unknown:ReactNative: anonymous@22:922
+02-10 13:45:14.943 26937 27097 E unknown:ReactNative: value@22:931
+02-10 13:45:14.943 26937 27097 E unknown:ReactNative: value@46:4010
+02-10 13:45:14.943 26937 27097 E unknown:ReactNative: anonymous@46:803
+02-10 13:45:14.943 26937 27097 E unknown:ReactNative: value@46:2633
+02-10 13:45:14.943 26937 27097 E unknown:ReactNative: value@46:775
+02-10 13:45:14.951 26937 27097 E unknown:ReactNative: console.error: ≡ƒöî Error description: {"_defaultPrevented":false,"_timeStamp":1119144310.852705,"_type":"error","_bubbles":false,"_cancelable":false,"_composed":false}, js engine: hermes, stack:
+02-10 13:45:14.951 26937 27097 E unknown:ReactNative: anonymous@179:100
+02-10 13:45:14.951 26937 27097 E unknown:ReactNative: r@177:333
+02-10 13:45:14.951 26937 27097 E unknown:ReactNative: s@176:617
+02-10 13:45:14.951 26937 27097 E unknown:ReactNative: R@176:2284
+02-10 13:45:14.951 26937 27097 E unknown:ReactNative: anonymous@606:2315
+02-10 13:45:14.951 26937 27097 E unknown:ReactNative: anonymous@621:1114
+02-10 13:45:14.951 26937 27097 E unknown:ReactNative: value@635:4539
+02-10 13:45:14.951 26937 27097 E unknown:ReactNative: anonymous@621:1114
+02-10 13:45:14.951 26937 27097 E unknown:ReactNative: c@629:3157
+02-10 13:45:14.951 26937 27097 E unknown:ReactNative: anonymous@621:1114
+02-10 13:45:14.951 26937 27097 E unknown:ReactNative: value@625:7186
+02-10 13:45:14.951 26937 27097 E unknown:ReactNative: anonymous@621:1114
+02-10 13:45:14.951 26937 27097 E unknown:ReactNative: anonymous@619:372
+02-10 13:45:14.951 26937 27097 E unknown:ReactNative: value@619:1212
+02-10 13:45:14.951 26937 27097 E unknown:ReactNative: anonymous@622:1586
+02-10 13:45:14.951 26937 27097 E unknown:ReactNative: s@193:3763
+02-10 13:45:14.951 26937 27097 E unknown:ReactNative: u@193:2918
+02-10 13:45:14.951 26937 27097 E unknown:ReactNative: value@193:2106
+02-10 13:45:14.951 26937 27097 E unknown:ReactNative: anonymous@215:3851
+02-10 13:45:14.951 26937 27097 E unknown:ReactNative: value@30:817
+02-10 13:45:14.951 26937 27097 E unknown:ReactNative: anonymous@22:922
+02-10 13:45:14.951 26937 27097 E unknown:ReactNative: value@22:931
+02-10 13:45:14.951 26937 27097 E unknown:ReactNative: value@46:4010
+02-10 13:45:14.951 26937 27097 E unknown:ReactNative: anonymous@46:803
+02-10 13:45:14.951 26937 27097 E unknown:ReactNative: value@46:2633
+02-10 13:45:14.951 26937 27097 E unknown:ReactNative: value@46:775
+02-10 13:45:16.153 27327 27327 E cmd     : BBinder_init Processname  cmd  
+02-10 13:45:16.154 27327 27327 E cmd     : BBinder_init hasGetProcessName  cmd
+02-10 13:45:25.826 26937 27094 E ReactNativeJS: '≡ƒöî Socket connection error:', [Error: websocket error]
+02-10 13:45:25.827 26937 27094 E ReactNativeJS: '≡ƒöî Error message:', 'websocket error'
+02-10 13:45:25.828 26937 27094 E ReactNativeJS: '≡ƒöî Error type:', 'TransportError'
+02-10 13:45:25.829 26937 27094 E ReactNativeJS: '≡ƒöî Error description:', { _defaultPrevented: false,
+02-10 13:45:25.829 26937 27094 E ReactNativeJS:   _timeStamp: 1119155226.474244,
+02-10 13:45:25.829 26937 27094 E ReactNativeJS:   _type: 'error',
+02-10 13:45:25.829 26937 27094 E ReactNativeJS:   _bubbles: false,
+02-10 13:45:25.829 26937 27094 E ReactNativeJS:   _cancelable: false,
+02-10 13:45:25.829 26937 27094 E ReactNativeJS:   _composed: false }
+02-10 13:45:25.855 26937 27097 E unknown:ReactNative: console.error: ≡ƒöî Socket connection error: Error: websocket error, js engine: hermes, stack:
+02-10 13:45:25.855 26937 27097 E unknown:ReactNative: anonymous@179:100
+02-10 13:45:25.855 26937 27097 E unknown:ReactNative: r@177:333
+02-10 13:45:25.855 26937 27097 E unknown:ReactNative: s@176:617
+02-10 13:45:25.855 26937 27097 E unknown:ReactNative: R@176:2284
+02-10 13:45:25.855 26937 27097 E unknown:ReactNative: anonymous@606:2143
+02-10 13:45:25.855 26937 27097 E unknown:ReactNative: anonymous@621:1114
+02-10 13:45:25.855 26937 27097 E unknown:ReactNative: value@635:4539
+02-10 13:45:25.855 26937 27097 E unknown:ReactNative: anonymous@621:1114
+02-10 13:45:25.855 26937 27097 E unknown:ReactNative: c@629:3157
+02-10 13:45:25.855 26937 27097 E unknown:ReactNative: anonymous@621:1114
+02-10 13:45:25.855 26937 27097 E unknown:ReactNative: value@625:7186
+02-10 13:45:25.855 26937 27097 E unknown:ReactNative: anonymous@621:1114
+02-10 13:45:25.855 26937 27097 E unknown:ReactNative: anonymous@619:372
+02-10 13:45:25.855 26937 27097 E unknown:ReactNative: value@619:1212
+02-10 13:45:25.855 26937 27097 E unknown:ReactNative: anonymous@622:1586
+02-10 13:45:25.855 26937 27097 E unknown:ReactNative: s@193:3763
+02-10 13:45:25.855 26937 27097 E unknown:ReactNative: u@193:2918
+02-10 13:45:25.855 26937 27097 E unknown:ReactNative: value@193:2106
+02-10 13:45:25.855 26937 27097 E unknown:ReactNative: anonymous@215:3851
+02-10 13:45:25.855 26937 27097 E unknown:ReactNative: value@30:817
+02-10 13:45:25.855 26937 27097 E unknown:ReactNative: anonymous@22:922
+02-10 13:45:25.855 26937 27097 E unknown:ReactNative: value@22:931
+02-10 13:45:25.855 26937 27097 E unknown:ReactNative: value@46:4010
+02-10 13:45:25.855 26937 27097 E unknown:ReactNative: anonymous@46:803
+02-10 13:45:25.855 26937 27097 E unknown:ReactNative: value@46:2633
+02-10 13:45:25.855 26937 27097 E unknown:ReactNative: value@46:775
+02-10 13:45:25.861 26937 27097 E unknown:ReactNative: console.error: ≡ƒöî Error message: websocket error, js engine: hermes, stack:
+02-10 13:45:25.861 26937 27097 E unknown:ReactNative: anonymous@179:100
+02-10 13:45:25.861 26937 27097 E unknown:ReactNative: r@177:333
+02-10 13:45:25.861 26937 27097 E unknown:ReactNative: s@176:617
+02-10 13:45:25.861 26937 27097 E unknown:ReactNative: R@176:2284
+02-10 13:45:25.861 26937 27097 E unknown:ReactNative: anonymous@606:2200
+02-10 13:45:25.861 26937 27097 E unknown:ReactNative: anonymous@621:1114
+02-10 13:45:25.861 26937 27097 E unknown:ReactNative: value@635:4539
+02-10 13:45:25.861 26937 27097 E unknown:ReactNative: anonymous@621:1114
+02-10 13:45:25.861 26937 27097 E unknown:ReactNative: c@629:3157
+02-10 13:45:25.861 26937 27097 E unknown:ReactNative: anonymous@621:1114
+02-10 13:45:25.861 26937 27097 E unknown:ReactNative: value@625:7186
+02-10 13:45:25.861 26937 27097 E unknown:ReactNative: anonymous@621:1114
+02-10 13:45:25.861 26937 27097 E unknown:ReactNative: anonymous@619:372
+02-10 13:45:25.861 26937 27097 E unknown:ReactNative: value@619:1212
+02-10 13:45:25.861 26937 27097 E unknown:ReactNative: anonymous@622:1586
+02-10 13:45:25.861 26937 27097 E unknown:ReactNative: s@193:3763
+02-10 13:45:25.861 26937 27097 E unknown:ReactNative: u@193:2918
+02-10 13:45:25.861 26937 27097 E unknown:ReactNative: value@193:2106
+02-10 13:45:25.861 26937 27097 E unknown:ReactNative: anonymous@215:3851
+02-10 13:45:25.861 26937 27097 E unknown:ReactNative: value@30:817
+02-10 13:45:25.861 26937 27097 E unknown:ReactNative: anonymous@22:922
+02-10 13:45:25.861 26937 27097 E unknown:ReactNative: value@22:931
+02-10 13:45:25.861 26937 27097 E unknown:ReactNative: value@46:4010
+02-10 13:45:25.861 26937 27097 E unknown:ReactNative: anonymous@46:803
+02-10 13:45:25.861 26937 27097 E unknown:ReactNative: value@46:2633
+02-10 13:45:25.861 26937 27097 E unknown:ReactNative: value@46:775
+02-10 13:45:25.867 26937 27097 E unknown:ReactNative: console.error: ≡ƒöî Error type: TransportError, js engine: hermes, stack:
+02-10 13:45:25.867 26937 27097 E unknown:ReactNative: anonymous@179:100
+02-10 13:45:25.867 26937 27097 E unknown:ReactNative: r@177:333
+02-10 13:45:25.867 26937 27097 E unknown:ReactNative: s@176:617
+02-10 13:45:25.867 26937 27097 E unknown:ReactNative: R@176:2284
+02-10 13:45:25.867 26937 27097 E unknown:ReactNative: anonymous@606:2255
+02-10 13:45:25.867 26937 27097 E unknown:ReactNative: anonymous@621:1114
+02-10 13:45:25.867 26937 27097 E unknown:ReactNative: value@635:4539
+02-10 13:45:25.867 26937 27097 E unknown:ReactNative: anonymous@621:1114
+02-10 13:45:25.867 26937 27097 E unknown:ReactNative: c@629:3157
+02-10 13:45:25.867 26937 27097 E unknown:ReactNative: anonymous@621:1114
+02-10 13:45:25.867 26937 27097 E unknown:ReactNative: value@625:7186
+02-10 13:45:25.867 26937 27097 E unknown:ReactNative: anonymous@621:1114
+02-10 13:45:25.867 26937 27097 E unknown:ReactNative: anonymous@619:372
+02-10 13:45:25.867 26937 27097 E unknown:ReactNative: value@619:1212
+02-10 13:45:25.867 26937 27097 E unknown:ReactNative: anonymous@622:1586
+02-10 13:45:25.867 26937 27097 E unknown:ReactNative: s@193:3763
+02-10 13:45:25.867 26937 27097 E unknown:ReactNative: u@193:2918
+02-10 13:45:25.867 26937 27097 E unknown:ReactNative: value@193:2106
+02-10 13:45:25.867 26937 27097 E unknown:ReactNative: anonymous@215:3851
+02-10 13:45:25.867 26937 27097 E unknown:ReactNative: value@30:817
+02-10 13:45:25.867 26937 27097 E unknown:ReactNative: anonymous@22:922
+02-10 13:45:25.867 26937 27097 E unknown:ReactNative: value@22:931
+02-10 13:45:25.867 26937 27097 E unknown:ReactNative: value@46:4010
+02-10 13:45:25.867 26937 27097 E unknown:ReactNative: anonymous@46:803
+02-10 13:45:25.867 26937 27097 E unknown:ReactNative: value@46:2633
+02-10 13:45:25.867 26937 27097 E unknown:ReactNative: value@46:775
+02-10 13:45:25.872 26937 27097 E unknown:ReactNative: console.error: ≡ƒöî Error description: {"_defaultPrevented":false,"_timeStamp":1119155226.474244,"_type":"error","_bubbles":false,"_cancelable":false,"_composed":false}, js engine: hermes, stack:
+02-10 13:45:25.872 26937 27097 E unknown:ReactNative: anonymous@179:100
+02-10 13:45:25.872 26937 27097 E unknown:ReactNative: r@177:333
+02-10 13:45:25.872 26937 27097 E unknown:ReactNative: s@176:617
+02-10 13:45:25.872 26937 27097 E unknown:ReactNative: R@176:2284
+02-10 13:45:25.872 26937 27097 E unknown:ReactNative: anonymous@606:2315
+02-10 13:45:25.872 26937 27097 E unknown:ReactNative: anonymous@621:1114
+02-10 13:45:25.872 26937 27097 E unknown:ReactNative: value@635:4539
+02-10 13:45:25.872 26937 27097 E unknown:ReactNative: anonymous@621:1114
+02-10 13:45:25.872 26937 27097 E unknown:ReactNative: c@629:3157
+02-10 13:45:25.872 26937 27097 E unknown:ReactNative: anonymous@621:1114
+02-10 13:45:25.872 26937 27097 E unknown:ReactNative: value@625:7186
+02-10 13:45:25.872 26937 27097 E unknown:ReactNative: anonymous@621:1114
+02-10 13:45:25.872 26937 27097 E unknown:ReactNative: anonymous@619:372
+02-10 13:45:25.872 26937 27097 E unknown:ReactNative: value@619:1212
+02-10 13:45:25.872 26937 27097 E unknown:ReactNative: anonymous@622:1586
+02-10 13:45:25.872 26937 27097 E unknown:ReactNative: s@193:3763
+02-10 13:45:25.872 26937 27097 E unknown:ReactNative: u@193:2918
+02-10 13:45:25.872 26937 27097 E unknown:ReactNative: value@193:2106
+02-10 13:45:25.872 26937 27097 E unknown:ReactNative: anonymous@215:3851
+02-10 13:45:25.872 26937 27097 E unknown:ReactNative: value@30:817
+02-10 13:45:25.872 26937 27097 E unknown:ReactNative: anonymous@22:922
+02-10 13:45:25.872 26937 27097 E unknown:ReactNative: value@22:931
+02-10 13:45:25.872 26937 27097 E unknown:ReactNative: value@46:4010
+02-10 13:45:25.872 26937 27097 E unknown:ReactNative: anonymous@46:803
+02-10 13:45:25.872 26937 27097 E unknown:ReactNative: value@46:2633
+02-10 13:45:25.872 26937 27097 E unknown:ReactNative: value@46:775
+02-10 13:45:37.689 26937 27094 E ReactNativeJS: '≡ƒöî Socket connection error:', [Error: websocket error]
+02-10 13:45:37.690 26937 27094 E ReactNativeJS: '≡ƒöî Error message:', 'websocket error'
+02-10 13:45:37.690 26937 27094 E ReactNativeJS: '≡ƒöî Error type:', 'TransportError'
+02-10 13:45:37.690 26937 27094 E ReactNativeJS: '≡ƒöî Error description:', { _defaultPrevented: false,
+02-10 13:45:37.690 26937 27094 E ReactNativeJS:   _timeStamp: 1119167089.631168,
+02-10 13:45:37.690 26937 27094 E ReactNativeJS:   _type: 'error',
+02-10 13:45:37.690 26937 27094 E ReactNativeJS:   _bubbles: false,
+02-10 13:45:37.690 26937 27094 E ReactNativeJS:   _cancelable: false,
+02-10 13:45:37.690 26937 27094 E ReactNativeJS:   _composed: false }
+02-10 13:45:37.710 26937 27097 E unknown:ReactNative: console.error: ≡ƒöî Socket connection error: Error: websocket error, js engine: hermes, stack:
+02-10 13:45:37.710 26937 27097 E unknown:ReactNative: anonymous@179:100
+02-10 13:45:37.710 26937 27097 E unknown:ReactNative: r@177:333
+02-10 13:45:37.710 26937 27097 E unknown:ReactNative: s@176:617
+02-10 13:45:37.710 26937 27097 E unknown:ReactNative: R@176:2284
+02-10 13:45:37.710 26937 27097 E unknown:ReactNative: anonymous@606:2143
+02-10 13:45:37.710 26937 27097 E unknown:ReactNative: anonymous@621:1114
+02-10 13:45:37.710 26937 27097 E unknown:ReactNative: value@635:4539
+02-10 13:45:37.710 26937 27097 E unknown:ReactNative: anonymous@621:1114
+02-10 13:45:37.710 26937 27097 E unknown:ReactNative: c@629:3157
+02-10 13:45:37.710 26937 27097 E unknown:ReactNative: anonymous@621:1114
+02-10 13:45:37.710 26937 27097 E unknown:ReactNative: value@625:7186
+02-10 13:45:37.710 26937 27097 E unknown:ReactNative: anonymous@621:1114
+02-10 13:45:37.710 26937 27097 E unknown:ReactNative: anonymous@619:372
+02-10 13:45:37.710 26937 27097 E unknown:ReactNative: value@619:1212
+02-10 13:45:37.710 26937 27097 E unknown:ReactNative: anonymous@622:1586
+02-10 13:45:37.710 26937 27097 E unknown:ReactNative: s@193:3763
+02-10 13:45:37.710 26937 27097 E unknown:ReactNative: u@193:2918
+02-10 13:45:37.710 26937 27097 E unknown:ReactNative: value@193:2106
+02-10 13:45:37.710 26937 27097 E unknown:ReactNative: anonymous@215:3851
+02-10 13:45:37.710 26937 27097 E unknown:ReactNative: value@30:817
+02-10 13:45:37.710 26937 27097 E unknown:ReactNative: anonymous@22:922
+02-10 13:45:37.710 26937 27097 E unknown:ReactNative: value@22:931
+02-10 13:45:37.710 26937 27097 E unknown:ReactNative: value@46:4010
+02-10 13:45:37.710 26937 27097 E unknown:ReactNative: anonymous@46:803
+02-10 13:45:37.710 26937 27097 E unknown:ReactNative: value@46:2633
+02-10 13:45:37.710 26937 27097 E unknown:ReactNative: value@46:775
+02-10 13:45:37.714 26937 27097 E unknown:ReactNative: console.error: ≡ƒöî Error message: websocket error, js engine: hermes, stack:
+02-10 13:45:37.714 26937 27097 E unknown:ReactNative: anonymous@179:100
+02-10 13:45:37.714 26937 27097 E unknown:ReactNative: r@177:333
+02-10 13:45:37.714 26937 27097 E unknown:ReactNative: s@176:617
+02-10 13:45:37.714 26937 27097 E unknown:ReactNative: R@176:2284
+02-10 13:45:37.714 26937 27097 E unknown:ReactNative: anonymous@606:2200
+02-10 13:45:37.714 26937 27097 E unknown:ReactNative: anonymous@621:1114
+02-10 13:45:37.714 26937 27097 E unknown:ReactNative: value@635:4539
+02-10 13:45:37.714 26937 27097 E unknown:ReactNative: anonymous@621:1114
+02-10 13:45:37.714 26937 27097 E unknown:ReactNative: c@629:3157
+02-10 13:45:37.714 26937 27097 E unknown:ReactNative: anonymous@621:1114
+02-10 13:45:37.714 26937 27097 E unknown:ReactNative: value@625:7186
+02-10 13:45:37.714 26937 27097 E unknown:ReactNative: anonymous@621:1114
+02-10 13:45:37.714 26937 27097 E unknown:ReactNative: anonymous@619:372
+02-10 13:45:37.714 26937 27097 E unknown:ReactNative: value@619:1212
+02-10 13:45:37.714 26937 27097 E unknown:ReactNative: anonymous@622:1586
+02-10 13:45:37.714 26937 27097 E unknown:ReactNative: s@193:3763
+02-10 13:45:37.714 26937 27097 E unknown:ReactNative: u@193:2918
+02-10 13:45:37.714 26937 27097 E unknown:ReactNative: value@193:2106
+02-10 13:45:37.714 26937 27097 E unknown:ReactNative: anonymous@215:3851
+02-10 13:45:37.714 26937 27097 E unknown:ReactNative: value@30:817
+02-10 13:45:37.714 26937 27097 E unknown:ReactNative: anonymous@22:922
+02-10 13:45:37.714 26937 27097 E unknown:ReactNative: value@22:931
+02-10 13:45:37.714 26937 27097 E unknown:ReactNative: value@46:4010
+02-10 13:45:37.714 26937 27097 E unknown:ReactNative: anonymous@46:803
+02-10 13:45:37.714 26937 27097 E unknown:ReactNative: value@46:2633
+02-10 13:45:37.714 26937 27097 E unknown:ReactNative: value@46:775
+02-10 13:45:37.719 26937 27097 E unknown:ReactNative: console.error: ≡ƒöî Error type: TransportError, js engine: hermes, stack:
+02-10 13:45:37.719 26937 27097 E unknown:ReactNative: anonymous@179:100
+02-10 13:45:37.719 26937 27097 E unknown:ReactNative: r@177:333
+02-10 13:45:37.719 26937 27097 E unknown:ReactNative: s@176:617
+02-10 13:45:37.719 26937 27097 E unknown:ReactNative: R@176:2284
+02-10 13:45:37.719 26937 27097 E unknown:ReactNative: anonymous@606:2255
+02-10 13:45:37.719 26937 27097 E unknown:ReactNative: anonymous@621:1114
+02-10 13:45:37.719 26937 27097 E unknown:ReactNative: value@635:4539
+02-10 13:45:37.719 26937 27097 E unknown:ReactNative: anonymous@621:1114
+02-10 13:45:37.719 26937 27097 E unknown:ReactNative: c@629:3157
+02-10 13:45:37.719 26937 27097 E unknown:ReactNative: anonymous@621:1114
+02-10 13:45:37.719 26937 27097 E unknown:ReactNative: value@625:7186
+02-10 13:45:37.719 26937 27097 E unknown:ReactNative: anonymous@621:1114
+02-10 13:45:37.719 26937 27097 E unknown:ReactNative: anonymous@619:372
+02-10 13:45:37.719 26937 27097 E unknown:ReactNative: value@619:1212
+02-10 13:45:37.719 26937 27097 E unknown:ReactNative: anonymous@622:1586
+02-10 13:45:37.719 26937 27097 E unknown:ReactNative: s@193:3763
+02-10 13:45:37.719 26937 27097 E unknown:ReactNative: u@193:2918
+02-10 13:45:37.719 26937 27097 E unknown:ReactNative: value@193:2106
+02-10 13:45:37.719 26937 27097 E unknown:ReactNative: anonymous@215:3851
+02-10 13:45:37.719 26937 27097 E unknown:ReactNative: value@30:817
+02-10 13:45:37.719 26937 27097 E unknown:ReactNative: anonymous@22:922
+02-10 13:45:37.719 26937 27097 E unknown:ReactNative: value@22:931
+02-10 13:45:37.719 26937 27097 E unknown:ReactNative: value@46:4010
+02-10 13:45:37.719 26937 27097 E unknown:ReactNative: anonymous@46:803
+02-10 13:45:37.719 26937 27097 E unknown:ReactNative: value@46:2633
+02-10 13:45:37.719 26937 27097 E unknown:ReactNative: value@46:775
+02-10 13:45:37.723 26937 27097 E unknown:ReactNative: console.error: ≡ƒöî Error description: {"_defaultPrevented":false,"_timeStamp":1119167089.631168,"_type":"error","_bubbles":false,"_cancelable":false,"_composed":false}, js engine: hermes, stack:
+02-10 13:45:37.723 26937 27097 E unknown:ReactNative: anonymous@179:100
+02-10 13:45:37.723 26937 27097 E unknown:ReactNative: r@177:333
+02-10 13:45:37.723 26937 27097 E unknown:ReactNative: s@176:617
+02-10 13:45:37.723 26937 27097 E unknown:ReactNative: R@176:2284
+02-10 13:45:37.723 26937 27097 E unknown:ReactNative: anonymous@606:2315
+02-10 13:45:37.723 26937 27097 E unknown:ReactNative: anonymous@621:1114
+02-10 13:45:37.723 26937 27097 E unknown:ReactNative: value@635:4539
+02-10 13:45:37.723 26937 27097 E unknown:ReactNative: anonymous@621:1114
+02-10 13:45:37.723 26937 27097 E unknown:ReactNative: c@629:3157
+02-10 13:45:37.723 26937 27097 E unknown:ReactNative: anonymous@621:1114
+02-10 13:45:37.723 26937 27097 E unknown:ReactNative: value@625:7186
+02-10 13:45:37.723 26937 27097 E unknown:ReactNative: anonymous@621:1114
+02-10 13:45:37.723 26937 27097 E unknown:ReactNative: anonymous@619:372
+02-10 13:45:37.723 26937 27097 E unknown:ReactNative: value@619:1212
+02-10 13:45:37.723 26937 27097 E unknown:ReactNative: anonymous@622:1586
+02-10 13:45:37.723 26937 27097 E unknown:ReactNative: s@193:3763
+02-10 13:45:37.723 26937 27097 E unknown:ReactNative: u@193:2918
+02-10 13:45:37.723 26937 27097 E unknown:ReactNative: value@193:2106
+02-10 13:45:37.723 26937 27097 E unknown:ReactNative: anonymous@215:3851
+02-10 13:45:37.723 26937 27097 E unknown:ReactNative: value@30:817
+02-10 13:45:37.723 26937 27097 E unknown:ReactNative: anonymous@22:922
+02-10 13:45:37.723 26937 27097 E unknown:ReactNative: value@22:931
+02-10 13:45:37.723 26937 27097 E unknown:ReactNative: value@46:4010
+02-10 13:45:37.723 26937 27097 E unknown:ReactNative: anonymous@46:803
+02-10 13:45:37.723 26937 27097 E unknown:ReactNative: value@46:2633
+02-10 13:45:37.723 26937 27097 E unknown:ReactNative: value@46:775

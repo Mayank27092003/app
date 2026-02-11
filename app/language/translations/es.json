@@ -1,0 +1,840 @@
+{
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "save": "Guardar",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "seeAll": "Ver todo",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "done": "Hecho",
+    "retry": "Reintentar",
+    "close": "Cerrar",
+    "yes": "Sí",
+    "no": "No",
+    "call": "Llamar",
+    "message": "Mensaje",
+    "yesCancel": "Sí, cancelar",
+    "image": "Imagen",
+    "ok": "Aceptar",
+      "distance": "{value} millas",
+      "noNotifications": "Sin notificaciones",
+      "getStarted": "Comenzar",
+      "goBack": "Volver",
+      "refreshing": "Actualizando...",
+      "recently": "Recientemente",
+      "justNow": "Ahora mismo",
+      "minutesAgo": "Hace {count} min",
+      "minutesAgoPlural": "Hace {count} mins",
+      "hoursAgo": "Hace {count} hora",
+      "hoursAgoPlural": "Hace {count} horas",
+      "daysAgo": "Hace {count} día",
+      "daysAgoPlural": "Hace {count} días",
+      "failedToLoadNotifications": "Error al cargar notificaciones. Por favor, inténtalo de nuevo.",
+      "failedToMarkAsRead": "Error al marcar la notificación como leída.",
+      "failedToMarkAsReadRetry": "Error al marcar la notificación como leída. Por favor, inténtalo de nuevo.",
+      "noNotificationsDescription": "Aún no tienes notificaciones. Te notificaremos sobre actualizaciones de trabajos, pagos y anuncios importantes.",
+      "expiryDateRequired": "Fecha de vencimiento requerida",
+      "expiryDateRequiredMessage": "Este documento requiere una fecha de vencimiento. Por favor, establece la fecha de vencimiento antes de subir.",
+      "setDateNow": "Establecer fecha ahora",
+      "cancelledOrError": "Cancelado o error",
+      "noImageSelected": "No se seleccionó ninguna imagen.",
+      "cameraCancelled": "Cámara cancelada.",
+      "failedToPickPDF": "Error al seleccionar archivo PDF. Por favor, inténtalo de nuevo.",
+      "removeDocument": "Eliminar documento",
+      "removeDocumentConfirm": "¿Estás seguro de que quieres eliminar este documento?",
+      "deleteFailed": "Error al eliminar",
+      "failedToDeleteDocument": "Error al eliminar documento. Por favor, inténtalo de nuevo.",
+      "documentRequiresExpiryDate": "Este documento requiere una fecha de vencimiento",
+      "uploading": "Subiendo...",
+      "uploadDocument": "Subir documento",
+      "changeDocument": "Cambiar documento",
+      "selectDocumentType": "Seleccionar tipo de documento",
+      "selectUploadOption": "Seleccionar opción de carga",
+      "takePhoto": "Tomar foto",
+      "chooseImage": "Elegir imagen",
+      "choosePDF": "Elegir PDF",
+      "home": "Inicio",
+      "noJobs": "Sin trabajos",
+      "deleteAccount": "Eliminar cuenta",
+      "deleteAccountWarning": "Esta acción no se puede deshacer. Todos tus datos, incluyendo trabajos, contratos e información de pago, serán eliminados permanentemente.",
+      "enterPasswordToConfirm": "Por favor, ingresa tu contraseña para confirmar la eliminación de la cuenta:",
+      "enterPassword": "Ingresa tu contraseña",
+      "pleaseEnterPassword": "Por favor, ingresa tu contraseña",
+      "changeDriver": "Cambiar conductor",
+      "currentDriver": "Conductor actual",
+      "reasonForChange": "Razón del cambio",
+      "provideReasonForChange": "Por favor, proporciona una razón para cambiar el conductor",
+      "provideReasonForChangePlaceholder": "Por favor, proporciona una razón para cambiar el conductor...",
+      "changing": "Cambiando...",
+      "change": "Cambiar",
+      "removeDriver": "Retirar conductor",
+      "provideReasonForRemove": "Por favor, proporciona una razón para retirar el conductor",
+      "provideReasonForRemovePlaceholder": "Por favor, proporciona una razón para retirar este conductor...",
+      "removing": "Retirando...",
+      "reasonForRemoval": "Razón del retiro",
+      "noContractJobs": "Sin trabajos de contrato",
+      "noContractJobsDescription": "No tienes trabajos de contrato activos en este momento.",
+      "liveTrips": "Viajes en vivo",
+      "loadingContractJobs": "Cargando trabajos de contrato...",
+      "cannotUpdateExpiryDate": "No se puede actualizar la fecha de vencimiento. Documento no encontrado.",
+      "cannotUpdateExpiryDateNoFile": "No se puede actualizar la fecha de vencimiento. Por favor, sube el documento primero.",
+      "invalidDateFormat": "Formato de fecha inválido. Por favor, inténtalo de nuevo.",
+      "expiryDateUpdatedSuccess": "¡Fecha de vencimiento actualizada con éxito!",
+      "failedToUpdateExpiryDate": "Error al actualizar la fecha de vencimiento. Por favor, inténtalo de nuevo.",
+      "documentUploadedSuccess": "¡Documento subido con éxito!",
+      "failedToUploadDocument": "Error al subir documento. Por favor, inténtalo de nuevo.",
+      "documentDeletedSuccess": "¡Documento eliminado con éxito!",
+      "profileRefreshed": "Perfil actualizado",
+      "profileRefreshedDesc": "Tu información de perfil ha sido actualizada.",
+      "refreshFailed": "Error al actualizar",
+      "refreshFailedDesc": "Error al actualizar perfil. Por favor, inténtalo de nuevo.",
+      "fileUploadedNoUrl": "Archivo subido pero no se recibió URL. Por favor, inténtalo de nuevo.",
+      "fileTooLarge": "Archivo demasiado grande",
+      "fileTooLargeMessage": "El archivo seleccionado es demasiado grande. Por favor, elige una imagen más pequeña o comprímela antes de subir.",
+      "fileSizeTips": "Consejos sobre el tamaño del archivo",
+      "fileSizeTipsMessage": "• Usa imágenes menores a 5MB\n• Comprime imágenes antes de subir\n• Evita fotos de alta resolución\n• Considera usar PDF para documentos",
+      "failedToUploadFile": "Error al subir archivo. Por favor, inténtalo de nuevo.",
+      "help": "Ayuda",
+      "bankAccountUpdatedSuccess": "Cuenta bancaria actualizada con éxito",
+      "accountDeleted": "Cuenta eliminada",
+      "accountDeletedDesc": "Tu cuenta ha sido eliminada con éxito.",
+      "failedToDeleteAccount": "Error al eliminar cuenta. Por favor, inténtalo de nuevo.",
+      "failedToManagePayments": "Error al gestionar cuentas de pago. Por favor, inténtalo de nuevo.",
+      "jobInformationNotAvailable": "Información del trabajo no disponible",
+      "jobApplicationNotFound": "Solicitud de trabajo no encontrada para el usuario actual",
+      "contractNotFound": "Contrato no encontrado",
+      "contractIdNotFound": "ID de contrato no encontrado",
+      "inspectionCompletedSuccess": "¡Inspección completada con éxito!",
+      "fileDownloadedSuccess": "Archivo descargado con éxito",
+      "failedToDownloadFile": "Error al descargar archivo.",
+      "somethingWentWrongDownload": "Algo salió mal al descargar.",
+      "invalidConversationId": "ID de conversación inválido. No se puede iniciar la llamada.",
+      "userNotLoggedIn": "Usuario no conectado. Por favor, inicia sesión primero.",
+      "callError": "Error de llamada",
+      "failedToStartCall": "Error al iniciar llamada",
+      "passwordResetSuccessful": "Restablecimiento de contraseña exitoso",
+      "passwordResetSuccessMessage": "Tu contraseña ha sido restablecida con éxito. Ahora puedes iniciar sesión con tu nueva contraseña.",
+      "failedToLoadRatings": "Error al cargar evaluaciones",
+      "pleaseTryAgain": "Por favor, inténtalo de nuevo",
+      "pleaseSelectRating": "Por favor, selecciona una evaluación",
+      "pleaseWriteReview": "Por favor, escribe un comentario (al menos 10 caracteres)",
+      "passwordMinLength": "La contraseña debe tener al menos 6 caracteres",
+      "passwordsDoNotMatch": "Las contraseñas no coinciden",
+      "invalidResetToken": "Token de restablecimiento inválido. Por favor, inténtalo de nuevo.",
+      "failedToResetPassword": "Error al restablecer contraseña. Por favor, inténtalo de nuevo.",
+      "enterNewPasswordBelow": "Ingresa tu nueva contraseña a continuación",
+      "newPassword": "Nueva contraseña",
+      "enterNewPassword": "Ingresa tu nueva contraseña",
+      "confirmPassword": "Confirmar contraseña",
+      "enterConfirmPassword": "Ingresa tu contraseña de confirmación",
+      "confirmNewPassword": "Confirma tu nueva contraseña",
+      "resetPassword": "Restablecer contraseña",
+      "assign": "Asignar",
+      "assignCarrier": "Asignar transportista",
+      "assignDriverConfirm": "¿Quieres asignar",
+      "carrierIdNotFound": "ID de transportista no encontrado",
+      "enableLocation": "Activar ubicación",
+      "locationPermissionRequired": "Permiso de ubicación requerido",
+      "enableLocationAccess": "Por favor, activa el acceso a la ubicación en la configuración de la aplicación.",
+      "yourLocation": "Tu ubicación",
+      "lastKnownDriverLocation": "Última ubicación conocida del conductor",
+      "currentDriverLocation": "Ubicación actual del conductor"
+    },
+  "welcome": {
+    "appName": "GoFRTS",
+    "tagline": "Conectando conductores y comerciantes",
+    "title": "Bienvenido a GoFRTS",
+    "description": "La principal plataforma que conecta camioneros con transportistas, agentes, expedidores y empresas intermodales.",
+    "signIn": "Iniciar sesión",
+    "register": "¿No tienes cuenta? Regístrate",
+    "features": {
+      "findJobs": {
+        "title": "Buscar trabajos",
+        "description": "Explora y solicita trabajos de transporte que coincidan con tus preferencias"
+      },
+      "connect": {
+        "title": "Conectar",
+        "description": "Comunicación directa entre conductores y comerciantes"
+      },
+      "multiLanguage": {
+        "title": "Multilingüe",
+        "description": "Usa la app en tu idioma preferido"
+      },
+      "securePayments": {
+        "title": "Pagos seguros",
+        "description": "Todas las transacciones se procesan de forma segura"
+      }
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Bienvenido de nuevo",
+      "subtitle": "Inicia sesión para continuar",
+      "email": "Correo",
+      "emailPlaceholder": "Ingresa tu correo",
+      "password": "Contraseña",
+      "passwordPlaceholder": "Ingresa tu contraseña",
+      "rememberMe": "Recordarme",
+      "forgotPassword": "¿Olvidaste tu contraseña?",
+      "signIn": "Iniciar sesión",
+      "noAccount": "¿No tienes cuenta?",
+      "register": "Regístrate",
+      "demoTitle": "Cuentas demo:",
+      "demoDriver": "Conductor: driver@example.com",
+      "demoDriverDesc": "Accede a trabajos, seguimiento y funciones de conductor",
+      "demoMerchant": "Comerciante: merchant@example.com",
+      "demoMerchantDesc": "Publica trabajos, gestiona conductores y envíos",
+      "demoNote": "(Cualquier contraseña funciona para cuentas demo)",
+      "errors": {
+        "fillFields": "Ingresa correo y contraseña",
+        "invalidCredentials": "Correo o contraseña inválidos",
+        "loginError": "Error al iniciar sesión"
+      }
+    },
+    "register": {
+      "title": "Crear cuenta",
+      "subtitle": "Regístrate para comenzar",
+      "fullName": "Nombre completo",
+      "fullNamePlaceholder": "Ingresa tu nombre completo",
+      "email": "Correo",
+      "emailPlaceholder": "Ingresa tu correo",
+      "phone": "Teléfono",
+      "phonePlaceholder": "Ingresa tu teléfono",
+      "password": "Contraseña",
+      "passwordPlaceholder": "Crea una contraseña",
+      "confirmPassword": "Confirmar contraseña",
+      "confirmPasswordPlaceholder": "Confirma tu contraseña",
+      "createAccount": "Crear cuenta",
+      "termsText": "Al registrarte, aceptas nuestros Términos y Política de Privacidad",
+      "termsService": "Términos de servicio",
+      "privacyPolicy": "Política de privacidad",
+      "haveAccount": "¿Ya tienes cuenta?",
+      "errors": {
+        "fillFields": "Completa todos los campos",
+        "passwordMismatch": "Las contraseñas no coinciden",
+        "registerError": "Error al registrarse"
+      }
+    },
+    "roleSelect": {
+      "title": "Elige tu rol",
+      "subtitle": "Selecciona cómo usarás GoFRTS",
+      "driver": {
+        "title": "Conductor",
+        "description": "Encuentra trabajos de transporte, sigue entregas y recibe pagos",
+        "features": [
+          "Encuentra trabajos disponibles",
+          "Sigue tus ganancias"
+        ]
+      },
+      "merchant": {
+        "title": "Comerciante",
+        "description": "Publica trabajos, encuentra conductores confiables y gestiona envíos",
+        "features": [
+          "Publica trabajos de transporte",
+          "Encuentra conductores calificados",
+          "Sigue envíos",
+          "Gestiona pagos"
+        ]
+      },
+      "continue": "Continuar"
+    }
+  },
+  "navigation": {
+    "home": "Inicio",
+    "findJobs": "Buscar trabajos",
+    "myJobs": "Mis trabajos",
+    "tracking": "Seguimiento",
+    "messages": "Mensajes",
+    "profile": "Perfil",
+    "notification": "Notificaciones"
+  },
+  "home": {
+    "greeting": "Hola",
+    "yourLocation":"Tu ubicación",
+    "truckDriver": "Conductor de camión",
+    "carrier": "Transportista",
+    "searchJobs": "Buscar trabajos...",
+    "activeJobs": "Trabajos activos",
+    "recentJobs": "Trabajos recientes",
+    "completedJobs": "Completados",
+    "rating": "Calificación",
+    "noRecentJobs": "Sin trabajos recientes",
+    "postNewJob": "Publicar trabajo",
+    "manageJobs": "Gestionar trabajos",
+    "quickActions": "Acciones rápidas",
+    "findDrivers": {
+      "title": "Encontrar conductores",
+      "description": "Busca conductores disponibles en tu zona"
+    },
+    "analytics": {
+      "title": "Analíticas",
+      "description": "Ver desempeño de envíos y estadísticas"
+    }
+  },
+  "jobs": {
+    "submitBid": "Enviar oferta",
+    "reshareJob": "Volver a compartir trabajo",
+    "can'tFindDriver": "¿No encuentras un conductor/transportista?",
+    "reshareDescription": "Vuelve a compartir este trabajo para ampliar tu alcance y encontrar conductores/transportistas disponibles en tu red.",
+    "note": "Nota: Si el pago no se completa en 24 horas, el trabajo se eliminará automáticamente.",
+    "amountDue": "Monto adeudado",
+    "loadingInspections": "Cargando fotos de inspección...",
+    "allInspectionsCompleted": "Todas las inspecciones completadas",
+    "paymentPending": "Pago pendiente",
+    "paymentPendingDescription": "Tu pago está pendiente. Por favor completa el pago para finalizar este trabajo.",
+    "more": "más",
+    "noJobsMatch": "No hay trabajos que coincidan con tus filtros",
+    "noJobsMatchDescription": "Intenta ajustar tus criterios de búsqueda o filtros",
+    "clearFilters": "Limpiar filtros",
+    "youHave": "Tienes",
+    "newJobInvitations": "Nuevas invitaciones de trabajo",
+    "pendingInvitations": "invitación de trabajo pendiente",
+    "jobId": "ID del trabajo",
+    "readytoPick": "listo para recoger",
+    "jobPosted": "Trabajo publicado",
+    "jobPostedSuccess": "Tu trabajo ha sido publicado. Conductores pueden aplicar ahora.",
+    "jobDetails": "Detalles del trabajo",
+    "jobTitle": "Título del trabajo",
+    "jobTitlePlaceholder": "Ingresa un título descriptivo",
+    "description": "Descripción",
+    "descriptionPlaceholder": "Describe el trabajo en detalle...",
+    "compensation": "Pago (USD)",
+    "amountPlaceholder": "Ingresa monto",
+    "pickupInfo": "Información de recogida",
+    "deliveryInfo": "Información de entrega",
+    "streetAddress": "Dirección",
+    "pickupAddressPlaceholder": "Dirección de recogida",
+    "deliveryAddressPlaceholder": "Dirección de entrega",
+    "city": "Ciudad",
+    "state": "Estado",
+    "zipCode": "Código postal",
+    "date": "Fecha",
+    "timeWindow": "Horario",
+    "timeWindowPlaceholder": "ej. 9:00 AM - 12:00 PM",
+    "cargoInfo": "Información de carga",
+    "distance": "Distancia",
+    "distancePlaceholder": "Ingresa distancia",
+    "estimatedDuration": "Duración estimada",
+    "durationPlaceholder": "ej. 2.5 horas",
+    "cargoType": "Tipo de carga",
+    "cargoTypePlaceholder": "ej. Electrónicos, Muebles, etc.",
+    "cargoWeight": "Peso de carga",
+    "weightPlaceholder": "ej. 5,000 lbs",
+    "requiredTruckType": "Tipo de camión requerido",
+    "truckTypePlaceholder": "ej. Furgón, Plataforma, etc.",
+    "specialRequirements": "Requerimientos especiales",
+    "specialRequirementsPlaceholder": "Instrucciones o requerimientos especiales...",
+    "showAdvancedOptions": "Mostrar opciones avanzadas",
+    "hideAdvancedOptions": "Ocultar opciones avanzadas",
+    "termsAgreement": "Al publicar aceptas los términos. Conductores deberán subir fotos pre/post viaje.",
+    "title": "Trabajos",
+    "searchPlaceholder": "Buscar trabajos...",
+    "noJobsFound": "No se encontraron trabajos",
+    "noJobsDriver": "No encontramos trabajos. Ajusta filtros o vuelve luego.",
+    "noJobsMerchant": "Aún no publicas trabajos. Haz clic en + para crear uno.",
+    "postJob": "Publicar trabajo",
+    "pickup": "Recogida",
+    "delivery": "Entrega",
+    "pickupDate": "Fecha recogida",
+    "deliveryDate": "Fecha entrega",
+    "miles": "(Millas)",
+    "postedBy": "Publicado por",
+    "messageToMerchant": "Mensaje al comerciante",
+    "messagePlaceholder": "Preséntate y explica por qué eres ideal...",
+    "termsAgreementjobApply": "Al aplicar aceptas los términos, incluyendo responsabilidad por daños. Deberás subir fotos pre/post viaje.",
+    "noDriverAssigned": "Sin conductor asignado",
+    "statusUpdateError": "Error al actualizar estado",
+    "driver": "Conductor",
+    "verification": {
+      "start": "Iniciar verificación",
+      "finish": "Finalizar verificación",
+      "preTrip": "Fotos previas",
+      "postTrip": "Fotos posteriores",
+      "proofOfDocument_1": "Documento de prueba 1",
+      "proofOfDocument_2": "Documento de prueba 2"
+    },
+    "filters": {
+      "title": "Filtros",
+      "location": "Ubicación",
+      "truckType": "Tipo de camión",
+      "resetFilters": "Reiniciar filtros",
+      "available": "Disponible",
+      "posted": "Publicado",
+      "picked": "Recogido",
+      "applied": "Aplicado",
+      "completed": "Completado",
+      "jobStatus": "Estado del trabajo",
+      "loadingTruckTypes": "Cargando tipos de camión...",
+      "distanceRange": "Rango de distancia (Millas)",
+      "miles": "millas"
+    },
+    "locations": {
+      "losAngeles": "Los Ángeles",
+      "sanFrancisco": "San Francisco",
+      "sanDiego": "San Diego"
+    },
+    "truckTypes": {
+      "boxTruck": "Furgón",
+      "flatbed": "Plataforma",
+      "refrigerated": "Refrigerado"
+    }
+  },
+  "messages": {
+    "title": "Mensajes",
+    "searchPlaceholder": "Buscar mensajes...",
+    "chats": "Chats",
+    "archived": "Archivados",
+    "noMessages": "Aún sin mensajes",
+    "noMessagesDesc": "Inicia una conversación con conductor/comerciante",
+    "noArchivedDesc": "Sin conversaciones archivadas",
+    "startNewMessage": "Nuevo mensaje",
+    "typing": "escribiendo",
+    "online": "En línea",
+    "typeMessagePlaceholder": "Escribe un mensaje...",
+    "user": "Usuario",
+    "options": {
+      "pin": "Fijar conversación",
+      "unpin": "Desfijar",
+      "mute": "Silenciar",
+      "unmute": "Activar sonido",
+      "archive": "Archivar",
+      "unarchive": "Desarchivar",
+      "delete": "Eliminar"
+    },
+    "messageTypes": {
+      "photo": "📷 Foto",
+      "voice": "🎤 Mensaje de voz",
+      "document": "📄 Documento",
+      "location": "📍 Ubicación"
+    },
+    "yesterday": "Ayer"
+  },
+  "profile": {
+    "editProfile": "Editar perfil",
+    "verifiedAccount": "Cuenta verificada",
+    "verificationPending": "Verificación pendiente",
+    "successMessage": "Perfil actualizado correctamente",
+    "changePhoto": "Toca para cambiar foto",
+    "tabs": {
+      "profile": "Perfil",
+      "transactions": "Transacciones",
+      "paymentMethods": "Métodos de pago"
+    },
+    "balance": {
+      "available": "Saldo disponible",
+      "pending": "Pendiente",
+      "withdraw": "Retirar",
+      "addFunds": "Agregar fondos"
+    },
+    "info": {
+      "truckType": "Tipo de camión",
+      "rating": "Calificación",
+      "currentLocation": "Ubicación actual",
+      "company": "Empresa",
+      "address": "Dirección",
+      "notAvailable": "No disponible"
+    },
+    "documents": {
+      "title": "Documentos",
+      "businessTitle": "Documentos comerciales",
+      "cdl": "Licencia de conducir comercial",
+      "cdlExpires": "Expira",
+      "insurance": "Documentos de seguro",
+      "insuranceDesc": "Ver todos los seguros",
+      "businessLicense": "Licencia comercial",
+      "businessLicenseDesc": "Ver licencia"
+    },
+    "transactions": {
+      "recent": "Transacciones recientes",
+      "noTransactions": "Sin transacciones aún",
+      "noTransactionsDriver": "Completa trabajos para ver transacciones aquí",
+      "noTransactionsMerchant": "Publica trabajos para ver transacciones aquí"
+    },
+    "paymentMethods": {
+      "title": "Métodos de pago",
+      "addNew": "Agregar nuevo",
+      "noMethods": "Sin métodos de pago",
+      "noMethodsDesc": "Agrega un método para recibir pagos",
+      "noMethodsDescMerchant": "Agrega un método para pagar trabajos",
+      "addPaymentMethod": "Agregar método",
+      "bankAccount": "Cuenta bancaria",
+      "expires": "Expira",
+      "default": "Predeterminado",
+      "paymentRequired": "Pago requerido",
+      "cardOption": "Tarjeta crédito/débito",
+      "bankOption": "Cuenta bancaria",
+      "cardNumber": "Número de tarjeta",
+      "cardName": "Nombre en tarjeta",
+      "expiryDate": "Fecha expiración",
+      "cvv": "CVV",
+      "bankName": "Banco",
+      "accountNumber": "Número de cuenta",
+      "routingNumber": "Número de ruta",
+      "accountType": "Tipo de cuenta",
+      "checking": "Corriente",
+      "savings": "Ahorros",
+      "setAsDefault": "Establecer como predeterminado",
+      "placeholders": {
+        "cardNumber": "1234 5678 9012 3456",
+        "cardName": "Juan Pérez",
+        "expiryDate": "MM/AA",
+        "cvv": "123",
+        "bankName": "Nombre de tu banco",
+        "accountNumber": "Número de cuenta",
+        "routingNumber": "Número de ruta"
+      }
+    },
+    "logout": "Cerrar sesión",
+    "merchantTypes": {
+      "carrier": "Transportista",
+      "broker": "Agente",
+      "shipper": "Expedidor",
+      "intermodal": "Intermodal"
+    }
+  },
+  "paymentStatus": {
+    "completed": "Completado",
+    "pending": "Pendiente",
+    "processing": "Procesando",
+    "failed": "Fallido"
+  },
+  "forms": {
+    "email": "Correo",
+    "password": "Contraseña",
+    "confirmPassword": "Confirmar contraseña",
+    "fullName": "Nombre completo",
+    "phone": "Teléfono",
+    "company": "Empresa",
+    "address": "Dirección",
+    "basicInfo": "Información básica",
+    "fullNamePlaceholder": "Nombre completo",
+    "phonePlaceholder": "Número de teléfono",
+    "truckType": "Tipo de camión",
+    "truckTypePlaceholder": "ej. Remolque, Furgón",
+    "truckCapacity": "Capacidad",
+    "truckCapacityPlaceholder": "ej. 40,000 lbs",
+    "licenseNumber": "Número de licencia",
+    "licenseNumberPlaceholder": "Número CDL",
+    "licenseExpiry": "Vencimiento licencia",
+    "licenseExpiryPlaceholder": "MM/DD/AAAA",
+    "companyName": "Nombre empresa",
+    "companyPlaceholder": "Nombre de tu empresa",
+    "companyAddress": "Dirección empresa",
+    "addressPlaceholder": "Dirección de empresa",
+    "companyType": "Tipo de empresa",
+    "companyInformation": "Información empresarial"
+  },
+  "buttons": {
+    "signIn": "Iniciar sesión",
+    "signUp": "Registrarse",
+    "register": "Registrarse",
+    "login": "Iniciar sesión",
+    "logout": "Cerrar sesión",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "apply": "Aplicar",
+    "submit": "Enviar",
+    "continue": "Continuar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "done": "Hecho",
+    "retry": "Reintentar",
+    "refresh": "Actualizar",
+    "cancelJob": "Cancelar trabajo",
+    "applyforJob": "Aplicar a trabajo",
+    "submitApplication": "Enviar aplicación"
+  },
+  "errors": {
+    "general": "Algo salió mal. Intenta nuevamente.",
+    "network": "Error de red. Verifica tu conexión.",
+    "validation": "Verifica tus datos e intenta nuevamente.",
+    "unauthorized": "No autorizado para esta acción.",
+    "notFound": "Recurso no encontrado.",
+    "missingInfo": "Información faltante",
+    "fillAllFields": "Completa todos los campos obligatorios",
+    "jobCreationFailed": "Error al crear trabajo",
+    "jobnotfound": "Trabajo no encontrado",
+    "cancelJobTitle": "Cancelar trabajo",
+    "cancelJobMessage": "¿Seguro que quieres cancelar este trabajo? Esta acción no se puede deshacer.",
+    "cancelJobSuccessTitle": "Éxito",
+    "cancelJobSuccessMessage": "Trabajo cancelado",
+    "cancelJobErrorTitle": "Error",
+    "cancelJobErrorMessage": "Error al cancelar trabajo",
+    "chatStartErrorMessage": "No se puede iniciar chat. Sin conductor asignado.",
+    "insufficientBalanceTitle": "Saldo insuficiente",
+    "insufficientBalanceMessage": "Saldo insuficiente. ¿Deseas agregar fondos?",
+    "invalidCardNumber": "Número de tarjeta inválido",
+    "missingCardName": "Nombre en tarjeta requerido",
+    "invalidExpiryDate": "Fecha expiración inválida (MM/AA)",
+    "invalidCVV": "CVV inválido",
+    "missingBankName": "Nombre de banco requerido",
+    "invalidAccountNumber": "Número de cuenta inválido",
+    "invalidRoutingNumber": "Número de ruta inválido"
+  },
+  "drawer": {
+    "settings": "Configuración",
+    "contact": "Contáctanos",
+    "privacy": "Política de privacidad",
+    "terms": "Términos y condiciones",
+    "logout": "Cerrar sesión",
+    "signIn": "Iniciar / Registrarse"
+  },
+  "callHistory": {
+    "title": "Historial de llamadas",
+    "outgoing": "Saliente",
+    "incoming": "Entrante",
+    "recorded": "Grabada",
+    "jobBadge": "Trabajo #{{id}}",
+    "emptyTitle": "Sin historial",
+    "emptyDescription": "Aún no tienes llamadas. Llama a comerciantes/conductores para discutir trabajos."
+  },
+  "success": {
+    "added": "Método de pago agregado"
+  },
+  "transaction": {
+    "title": "Detalles de transacción",
+    "status": {
+      "completed": "Completado",
+      "pending": "Pendiente",
+      "processing": "Procesando",
+      "failed": "Fallido"
+    },
+    "type": {
+      "paymentReceived": "Pago recibido",
+      "paymentSent": "Pago enviado",
+      "withdrawal": "Retiro",
+      "deposit": "Depósito",
+      "refundSent": "Reembolso enviado",
+      "refundReceived": "Reembolso recibido"
+    },
+    "details": {
+      "id": "ID Transacción",
+      "dateTime": "Fecha y hora",
+      "description": "Descripción",
+      "jobReference": "Referencia trabajo",
+      "paymentMethod": "Método de pago",
+      "subtotal": "Subtotal",
+      "platformFee": "Tarifa plataforma",
+      "total": "Total"
+    },
+    "receipt": {
+      "download": "Descargar recibo",
+      "downloadTitle": "Descargar recibo",
+      "downloadMessage": "Descarga iniciada",
+      "share": "Compartir recibo",
+      "shareTitle": "Compartir recibo",
+      "shareMessage": "Se abrirá opciones de compartir"
+    },
+    "messages": {
+      "pending": "Transacción pendiente. Puede tardar hasta 24 horas.",
+      "failed": "Transacción fallida. Verifica tu método de pago o contacta soporte."
+    },
+    "errors": {
+      "notFoundTitle": "Transacción no encontrada",
+      "notFoundDescription": "Esta transacción no existe o fue eliminada."
+    },
+    "support": "¿Necesitas ayuda con esta transacción?",
+    "tryAgain": "Reintentar"
+  },
+  "deposit": {
+    "title": "Agregar fondos",
+    "currentBalance": "Saldo actual",
+    "depositAmount": "Monto a depositar",
+    "amountPlaceholder": "0.00",
+    "paymentMethod": "Método de pago",
+    "bankAccount": "Cuenta bancaria",
+    "bankAccountDetails": "{{bankName}} - {{accountType}}",
+    "cardExpires": "Expira {{month}}/{{year}}",
+    "accountTypes": {
+      "checking": "Corriente",
+      "savings": "Ahorros"
+    },
+    "noPaymentMethods": "Aún sin métodos de pago",
+    "addPaymentMethod": "Agregar método",
+    "addFundsButton": "Agregar {{amount}} fondos",
+    "depositNote": "Los fondos se agregarán inmediatamente. Recibirás un recibo por correo.",
+    "errors": {
+      "invalidAmount": "Monto inválido",
+      "noPaymentMethod": "Selecciona un método",
+      "depositFailed": "Error al depositar. Intenta nuevamente."
+    },
+    "success": {
+      "title": "Depósito exitoso",
+      "message": "Tu depósito de {{amount}} se procesó correctamente."
+    }
+  },
+  "payment": {
+    "balance": {
+      "available": "Saldo disponible",
+      "pending": "Pendiente"
+    },
+    "history": "Historial",
+    "actions": {
+      "withdraw": "Retirar",
+      "addFunds": "Agregar fondos",
+      "paymentMethods": "Métodos de pago"
+    },
+    "tabs": {
+      "transactions": "Transacciones",
+      "methods": "Métodos de pago"
+    },
+    "status": {
+      "completed": "Completado",
+      "pending": "Pendiente",
+      "processing": "Procesando",
+      "failed": "Fallido"
+    },
+    "methods": {
+      "bankAccount": "Cuenta bancaria",
+      "bankAccountDetails": "{{bankName}} - {{accountType}}",
+      "cardExpires": "Expira {{month}}/{{year}}",
+      "accountTypes": {
+        "checking": "Corriente",
+        "savings": "Ahorros"
+      },
+      "default": "Predeterminado"
+    },
+    "recentTransactions": "Transacciones recientes",
+    "yourPaymentMethods": "Tus métodos de pago",
+    "addNew": "Agregar nuevo",
+    "noTransactions": "Aún sin transacciones",
+    "noPaymentMethods": "Sin métodos de pago",
+    "addPaymentMethod": "Agregar método",
+    "messages": {
+      "driverNoTransactions": "Completa trabajos para ver transacciones aquí",
+      "merchantNoTransactions": "Publica trabajos para ver transacciones aquí",
+      "addPaymentMethod": "Agrega un método para {{action}}",
+      "receivePayments": "recibir pagos",
+      "payForJobs": "pagar trabajos"
+    }
+  },
+  "tracking": {
+    "permission": {
+      "title": "Permiso de ubicación requerido",
+      "message": "Necesitamos tu ubicación para seguir tu posición durante entregas.",
+      "button": "Permitir"
+    },
+    "noJobs": {
+      "title": "Sin trabajos activos",
+      "driverMessage": "Aún no tienes trabajos activos. Busca y aplica a trabajos.",
+      "merchantMessage": "Aún no tienes trabajos activos. Publica un trabajo."
+    },
+    "verification": {
+      "title": "Verificación de trabajo",
+      "start": "Iniciar verificación",
+      "finish": "Finalizar verificación",
+      "preTrip": "Fotos previas",
+      "postTrip": "Fotos posteriores"
+    },
+    "currentLocation": "Ubicación actual",
+    "coordinates": "Lat: {lat}, Lng: {lng}",
+    "updatedAt": "Actualizado: {time}",
+    "liveTracking": "Seguimiento en vivo activo",
+    "startTracking": "Iniciar seguimiento",
+    "noLocationData": "Ubicación no disponible"
+  },
+  "jobStatus": {
+    "assigned": {
+      "label": "Asignado",
+      "button": "Iniciar trabajo"
+    },
+    "in_progress": {
+      "label": "En progreso",
+      "button": "Llegado a recogida"
+    },
+    "arrived_pickup": {
+      "label": "En punto de recogida",
+      "button": "Carga completada"
+    },
+    "loaded": {
+      "label": "Cargado",
+      "button": "Iniciar transporte"
+    },
+    "in_transit": {
+      "label": "En tránsito",
+      "button": "Llegado a entrega"
+    },
+    "arrived_delivery": {
+      "label": "En punto de entrega",
+      "button": "Completar entrega"
+    },
+    "delivered": {
+      "label": "Entregado"
+    },
+    "completed": {
+      "label": "Completado"
+    },
+    "cancelled": {
+      "label": "Cancelado"
+    }
+  },
+  "documents": {
+    "uploadSuccessTitle": "Documento subido",
+    "uploadSuccessMessage": "Tu documento está pendiente de verificación.",
+    "subtitle": "Sube y gestiona documentos importantes. Los verificados mostrarán un distintivo.",
+    "driver": {
+      "license": {
+        "title": "Licencia de conducir comercial",
+        "description": "Sube foto clara de tu licencia válida"
+      },
+      "insurance": {
+        "title": "Documentos de seguro",
+        "description": "Sube tu póliza de seguro vigente"
+      },
+      "registration": {
+        "title": "Registro vehicular",
+        "description": "Sube documentos de registro"
+      },
+      "preTrip": {
+        "title": "Inspección previa",
+        "description": "Sube fotos de tu última inspección previa"
+      },
+      "postTrip": {
+        "title": "Inspección posterior",
+        "description": "Sube fotos de tu última inspección posterior"
+      }
+    },
+    "merchant": {
+      "businessLicense": {
+        "title": "Licencia comercial",
+        "description": "Sube tu licencia comercial"
+      },
+      "taxId": {
+        "title": "Documentos de identificación fiscal",
+        "description": "Sube tu identificación fiscal o EIN"
+      },
+      "insurance": {
+        "title": "Seguro comercial",
+        "description": "Sube tu seguro de responsabilidad civil"
+      }
+    }
+  },
+  "agreement": {
+    "iAgree": "ACEPTO",
+    "driver": {
+      "title": "ACUERDO DE CONDUCTOR GOFRTS (GLOBAL) – EE. UU., CANADÁ Y MÉXICO",
+      "content": "<p><strong>ESTE ACUERDO ESTÁ DESTINADO PARA ACEPTACIÓN ELECTRÓNICA EN LA APLICACIÓN (CLICK-WRAP).</strong></p><h2>1. PARTES; DEFINICIONES</h2><p>Este Acuerdo de Usuario de GOFRTS (\"Acuerdo\") se celebra entre GOFRTS (la \"Empresa\", \"GOFRTS\", \"nosotros\", \"nos\") y el usuario que selecciona el rol de <strong>Conductor</strong> (\"Usuario\", \"usted\"). \"Plataforma\" significa las aplicaciones móviles y web de GOFRTS, APIs, paneles de control y servicios relacionados. \"Terceros\" incluyen remitentes, corredores, transportistas, conductores, empresas de factoraje, aseguradoras y cualquier otro usuario de la plataforma.</p><h2>2. ROL SOLO DE PLATAFORMA; SIN ESTATUS REGULADO</h2><p>GOFRTS proporciona únicamente tecnología, gestión de datos y herramientas de comunicación. GOFRTS <strong>no</strong> proporciona servicios de transporte, corretaje, transporte de carga, corretaje aduanero, almacenamiento, despacho, gestión de seguridad, médicos o de seguros. GOFRTS no es un transportista motorizado, corredor de carga, agente de carga, NVOCC, agente aduanero, empleador, empleador conjunto, agente o asegurador en ninguna jurisdicción.</p><h2>3. ALCANCE ESPECÍFICO DEL ROL</h2><p>Usted utiliza la Plataforma para recibir información de viajes y comunicarse con transportistas/corredores/remitentes. Usted no es un empleado de GOFRTS; usted sigue siendo responsable del funcionamiento legal, la seguridad y el cumplimiento de las instrucciones del transportista y las leyes aplicables.</p><h2>4. TARIFAS POR ADELANTADO; NO REEMBOLSABLES; SIN REVERSIÓN DE PAGOS</h2><p>Las tarifas de GOFRTS son solo para el acceso a la Plataforma y los servicios y vencen <strong>por adelantado</strong>. Las tarifas son <strong>no reembolsables</strong> y no están condicionadas a la finalización del envío, el estado de la carga, el rendimiento de cualquier tercero o el recibo del pago por cualquier parte. Las reversiones de pago, las reversiones de pago y las disputas no autorizadas están prohibidas. GOFRTS puede suspender/terminar cuentas por falta de pago o disputas y puede buscar la recuperación de tarifas, costos de cobranza y honorarios de abogados cuando esté permitido.</p><h2>5. SIN GARANTÍA DE PAGO; SIN DEPÓSITO EN GARANTÍA</h2><p>GOFRTS no garantiza los cargos de flete, los pagos de carga, los pagos de corredor a transportista, los pagos de remitente a corredor o la compensación del conductor. GOFRTS no es un depósito en garantía, fiduciario, empresa de factoraje o garante de pago. Cualquier arreglo de pago entre usuarios es únicamente entre esos usuarios.</p><h2>6. SIN RESPONSABILIDAD DE CARGA; SIN RESPONSABILIDAD POR ACCIDENTES O MÉDICA</h2><p>En la máxima medida permitida por la ley, GOFRTS asume <strong>cero</strong> responsabilidad por: (a) pérdida, daño, retraso, robo, deterioro, entrega incorrecta o escasez de carga; (b) accidentes, colisiones, incidentes, daños a la propiedad; (c) lesiones, muerte, discapacidad; (d) costos médicos, hospitalarios, de emergencia, de rehabilitación o relacionados; (e) multas/sanciones regulatorias; (f) incautaciones aduaneras, retrasos fronterizos o problemas de inmigración. Usted renuncia y libera a GOFRTS de todos los reclamos relacionados con lo anterior.</p><h2>7. VERIFICACIÓN DE USUARIO; CUMPLIMIENTO; RESPONSABILIDAD TRANSFRONTERIZA</h2><p>Usted es el único responsable de verificar a otros usuarios (autoridad, licencias, seguros, identidad, historial de cumplimiento) y de su propio cumplimiento con todas las leyes y regulaciones aplicables en los Estados Unidos, Canadá y México, incluyendo pero no limitado a las reglas FMCSA/DOT, reglas de transporte provinciales/estatales, leyes de aduanas/importación/exportación, reglas de materiales peligrosos, impuestos/IVA/GST, trabajo, requisitos de inmigración/visa y estándares de seguridad. GOFRTS no verifica independientemente la información enviada por el usuario a menos que se acuerde expresamente por escrito.</p><h2>8. ALMACENAMIENTO DE DATOS; ACCESO; DIVULGACIÓN; TRANSFERENCIA INTERNACIONAL</h2><p>GOFRTS almacena y procesa datos operativos y personales para proporcionar la Plataforma. Los datos pueden almacenarse o procesarse en los Estados Unidos u otras jurisdicciones. GOFRTS le proporcionará datos específicos del usuario a solicitud escrita razonable, sujeto a verificación de identidad y limitaciones legales. GOFRTS puede divulgar datos cuando lo requiera la ley, citación, orden judicial o solicitud gubernamental legal, o para proteger la Plataforma, usuarios o seguridad pública.</p><h2>9. SERVICIOS DE TERCEROS (PROCESADORES DE PAGO, MAPAS, TELEMÁTICA)</h2><p>La Plataforma puede integrar servicios de terceros (por ejemplo, procesadores de pago como Stripe, mapeo, telemática, herramientas de identidad). GOFRTS no controla los servicios de terceros y no es responsable de su disponibilidad, decisiones, errores o prácticas de seguridad.</p><h2>10. DERECHOS ADMINISTRATIVOS; SUSPENSIÓN; ELIMINACIÓN</h2><p>GOFRTS puede suspender, restringir o terminar cualquier cuenta en cualquier momento, con o sin previo aviso, por falta de pago, información falsa o engañosa, mal uso, fraude, preocupaciones de seguridad, riesgo legal o de reputación, o para cumplir con la ley. GOFRTS no es responsable de ninguna pérdida resultante de la suspensión o terminación.</p><h2>11. LICENCIA; PROPIEDAD INTELECTUAL</h2><p>GOFRTS le otorga una licencia limitada, no exclusiva, no transferible y revocable para usar la Plataforma para su uso comercial interno consistente con este Acuerdo. GOFRTS retiene todos los derechos, título e interés en la Plataforma y la propiedad intelectual relacionada.</p><h2>12. DESCARGOS DE RESPONSABILIDAD</h2><p><strong>LA PLATAFORMA SE PROPORCIONA \"TAL CUAL\" Y \"SEGÚN DISPONIBILIDAD\". GOFRTS RENUNCIA A TODAS LAS GARANTÍAS, EXPRESAS O IMPLÍCITAS, INCLUYENDO COMERCIABILIDAD, IDONEIDAD PARA UN PROPÓSITO PARTICULAR, PRECISIÓN Y NO INFRACCIÓN. GOFRTS NO GARANTIZA QUE LA PLATAFORMA SERÁ ININTERRUMPIDA O LIBRE DE ERRORES.</strong></p><h2>13. LIMITACIÓN DE RESPONSABILIDAD</h2><p><strong>EN LA MÁXIMA MEDIDA PERMITIDA POR LA LEY, GOFRTS NO SERÁ RESPONSABLE DE DAÑOS INDIRECTOS, INCIDENTALES, ESPECIALES, CONSECUENCIALES, EJEMPLARES O PUNITIVOS O PÉRDIDAS DE GANANCIAS/INGRESOS. LA RESPONSABILIDAD TOTAL DE GOFRTS POR CUALQUIER RECLAMO NO EXCEDERÁ LAS TARIFAS PAGADAS POR USTED A GOFRTS EN LOS TREINTA (30) DÍAS ANTERIORES.</strong></p><h2>14. INDEMNIZACIÓN</h2><p>Usted acepta defender, indemnizar y eximir de responsabilidad a GOFRTS, sus propietarios, funcionarios, directores, empleados, contratistas y afiliados de y contra todos y cada uno de los reclamos, daños, pérdidas, responsabilidades, multas, sanciones, costos y gastos (incluyendo honorarios razonables de abogados) que surjan de o estén relacionados con: (a) su uso de la Plataforma; (b) sus envíos/cargas/operaciones; (c) su violación de la ley; (d) disputas entre usted y cualquier tercero; (e) accidentes, lesiones, reclamos de carga, disputas de pago o problemas aduaneros atribuibles a usted o sus contrapartes.</p><h2>15. RESOLUCIÓN DE DISPUTAS; ARBITRAJE; RENUNCIA A ACCIÓN COLECTIVA</h2><p>Cualquier disputa que surja de o se relacione con este Acuerdo o la Plataforma se resolverá mediante arbitraje vinculante de forma individual, excepto donde esté prohibido por la ley. Usted renuncia a cualquier derecho a participar en una acción colectiva o representativa. El arbitraje será administrado en California a menos que la ley obligatoria requiera lo contrario.</p><h2>16. LEY APLICABLE</h2><p>Este Acuerdo se rige por las leyes del Estado de California, EE. UU., sin tener en cuenta los principios de conflicto de leyes, excepto donde se apliquen protecciones obligatorias al consumidor o laborales y no puedan renunciarse.</p><h2>17. FIRMA ELECTRÓNICA; ACEPTACIÓN DE LA APLICACIÓN</h2><p>Al hacer clic en \"Acepto\" (o equivalente) en la aplicación GOFRTS, usted firma y acepta electrónicamente este Acuerdo. Usted acepta que la aceptación electrónica es legalmente vinculante y ejecutable en los Estados Unidos, Canadá y México.</p><h2>18. ACUERDO COMPLETO; ACTUALIZACIONES</h2><p>Este Acuerdo, junto con los Términos Globales de GOFRTS, Términos de Servicio, Política de Privacidad y cualquier política incorporada, constituye el acuerdo completo. GOFRTS puede actualizar los términos de vez en cuando publicando versiones actualizadas en la aplicación; el uso continuo constituye aceptación.</p><p><em>La aceptación electrónica constituye un acuerdo legalmente vinculante ejecutable en los Estados Unidos, Canadá y México.</em></p>"
+    },
+    "broker": {
+      "title": "ACUERDO DE CORREDOR GOFRTS (GLOBAL) – EE. UU., CANADÁ Y MÉXICO",
+      "content": "<p><strong>ESTE ACUERDO ESTÁ DESTINADO PARA ACEPTACIÓN ELECTRÓNICA EN LA APLICACIÓN (CLICK-WRAP).</strong></p><h2>1. PARTES; DEFINICIONES</h2><p>Este Acuerdo de Usuario de GOFRTS (\"Acuerdo\") se celebra entre GOFRTS (la \"Empresa\", \"GOFRTS\", \"nosotros\", \"nos\") y el usuario que selecciona el rol de Corredor (\"Usuario\", \"usted\"). \"Plataforma\" significa las aplicaciones móviles y web de GOFRTS, APIs, paneles de control y servicios relacionados. \"Terceros\" incluyen remitentes, corredores, transportistas, conductores, empresas de factoraje, aseguradoras y cualquier otro usuario de la plataforma.</p><h2>2. ROL SOLO DE PLATAFORMA; SIN ESTATUS REGULADO</h2><p>GOFRTS proporciona únicamente tecnología, gestión de datos y herramientas de comunicación. GOFRTS no proporciona servicios de transporte, corretaje, transporte de carga, corretaje aduanero, almacenamiento, despacho, gestión de seguridad, médicos o de seguros. GOFRTS no es un transportista motorizado, corredor de carga, agente de carga, NVOCC, agente aduanero, empleador, empleador conjunto, agente o asegurador en ninguna jurisdicción.</p><h2>3. ALCANCE ESPECÍFICO DEL ROL</h2><p>Usted utiliza la Plataforma para identificar capacidad y comunicarse con transportistas/conductores/remitentes. Usted sigue siendo el único responsable de su autoridad de corretaje/fianza, verificación de transportistas, contratación, confirmaciones de tarifas y obligaciones de pago.</p><h2>4. TARIFAS POR ADELANTADO; NO REEMBOLSABLES; SIN REVERSIÓN DE PAGOS</h2><p>Las tarifas de GOFRTS son solo para el acceso a la Plataforma y los servicios y vencen por adelantado. Las tarifas son no reembolsables y no están condicionadas a la finalización del envío, el estado de la carga, el rendimiento de cualquier tercero o el recibo del pago por cualquier parte. Las reversiones de pago, las reversiones de pago y las disputas no autorizadas están prohibidas. GOFRTS puede suspender/terminar cuentas por falta de pago o disputas y puede buscar la recuperación de tarifas, costos de cobranza y honorarios de abogados cuando esté permitido.</p><h2>5. SIN GARANTÍA DE PAGO; SIN DEPÓSITO EN GARANTÍA</h2><p>GOFRTS no garantiza los cargos de flete, los pagos de carga, los pagos de corredor a transportista, los pagos de remitente a corredor o la compensación del conductor. GOFRTS no es un depósito en garantía, fiduciario, empresa de factoraje o garante de pago. Cualquier arreglo de pago entre usuarios es únicamente entre esos usuarios.</p><h2>6. SIN RESPONSABILIDAD DE CARGA; SIN RESPONSABILIDAD POR ACCIDENTES O MÉDICA</h2><p>En la máxima medida permitida por la ley, GOFRTS asume cero responsabilidad por: (a) pérdida, daño, retraso, robo, deterioro, entrega incorrecta o escasez de carga; (b) accidentes, colisiones, incidentes, daños a la propiedad; (c) lesiones, muerte, discapacidad; (d) costos médicos, hospitalarios, de emergencia, de rehabilitación o relacionados; (e) multas/sanciones regulatorias; (f) incautaciones aduaneras, retrasos fronterizos o problemas de inmigración. Usted renuncia y libera a GOFRTS de todos los reclamos relacionados con lo anterior.</p><h2>7. VERIFICACIÓN DE USUARIO; CUMPLIMIENTO; RESPONSABILIDAD TRANSFRONTERIZA</h2><p>Usted es el único responsable de verificar a otros usuarios (autoridad, licencias, seguros, identidad, historial de cumplimiento) y de su propio cumplimiento con todas las leyes y regulaciones aplicables en los Estados Unidos, Canadá y México, incluyendo pero no limitado a las reglas FMCSA/DOT, reglas de transporte provinciales/estatales, leyes de aduanas/importación/exportación, reglas de materiales peligrosos, impuestos/IVA/GST, trabajo, requisitos de inmigración/visa y estándares de seguridad. GOFRTS no verifica independientemente la información enviada por el usuario a menos que se acuerde expresamente por escrito.</p><h2>8. ALMACENAMIENTO DE DATOS; ACCESO; DIVULGACIÓN; TRANSFERENCIA INTERNACIONAL</h2><p>GOFRTS almacena y procesa datos operativos y personales para proporcionar la Plataforma. Los datos pueden almacenarse o procesarse en los Estados Unidos u otras jurisdicciones. GOFRTS le proporcionará datos específicos del usuario a solicitud escrita razonable, sujeto a verificación de identidad y limitaciones legales. GOFRTS puede divulgar datos cuando lo requiera la ley, citación, orden judicial o solicitud gubernamental legal, o para proteger la Plataforma, usuarios o seguridad pública.</p><h2>9. SERVICIOS DE TERCEROS (PROCESADORES DE PAGO, MAPAS, TELEMÁTICA)</h2><p>La Plataforma puede integrar servicios de terceros (por ejemplo, procesadores de pago como Stripe, mapeo, telemática, herramientas de identidad). GOFRTS no controla los servicios de terceros y no es responsable de su disponibilidad, decisiones, errores o prácticas de seguridad.</p><h2>10. DERECHOS ADMINISTRATIVOS; SUSPENSIÓN; ELIMINACIÓN</h2><p>GOFRTS puede suspender, restringir o terminar cualquier cuenta en cualquier momento, con o sin previo aviso, por falta de pago, información falsa o engañosa, mal uso, fraude, preocupaciones de seguridad, riesgo legal o de reputación, o para cumplir con la ley. GOFRTS no es responsable de ninguna pérdida resultante de la suspensión o terminación.</p><h2>11. LICENCIA; PROPIEDAD INTELECTUAL</h2><p>GOFRTS le otorga una licencia limitada, no exclusiva, no transferible y revocable para usar la Plataforma para su uso comercial interno consistente con este Acuerdo. GOFRTS retiene todos los derechos, título e interés en la Plataforma y la propiedad intelectual relacionada.</p><h2>12. DESCARGOS DE RESPONSABILIDAD</h2><p><strong>LA PLATAFORMA SE PROPORCIONA \"TAL CUAL\" Y \"SEGÚN DISPONIBILIDAD\". GOFRTS RENUNCIA A TODAS LAS GARANTÍAS, EXPRESAS O IMPLÍCITAS, INCLUYENDO COMERCIABILIDAD, IDONEIDAD PARA UN PROPÓSITO PARTICULAR, PRECISIÓN Y NO INFRACCIÓN. GOFRTS NO GARANTIZA QUE LA PLATAFORMA SERÁ ININTERRUMPIDA O LIBRE DE ERRORES.</strong></p><h2>13. LIMITACIÓN DE RESPONSABILIDAD</h2><p><strong>EN LA MÁXIMA MEDIDA PERMITIDA POR LA LEY, GOFRTS NO SERÁ RESPONSABLE DE DAÑOS INDIRECTOS, INCIDENTALES, ESPECIALES, CONSECUENCIALES, EJEMPLARES O PUNITIVOS O PÉRDIDAS DE GANANCIAS/INGRESOS. LA RESPONSABILIDAD TOTAL DE GOFRTS POR CUALQUIER RECLAMO NO EXCEDERÁ LAS TARIFAS PAGADAS POR USTED A GOFRTS EN LOS TREINTA (30) DÍAS ANTERIORES.</strong></p><h2>14. INDEMNIZACIÓN</h2><p>Usted acepta defender, indemnizar y eximir de responsabilidad a GOFRTS, sus propietarios, funcionarios, directores, empleados, contratistas y afiliados de y contra todos y cada uno de los reclamos, daños, pérdidas, responsabilidades, multas, sanciones, costos y gastos (incluyendo honorarios razonables de abogados) que surjan de o estén relacionados con: (a) su uso de la Plataforma; (b) sus envíos/cargas/operaciones; (c) su violación de la ley; (d) disputas entre usted y cualquier tercero; (e) accidentes, lesiones, reclamos de carga, disputas de pago o problemas aduaneros atribuibles a usted o sus contrapartes.</p><h2>15. RESOLUCIÓN DE DISPUTAS; ARBITRAJE; RENUNCIA A ACCIÓN COLECTIVA</h2><p>Cualquier disputa que surja de o se relacione con este Acuerdo o la Plataforma se resolverá mediante arbitraje vinculante de forma individual, excepto donde esté prohibido por la ley. Usted renuncia a cualquier derecho a participar en una acción colectiva o representativa. El arbitraje será administrado en California a menos que la ley obligatoria requiera lo contrario.</p><h2>16. LEY APLICABLE</h2><p>Este Acuerdo se rige por las leyes del Estado de California, EE. UU., sin tener en cuenta los principios de conflicto de leyes, excepto donde se apliquen protecciones obligatorias al consumidor o laborales y no puedan renunciarse.</p><h2>17. FIRMA ELECTRÓNICA; ACEPTACIÓN DE LA APLICACIÓN</h2><p>Al hacer clic en \"Acepto\" (o equivalente) en la aplicación GOFRTS, usted firma y acepta electrónicamente este Acuerdo. Usted acepta que la aceptación electrónica es legalmente vinculante y ejecutable en los Estados Unidos, Canadá y México.</p><h2>18. ACUERDO COMPLETO; ACTUALIZACIONES</h2><p>Este Acuerdo, junto con los Términos Globales de GOFRTS, Términos de Servicio, Política de Privacidad y cualquier política incorporada, constituye el acuerdo completo. GOFRTS puede actualizar los términos de vez en cuando publicando versiones actualizadas en la aplicación; el uso continuo constituye aceptación.</p><h2>CONSENTIMIENTO Y RECONOCIMIENTO</h2><p><strong>Al hacer clic en 'ACEPTO', confirmo que he leído, comprendido y acepto los Términos Globales de GOFRTS, los Términos de Servicio, la Política de Privacidad y el Acuerdo de Corredor. Entiendo que GOFRTS es únicamente una plataforma tecnológica y no asume responsabilidad alguna por carga, pagos, accidentes, lesiones, fallecimiento o gastos médicos.</strong></p><p><em>La aceptación electrónica constituye un acuerdo legalmente vinculante ejecutable en los Estados Unidos, Canadá y México.</em></p>"
+    },
+    "carrier": {
+      "title": "ACUERDO DE TRANSPORTISTA GOFRTS (GLOBAL) – EE. UU., CANADÁ Y MÉXICO",
+      "content": "<p><strong>ESTE ACUERDO ESTÁ DESTINADO PARA ACEPTACIÓN ELECTRÓNICA EN LA APLICACIÓN (CLICK-WRAP).</strong></p><h2>1. PARTES; DEFINICIONES</h2><p>Este Acuerdo de Usuario de GOFRTS (\"Acuerdo\") se celebra entre GOFRTS (la \"Empresa\", \"GOFRTS\", \"nosotros\", \"nos\") y el usuario que selecciona el rol de <strong>Transportista</strong> (\"Usuario\", \"usted\"). \"Plataforma\" significa las aplicaciones móviles y web de GOFRTS, APIs, paneles de control y servicios relacionados. \"Terceros\" incluyen remitentes, corredores, transportistas, conductores, empresas de factoraje, aseguradoras y cualquier otro usuario de la plataforma.</p><h2>2. ROL SOLO DE PLATAFORMA; SIN ESTATUS REGULADO</h2><p>GOFRTS proporciona únicamente tecnología, gestión de datos y herramientas de comunicación. GOFRTS <strong>no</strong> proporciona servicios de transporte, corretaje, transporte de carga, corretaje aduanero, almacenamiento, despacho, gestión de seguridad, médicos o de seguros. GOFRTS no es un transportista motorizado, corredor de carga, agente de carga, NVOCC, agente aduanero, empleador, empleador conjunto, agente o asegurador en ninguna jurisdicción.</p><h2>3. ALCANCE ESPECÍFICO DEL ROL</h2><p>Usted utiliza la Plataforma para identificar cargas y comunicarse con corredores/remitentes. Usted sigue siendo el único responsable de operar bajo su propia autoridad, equipo, seguro, calificación del conductor, cumplimiento y operación segura.</p><h2>4. TARIFAS POR ADELANTADO; NO REEMBOLSABLES; SIN REVERSIÓN DE PAGOS</h2><p>Las tarifas de GOFRTS son solo para el acceso a la Plataforma y los servicios y vencen <strong>por adelantado</strong>. Las tarifas son <strong>no reembolsables</strong> y no están condicionadas a la finalización del envío, el estado de la carga, el rendimiento de cualquier tercero o el recibo del pago por cualquier parte. Las reversiones de pago, las reversiones de pago y las disputas no autorizadas están prohibidas. GOFRTS puede suspender/terminar cuentas por falta de pago o disputas y puede buscar la recuperación de tarifas, costos de cobranza y honorarios de abogados cuando esté permitido.</p><h2>5. SIN GARANTÍA DE PAGO; SIN DEPÓSITO EN GARANTÍA</h2><p>GOFRTS no garantiza los cargos de flete, los pagos de carga, los pagos de corredor a transportista, los pagos de remitente a corredor o la compensación del conductor. GOFRTS no es un depósito en garantía, fiduciario, empresa de factoraje o garante de pago. Cualquier arreglo de pago entre usuarios es únicamente entre esos usuarios.</p><h2>6. SIN RESPONSABILIDAD DE CARGA; SIN RESPONSABILIDAD POR ACCIDENTES O MÉDICA</h2><p>En la máxima medida permitida por la ley, GOFRTS asume <strong>cero</strong> responsabilidad por: (a) pérdida, daño, retraso, robo, deterioro, entrega incorrecta o escasez de carga; (b) accidentes, colisiones, incidentes, daños a la propiedad; (c) lesiones, muerte, discapacidad; (d) costos médicos, hospitalarios, de emergencia, de rehabilitación o relacionados; (e) multas/sanciones regulatorias; (f) incautaciones aduaneras, retrasos fronterizos o problemas de inmigración. Usted renuncia y libera a GOFRTS de todos los reclamos relacionados con lo anterior.</p><h2>7. VERIFICACIÓN DE USUARIO; CUMPLIMIENTO; RESPONSABILIDAD TRANSFRONTERIZA</h2><p>Usted es el único responsable de verificar a otros usuarios (autoridad, licencias, seguros, identidad, historial de cumplimiento) y de su propio cumplimiento con todas las leyes y regulaciones aplicables en los Estados Unidos, Canadá y México, incluyendo pero no limitado a las reglas FMCSA/DOT, reglas de transporte provinciales/estatales, leyes de aduanas/importación/exportación, reglas de materiales peligrosos, impuestos/IVA/GST, trabajo, requisitos de inmigración/visa y estándares de seguridad. GOFRTS no verifica independientemente la información enviada por el usuario a menos que se acuerde expresamente por escrito.</p><h2>8. ALMACENAMIENTO DE DATOS; ACCESO; DIVULGACIÓN; TRANSFERENCIA INTERNACIONAL</h2><p>GOFRTS almacena y procesa datos operativos y personales para proporcionar la Plataforma. Los datos pueden almacenarse o procesarse en los Estados Unidos u otras jurisdicciones. GOFRTS le proporcionará datos específicos del usuario a solicitud escrita razonable, sujeto a verificación de identidad y limitaciones legales. GOFRTS puede divulgar datos cuando lo requiera la ley, citación, orden judicial o solicitud gubernamental legal, o para proteger la Plataforma, usuarios o seguridad pública.</p><h2>9. SERVICIOS DE TERCEROS (PROCESADORES DE PAGO, MAPAS, TELEMÁTICA)</h2><p>La Plataforma puede integrar servicios de terceros (por ejemplo, procesadores de pago como Stripe, mapeo, telemática, herramientas de identidad). GOFRTS no controla los servicios de terceros y no es responsable de su disponibilidad, decisiones, errores o prácticas de seguridad.</p><h2>10. DERECHOS ADMINISTRATIVOS; SUSPENSIÓN; ELIMINACIÓN</h2><p>GOFRTS puede suspender, restringir o terminar cualquier cuenta en cualquier momento, con o sin previo aviso, por falta de pago, información falsa o engañosa, mal uso, fraude, preocupaciones de seguridad, riesgo legal o de reputación, o para cumplir con la ley. GOFRTS no es responsable de ninguna pérdida resultante de la suspensión o terminación.</p><h2>11. LICENCIA; PROPIEDAD INTELECTUAL</h2><p>GOFRTS le otorga una licencia limitada, no exclusiva, no transferible y revocable para usar la Plataforma para su uso comercial interno consistente con este Acuerdo. GOFRTS retiene todos los derechos, título e interés en la Plataforma y la propiedad intelectual relacionada.</p><h2>12. DESCARGOS DE RESPONSABILIDAD</h2><p><strong>LA PLATAFORMA SE PROPORCIONA \"TAL CUAL\" Y \"SEGÚN DISPONIBILIDAD\". GOFRTS RENUNCIA A TODAS LAS GARANTÍAS, EXPRESAS O IMPLÍCITAS, INCLUYENDO COMERCIABILIDAD, IDONEIDAD PARA UN PROPÓSITO PARTICULAR, PRECISIÓN Y NO INFRACCIÓN. GOFRTS NO GARANTIZA QUE LA PLATAFORMA SERÁ ININTERRUMPIDA O LIBRE DE ERRORES.</strong></p><h2>13. LIMITACIÓN DE RESPONSABILIDAD</h2><p><strong>EN LA MÁXIMA MEDIDA PERMITIDA POR LA LEY, GOFRTS NO SERÁ RESPONSABLE DE DAÑOS INDIRECTOS, INCIDENTALES, ESPECIALES, CONSECUENCIALES, EJEMPLARES O PUNITIVOS O PÉRDIDAS DE GANANCIAS/INGRESOS. LA RESPONSABILIDAD TOTAL DE GOFRTS POR CUALQUIER RECLAMO NO EXCEDERÁ LAS TARIFAS PAGADAS POR USTED A GOFRTS EN LOS TREINTA (30) DÍAS ANTERIORES.</strong></p><h2>14. INDEMNIZACIÓN</h2><p>Usted acepta defender, indemnizar y eximir de responsabilidad a GOFRTS, sus propietarios, funcionarios, directores, empleados, contratistas y afiliados de y contra todos y cada uno de los reclamos, daños, pérdidas, responsabilidades, multas, sanciones, costos y gastos (incluyendo honorarios razonables de abogados) que surjan de o estén relacionados con: (a) su uso de la Plataforma; (b) sus envíos/cargas/operaciones; (c) su violación de la ley; (d) disputas entre usted y cualquier tercero; (e) accidentes, lesiones, reclamos de carga, disputas de pago o problemas aduaneros atribuibles a usted o sus contrapartes.</p><h2>15. RESOLUCIÓN DE DISPUTAS; ARBITRAJE; RENUNCIA A ACCIÓN COLECTIVA</h2><p>Cualquier disputa que surja de o se relacione con este Acuerdo o la Plataforma se resolverá mediante arbitraje vinculante de forma individual, excepto donde esté prohibido por la ley. Usted renuncia a cualquier derecho a participar en una acción colectiva o representativa. El arbitraje será administrado en California a menos que la ley obligatoria requiera lo contrario.</p><h2>16. LEY APLICABLE</h2><p>Este Acuerdo se rige por las leyes del Estado de California, EE. UU., sin tener en cuenta los principios de conflicto de leyes, excepto donde se apliquen protecciones obligatorias al consumidor o laborales y no puedan renunciarse.</p><h2>17. FIRMA ELECTRÓNICA; ACEPTACIÓN DE LA APLICACIÓN</h2><p>Al hacer clic en \"Acepto\" (o equivalente) en la aplicación GOFRTS, usted firma y acepta electrónicamente este Acuerdo. Usted acepta que la aceptación electrónica es legalmente vinculante y ejecutable en los Estados Unidos, Canadá y México.</p><h2>18. ACUERDO COMPLETO; ACTUALIZACIONES</h2><p>Este Acuerdo, junto con los Términos Globales de GOFRTS, Términos de Servicio, Política de Privacidad y cualquier política incorporada, constituye el acuerdo completo. GOFRTS puede actualizar los términos de vez en cuando publicando versiones actualizadas en la aplicación; el uso continuo constituye aceptación.</p><h2>CONSENTIMIENTO MULTI-IDIOMA EN LA APLICACIÓN DEL TRANSPORTISTA</h2><h3>INGLÉS</h3><p>Al hacer clic en 'ACEPTO', confirmo que he leído, comprendido y acepto los Términos Globales de GOFRTS, los Términos de Servicio, la Política de Privacidad y el Acuerdo de Transportista. Entiendo que GOFRTS es únicamente una plataforma tecnológica y no asume responsabilidad alguna por carga, pagos, accidentes, lesiones, fallecimiento o gastos médicos.</p><h3>ESPAÑOL (SPANISH)</h3><p>Al hacer clic en 'ACEPTO', confirmo que he leído, comprendido y acepto los Términos Globales de GOFRTS, los Términos de Servicio, la Política de Privacidad y el Acuerdo de Carrier. Entiendo que GOFRTS es únicamente una plataforma tecnológica y no asume responsabilidad alguna por carga, pagos, accidentes, lesiones, fallecimiento o gastos médicos.</p><h3>FRANÇAIS (FRENCH)</h3><p>En cliquant sur « J'ACCEPTE », je confirme avoir lu, compris et accepté les Conditions Globales de GOFRTS, les Conditions d'Utilisation, la Politique de Confidentialité et l'Accord Carrier. Je comprends que GOFRTS est uniquement une plateforme technologique et n'assume aucune responsabilité concernant le fret, les paiements, les accidents, les blessures, le décès ou les frais médicaux.</p><p><em>La aceptación electrónica constituye un acuerdo legalmente vinculante ejecutable en los Estados Unidos, Canadá y México.</em></p>"
+    },
+    "shipper": {
+      "title": "ACUERDO DE REMITENTE GOFRTS (GLOBAL) – EE. UU., CANADÁ Y MÉXICO",
+      "content": "<p><strong>ESTE ACUERDO ESTÁ DESTINADO PARA ACEPTACIÓN ELECTRÓNICA EN LA APLICACIÓN (CLICK-WRAP).</strong></p><h2>1. PARTES; DEFINICIONES</h2><p>Este Acuerdo de Usuario de GOFRTS (\"Acuerdo\") se celebra entre GOFRTS (la \"Empresa\", \"GOFRTS\", \"nosotros\", \"nos\") y el usuario que selecciona el rol de <strong>Remitente</strong> (\"Usuario\", \"usted\"). \"Plataforma\" significa las aplicaciones móviles y web de GOFRTS, APIs, paneles de control y servicios relacionados. \"Terceros\" incluyen remitentes, corredores, transportistas, conductores, empresas de factoraje, aseguradoras y cualquier otro usuario de la plataforma.</p><h2>2. ROL SOLO DE PLATAFORMA; SIN ESTATUS REGULADO</h2><p>GOFRTS proporciona únicamente tecnología, gestión de datos y herramientas de comunicación. GOFRTS <strong>no</strong> proporciona servicios de transporte, corretaje, transporte de carga, corretaje aduanero, almacenamiento, despacho, gestión de seguridad, médicos o de seguros. GOFRTS no es un transportista motorizado, corredor de carga, agente de carga, NVOCC, agente aduanero, empleador, empleador conjunto, agente o asegurador en ninguna jurisdicción.</p><h2>3. ALCANCE ESPECÍFICO DEL ROL</h2><p>Usted utiliza la Plataforma para publicar o solicitar capacidad de transporte y comunicarse con corredores/transportistas/conductores. Usted sigue siendo responsable de su carga, clasificación, empaque, carga, aseguramiento, sellado y todas las instrucciones de envío.</p><h2>4. TARIFAS POR ADELANTADO; NO REEMBOLSABLES; SIN REVERSIÓN DE PAGOS</h2><p>Las tarifas de GOFRTS son solo para el acceso a la Plataforma y los servicios y vencen <strong>por adelantado</strong>. Las tarifas son <strong>no reembolsables</strong> y no están condicionadas a la finalización del envío, el estado de la carga, el rendimiento de cualquier tercero o el recibo del pago por cualquier parte. Las reversiones de pago, las reversiones de pago y las disputas no autorizadas están prohibidas. GOFRTS puede suspender/terminar cuentas por falta de pago o disputas y puede buscar la recuperación de tarifas, costos de cobranza y honorarios de abogados cuando esté permitido.</p><h2>5. SIN GARANTÍA DE PAGO; SIN DEPÓSITO EN GARANTÍA</h2><p>GOFRTS no garantiza los cargos de flete, los pagos de carga, los pagos de corredor a transportista, los pagos de remitente a corredor o la compensación del conductor. GOFRTS no es un depósito en garantía, fiduciario, empresa de factoraje o garante de pago. Cualquier arreglo de pago entre usuarios es únicamente entre esos usuarios.</p><h2>6. SIN RESPONSABILIDAD DE CARGA; SIN RESPONSABILIDAD POR ACCIDENTES O MÉDICA</h2><p>En la máxima medida permitida por la ley, GOFRTS asume <strong>cero</strong> responsabilidad por: (a) pérdida, daño, retraso, robo, deterioro, entrega incorrecta o escasez de carga; (b) accidentes, colisiones, incidentes, daños a la propiedad; (c) lesiones, muerte, discapacidad; (d) costos médicos, hospitalarios, de emergencia, de rehabilitación o relacionados; (e) multas/sanciones regulatorias; (f) incautaciones aduaneras, retrasos fronterizos o problemas de inmigración. Usted renuncia y libera a GOFRTS de todos los reclamos relacionados con lo anterior.</p><h2>7. VERIFICACIÓN DE USUARIO; CUMPLIMIENTO; RESPONSABILIDAD TRANSFRONTERIZA</h2><p>Usted es el único responsable de verificar a otros usuarios (autoridad, licencias, seguros, identidad, historial de cumplimiento) y de su propio cumplimiento con todas las leyes y regulaciones aplicables en los Estados Unidos, Canadá y México, incluyendo pero no limitado a las reglas FMCSA/DOT, reglas de transporte provinciales/estatales, leyes de aduanas/importación/exportación, reglas de materiales peligrosos, impuestos/IVA/GST, trabajo, requisitos de inmigración/visa y estándares de seguridad. GOFRTS no verifica independientemente la información enviada por el usuario a menos que se acuerde expresamente por escrito.</p><h2>8. ALMACENAMIENTO DE DATOS; ACCESO; DIVULGACIÓN; TRANSFERENCIA INTERNACIONAL</h2><p>GOFRTS almacena y procesa datos operativos y personales para proporcionar la Plataforma. Los datos pueden almacenarse o procesarse en los Estados Unidos u otras jurisdicciones. GOFRTS le proporcionará datos específicos del usuario a solicitud escrita razonable, sujeto a verificación de identidad y limitaciones legales. GOFRTS puede divulgar datos cuando lo requiera la ley, citación, orden judicial o solicitud gubernamental legal, o para proteger la Plataforma, usuarios o seguridad pública.</p><h2>9. SERVICIOS DE TERCEROS (PROCESADORES DE PAGO, MAPAS, TELEMÁTICA)</h2><p>La Plataforma puede integrar servicios de terceros (por ejemplo, procesadores de pago como Stripe, mapeo, telemática, herramientas de identidad). GOFRTS no controla los servicios de terceros y no es responsable de su disponibilidad, decisiones, errores o prácticas de seguridad.</p><h2>10. DERECHOS ADMINISTRATIVOS; SUSPENSIÓN; ELIMINACIÓN</h2><p>GOFRTS puede suspender, restringir o terminar cualquier cuenta en cualquier momento, con o sin previo aviso, por falta de pago, información falsa o engañosa, mal uso, fraude, preocupaciones de seguridad, riesgo legal o de reputación, o para cumplir con la ley. GOFRTS no es responsable de ninguna pérdida resultante de la suspensión o terminación.</p><h2>11. LICENCIA; PROPIEDAD INTELECTUAL</h2><p>GOFRTS le otorga una licencia limitada, no exclusiva, no transferible y revocable para usar la Plataforma para su uso comercial interno consistente con este Acuerdo. GOFRTS retiene todos los derechos, título e interés en la Plataforma y la propiedad intelectual relacionada.</p><h2>12. DESCARGOS DE RESPONSABILIDAD</h2><p><strong>LA PLATAFORMA SE PROPORCIONA \"TAL CUAL\" Y \"SEGÚN DISPONIBILIDAD\". GOFRTS RENUNCIA A TODAS LAS GARANTÍAS, EXPRESAS O IMPLÍCITAS, INCLUYENDO COMERCIABILIDAD, IDONEIDAD PARA UN PROPÓSITO PARTICULAR, PRECISIÓN Y NO INFRACCIÓN. GOFRTS NO GARANTIZA QUE LA PLATAFORMA SERÁ ININTERRUMPIDA O LIBRE DE ERRORES.</strong></p><h2>13. LIMITACIÓN DE RESPONSABILIDAD</h2><p><strong>EN LA MÁXIMA MEDIDA PERMITIDA POR LA LEY, GOFRTS NO SERÁ RESPONSABLE DE DAÑOS INDIRECTOS, INCIDENTALES, ESPECIALES, CONSECUENCIALES, EJEMPLARES O PUNITIVOS O PÉRDIDAS DE GANANCIAS/INGRESOS. LA RESPONSABILIDAD TOTAL DE GOFRTS POR CUALQUIER RECLAMO NO EXCEDERÁ LAS TARIFAS PAGADAS POR USTED A GOFRTS EN LOS TREINTA (30) DÍAS ANTERIORES.</strong></p><h2>14. INDEMNIZACIÓN</h2><p>Usted acepta defender, indemnizar y eximir de responsabilidad a GOFRTS, sus propietarios, funcionarios, directores, empleados, contratistas y afiliados de y contra todos y cada uno de los reclamos, daños, pérdidas, responsabilidades, multas, sanciones, costos y gastos (incluyendo honorarios razonables de abogados) que surjan de o estén relacionados con: (a) su uso de la Plataforma; (b) sus envíos/cargas/operaciones; (c) su violación de la ley; (d) disputas entre usted y cualquier tercero; (e) accidentes, lesiones, reclamos de carga, disputas de pago o problemas aduaneros atribuibles a usted o sus contrapartes.</p><h2>15. RESOLUCIÓN DE DISPUTAS; ARBITRAJE; RENUNCIA A ACCIÓN COLECTIVA</h2><p>Cualquier disputa que surja de o se relacione con este Acuerdo o la Plataforma se resolverá mediante arbitraje vinculante de forma individual, excepto donde esté prohibido por la ley. Usted renuncia a cualquier derecho a participar en una acción colectiva o representativa. El arbitraje será administrado en California a menos que la ley obligatoria requiera lo contrario.</p><h2>16. LEY APLICABLE</h2><p>Este Acuerdo se rige por las leyes del Estado de California, EE. UU., sin tener en cuenta los principios de conflicto de leyes, excepto donde se apliquen protecciones obligatorias al consumidor o laborales y no puedan renunciarse.</p><h2>17. FIRMA ELECTRÓNICA; ACEPTACIÓN DE LA APLICACIÓN</h2><p>Al hacer clic en \"Acepto\" (o equivalente) en la aplicación GOFRTS, usted firma y acepta electrónicamente este Acuerdo. Usted acepta que la aceptación electrónica es legalmente vinculante y ejecutable en los Estados Unidos, Canadá y México.</p><h2>18. ACUERDO COMPLETO; ACTUALIZACIONES</h2><p>Este Acuerdo, junto con los Términos Globales de GOFRTS, Términos de Servicio, Política de Privacidad y cualquier política incorporada, constituye el acuerdo completo. GOFRTS puede actualizar los términos de vez en cuando publicando versiones actualizadas en la aplicación; el uso continuo constituye aceptación.</p><h2>CONSENTIMIENTO MULTI-IDIOMA EN LA APLICACIÓN DEL REMITENTE</h2><h3>INGLÉS</h3><p>Al hacer clic en 'ACEPTO', confirmo que he leído, comprendido y acepto los Términos Globales de GOFRTS, los Términos de Servicio, la Política de Privacidad y el Acuerdo de Remitente. Entiendo que GOFRTS es únicamente una plataforma tecnológica y no asume responsabilidad alguna por carga, pagos, accidentes, lesiones, fallecimiento o gastos médicos.</p><h3>ESPAÑOL (SPANISH)</h3><p>Al hacer clic en 'ACEPTO', confirmo que he leído, comprendido y acepto los Términos Globales de GOFRTS, los Términos de Servicio, la Política de Privacidad y el Acuerdo de Shipper. Entiendo que GOFRTS es únicamente una plataforma tecnológica y no asume responsabilidad alguna por carga, pagos, accidentes, lesiones, fallecimiento o gastos médicos.</p><h3>FRANÇAIS (FRENCH)</h3><p>En cliquant sur « J'ACCEPTE », je confirme avoir lu, compris et accepté les Conditions Globales de GOFRTS, les Conditions d'Utilisation, la Politique de Confidentialité et l'Accord Shipper. Je comprends que GOFRTS est uniquement une plateforme technologique et n'assume aucune responsabilité concernant le fret, les paiements, les accidents, les blessures, le décès ou les frais médicaux.</p><p><em>La aceptación electrónica constituye un acuerdo legalmente vinculante ejecutable en los Estados Unidos, Canadá y México.</em></p>"
+    }
+  }
+}

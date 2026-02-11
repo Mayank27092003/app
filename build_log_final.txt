@@ -1,0 +1,1776 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.14.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:shared:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:shared:compileJava NO-SOURCE
+> Task :gradle-plugin:shared:processResources NO-SOURCE
+> Task :gradle-plugin:shared:classes UP-TO-DATE
+> Task :gradle-plugin:shared:jar UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:settings-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:jar UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:react-native-gradle-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:jar UP-TO-DATE
+
+> Configure project :notifee_react-native
+:notifee_react-native @notifee/react-native found at Z:\node_modules\@notifee\react-native
+:notifee_react-native package.json found at Z:\node_modules\@notifee\react-native\package.json
+:notifee_react-native:version set from package.json: 9.1.8 (9,1,8 - 9001008)
+:notifee_react-native:android.compileSdk using custom value: 35
+:notifee_react-native:android.targetSdk using custom value: 35
+:notifee_react-native:android.minSdk using custom value: 24
+:notifee_react-native:reactNativeAndroidDir D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\react-native
+
+> Configure project :react-native-firebase_app
+:react-native-firebase_app package.json found at Z:\node_modules\@react-native-firebase\app\package.json
+:react-native-firebase_app:firebase.bom using default value: 34.3.0
+:react-native-firebase_app:play.play-services-auth using default value: 21.4.0
+:react-native-firebase_app package.json found at Z:\node_modules\@react-native-firebase\app\package.json
+:react-native-firebase_app:version set from package.json: 23.4.0 (23,4,0 - 23004000)
+:react-native-firebase_app:android.compileSdk using custom value: 35
+:react-native-firebase_app:android.targetSdk using custom value: 35
+:react-native-firebase_app:android.minSdk using custom value: 24
+:react-native-firebase_app:reactNativeAndroidDir D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\react-native
+
+> Configure project :react-native-firebase_messaging
+:react-native-firebase_messaging package.json found at Z:\node_modules\@react-native-firebase\messaging\package.json
+:react-native-firebase_app package.json found at Z:\node_modules\@react-native-firebase\app\package.json
+:react-native-firebase_messaging:firebase.bom using default value: 34.3.0
+:react-native-firebase_messaging package.json found at Z:\node_modules\@react-native-firebase\messaging\package.json
+:react-native-firebase_messaging:version set from package.json: 23.4.0 (23,4,0 - 23004000)
+:react-native-firebase_messaging:android.compileSdk using custom value: 35
+:react-native-firebase_messaging:android.targetSdk using custom value: 35
+:react-native-firebase_messaging:android.minSdk using custom value: 24
+:react-native-firebase_messaging:reactNativeAndroidDir D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\react-native
+
+> Configure project :react-native-nitro-modules
+[NitroModules] ? Your app is boosted by nitro modules!
+
+> Configure project :react-native-nitro-sound
+[NitroModules] ? NitroSound is boosted by nitro!
+
+> Configure project :react-native-reanimated
+Android gradle plugin: 8.9.2
+Gradle: 8.14.1
+
+> Task :app:generateAutolinkingPackageList
+> Task :app:generateCodegenSchemaFromJavaScript SKIPPED
+> Task :app:generateCodegenArtifactsFromSchema SKIPPED
+> Task :app:generateReactNativeEntryPoint
+> Task :app:preBuild
+> Task :app:preReleaseBuild
+> Task :app:mergeReleaseJniLibFolders
+> Task :notifee_react-native:preBuild UP-TO-DATE
+> Task :notifee_react-native:preReleaseBuild UP-TO-DATE
+> Task :notifee_react-native:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :notifee_react-native:mergeReleaseNativeLibs NO-SOURCE
+> Task :notifee_react-native:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-async-storage_async-storage:preBuild UP-TO-DATE
+> Task :react-native-async-storage_async-storage:preReleaseBuild UP-TO-DATE
+> Task :react-native-async-storage_async-storage:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-async-storage_async-storage:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-async-storage_async-storage:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-background-geolocation:preBuild UP-TO-DATE
+> Task :react-native-background-geolocation:preReleaseBuild UP-TO-DATE
+> Task :react-native-background-geolocation:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-background-geolocation:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-background-geolocation:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-community_datetimepicker:preBuild UP-TO-DATE
+> Task :react-native-community_datetimepicker:preReleaseBuild UP-TO-DATE
+> Task :react-native-community_datetimepicker:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-community_datetimepicker:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-community_datetimepicker:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-community_geolocation:preBuild UP-TO-DATE
+> Task :react-native-community_geolocation:preReleaseBuild UP-TO-DATE
+> Task :react-native-community_geolocation:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-community_geolocation:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-community_geolocation:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-community_netinfo:preBuild UP-TO-DATE
+> Task :react-native-community_netinfo:preReleaseBuild UP-TO-DATE
+> Task :react-native-community_netinfo:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-community_netinfo:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-community_netinfo:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-community_slider:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-community_slider:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-community_slider:preBuild UP-TO-DATE
+> Task :react-native-community_slider:preReleaseBuild UP-TO-DATE
+> Task :react-native-community_slider:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-community_slider:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-community_slider:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-date-picker:preBuild UP-TO-DATE
+> Task :react-native-date-picker:preReleaseBuild UP-TO-DATE
+> Task :react-native-date-picker:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-date-picker:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-date-picker:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-documents_picker:preBuild UP-TO-DATE
+> Task :react-native-documents_picker:preReleaseBuild UP-TO-DATE
+> Task :react-native-documents_picker:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-documents_picker:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-documents_picker:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-fast-image:preBuild UP-TO-DATE
+> Task :react-native-fast-image:preReleaseBuild UP-TO-DATE
+> Task :react-native-fast-image:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-fast-image:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-fast-image:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-file-viewer:preBuild UP-TO-DATE
+> Task :react-native-file-viewer:preReleaseBuild UP-TO-DATE
+> Task :react-native-file-viewer:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-file-viewer:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-file-viewer:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-firebase_app:preBuild UP-TO-DATE
+> Task :react-native-firebase_app:preReleaseBuild UP-TO-DATE
+> Task :react-native-firebase_app:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-firebase_app:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-firebase_app:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-firebase_messaging:preBuild UP-TO-DATE
+> Task :react-native-firebase_messaging:preReleaseBuild UP-TO-DATE
+> Task :react-native-firebase_messaging:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-firebase_messaging:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-firebase_messaging:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-fs:preBuild UP-TO-DATE
+> Task :react-native-fs:preReleaseBuild UP-TO-DATE
+> Task :react-native-fs:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-fs:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-fs:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-gesture-handler:preBuild UP-TO-DATE
+> Task :react-native-gesture-handler:preReleaseBuild UP-TO-DATE
+> Task :react-native-gesture-handler:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-gesture-handler:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-gesture-handler:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-image-crop-picker:preBuild UP-TO-DATE
+> Task :react-native-image-crop-picker:preReleaseBuild UP-TO-DATE
+> Task :react-native-image-crop-picker:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-image-crop-picker:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-image-crop-picker:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-image-picker:preBuild UP-TO-DATE
+> Task :react-native-image-picker:preReleaseBuild UP-TO-DATE
+> Task :react-native-image-picker:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-image-picker:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-image-picker:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-incall-manager:preBuild UP-TO-DATE
+> Task :react-native-incall-manager:preReleaseBuild UP-TO-DATE
+> Task :react-native-incall-manager:mergeReleaseJniLibFolders
+> Task :react-native-incall-manager:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-incall-manager:copyReleaseJniLibsProjectOnly
+> Task :react-native-linear-gradient:preBuild UP-TO-DATE
+> Task :react-native-linear-gradient:preReleaseBuild UP-TO-DATE
+> Task :react-native-linear-gradient:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-linear-gradient:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-linear-gradient:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-localize:preBuild UP-TO-DATE
+> Task :react-native-localize:preReleaseBuild UP-TO-DATE
+> Task :react-native-localize:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-localize:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-localize:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-maps:preBuild UP-TO-DATE
+> Task :react-native-maps:preReleaseBuild UP-TO-DATE
+> Task :react-native-maps:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-maps:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-maps:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-masked-view_masked-view:preBuild UP-TO-DATE
+> Task :react-native-masked-view_masked-view:preReleaseBuild UP-TO-DATE
+> Task :react-native-masked-view_masked-view:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-masked-view_masked-view:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-masked-view_masked-view:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-nitro-modules:prepareHeaders UP-TO-DATE
+> Task :react-native-nitro-modules:preBuild UP-TO-DATE
+> Task :react-native-nitro-modules:preReleaseBuild UP-TO-DATE
+> Task :react-native-nitro-modules:configureCMakeRelWithDebInfo[arm64-v8a]
+> Task :react-native-nitro-modules:buildCMakeRelWithDebInfo[arm64-v8a]
+> Task :react-native-nitro-modules:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-nitro-modules:mergeReleaseNativeLibs UP-TO-DATE
+> Task :react-native-nitro-modules:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-nitro-modules:externalNativeBuildRelease
+> Task :react-native-nitro-modules:generateJsonModelRelease
+> Task :react-native-nitro-modules:prefabReleaseConfigurePackage
+> Task :react-native-nitro-modules:prefabReleasePackage UP-TO-DATE
+> Task :react-native-nitro-sound:preBuild UP-TO-DATE
+> Task :react-native-nitro-sound:preReleaseBuild UP-TO-DATE
+> Task :react-native-nitro-sound:configureCMakeRelWithDebInfo[arm64-v8a]
+> Task :react-native-nitro-sound:buildCMakeRelWithDebInfo[arm64-v8a]
+> Task :react-native-nitro-sound:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-nitro-sound:mergeReleaseNativeLibs UP-TO-DATE
+> Task :react-native-nitro-sound:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-permissions:preBuild UP-TO-DATE
+> Task :react-native-permissions:preReleaseBuild UP-TO-DATE
+> Task :react-native-permissions:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-permissions:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-permissions:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-reanimated:assertMinimalReactNativeVersionTask SKIPPED
+> Task :react-native-reanimated:prepareReanimatedHeadersForPrefabs UP-TO-DATE
+> Task :react-native-reanimated:prepareWorkletsHeadersForPrefabs UP-TO-DATE
+> Task :react-native-reanimated:preBuild UP-TO-DATE
+> Task :react-native-reanimated:preReleaseBuild UP-TO-DATE
+> Task :react-native-reanimated:configureCMakeRelWithDebInfo[arm64-v8a]
+> Task :react-native-reanimated:buildCMakeRelWithDebInfo[arm64-v8a][reanimated,worklets]
+> Task :react-native-reanimated:packageNdkLibs NO-SOURCE
+> Task :react-native-reanimated:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-reanimated:mergeReleaseNativeLibs UP-TO-DATE
+> Task :react-native-reanimated:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-safe-area-context:preBuild UP-TO-DATE
+> Task :react-native-safe-area-context:preReleaseBuild UP-TO-DATE
+> Task :react-native-safe-area-context:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-safe-area-context:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-safe-area-context:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-screens:preBuild UP-TO-DATE
+> Task :react-native-screens:preReleaseBuild UP-TO-DATE
+> Task :react-native-screens:configureCMakeRelWithDebInfo[arm64-v8a]
+> Task :react-native-screens:buildCMakeRelWithDebInfo[arm64-v8a]
+> Task :react-native-screens:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-screens:mergeReleaseNativeLibs UP-TO-DATE
+> Task :react-native-screens:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-splash-screen:preBuild UP-TO-DATE
+> Task :react-native-splash-screen:preReleaseBuild UP-TO-DATE
+> Task :react-native-splash-screen:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-splash-screen:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-splash-screen:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-svg:preBuild UP-TO-DATE
+> Task :react-native-svg:preReleaseBuild UP-TO-DATE
+> Task :react-native-svg:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-svg:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-svg:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-vector-icons:preBuild UP-TO-DATE
+> Task :react-native-vector-icons:preReleaseBuild UP-TO-DATE
+> Task :react-native-vector-icons:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-vector-icons:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-vector-icons:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-version-check:preBuild UP-TO-DATE
+> Task :react-native-version-check:preReleaseBuild UP-TO-DATE
+> Task :react-native-version-check:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-version-check:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-version-check:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-webrtc:preBuild UP-TO-DATE
+> Task :react-native-webrtc:preReleaseBuild UP-TO-DATE
+> Task :react-native-webrtc:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-webrtc:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-webrtc:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-webview:preBuild UP-TO-DATE
+> Task :react-native-webview:preReleaseBuild UP-TO-DATE
+> Task :react-native-webview:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-webview:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-webview:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
+> Task :app:extractReleaseNativeSymbolTables
+> Task :app:mergeReleaseNativeDebugMetadata
+> Task :react-native-community_datetimepicker:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-community_datetimepicker:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-community_datetimepicker:generateReleaseResValues UP-TO-DATE
+> Task :react-native-community_datetimepicker:generateReleaseResources UP-TO-DATE
+> Task :react-native-community_datetimepicker:packageReleaseResources UP-TO-DATE
+> Task :react-native-community_datetimepicker:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-community_datetimepicker:generateReleaseRFile UP-TO-DATE
+> Task :react-native-community_datetimepicker:compileReleaseKotlin UP-TO-DATE
+> Task :react-native-community_datetimepicker:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-community_datetimepicker:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :react-native-community_datetimepicker:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :react-native-documents_picker:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-documents_picker:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-documents_picker:generateReleaseResValues UP-TO-DATE
+> Task :react-native-documents_picker:generateReleaseResources UP-TO-DATE
+> Task :react-native-documents_picker:packageReleaseResources UP-TO-DATE
+> Task :react-native-documents_picker:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-documents_picker:generateReleaseRFile UP-TO-DATE
+> Task :react-native-documents_picker:compileReleaseKotlin UP-TO-DATE
+> Task :react-native-documents_picker:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-documents_picker:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :react-native-documents_picker:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :react-native-gesture-handler:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-gesture-handler:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-gesture-handler:generateReleaseResValues UP-TO-DATE
+> Task :react-native-gesture-handler:generateReleaseResources UP-TO-DATE
+> Task :react-native-gesture-handler:packageReleaseResources UP-TO-DATE
+> Task :react-native-gesture-handler:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-gesture-handler:generateReleaseRFile UP-TO-DATE
+> Task :react-native-reanimated:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-reanimated:generateReleaseResValues UP-TO-DATE
+> Task :react-native-reanimated:generateReleaseResources UP-TO-DATE
+> Task :react-native-reanimated:packageReleaseResources UP-TO-DATE
+> Task :react-native-reanimated:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-reanimated:generateReleaseRFile UP-TO-DATE
+> Task :react-native-reanimated:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-reanimated:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :react-native-reanimated:bundleLibCompileToJarRelease UP-TO-DATE
+> Task :react-native-svg:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-svg:generateReleaseResValues UP-TO-DATE
+> Task :react-native-svg:generateReleaseResources UP-TO-DATE
+> Task :react-native-svg:packageReleaseResources UP-TO-DATE
+> Task :react-native-svg:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-svg:generateReleaseRFile UP-TO-DATE
+> Task :react-native-svg:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-svg:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :react-native-svg:bundleLibCompileToJarRelease UP-TO-DATE
+> Task :react-native-gesture-handler:compileReleaseKotlin UP-TO-DATE
+> Task :react-native-gesture-handler:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-gesture-handler:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :react-native-gesture-handler:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :react-native-localize:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-localize:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-localize:generateReleaseResValues UP-TO-DATE
+> Task :react-native-localize:generateReleaseResources UP-TO-DATE
+> Task :react-native-localize:packageReleaseResources UP-TO-DATE
+> Task :react-native-localize:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-localize:generateReleaseRFile UP-TO-DATE
+> Task :react-native-localize:compileReleaseKotlin UP-TO-DATE
+> Task :react-native-localize:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-localize:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :react-native-localize:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :react-native-maps:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-maps:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-maps:generateReleaseResValues UP-TO-DATE
+> Task :react-native-maps:generateReleaseResources UP-TO-DATE
+> Task :react-native-maps:packageReleaseResources UP-TO-DATE
+> Task :react-native-maps:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-maps:generateReleaseRFile UP-TO-DATE
+> Task :react-native-maps:compileReleaseKotlin NO-SOURCE
+> Task :react-native-maps:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-maps:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :react-native-maps:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :react-native-nitro-modules:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-nitro-modules:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-nitro-modules:generateReleaseResValues UP-TO-DATE
+> Task :react-native-nitro-modules:generateReleaseResources UP-TO-DATE
+> Task :react-native-nitro-modules:packageReleaseResources UP-TO-DATE
+> Task :react-native-nitro-modules:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-nitro-modules:generateReleaseRFile UP-TO-DATE
+> Task :react-native-nitro-modules:compileReleaseKotlin UP-TO-DATE
+> Task :react-native-nitro-modules:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-nitro-modules:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :react-native-nitro-modules:bundleLibCompileToJarRelease UP-TO-DATE
+> Task :react-native-nitro-sound:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-nitro-sound:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-nitro-sound:generateReleaseResValues UP-TO-DATE
+> Task :react-native-nitro-sound:generateReleaseResources UP-TO-DATE
+> Task :react-native-nitro-sound:packageReleaseResources UP-TO-DATE
+> Task :react-native-nitro-sound:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-nitro-sound:generateReleaseRFile UP-TO-DATE
+> Task :react-native-nitro-sound:compileReleaseKotlin UP-TO-DATE
+> Task :react-native-nitro-sound:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-nitro-sound:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :react-native-nitro-sound:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :react-native-nitro-modules:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :react-native-permissions:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-permissions:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-permissions:generateReleaseResValues UP-TO-DATE
+> Task :react-native-permissions:generateReleaseResources UP-TO-DATE
+> Task :react-native-permissions:packageReleaseResources UP-TO-DATE
+> Task :react-native-permissions:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-permissions:generateReleaseRFile UP-TO-DATE
+> Task :react-native-permissions:compileReleaseKotlin UP-TO-DATE
+> Task :react-native-permissions:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-permissions:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :react-native-permissions:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :react-native-safe-area-context:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-safe-area-context:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-safe-area-context:generateReleaseResValues UP-TO-DATE
+> Task :react-native-safe-area-context:generateReleaseResources UP-TO-DATE
+> Task :react-native-safe-area-context:packageReleaseResources UP-TO-DATE
+> Task :react-native-safe-area-context:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-safe-area-context:generateReleaseRFile UP-TO-DATE
+> Task :react-native-safe-area-context:compileReleaseKotlin UP-TO-DATE
+> Task :react-native-safe-area-context:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-safe-area-context:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :react-native-safe-area-context:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :react-native-screens:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-screens:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-screens:generateReleaseResValues UP-TO-DATE
+> Task :react-native-screens:generateReleaseResources UP-TO-DATE
+> Task :react-native-screens:packageReleaseResources UP-TO-DATE
+> Task :react-native-screens:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-screens:generateReleaseRFile UP-TO-DATE
+> Task :react-native-screens:compileReleaseKotlin UP-TO-DATE
+> Task :react-native-screens:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-screens:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :react-native-screens:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :react-native-webview:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-webview:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-webview:generateReleaseResValues UP-TO-DATE
+> Task :react-native-webview:generateReleaseResources UP-TO-DATE
+> Task :react-native-webview:packageReleaseResources UP-TO-DATE
+> Task :react-native-webview:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-webview:generateReleaseRFile UP-TO-DATE
+> Task :react-native-webview:compileReleaseKotlin UP-TO-DATE
+> Task :react-native-webview:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-webview:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :react-native-webview:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :notifee_react-native:generateReleaseBuildConfig UP-TO-DATE
+> Task :notifee_react-native:generateReleaseResValues UP-TO-DATE
+> Task :notifee_react-native:generateReleaseResources UP-TO-DATE
+> Task :notifee_react-native:packageReleaseResources UP-TO-DATE
+> Task :notifee_react-native:parseReleaseLocalResources UP-TO-DATE
+> Task :notifee_react-native:generateReleaseRFile UP-TO-DATE
+> Task :notifee_react-native:javaPreCompileRelease UP-TO-DATE
+> Task :notifee_react-native:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :notifee_react-native:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :react-native-async-storage_async-storage:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-async-storage_async-storage:generateReleaseResValues UP-TO-DATE
+> Task :react-native-async-storage_async-storage:generateReleaseResources UP-TO-DATE
+> Task :react-native-async-storage_async-storage:packageReleaseResources UP-TO-DATE
+> Task :react-native-async-storage_async-storage:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-async-storage_async-storage:generateReleaseRFile UP-TO-DATE
+> Task :react-native-async-storage_async-storage:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-async-storage_async-storage:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :react-native-async-storage_async-storage:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :react-native-community_geolocation:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-community_geolocation:generateReleaseResValues UP-TO-DATE
+> Task :react-native-community_geolocation:generateReleaseResources UP-TO-DATE
+> Task :react-native-community_geolocation:packageReleaseResources UP-TO-DATE
+> Task :react-native-community_geolocation:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-community_geolocation:generateReleaseRFile UP-TO-DATE
+> Task :react-native-community_geolocation:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-community_geolocation:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :react-native-community_geolocation:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :react-native-community_netinfo:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-community_netinfo:generateReleaseResValues UP-TO-DATE
+> Task :react-native-community_netinfo:generateReleaseResources UP-TO-DATE
+> Task :react-native-community_netinfo:packageReleaseResources UP-TO-DATE
+> Task :react-native-community_netinfo:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-community_netinfo:generateReleaseRFile UP-TO-DATE
+> Task :react-native-community_netinfo:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-community_netinfo:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :react-native-community_netinfo:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :react-native-community_slider:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-community_slider:generateReleaseResValues UP-TO-DATE
+> Task :react-native-community_slider:generateReleaseResources UP-TO-DATE
+> Task :react-native-community_slider:packageReleaseResources UP-TO-DATE
+> Task :react-native-community_slider:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-community_slider:generateReleaseRFile UP-TO-DATE
+> Task :react-native-community_slider:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-community_slider:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :react-native-community_slider:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :react-native-firebase_app:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-firebase_app:generateReleaseResValues UP-TO-DATE
+> Task :react-native-firebase_app:generateReleaseResources UP-TO-DATE
+> Task :react-native-firebase_app:packageReleaseResources UP-TO-DATE
+> Task :react-native-firebase_app:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-firebase_app:generateReleaseRFile UP-TO-DATE
+> Task :react-native-firebase_app:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-firebase_app:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :react-native-firebase_app:bundleLibCompileToJarRelease UP-TO-DATE
+> Task :react-native-firebase_messaging:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-firebase_messaging:generateReleaseResValues UP-TO-DATE
+> Task :react-native-firebase_messaging:generateReleaseResources UP-TO-DATE
+> Task :react-native-firebase_messaging:packageReleaseResources UP-TO-DATE
+> Task :react-native-firebase_messaging:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-firebase_messaging:generateReleaseRFile UP-TO-DATE
+> Task :react-native-firebase_messaging:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-firebase_messaging:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :react-native-firebase_messaging:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :react-native-firebase_app:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :react-native-masked-view_masked-view:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-masked-view_masked-view:generateReleaseResValues UP-TO-DATE
+> Task :react-native-masked-view_masked-view:generateReleaseResources UP-TO-DATE
+> Task :react-native-masked-view_masked-view:packageReleaseResources UP-TO-DATE
+> Task :react-native-masked-view_masked-view:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-masked-view_masked-view:generateReleaseRFile UP-TO-DATE
+> Task :react-native-masked-view_masked-view:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-masked-view_masked-view:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :react-native-masked-view_masked-view:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :react-native-background-geolocation:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-background-geolocation:generateReleaseResValues UP-TO-DATE
+> Task :react-native-background-geolocation:generateReleaseResources UP-TO-DATE
+> Task :react-native-background-geolocation:packageReleaseResources UP-TO-DATE
+> Task :react-native-background-geolocation:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-background-geolocation:generateReleaseRFile UP-TO-DATE
+> Task :react-native-background-geolocation:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-background-geolocation:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :react-native-background-geolocation:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :react-native-date-picker:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-date-picker:generateReleaseResValues UP-TO-DATE
+> Task :react-native-date-picker:generateReleaseResources UP-TO-DATE
+> Task :react-native-date-picker:packageReleaseResources UP-TO-DATE
+> Task :react-native-date-picker:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-date-picker:generateReleaseRFile UP-TO-DATE
+> Task :react-native-date-picker:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-date-picker:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :react-native-date-picker:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :react-native-fast-image:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-fast-image:generateReleaseResValues UP-TO-DATE
+> Task :react-native-fast-image:generateReleaseResources UP-TO-DATE
+> Task :react-native-fast-image:packageReleaseResources UP-TO-DATE
+> Task :react-native-fast-image:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-fast-image:generateReleaseRFile UP-TO-DATE
+> Task :react-native-fast-image:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-fast-image:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :react-native-fast-image:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :react-native-file-viewer:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-file-viewer:generateReleaseResValues UP-TO-DATE
+> Task :react-native-file-viewer:generateReleaseResources UP-TO-DATE
+> Task :react-native-file-viewer:packageReleaseResources UP-TO-DATE
+> Task :react-native-file-viewer:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-file-viewer:generateReleaseRFile UP-TO-DATE
+> Task :react-native-file-viewer:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-file-viewer:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :react-native-file-viewer:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :react-native-fs:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-fs:generateReleaseResValues UP-TO-DATE
+> Task :react-native-fs:generateReleaseResources UP-TO-DATE
+> Task :react-native-fs:packageReleaseResources UP-TO-DATE
+> Task :react-native-fs:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-fs:generateReleaseRFile UP-TO-DATE
+> Task :react-native-fs:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-fs:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :react-native-fs:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :react-native-image-crop-picker:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-image-crop-picker:generateReleaseResValues UP-TO-DATE
+> Task :react-native-image-crop-picker:generateReleaseResources UP-TO-DATE
+> Task :react-native-image-crop-picker:packageReleaseResources UP-TO-DATE
+> Task :react-native-image-crop-picker:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-image-crop-picker:generateReleaseRFile UP-TO-DATE
+> Task :react-native-image-crop-picker:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-image-crop-picker:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :react-native-image-crop-picker:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :react-native-image-picker:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-image-picker:generateReleaseResValues UP-TO-DATE
+> Task :react-native-image-picker:generateReleaseResources UP-TO-DATE
+> Task :react-native-image-picker:packageReleaseResources UP-TO-DATE
+> Task :react-native-image-picker:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-image-picker:generateReleaseRFile UP-TO-DATE
+> Task :react-native-image-picker:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-image-picker:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :react-native-image-picker:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :react-native-incall-manager:generateReleaseBuildConfig
+> Task :react-native-incall-manager:generateReleaseResValues
+> Task :react-native-incall-manager:generateReleaseResources
+> Task :react-native-incall-manager:packageReleaseResources
+> Task :react-native-incall-manager:parseReleaseLocalResources
+> Task :react-native-incall-manager:generateReleaseRFile
+> Task :react-native-incall-manager:javaPreCompileRelease
+
+> Task :react-native-incall-manager:compileReleaseJavaWithJavac
+D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\react-native-incall-manager\android\src\main\java\com\zxcpoiu\incallmanager\InCallManagerModule.java:205: warning: [removal] getCurrentActivity() in ReactContextBaseJavaModule has been deprecated and marked for removal
+        Activity mCurrentActivity = getCurrentActivity();
+                                    ^
+D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\react-native-incall-manager\android\src\main\java\com\zxcpoiu\incallmanager\InCallManagerModule.java:226: warning: [removal] getCurrentActivity() in ReactContextBaseJavaModule has been deprecated and marked for removal
+        Activity mCurrentActivity = getCurrentActivity();
+                                    ^
+D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\react-native-incall-manager\android\src\main\java\com\zxcpoiu\incallmanager\InCallManagerModule.java:264: warning: [removal] getCurrentActivity() in ReactContextBaseJavaModule has been deprecated and marked for removal
+            if (getCurrentActivity() != null) {
+                ^
+D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\react-native-incall-manager\android\src\main\java\com\zxcpoiu\incallmanager\InCallManagerModule.java:265: warning: [removal] getCurrentActivity() in ReactContextBaseJavaModule has been deprecated and marked for removal
+                getCurrentActivity().setVolumeControlStream(AudioManager.USE_DEFAULT_STREAM_TYPE);
+                ^
+D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\react-native-incall-manager\android\src\main\java\com\zxcpoiu\incallmanager\InCallManagerModule.java:842: warning: [removal] getCurrentActivity() in ReactContextBaseJavaModule has been deprecated and marked for removal
+        Activity mCurrentActivity = getCurrentActivity();
+                                    ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\react-native-incall-manager\android\src\main\java\com\zxcpoiu\incallmanager\InCallManagerModule.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+5 warnings
+
+> Task :react-native-incall-manager:bundleLibRuntimeToDirRelease
+> Task :react-native-linear-gradient:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-linear-gradient:generateReleaseResValues UP-TO-DATE
+> Task :react-native-linear-gradient:generateReleaseResources UP-TO-DATE
+> Task :react-native-linear-gradient:packageReleaseResources UP-TO-DATE
+> Task :react-native-linear-gradient:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-linear-gradient:generateReleaseRFile UP-TO-DATE
+> Task :react-native-linear-gradient:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-linear-gradient:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :react-native-linear-gradient:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :react-native-reanimated:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :react-native-splash-screen:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-splash-screen:generateReleaseResValues UP-TO-DATE
+> Task :react-native-splash-screen:generateReleaseResources UP-TO-DATE
+> Task :react-native-splash-screen:packageReleaseResources UP-TO-DATE
+> Task :react-native-splash-screen:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-splash-screen:generateReleaseRFile UP-TO-DATE
+> Task :react-native-splash-screen:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-splash-screen:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :react-native-splash-screen:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :react-native-svg:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :react-native-vector-icons:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-vector-icons:generateReleaseResValues UP-TO-DATE
+> Task :react-native-vector-icons:generateReleaseResources UP-TO-DATE
+> Task :react-native-vector-icons:packageReleaseResources UP-TO-DATE
+> Task :react-native-vector-icons:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-vector-icons:generateReleaseRFile UP-TO-DATE
+> Task :react-native-vector-icons:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-vector-icons:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :react-native-vector-icons:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :react-native-version-check:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-version-check:generateReleaseResValues UP-TO-DATE
+> Task :react-native-version-check:generateReleaseResources UP-TO-DATE
+> Task :react-native-version-check:packageReleaseResources UP-TO-DATE
+> Task :react-native-version-check:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-version-check:generateReleaseRFile UP-TO-DATE
+> Task :react-native-version-check:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-version-check:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :react-native-version-check:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :react-native-webrtc:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-webrtc:generateReleaseResValues UP-TO-DATE
+> Task :react-native-webrtc:generateReleaseResources UP-TO-DATE
+> Task :react-native-webrtc:packageReleaseResources UP-TO-DATE
+> Task :react-native-webrtc:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-webrtc:generateReleaseRFile UP-TO-DATE
+> Task :react-native-webrtc:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-webrtc:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :react-native-webrtc:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:buildKotlinToolingMetadata
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:generateReleaseBuildConfig
+> Task :notifee_react-native:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-async-storage_async-storage:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-background-geolocation:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-community_datetimepicker:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-community_geolocation:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-community_netinfo:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-community_slider:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-date-picker:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-documents_picker:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-fast-image:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-file-viewer:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-firebase_app:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-firebase_messaging:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-fs:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-gesture-handler:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-image-crop-picker:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-image-picker:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-incall-manager:writeReleaseAarMetadata
+> Task :react-native-linear-gradient:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-localize:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-maps:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-masked-view_masked-view:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-nitro-modules:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-nitro-sound:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-permissions:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-reanimated:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-safe-area-context:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-screens:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-splash-screen:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-svg:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-vector-icons:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-version-check:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-webrtc:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-webview:writeReleaseAarMetadata UP-TO-DATE
+> Task :app:checkReleaseAarMetadata
+
+> Task :app:createBundleReleaseJsAndAssets
+ WARN  the transform cache was reset.
+                Welcome to Metro v0.82.5
+              Fast - Scalable - Integrated
+
+
+transform[stderr]: [baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+transform[stderr]: [baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+transform[stderr]: [baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+transform[stderr]: [baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+transform[stderr]: [baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+transform[stderr]: [baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+transform[stderr]: [baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+transform[stderr]: [baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+ WARN  Attempted to import the module "D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\react-native-webrtc\node_modules\event-target-shim\index" which is not listed in the "exports" of "D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\react-native-webrtc\node_modules\event-target-shim" under the requested subpath "./index". Falling back to file-based resolution. Consider updating the call site or asking the package maintainer(s) to expose this API.
+Writing bundle output to: android\app\build\generated\assets\createBundleReleaseJsAndAssets\index.android.bundle
+Writing sourcemap output to: android\app\build\intermediates\sourcemaps\react\release\index.android.bundle.packager.map
+Done writing bundle output
+Done writing sourcemap output
+Copying 40 asset files
+Done copying assets
+
+> Task :app:generateReleaseResValues
+> Task :app:processReleaseGoogleServices
+> Task :app:mapReleaseSourceSetPaths
+> Task :app:generateReleaseResources
+> Task :app:mergeReleaseResources
+> Task :app:packageReleaseResources
+> Task :app:parseReleaseLocalResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksRelease
+> Task :notifee_react-native:extractDeepLinksRelease
+
+> Task :notifee_react-native:processReleaseManifest
+package="io.invertase.notifee" found in source AndroidManifest.xml: Z:\node_modules\@notifee\react-native\android\src\main\AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="io.invertase.notifee" from the source AndroidManifest.xml: Z:\node_modules\@notifee\react-native\android\src\main\AndroidManifest.xml.
+
+> Task :react-native-async-storage_async-storage:extractDeepLinksRelease
+
+> Task :react-native-async-storage_async-storage:processReleaseManifest
+package="com.reactnativecommunity.asyncstorage" found in source AndroidManifest.xml: Z:\node_modules\@react-native-async-storage\async-storage\android\src\main\AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="com.reactnativecommunity.asyncstorage" from the source AndroidManifest.xml: Z:\node_modules\@react-native-async-storage\async-storage\android\src\main\AndroidManifest.xml.
+
+> Task :react-native-background-geolocation:extractDeepLinksRelease
+
+> Task :react-native-background-geolocation:processReleaseManifest
+package="com.transistorsoft.rnbackgroundgeolocation" found in source AndroidManifest.xml: Z:\node_modules\react-native-background-geolocation\android\src\main\AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="com.transistorsoft.rnbackgroundgeolocation" from the source AndroidManifest.xml: Z:\node_modules\react-native-background-geolocation\android\src\main\AndroidManifest.xml.
+
+> Task :react-native-community_datetimepicker:extractDeepLinksRelease
+> Task :react-native-community_datetimepicker:processReleaseManifest
+> Task :react-native-community_geolocation:extractDeepLinksRelease
+
+> Task :react-native-community_geolocation:processReleaseManifest
+package="com.reactnativecommunity.geolocation" found in source AndroidManifest.xml: Z:\node_modules\@react-native-community\geolocation\android\src\main\AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="com.reactnativecommunity.geolocation" from the source AndroidManifest.xml: Z:\node_modules\@react-native-community\geolocation\android\src\main\AndroidManifest.xml.
+
+> Task :react-native-community_netinfo:extractDeepLinksRelease
+
+> Task :react-native-community_netinfo:processReleaseManifest
+package="com.reactnativecommunity.netinfo" found in source AndroidManifest.xml: Z:\node_modules\@react-native-community\netinfo\android\src\main\AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="com.reactnativecommunity.netinfo" from the source AndroidManifest.xml: Z:\node_modules\@react-native-community\netinfo\android\src\main\AndroidManifest.xml.
+
+> Task :react-native-community_slider:extractDeepLinksRelease
+
+> Task :react-native-community_slider:processReleaseManifest
+package="com.reactnativecommunity.slider" found in source AndroidManifest.xml: Z:\node_modules\@react-native-community\slider\android\src\main\AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="com.reactnativecommunity.slider" from the source AndroidManifest.xml: Z:\node_modules\@react-native-community\slider\android\src\main\AndroidManifest.xml.
+
+> Task :react-native-date-picker:extractDeepLinksRelease
+
+> Task :react-native-date-picker:processReleaseManifest
+package="com.henninghall.date_picker" found in source AndroidManifest.xml: Z:\node_modules\react-native-date-picker\android\src\main\AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="com.henninghall.date_picker" from the source AndroidManifest.xml: Z:\node_modules\react-native-date-picker\android\src\main\AndroidManifest.xml.
+
+> Task :react-native-documents_picker:extractDeepLinksRelease
+
+> Task :react-native-documents_picker:processReleaseManifest
+package="com.reactnativedocumentpicker" found in source AndroidManifest.xml: Z:\node_modules\@react-native-documents\picker\android\src\main\AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="com.reactnativedocumentpicker" from the source AndroidManifest.xml: Z:\node_modules\@react-native-documents\picker\android\src\main\AndroidManifest.xml.
+
+> Task :react-native-fast-image:extractDeepLinksRelease
+
+> Task :react-native-fast-image:processReleaseManifest
+package="com.dylanvann.fastimage" found in source AndroidManifest.xml: Z:\node_modules\react-native-fast-image\android\src\main\AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="com.dylanvann.fastimage" from the source AndroidManifest.xml: Z:\node_modules\react-native-fast-image\android\src\main\AndroidManifest.xml.
+
+> Task :react-native-file-viewer:extractDeepLinksRelease
+
+> Task :react-native-file-viewer:processReleaseManifest
+package="com.vinzscam.reactnativefileviewer" found in source AndroidManifest.xml: Z:\node_modules\react-native-file-viewer\android\src\main\AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="com.vinzscam.reactnativefileviewer" from the source AndroidManifest.xml: Z:\node_modules\react-native-file-viewer\android\src\main\AndroidManifest.xml.
+
+> Task :react-native-firebase_app:extractDeepLinksRelease
+
+> Task :react-native-firebase_app:processReleaseManifest
+package="io.invertase.firebase" found in source AndroidManifest.xml: Z:\node_modules\@react-native-firebase\app\android\src\main\AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="io.invertase.firebase" from the source AndroidManifest.xml: Z:\node_modules\@react-native-firebase\app\android\src\main\AndroidManifest.xml.
+
+> Task :react-native-firebase_messaging:extractDeepLinksRelease
+
+> Task :react-native-firebase_messaging:processReleaseManifest
+package="io.invertase.firebase.messaging" found in source AndroidManifest.xml: Z:\node_modules\@react-native-firebase\messaging\android\src\main\AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="io.invertase.firebase.messaging" from the source AndroidManifest.xml: Z:\node_modules\@react-native-firebase\messaging\android\src\main\AndroidManifest.xml.
+
+> Task :react-native-fs:extractDeepLinksRelease
+
+> Task :react-native-fs:processReleaseManifest
+package="com.rnfs" found in source AndroidManifest.xml: Z:\node_modules\react-native-fs\android\src\main\AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="com.rnfs" from the source AndroidManifest.xml: Z:\node_modules\react-native-fs\android\src\main\AndroidManifest.xml.
+
+> Task :react-native-gesture-handler:extractDeepLinksRelease
+> Task :react-native-gesture-handler:processReleaseManifest
+> Task :react-native-image-crop-picker:extractDeepLinksRelease
+
+> Task :react-native-image-crop-picker:processReleaseManifest
+package="com.reactnative.ivpusic.imagepicker" found in source AndroidManifest.xml: Z:\node_modules\react-native-image-crop-picker\android\src\main\AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="com.reactnative.ivpusic.imagepicker" from the source AndroidManifest.xml: Z:\node_modules\react-native-image-crop-picker\android\src\main\AndroidManifest.xml.
+
+> Task :react-native-image-picker:extractDeepLinksRelease
+
+> Task :react-native-image-picker:processReleaseManifest
+package="com.imagepicker" found in source AndroidManifest.xml: Z:\node_modules\react-native-image-picker\android\src\main\AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="com.imagepicker" from the source AndroidManifest.xml: Z:\node_modules\react-native-image-picker\android\src\main\AndroidManifest.xml.
+
+> Task :react-native-incall-manager:extractDeepLinksRelease
+
+> Task :react-native-incall-manager:processReleaseManifest
+package="com.zxcpoiu.incallmanager" found in source AndroidManifest.xml: D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\react-native-incall-manager\android\src\main\AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="com.zxcpoiu.incallmanager" from the source AndroidManifest.xml: D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\react-native-incall-manager\android\src\main\AndroidManifest.xml.
+
+> Task :react-native-linear-gradient:extractDeepLinksRelease
+
+> Task :react-native-linear-gradient:processReleaseManifest
+package="com.BV.LinearGradient" found in source AndroidManifest.xml: Z:\node_modules\react-native-linear-gradient\android\src\main\AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="com.BV.LinearGradient" from the source AndroidManifest.xml: Z:\node_modules\react-native-linear-gradient\android\src\main\AndroidManifest.xml.
+
+> Task :react-native-localize:extractDeepLinksRelease
+> Task :react-native-localize:processReleaseManifest
+> Task :react-native-maps:extractDeepLinksRelease
+> Task :react-native-maps:processReleaseManifest
+> Task :react-native-masked-view_masked-view:extractDeepLinksRelease
+> Task :react-native-masked-view_masked-view:processReleaseManifest
+> Task :react-native-nitro-modules:extractDeepLinksRelease
+> Task :react-native-nitro-modules:processReleaseManifest
+> Task :react-native-nitro-sound:extractDeepLinksRelease
+> Task :react-native-nitro-sound:processReleaseManifest
+> Task :react-native-permissions:extractDeepLinksRelease
+> Task :react-native-permissions:processReleaseManifest
+> Task :react-native-reanimated:extractDeepLinksRelease
+> Task :react-native-reanimated:processReleaseManifest
+> Task :react-native-safe-area-context:extractDeepLinksRelease
+
+> Task :react-native-safe-area-context:processReleaseManifest
+package="com.th3rdwave.safeareacontext" found in source AndroidManifest.xml: Z:\node_modules\react-native-safe-area-context\android\src\main\AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="com.th3rdwave.safeareacontext" from the source AndroidManifest.xml: Z:\node_modules\react-native-safe-area-context\android\src\main\AndroidManifest.xml.
+
+> Task :react-native-screens:extractDeepLinksRelease
+> Task :react-native-screens:processReleaseManifest
+> Task :react-native-splash-screen:extractDeepLinksRelease
+
+> Task :react-native-splash-screen:processReleaseManifest
+package="org.devio.rn.splashscreen" found in source AndroidManifest.xml: Z:\node_modules\react-native-splash-screen\android\src\main\AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="org.devio.rn.splashscreen" from the source AndroidManifest.xml: Z:\node_modules\react-native-splash-screen\android\src\main\AndroidManifest.xml.
+
+> Task :react-native-svg:extractDeepLinksRelease
+> Task :react-native-svg:processReleaseManifest
+> Task :react-native-vector-icons:extractDeepLinksRelease
+
+> Task :react-native-vector-icons:processReleaseManifest
+package="com.oblador.vectoricons" found in source AndroidManifest.xml: Z:\node_modules\react-native-vector-icons\android\src\main\AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="com.oblador.vectoricons" from the source AndroidManifest.xml: Z:\node_modules\react-native-vector-icons\android\src\main\AndroidManifest.xml.
+
+> Task :react-native-version-check:extractDeepLinksRelease
+
+> Task :react-native-version-check:processReleaseManifest
+package="io.xogus.reactnative.versioncheck" found in source AndroidManifest.xml: Z:\node_modules\react-native-version-check\android\src\main\AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="io.xogus.reactnative.versioncheck" from the source AndroidManifest.xml: Z:\node_modules\react-native-version-check\android\src\main\AndroidManifest.xml.
+
+> Task :react-native-webrtc:extractDeepLinksRelease
+
+> Task :react-native-webrtc:processReleaseManifest
+package="com.oney.WebRTCModule" found in source AndroidManifest.xml: Z:\node_modules\react-native-webrtc\android\src\main\AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="com.oney.WebRTCModule" from the source AndroidManifest.xml: Z:\node_modules\react-native-webrtc\android\src\main\AndroidManifest.xml.
+
+> Task :react-native-webview:extractDeepLinksRelease
+> Task :react-native-webview:processReleaseManifest
+> Task :app:processReleaseMainManifest
+> Task :app:processReleaseManifest
+> Task :app:processReleaseManifestForPackage
+> Task :notifee_react-native:compileReleaseLibraryResources
+> Task :react-native-async-storage_async-storage:compileReleaseLibraryResources
+> Task :react-native-background-geolocation:compileReleaseLibraryResources
+> Task :react-native-community_datetimepicker:compileReleaseLibraryResources
+> Task :react-native-community_geolocation:compileReleaseLibraryResources
+> Task :react-native-community_netinfo:compileReleaseLibraryResources
+> Task :react-native-community_slider:compileReleaseLibraryResources
+> Task :react-native-date-picker:compileReleaseLibraryResources
+> Task :react-native-documents_picker:compileReleaseLibraryResources
+> Task :react-native-fast-image:compileReleaseLibraryResources
+> Task :react-native-file-viewer:compileReleaseLibraryResources
+> Task :react-native-firebase_app:compileReleaseLibraryResources
+> Task :react-native-firebase_messaging:compileReleaseLibraryResources
+> Task :react-native-fs:compileReleaseLibraryResources
+> Task :react-native-gesture-handler:compileReleaseLibraryResources
+> Task :react-native-image-crop-picker:compileReleaseLibraryResources
+> Task :react-native-image-picker:compileReleaseLibraryResources
+> Task :react-native-incall-manager:compileReleaseLibraryResources
+> Task :react-native-linear-gradient:compileReleaseLibraryResources
+> Task :react-native-localize:compileReleaseLibraryResources
+> Task :react-native-maps:compileReleaseLibraryResources
+> Task :react-native-masked-view_masked-view:compileReleaseLibraryResources
+> Task :react-native-nitro-modules:compileReleaseLibraryResources
+> Task :react-native-nitro-sound:compileReleaseLibraryResources
+> Task :react-native-permissions:compileReleaseLibraryResources
+> Task :react-native-reanimated:compileReleaseLibraryResources
+> Task :react-native-safe-area-context:compileReleaseLibraryResources
+> Task :react-native-screens:compileReleaseLibraryResources
+> Task :react-native-splash-screen:compileReleaseLibraryResources
+> Task :react-native-svg:compileReleaseLibraryResources
+> Task :react-native-vector-icons:compileReleaseLibraryResources
+> Task :react-native-version-check:compileReleaseLibraryResources
+> Task :react-native-webrtc:compileReleaseLibraryResources
+> Task :react-native-webview:compileReleaseLibraryResources
+> Task :app:processReleaseResources
+> Task :notifee_react-native:bundleLibCompileToJarRelease
+> Task :react-native-async-storage_async-storage:bundleLibCompileToJarRelease
+> Task :react-native-background-geolocation:bundleLibCompileToJarRelease
+> Task :react-native-community_datetimepicker:bundleLibCompileToJarRelease
+> Task :react-native-community_geolocation:bundleLibCompileToJarRelease
+> Task :react-native-community_netinfo:bundleLibCompileToJarRelease
+> Task :react-native-community_slider:bundleLibCompileToJarRelease
+> Task :react-native-date-picker:bundleLibCompileToJarRelease
+> Task :react-native-documents_picker:bundleLibCompileToJarRelease
+> Task :react-native-fast-image:bundleLibCompileToJarRelease
+> Task :react-native-file-viewer:bundleLibCompileToJarRelease
+> Task :react-native-firebase_messaging:bundleLibCompileToJarRelease
+> Task :react-native-fs:bundleLibCompileToJarRelease
+> Task :react-native-gesture-handler:bundleLibCompileToJarRelease
+> Task :react-native-image-crop-picker:bundleLibCompileToJarRelease
+> Task :react-native-image-picker:bundleLibCompileToJarRelease
+> Task :react-native-incall-manager:bundleLibCompileToJarRelease
+> Task :react-native-linear-gradient:bundleLibCompileToJarRelease
+> Task :react-native-localize:bundleLibCompileToJarRelease
+> Task :react-native-maps:bundleLibCompileToJarRelease
+> Task :react-native-masked-view_masked-view:bundleLibCompileToJarRelease
+> Task :react-native-nitro-sound:bundleLibCompileToJarRelease
+> Task :react-native-permissions:bundleLibCompileToJarRelease
+> Task :react-native-safe-area-context:bundleLibCompileToJarRelease
+> Task :react-native-screens:bundleLibCompileToJarRelease
+> Task :react-native-splash-screen:bundleLibCompileToJarRelease
+> Task :react-native-vector-icons:bundleLibCompileToJarRelease
+> Task :react-native-version-check:bundleLibCompileToJarRelease
+> Task :react-native-webrtc:bundleLibCompileToJarRelease
+> Task :react-native-webview:bundleLibCompileToJarRelease
+> Task :app:compileReleaseKotlin
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:dexBuilderRelease
+> Task :app:desugarReleaseFileDependencies
+> Task :app:mergeReleaseStartupProfile
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
+> Task :notifee_react-native:prepareReleaseArtProfile
+> Task :react-native-async-storage_async-storage:prepareReleaseArtProfile
+> Task :react-native-background-geolocation:prepareReleaseArtProfile
+> Task :react-native-community_datetimepicker:prepareReleaseArtProfile
+> Task :react-native-community_geolocation:prepareReleaseArtProfile
+> Task :react-native-community_netinfo:prepareReleaseArtProfile
+> Task :react-native-community_slider:prepareReleaseArtProfile
+> Task :react-native-date-picker:prepareReleaseArtProfile
+> Task :react-native-documents_picker:prepareReleaseArtProfile
+> Task :react-native-fast-image:prepareReleaseArtProfile
+> Task :react-native-file-viewer:prepareReleaseArtProfile
+> Task :react-native-firebase_app:prepareReleaseArtProfile
+> Task :react-native-firebase_messaging:prepareReleaseArtProfile
+> Task :react-native-fs:prepareReleaseArtProfile
+> Task :react-native-gesture-handler:prepareReleaseArtProfile
+> Task :react-native-image-crop-picker:prepareReleaseArtProfile
+> Task :react-native-image-picker:prepareReleaseArtProfile
+> Task :react-native-incall-manager:prepareReleaseArtProfile
+> Task :react-native-linear-gradient:prepareReleaseArtProfile
+> Task :react-native-localize:prepareReleaseArtProfile
+> Task :react-native-maps:prepareReleaseArtProfile
+> Task :react-native-masked-view_masked-view:prepareReleaseArtProfile
+> Task :react-native-nitro-modules:prepareReleaseArtProfile
+> Task :react-native-nitro-sound:prepareReleaseArtProfile
+> Task :react-native-permissions:prepareReleaseArtProfile
+> Task :react-native-reanimated:prepareReleaseArtProfile
+> Task :react-native-safe-area-context:prepareReleaseArtProfile
+> Task :react-native-screens:prepareReleaseArtProfile
+> Task :react-native-splash-screen:prepareReleaseArtProfile
+> Task :react-native-svg:prepareReleaseArtProfile
+> Task :react-native-vector-icons:prepareReleaseArtProfile
+> Task :react-native-version-check:prepareReleaseArtProfile
+> Task :react-native-webrtc:prepareReleaseArtProfile
+> Task :react-native-webview:prepareReleaseArtProfile
+> Task :app:mergeReleaseArtProfile
+> Task :react-native-community_datetimepicker:bundleLibRuntimeToJarRelease
+> Task :react-native-documents_picker:bundleLibRuntimeToJarRelease
+> Task :react-native-gesture-handler:bundleLibRuntimeToJarRelease
+> Task :react-native-localize:bundleLibRuntimeToJarRelease
+> Task :react-native-maps:bundleLibRuntimeToJarRelease
+> Task :react-native-nitro-sound:bundleLibRuntimeToJarRelease
+> Task :react-native-nitro-modules:bundleLibRuntimeToJarRelease
+> Task :react-native-permissions:bundleLibRuntimeToJarRelease
+> Task :react-native-safe-area-context:bundleLibRuntimeToJarRelease
+> Task :react-native-screens:bundleLibRuntimeToJarRelease
+> Task :react-native-webview:bundleLibRuntimeToJarRelease
+> Task :notifee_react-native:bundleLibRuntimeToJarRelease
+> Task :react-native-async-storage_async-storage:bundleLibRuntimeToJarRelease
+> Task :react-native-community_geolocation:bundleLibRuntimeToJarRelease
+> Task :react-native-community_netinfo:bundleLibRuntimeToJarRelease
+> Task :react-native-community_slider:bundleLibRuntimeToJarRelease
+> Task :react-native-firebase_messaging:bundleLibRuntimeToJarRelease
+> Task :react-native-firebase_app:bundleLibRuntimeToJarRelease
+> Task :react-native-masked-view_masked-view:bundleLibRuntimeToJarRelease
+> Task :react-native-background-geolocation:bundleLibRuntimeToJarRelease
+> Task :react-native-date-picker:bundleLibRuntimeToJarRelease
+> Task :react-native-fast-image:bundleLibRuntimeToJarRelease
+> Task :react-native-file-viewer:bundleLibRuntimeToJarRelease
+> Task :react-native-fs:bundleLibRuntimeToJarRelease
+> Task :react-native-image-crop-picker:bundleLibRuntimeToJarRelease
+> Task :react-native-image-picker:bundleLibRuntimeToJarRelease
+> Task :react-native-incall-manager:bundleLibRuntimeToJarRelease
+> Task :react-native-linear-gradient:bundleLibRuntimeToJarRelease
+> Task :react-native-reanimated:bundleLibRuntimeToJarRelease
+> Task :react-native-splash-screen:bundleLibRuntimeToJarRelease
+> Task :react-native-svg:bundleLibRuntimeToJarRelease
+> Task :react-native-vector-icons:bundleLibRuntimeToJarRelease
+> Task :react-native-version-check:bundleLibRuntimeToJarRelease
+> Task :react-native-webrtc:bundleLibRuntimeToJarRelease
+> Task :app:mergeReleaseGlobalSynthetics
+> Task :app:compileReleaseArtProfile
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders NO-SOURCE
+> Task :app:generateReleaseAssets UP-TO-DATE
+> Task :notifee_react-native:mergeReleaseShaders
+> Task :notifee_react-native:compileReleaseShaders NO-SOURCE
+> Task :notifee_react-native:generateReleaseAssets UP-TO-DATE
+> Task :notifee_react-native:mergeReleaseAssets
+> Task :react-native-async-storage_async-storage:mergeReleaseShaders
+> Task :react-native-async-storage_async-storage:compileReleaseShaders NO-SOURCE
+> Task :react-native-async-storage_async-storage:generateReleaseAssets UP-TO-DATE
+> Task :react-native-async-storage_async-storage:mergeReleaseAssets
+> Task :react-native-background-geolocation:mergeReleaseShaders
+> Task :react-native-background-geolocation:compileReleaseShaders NO-SOURCE
+> Task :react-native-background-geolocation:generateReleaseAssets UP-TO-DATE
+> Task :react-native-background-geolocation:mergeReleaseAssets
+> Task :react-native-community_datetimepicker:mergeReleaseShaders
+> Task :react-native-community_datetimepicker:compileReleaseShaders NO-SOURCE
+> Task :react-native-community_datetimepicker:generateReleaseAssets UP-TO-DATE
+> Task :react-native-community_datetimepicker:mergeReleaseAssets
+> Task :react-native-community_geolocation:mergeReleaseShaders
+> Task :react-native-community_geolocation:compileReleaseShaders NO-SOURCE
+> Task :react-native-community_geolocation:generateReleaseAssets UP-TO-DATE
+> Task :react-native-community_geolocation:mergeReleaseAssets
+> Task :react-native-community_netinfo:mergeReleaseShaders
+> Task :react-native-community_netinfo:compileReleaseShaders NO-SOURCE
+> Task :react-native-community_netinfo:generateReleaseAssets UP-TO-DATE
+> Task :react-native-community_netinfo:mergeReleaseAssets
+> Task :react-native-community_slider:mergeReleaseShaders
+> Task :react-native-community_slider:compileReleaseShaders NO-SOURCE
+> Task :react-native-community_slider:generateReleaseAssets UP-TO-DATE
+> Task :react-native-community_slider:mergeReleaseAssets
+> Task :react-native-date-picker:mergeReleaseShaders
+> Task :react-native-date-picker:compileReleaseShaders NO-SOURCE
+> Task :react-native-date-picker:generateReleaseAssets UP-TO-DATE
+> Task :react-native-date-picker:mergeReleaseAssets
+> Task :react-native-documents_picker:mergeReleaseShaders
+> Task :react-native-documents_picker:compileReleaseShaders NO-SOURCE
+> Task :react-native-documents_picker:generateReleaseAssets UP-TO-DATE
+> Task :react-native-documents_picker:mergeReleaseAssets
+> Task :react-native-fast-image:mergeReleaseShaders
+> Task :react-native-fast-image:compileReleaseShaders NO-SOURCE
+> Task :react-native-fast-image:generateReleaseAssets UP-TO-DATE
+> Task :react-native-fast-image:mergeReleaseAssets
+> Task :react-native-file-viewer:mergeReleaseShaders
+> Task :react-native-file-viewer:compileReleaseShaders NO-SOURCE
+> Task :react-native-file-viewer:generateReleaseAssets UP-TO-DATE
+> Task :react-native-file-viewer:mergeReleaseAssets
+> Task :react-native-firebase_app:mergeReleaseShaders
+> Task :react-native-firebase_app:compileReleaseShaders NO-SOURCE
+> Task :react-native-firebase_app:generateReleaseAssets UP-TO-DATE
+> Task :react-native-firebase_app:mergeReleaseAssets
+> Task :react-native-firebase_messaging:mergeReleaseShaders
+> Task :react-native-firebase_messaging:compileReleaseShaders NO-SOURCE
+> Task :react-native-firebase_messaging:generateReleaseAssets UP-TO-DATE
+> Task :react-native-firebase_messaging:mergeReleaseAssets
+> Task :react-native-fs:mergeReleaseShaders
+> Task :react-native-fs:compileReleaseShaders NO-SOURCE
+> Task :react-native-fs:generateReleaseAssets UP-TO-DATE
+> Task :react-native-fs:mergeReleaseAssets
+> Task :react-native-gesture-handler:mergeReleaseShaders
+> Task :react-native-gesture-handler:compileReleaseShaders NO-SOURCE
+> Task :react-native-gesture-handler:generateReleaseAssets UP-TO-DATE
+> Task :react-native-gesture-handler:mergeReleaseAssets
+> Task :react-native-image-crop-picker:mergeReleaseShaders
+> Task :react-native-image-crop-picker:compileReleaseShaders NO-SOURCE
+> Task :react-native-image-crop-picker:generateReleaseAssets UP-TO-DATE
+> Task :react-native-image-crop-picker:mergeReleaseAssets
+> Task :react-native-image-picker:mergeReleaseShaders
+> Task :react-native-image-picker:compileReleaseShaders NO-SOURCE
+> Task :react-native-image-picker:generateReleaseAssets UP-TO-DATE
+> Task :react-native-image-picker:mergeReleaseAssets
+> Task :react-native-incall-manager:mergeReleaseShaders
+> Task :react-native-incall-manager:compileReleaseShaders NO-SOURCE
+> Task :react-native-incall-manager:generateReleaseAssets UP-TO-DATE
+> Task :react-native-incall-manager:mergeReleaseAssets
+> Task :react-native-linear-gradient:mergeReleaseShaders
+> Task :react-native-linear-gradient:compileReleaseShaders NO-SOURCE
+> Task :react-native-linear-gradient:generateReleaseAssets UP-TO-DATE
+> Task :react-native-linear-gradient:mergeReleaseAssets
+> Task :react-native-localize:mergeReleaseShaders
+> Task :react-native-localize:compileReleaseShaders NO-SOURCE
+> Task :react-native-localize:generateReleaseAssets UP-TO-DATE
+> Task :react-native-localize:mergeReleaseAssets
+> Task :react-native-maps:mergeReleaseShaders
+> Task :react-native-maps:compileReleaseShaders NO-SOURCE
+> Task :react-native-maps:generateReleaseAssets UP-TO-DATE
+> Task :react-native-maps:mergeReleaseAssets
+> Task :react-native-masked-view_masked-view:mergeReleaseShaders
+> Task :react-native-masked-view_masked-view:compileReleaseShaders NO-SOURCE
+> Task :react-native-masked-view_masked-view:generateReleaseAssets UP-TO-DATE
+> Task :react-native-masked-view_masked-view:mergeReleaseAssets
+> Task :react-native-nitro-modules:mergeReleaseShaders
+> Task :react-native-nitro-modules:compileReleaseShaders NO-SOURCE
+> Task :react-native-nitro-modules:generateReleaseAssets UP-TO-DATE
+> Task :react-native-nitro-modules:mergeReleaseAssets
+> Task :react-native-nitro-sound:mergeReleaseShaders
+> Task :react-native-nitro-sound:compileReleaseShaders NO-SOURCE
+> Task :react-native-nitro-sound:generateReleaseAssets UP-TO-DATE
+> Task :react-native-nitro-sound:mergeReleaseAssets
+> Task :react-native-permissions:mergeReleaseShaders
+> Task :react-native-permissions:compileReleaseShaders NO-SOURCE
+> Task :react-native-permissions:generateReleaseAssets UP-TO-DATE
+> Task :react-native-permissions:mergeReleaseAssets
+> Task :react-native-reanimated:mergeReleaseShaders
+> Task :react-native-reanimated:compileReleaseShaders NO-SOURCE
+> Task :react-native-reanimated:generateReleaseAssets UP-TO-DATE
+> Task :react-native-reanimated:mergeReleaseAssets
+> Task :react-native-safe-area-context:mergeReleaseShaders
+> Task :react-native-safe-area-context:compileReleaseShaders NO-SOURCE
+> Task :react-native-safe-area-context:generateReleaseAssets UP-TO-DATE
+> Task :react-native-safe-area-context:mergeReleaseAssets
+> Task :react-native-screens:mergeReleaseShaders
+> Task :react-native-screens:compileReleaseShaders NO-SOURCE
+> Task :react-native-screens:generateReleaseAssets UP-TO-DATE
+> Task :react-native-screens:mergeReleaseAssets
+> Task :react-native-splash-screen:mergeReleaseShaders
+> Task :react-native-splash-screen:compileReleaseShaders NO-SOURCE
+> Task :react-native-splash-screen:generateReleaseAssets UP-TO-DATE
+> Task :react-native-splash-screen:mergeReleaseAssets
+> Task :react-native-svg:mergeReleaseShaders
+> Task :react-native-svg:compileReleaseShaders NO-SOURCE
+> Task :react-native-svg:generateReleaseAssets UP-TO-DATE
+> Task :react-native-svg:mergeReleaseAssets
+> Task :react-native-vector-icons:mergeReleaseShaders
+> Task :react-native-vector-icons:compileReleaseShaders NO-SOURCE
+> Task :react-native-vector-icons:generateReleaseAssets UP-TO-DATE
+> Task :react-native-vector-icons:mergeReleaseAssets
+> Task :react-native-version-check:mergeReleaseShaders
+> Task :react-native-version-check:compileReleaseShaders NO-SOURCE
+> Task :react-native-version-check:generateReleaseAssets UP-TO-DATE
+> Task :react-native-version-check:mergeReleaseAssets
+> Task :react-native-webrtc:mergeReleaseShaders
+> Task :react-native-webrtc:compileReleaseShaders NO-SOURCE
+> Task :react-native-webrtc:generateReleaseAssets UP-TO-DATE
+> Task :react-native-webrtc:mergeReleaseAssets
+> Task :react-native-webview:mergeReleaseShaders
+> Task :react-native-webview:compileReleaseShaders NO-SOURCE
+> Task :react-native-webview:generateReleaseAssets UP-TO-DATE
+> Task :react-native-webview:mergeReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:compressReleaseAssets
+> Task :app:extractReleaseVersionControlInfo
+> Task :app:extractProguardFiles
+> Task :notifee_react-native:processReleaseJavaRes NO-SOURCE
+> Task :notifee_react-native:createFullJarRelease
+> Task :notifee_react-native:extractProguardFiles
+> Task :notifee_react-native:generateReleaseLintModel
+> Task :notifee_react-native:prepareLintJarForPublish
+> Task :react-native-async-storage_async-storage:processReleaseJavaRes NO-SOURCE
+> Task :react-native-async-storage_async-storage:createFullJarRelease
+> Task :react-native-async-storage_async-storage:extractProguardFiles
+> Task :react-native-async-storage_async-storage:generateReleaseLintModel
+> Task :react-native-async-storage_async-storage:prepareLintJarForPublish
+> Task :react-native-background-geolocation:processReleaseJavaRes NO-SOURCE
+> Task :react-native-background-geolocation:createFullJarRelease
+> Task :react-native-background-geolocation:extractProguardFiles
+> Task :react-native-background-geolocation:generateReleaseLintModel
+> Task :react-native-background-geolocation:prepareLintJarForPublish
+> Task :react-native-community_datetimepicker:processReleaseJavaRes
+> Task :react-native-community_datetimepicker:createFullJarRelease
+> Task :react-native-community_datetimepicker:extractProguardFiles
+> Task :react-native-community_datetimepicker:generateReleaseLintModel
+> Task :react-native-community_datetimepicker:prepareLintJarForPublish
+> Task :react-native-community_geolocation:processReleaseJavaRes NO-SOURCE
+> Task :react-native-community_geolocation:createFullJarRelease
+> Task :react-native-community_geolocation:extractProguardFiles
+> Task :react-native-community_geolocation:generateReleaseLintModel
+> Task :react-native-community_geolocation:prepareLintJarForPublish
+> Task :react-native-community_netinfo:processReleaseJavaRes NO-SOURCE
+> Task :react-native-community_netinfo:createFullJarRelease
+> Task :react-native-community_netinfo:extractProguardFiles
+> Task :react-native-community_netinfo:generateReleaseLintModel
+> Task :react-native-community_netinfo:prepareLintJarForPublish
+> Task :react-native-community_slider:processReleaseJavaRes NO-SOURCE
+> Task :react-native-community_slider:createFullJarRelease
+> Task :react-native-community_slider:extractProguardFiles
+> Task :react-native-community_slider:generateReleaseLintModel
+> Task :react-native-community_slider:prepareLintJarForPublish
+> Task :react-native-date-picker:processReleaseJavaRes NO-SOURCE
+> Task :react-native-date-picker:createFullJarRelease
+> Task :react-native-date-picker:extractProguardFiles
+> Task :react-native-date-picker:generateReleaseLintModel
+> Task :react-native-date-picker:prepareLintJarForPublish
+> Task :react-native-documents_picker:processReleaseJavaRes
+> Task :react-native-documents_picker:createFullJarRelease
+> Task :react-native-documents_picker:extractProguardFiles
+> Task :react-native-documents_picker:generateReleaseLintModel
+> Task :react-native-documents_picker:prepareLintJarForPublish
+> Task :react-native-fast-image:processReleaseJavaRes
+> Task :react-native-fast-image:createFullJarRelease
+> Task :react-native-fast-image:extractProguardFiles
+> Task :react-native-fast-image:generateReleaseLintModel
+> Task :react-native-fast-image:prepareLintJarForPublish
+> Task :react-native-file-viewer:processReleaseJavaRes NO-SOURCE
+> Task :react-native-file-viewer:createFullJarRelease
+> Task :react-native-file-viewer:extractProguardFiles
+> Task :react-native-file-viewer:generateReleaseLintModel
+> Task :react-native-file-viewer:prepareLintJarForPublish
+> Task :react-native-firebase_app:processReleaseJavaRes NO-SOURCE
+> Task :react-native-firebase_app:createFullJarRelease
+> Task :react-native-firebase_app:extractProguardFiles
+> Task :react-native-firebase_app:generateReleaseLintModel
+> Task :react-native-firebase_app:prepareLintJarForPublish
+> Task :react-native-firebase_messaging:processReleaseJavaRes NO-SOURCE
+> Task :react-native-firebase_messaging:createFullJarRelease
+> Task :react-native-firebase_messaging:extractProguardFiles
+> Task :react-native-firebase_messaging:generateReleaseLintModel
+> Task :react-native-firebase_messaging:prepareLintJarForPublish
+> Task :react-native-fs:processReleaseJavaRes NO-SOURCE
+> Task :react-native-fs:createFullJarRelease
+> Task :react-native-fs:extractProguardFiles
+> Task :react-native-fs:generateReleaseLintModel
+> Task :react-native-fs:prepareLintJarForPublish
+> Task :react-native-gesture-handler:processReleaseJavaRes
+> Task :react-native-gesture-handler:createFullJarRelease
+> Task :react-native-gesture-handler:extractProguardFiles
+> Task :react-native-reanimated:processReleaseJavaRes NO-SOURCE
+> Task :react-native-reanimated:createFullJarRelease
+> Task :react-native-reanimated:extractProguardFiles
+> Task :react-native-reanimated:generateReleaseLintModel
+> Task :react-native-reanimated:prepareLintJarForPublish
+> Task :react-native-svg:processReleaseJavaRes NO-SOURCE
+> Task :react-native-svg:createFullJarRelease
+> Task :react-native-svg:extractProguardFiles
+> Task :react-native-svg:generateReleaseLintModel
+> Task :react-native-svg:prepareLintJarForPublish
+> Task :react-native-gesture-handler:generateReleaseLintModel
+> Task :react-native-gesture-handler:prepareLintJarForPublish
+> Task :react-native-image-crop-picker:processReleaseJavaRes NO-SOURCE
+> Task :react-native-image-crop-picker:createFullJarRelease
+> Task :react-native-image-crop-picker:extractProguardFiles
+> Task :react-native-image-crop-picker:generateReleaseLintModel
+> Task :react-native-image-crop-picker:prepareLintJarForPublish
+> Task :react-native-image-picker:processReleaseJavaRes NO-SOURCE
+> Task :react-native-image-picker:createFullJarRelease
+> Task :react-native-image-picker:extractProguardFiles
+> Task :react-native-image-picker:generateReleaseLintModel
+> Task :react-native-image-picker:prepareLintJarForPublish
+> Task :react-native-incall-manager:processReleaseJavaRes NO-SOURCE
+> Task :react-native-incall-manager:createFullJarRelease
+> Task :react-native-incall-manager:extractProguardFiles
+> Task :react-native-incall-manager:generateReleaseLintModel
+> Task :react-native-incall-manager:prepareLintJarForPublish
+> Task :react-native-linear-gradient:processReleaseJavaRes NO-SOURCE
+> Task :react-native-linear-gradient:createFullJarRelease
+> Task :react-native-linear-gradient:extractProguardFiles
+> Task :react-native-linear-gradient:generateReleaseLintModel
+> Task :react-native-linear-gradient:prepareLintJarForPublish
+> Task :react-native-localize:processReleaseJavaRes
+> Task :react-native-localize:createFullJarRelease
+> Task :react-native-localize:extractProguardFiles
+> Task :react-native-localize:generateReleaseLintModel
+> Task :react-native-localize:prepareLintJarForPublish
+> Task :react-native-maps:processReleaseJavaRes NO-SOURCE
+> Task :react-native-maps:createFullJarRelease
+> Task :react-native-maps:extractProguardFiles
+> Task :react-native-maps:generateReleaseLintModel
+> Task :react-native-maps:prepareLintJarForPublish
+> Task :react-native-masked-view_masked-view:processReleaseJavaRes NO-SOURCE
+> Task :react-native-masked-view_masked-view:createFullJarRelease
+> Task :react-native-masked-view_masked-view:extractProguardFiles
+> Task :react-native-masked-view_masked-view:generateReleaseLintModel
+> Task :react-native-masked-view_masked-view:prepareLintJarForPublish
+> Task :react-native-nitro-modules:processReleaseJavaRes
+> Task :react-native-nitro-modules:createFullJarRelease
+> Task :react-native-nitro-modules:extractProguardFiles
+> Task :react-native-nitro-modules:generateReleaseLintModel
+> Task :react-native-nitro-modules:prepareLintJarForPublish
+> Task :react-native-nitro-sound:processReleaseJavaRes
+> Task :react-native-nitro-sound:createFullJarRelease
+> Task :react-native-nitro-sound:extractProguardFiles
+> Task :react-native-nitro-sound:generateReleaseLintModel
+> Task :react-native-nitro-sound:prepareLintJarForPublish
+> Task :react-native-permissions:processReleaseJavaRes
+> Task :react-native-permissions:createFullJarRelease
+> Task :react-native-permissions:extractProguardFiles
+> Task :react-native-permissions:generateReleaseLintModel
+> Task :react-native-permissions:prepareLintJarForPublish
+> Task :react-native-safe-area-context:processReleaseJavaRes
+> Task :react-native-safe-area-context:createFullJarRelease
+> Task :react-native-safe-area-context:extractProguardFiles
+> Task :react-native-safe-area-context:generateReleaseLintModel
+> Task :react-native-safe-area-context:prepareLintJarForPublish
+> Task :react-native-screens:processReleaseJavaRes
+> Task :react-native-screens:createFullJarRelease
+> Task :react-native-screens:extractProguardFiles
+> Task :react-native-screens:generateReleaseLintModel
+> Task :react-native-screens:prepareLintJarForPublish
+> Task :react-native-splash-screen:processReleaseJavaRes NO-SOURCE
+> Task :react-native-splash-screen:createFullJarRelease
+> Task :react-native-splash-screen:extractProguardFiles
+> Task :react-native-splash-screen:generateReleaseLintModel
+> Task :react-native-splash-screen:prepareLintJarForPublish
+> Task :react-native-vector-icons:processReleaseJavaRes NO-SOURCE
+> Task :react-native-vector-icons:createFullJarRelease
+> Task :react-native-vector-icons:extractProguardFiles
+> Task :react-native-vector-icons:generateReleaseLintModel
+> Task :react-native-vector-icons:prepareLintJarForPublish
+> Task :react-native-version-check:processReleaseJavaRes NO-SOURCE
+> Task :react-native-version-check:createFullJarRelease
+> Task :react-native-version-check:extractProguardFiles
+> Task :react-native-version-check:generateReleaseLintModel
+> Task :react-native-version-check:prepareLintJarForPublish
+> Task :react-native-webrtc:processReleaseJavaRes NO-SOURCE
+> Task :react-native-webrtc:createFullJarRelease
+> Task :react-native-webrtc:extractProguardFiles
+> Task :react-native-webrtc:generateReleaseLintModel
+> Task :react-native-webrtc:prepareLintJarForPublish
+> Task :react-native-webview:processReleaseJavaRes
+> Task :react-native-webview:createFullJarRelease
+> Task :react-native-webview:extractProguardFiles
+> Task :react-native-webview:generateReleaseLintModel
+> Task :react-native-webview:prepareLintJarForPublish
+> Task :app:generateReleaseLintVitalReportModel
+> Task :react-native-community_datetimepicker:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-community_datetimepicker:copyReleaseJniLibsProjectAndLocalJars
+> Task :react-native-community_datetimepicker:extractDeepLinksForAarRelease
+> Task :react-native-community_datetimepicker:extractReleaseAnnotations
+> Task :react-native-community_datetimepicker:mergeReleaseGeneratedProguardFiles
+> Task :react-native-community_datetimepicker:mergeReleaseConsumerProguardFiles
+> Task :react-native-community_datetimepicker:mergeReleaseJavaResource
+> Task :react-native-community_datetimepicker:syncReleaseLibJars
+> Task :react-native-community_datetimepicker:bundleReleaseLocalLintAar
+> Task :react-native-documents_picker:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-documents_picker:copyReleaseJniLibsProjectAndLocalJars
+> Task :react-native-documents_picker:extractDeepLinksForAarRelease
+> Task :react-native-documents_picker:extractReleaseAnnotations
+> Task :react-native-documents_picker:mergeReleaseGeneratedProguardFiles
+> Task :react-native-documents_picker:mergeReleaseConsumerProguardFiles
+> Task :react-native-documents_picker:mergeReleaseJavaResource
+> Task :react-native-documents_picker:syncReleaseLibJars
+> Task :react-native-documents_picker:bundleReleaseLocalLintAar
+> Task :react-native-gesture-handler:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-gesture-handler:copyReleaseJniLibsProjectAndLocalJars
+> Task :react-native-gesture-handler:extractDeepLinksForAarRelease
+> Task :react-native-gesture-handler:extractReleaseAnnotations
+> Task :react-native-gesture-handler:mergeReleaseGeneratedProguardFiles
+> Task :react-native-gesture-handler:mergeReleaseConsumerProguardFiles
+> Task :react-native-gesture-handler:mergeReleaseJavaResource
+> Task :react-native-gesture-handler:syncReleaseLibJars
+> Task :react-native-gesture-handler:bundleReleaseLocalLintAar
+> Task :react-native-localize:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-localize:copyReleaseJniLibsProjectAndLocalJars
+> Task :react-native-localize:extractDeepLinksForAarRelease
+> Task :react-native-localize:extractReleaseAnnotations
+> Task :react-native-localize:mergeReleaseGeneratedProguardFiles
+> Task :react-native-localize:mergeReleaseConsumerProguardFiles
+> Task :react-native-localize:mergeReleaseJavaResource
+> Task :react-native-localize:syncReleaseLibJars
+> Task :react-native-localize:bundleReleaseLocalLintAar
+> Task :react-native-maps:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-maps:copyReleaseJniLibsProjectAndLocalJars
+> Task :react-native-maps:extractDeepLinksForAarRelease
+> Task :react-native-maps:extractReleaseAnnotations
+> Task :react-native-maps:mergeReleaseGeneratedProguardFiles
+> Task :react-native-maps:mergeReleaseConsumerProguardFiles
+> Task :react-native-maps:mergeReleaseJavaResource
+> Task :react-native-maps:syncReleaseLibJars
+> Task :react-native-maps:bundleReleaseLocalLintAar
+> Task :react-native-nitro-sound:stripReleaseDebugSymbols
+> Task :react-native-nitro-sound:copyReleaseJniLibsProjectAndLocalJars
+> Task :react-native-nitro-sound:extractDeepLinksForAarRelease
+> Task :react-native-nitro-sound:extractReleaseAnnotations
+> Task :react-native-nitro-sound:mergeReleaseGeneratedProguardFiles
+> Task :react-native-nitro-sound:mergeReleaseConsumerProguardFiles
+> Task :react-native-nitro-sound:mergeReleaseJavaResource
+> Task :react-native-nitro-sound:syncReleaseLibJars
+> Task :react-native-nitro-sound:bundleReleaseLocalLintAar
+> Task :react-native-nitro-modules:stripReleaseDebugSymbols
+> Task :react-native-nitro-modules:copyReleaseJniLibsProjectAndLocalJars
+> Task :react-native-nitro-modules:extractDeepLinksForAarRelease
+> Task :react-native-nitro-modules:extractReleaseAnnotations
+> Task :react-native-nitro-modules:mergeReleaseGeneratedProguardFiles
+> Task :react-native-nitro-modules:mergeReleaseConsumerProguardFiles
+> Task :react-native-nitro-modules:mergeReleaseJavaResource
+> Task :react-native-nitro-modules:syncReleaseLibJars
+> Task :react-native-nitro-modules:bundleReleaseLocalLintAar
+> Task :react-native-permissions:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-permissions:copyReleaseJniLibsProjectAndLocalJars
+> Task :react-native-permissions:extractDeepLinksForAarRelease
+> Task :react-native-permissions:extractReleaseAnnotations
+> Task :react-native-permissions:mergeReleaseGeneratedProguardFiles
+> Task :react-native-permissions:mergeReleaseConsumerProguardFiles
+> Task :react-native-permissions:mergeReleaseJavaResource
+> Task :react-native-permissions:syncReleaseLibJars
+> Task :react-native-permissions:bundleReleaseLocalLintAar
+> Task :react-native-safe-area-context:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-safe-area-context:copyReleaseJniLibsProjectAndLocalJars
+> Task :react-native-safe-area-context:extractDeepLinksForAarRelease
+> Task :react-native-safe-area-context:extractReleaseAnnotations
+> Task :react-native-safe-area-context:mergeReleaseGeneratedProguardFiles
+> Task :react-native-safe-area-context:mergeReleaseConsumerProguardFiles
+> Task :react-native-safe-area-context:mergeReleaseJavaResource
+> Task :react-native-safe-area-context:syncReleaseLibJars
+> Task :react-native-safe-area-context:bundleReleaseLocalLintAar
+> Task :react-native-screens:stripReleaseDebugSymbols
+> Task :react-native-screens:copyReleaseJniLibsProjectAndLocalJars
+> Task :react-native-screens:extractDeepLinksForAarRelease
+> Task :react-native-screens:extractReleaseAnnotations
+> Task :react-native-screens:mergeReleaseGeneratedProguardFiles
+> Task :react-native-screens:mergeReleaseConsumerProguardFiles
+> Task :react-native-screens:mergeReleaseJavaResource
+> Task :react-native-screens:syncReleaseLibJars
+> Task :react-native-screens:bundleReleaseLocalLintAar
+> Task :react-native-webview:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-webview:copyReleaseJniLibsProjectAndLocalJars
+> Task :react-native-webview:extractDeepLinksForAarRelease
+> Task :react-native-webview:extractReleaseAnnotations
+> Task :react-native-webview:mergeReleaseGeneratedProguardFiles
+> Task :react-native-webview:mergeReleaseConsumerProguardFiles
+> Task :react-native-webview:mergeReleaseJavaResource
+> Task :react-native-webview:syncReleaseLibJars
+> Task :react-native-webview:bundleReleaseLocalLintAar
+> Task :notifee_react-native:stripReleaseDebugSymbols NO-SOURCE
+> Task :notifee_react-native:copyReleaseJniLibsProjectAndLocalJars
+> Task :notifee_react-native:extractDeepLinksForAarRelease
+> Task :notifee_react-native:extractReleaseAnnotations
+> Task :notifee_react-native:mergeReleaseGeneratedProguardFiles
+> Task :notifee_react-native:mergeReleaseConsumerProguardFiles
+> Task :notifee_react-native:mergeReleaseJavaResource
+> Task :notifee_react-native:syncReleaseLibJars
+> Task :notifee_react-native:bundleReleaseLocalLintAar
+> Task :react-native-async-storage_async-storage:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-async-storage_async-storage:copyReleaseJniLibsProjectAndLocalJars
+> Task :react-native-async-storage_async-storage:extractDeepLinksForAarRelease
+> Task :react-native-async-storage_async-storage:extractReleaseAnnotations
+> Task :react-native-async-storage_async-storage:mergeReleaseGeneratedProguardFiles
+> Task :react-native-async-storage_async-storage:mergeReleaseConsumerProguardFiles
+> Task :react-native-async-storage_async-storage:mergeReleaseJavaResource
+> Task :react-native-async-storage_async-storage:syncReleaseLibJars
+> Task :react-native-async-storage_async-storage:bundleReleaseLocalLintAar
+> Task :react-native-community_geolocation:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-community_geolocation:copyReleaseJniLibsProjectAndLocalJars
+> Task :react-native-community_geolocation:extractDeepLinksForAarRelease
+> Task :react-native-community_geolocation:extractReleaseAnnotations
+> Task :react-native-community_geolocation:mergeReleaseGeneratedProguardFiles
+> Task :react-native-community_geolocation:mergeReleaseConsumerProguardFiles
+> Task :react-native-community_geolocation:mergeReleaseJavaResource
+> Task :react-native-community_geolocation:syncReleaseLibJars
+> Task :react-native-community_geolocation:bundleReleaseLocalLintAar
+> Task :react-native-community_netinfo:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-community_netinfo:copyReleaseJniLibsProjectAndLocalJars
+> Task :react-native-community_netinfo:extractDeepLinksForAarRelease
+> Task :react-native-community_netinfo:extractReleaseAnnotations
+> Task :react-native-community_netinfo:mergeReleaseGeneratedProguardFiles
+> Task :react-native-community_netinfo:mergeReleaseConsumerProguardFiles
+> Task :react-native-community_netinfo:mergeReleaseJavaResource
+> Task :react-native-community_netinfo:syncReleaseLibJars
+> Task :react-native-community_netinfo:bundleReleaseLocalLintAar
+> Task :react-native-community_slider:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-community_slider:copyReleaseJniLibsProjectAndLocalJars
+> Task :react-native-community_slider:extractDeepLinksForAarRelease
+> Task :react-native-community_slider:extractReleaseAnnotations
+> Task :react-native-community_slider:mergeReleaseGeneratedProguardFiles
+> Task :react-native-community_slider:mergeReleaseConsumerProguardFiles
+> Task :react-native-community_slider:mergeReleaseJavaResource
+> Task :react-native-community_slider:syncReleaseLibJars
+> Task :react-native-community_slider:bundleReleaseLocalLintAar
+> Task :react-native-firebase_messaging:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-firebase_messaging:copyReleaseJniLibsProjectAndLocalJars
+> Task :react-native-firebase_messaging:extractDeepLinksForAarRelease
+> Task :react-native-firebase_messaging:extractReleaseAnnotations
+> Task :react-native-firebase_messaging:mergeReleaseGeneratedProguardFiles
+> Task :react-native-firebase_messaging:mergeReleaseConsumerProguardFiles
+> Task :react-native-firebase_messaging:mergeReleaseJavaResource
+> Task :react-native-firebase_messaging:syncReleaseLibJars
+> Task :react-native-firebase_messaging:bundleReleaseLocalLintAar
+> Task :react-native-firebase_app:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-firebase_app:copyReleaseJniLibsProjectAndLocalJars
+> Task :react-native-firebase_app:extractDeepLinksForAarRelease
+> Task :react-native-firebase_app:extractReleaseAnnotations
+> Task :react-native-firebase_app:mergeReleaseGeneratedProguardFiles
+> Task :react-native-firebase_app:mergeReleaseConsumerProguardFiles
+> Task :react-native-firebase_app:mergeReleaseJavaResource
+> Task :react-native-firebase_app:syncReleaseLibJars
+> Task :react-native-firebase_app:bundleReleaseLocalLintAar
+> Task :react-native-masked-view_masked-view:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-masked-view_masked-view:copyReleaseJniLibsProjectAndLocalJars
+> Task :react-native-masked-view_masked-view:extractDeepLinksForAarRelease
+> Task :react-native-masked-view_masked-view:extractReleaseAnnotations
+> Task :react-native-masked-view_masked-view:mergeReleaseGeneratedProguardFiles
+> Task :react-native-masked-view_masked-view:mergeReleaseConsumerProguardFiles
+> Task :react-native-masked-view_masked-view:mergeReleaseJavaResource
+> Task :react-native-masked-view_masked-view:syncReleaseLibJars
+> Task :react-native-masked-view_masked-view:bundleReleaseLocalLintAar
+> Task :react-native-background-geolocation:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-background-geolocation:copyReleaseJniLibsProjectAndLocalJars
+> Task :react-native-background-geolocation:extractDeepLinksForAarRelease
+> Task :react-native-background-geolocation:extractReleaseAnnotations
+> Task :react-native-background-geolocation:mergeReleaseGeneratedProguardFiles
+> Task :react-native-background-geolocation:mergeReleaseConsumerProguardFiles
+> Task :react-native-background-geolocation:mergeReleaseJavaResource
+> Task :react-native-background-geolocation:syncReleaseLibJars
+> Task :react-native-background-geolocation:bundleReleaseLocalLintAar
+> Task :react-native-date-picker:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-date-picker:copyReleaseJniLibsProjectAndLocalJars
+> Task :react-native-date-picker:extractDeepLinksForAarRelease
+> Task :react-native-date-picker:extractReleaseAnnotations
+> Task :react-native-date-picker:mergeReleaseGeneratedProguardFiles
+> Task :react-native-date-picker:mergeReleaseConsumerProguardFiles
+> Task :react-native-date-picker:mergeReleaseJavaResource
+> Task :react-native-date-picker:syncReleaseLibJars
+> Task :react-native-date-picker:bundleReleaseLocalLintAar
+> Task :react-native-fast-image:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-fast-image:copyReleaseJniLibsProjectAndLocalJars
+> Task :react-native-fast-image:extractDeepLinksForAarRelease
+> Task :react-native-fast-image:extractReleaseAnnotations
+> Task :react-native-fast-image:mergeReleaseGeneratedProguardFiles
+> Task :react-native-fast-image:mergeReleaseConsumerProguardFiles
+> Task :react-native-fast-image:mergeReleaseJavaResource
+> Task :react-native-fast-image:syncReleaseLibJars
+> Task :react-native-fast-image:bundleReleaseLocalLintAar
+> Task :react-native-file-viewer:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-file-viewer:copyReleaseJniLibsProjectAndLocalJars
+> Task :react-native-file-viewer:extractDeepLinksForAarRelease
+> Task :react-native-file-viewer:extractReleaseAnnotations
+> Task :react-native-file-viewer:mergeReleaseGeneratedProguardFiles
+> Task :react-native-file-viewer:mergeReleaseConsumerProguardFiles
+> Task :react-native-file-viewer:mergeReleaseJavaResource
+> Task :react-native-file-viewer:syncReleaseLibJars
+> Task :react-native-file-viewer:bundleReleaseLocalLintAar
+> Task :react-native-fs:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-fs:copyReleaseJniLibsProjectAndLocalJars
+> Task :react-native-fs:extractDeepLinksForAarRelease
+> Task :react-native-fs:extractReleaseAnnotations
+> Task :react-native-fs:mergeReleaseGeneratedProguardFiles
+> Task :react-native-fs:mergeReleaseConsumerProguardFiles
+> Task :react-native-fs:mergeReleaseJavaResource
+> Task :react-native-fs:syncReleaseLibJars
+> Task :react-native-fs:bundleReleaseLocalLintAar
+> Task :react-native-image-crop-picker:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-image-crop-picker:copyReleaseJniLibsProjectAndLocalJars
+> Task :react-native-image-crop-picker:extractDeepLinksForAarRelease
+> Task :react-native-image-crop-picker:extractReleaseAnnotations
+> Task :react-native-image-crop-picker:mergeReleaseGeneratedProguardFiles
+> Task :react-native-image-crop-picker:mergeReleaseConsumerProguardFiles
+> Task :react-native-image-crop-picker:mergeReleaseJavaResource
+> Task :react-native-image-crop-picker:syncReleaseLibJars
+> Task :react-native-image-crop-picker:bundleReleaseLocalLintAar
+> Task :react-native-image-picker:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-image-picker:copyReleaseJniLibsProjectAndLocalJars
+> Task :react-native-image-picker:extractDeepLinksForAarRelease
+> Task :react-native-image-picker:extractReleaseAnnotations
+> Task :react-native-image-picker:mergeReleaseGeneratedProguardFiles
+> Task :react-native-image-picker:mergeReleaseConsumerProguardFiles
+> Task :react-native-image-picker:mergeReleaseJavaResource
+> Task :react-native-image-picker:syncReleaseLibJars
+> Task :react-native-image-picker:bundleReleaseLocalLintAar
+> Task :react-native-incall-manager:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-incall-manager:copyReleaseJniLibsProjectAndLocalJars
+> Task :react-native-incall-manager:extractDeepLinksForAarRelease
+> Task :react-native-incall-manager:extractReleaseAnnotations
+> Task :react-native-incall-manager:mergeReleaseGeneratedProguardFiles
+> Task :react-native-incall-manager:mergeReleaseConsumerProguardFiles
+> Task :react-native-incall-manager:mergeReleaseJavaResource
+> Task :react-native-incall-manager:syncReleaseLibJars
+> Task :react-native-incall-manager:bundleReleaseLocalLintAar
+> Task :react-native-linear-gradient:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-linear-gradient:copyReleaseJniLibsProjectAndLocalJars
+> Task :react-native-linear-gradient:extractDeepLinksForAarRelease
+> Task :react-native-linear-gradient:extractReleaseAnnotations
+> Task :react-native-linear-gradient:mergeReleaseGeneratedProguardFiles
+> Task :react-native-linear-gradient:mergeReleaseConsumerProguardFiles
+> Task :react-native-linear-gradient:mergeReleaseJavaResource
+> Task :react-native-linear-gradient:syncReleaseLibJars
+> Task :react-native-linear-gradient:bundleReleaseLocalLintAar
+> Task :react-native-reanimated:stripReleaseDebugSymbols
+> Task :react-native-reanimated:copyReleaseJniLibsProjectAndLocalJars
+> Task :react-native-reanimated:extractDeepLinksForAarRelease
+> Task :react-native-reanimated:extractReleaseAnnotations
+> Task :react-native-reanimated:mergeReleaseGeneratedProguardFiles
+> Task :react-native-reanimated:mergeReleaseConsumerProguardFiles
+
+> Task :react-native-reanimated:externalNativeBuildRelease
+C/C++: Hard link from 'C:\Users\Hp\.gradle\caches\8.14.1\transforms\950b6193a60660f37e28734b8388a698\transformed\jetified-react-android-0.80.0-release\prefab\modules\reactnative\libs\android.arm64-v8a\libreactnative.so' to 'Z:\node_modules\react-native-reanimated\android\build\intermediates\cmake\release\obj\arm64-v8a\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\Hp\.gradle\caches\8.14.1\transforms\950b6193a60660f37e28734b8388a698\transformed\jetified-react-android-0.80.0-release\prefab\modules\reactnative\libs\android.arm64-v8a\libreactnative.so' to 'Z:\node_modules\react-native-reanimated\android\build\intermediates\cmake\release\obj\arm64-v8a\libreactnative.so' failed. Doing a slower copy instead.
+
+> Task :react-native-reanimated:generateJsonModelRelease
+> Task :react-native-reanimated:prefabReleaseConfigurePackage
+> Task :react-native-reanimated:prefabReleasePackage
+> Task :react-native-reanimated:mergeReleaseJavaResource
+> Task :react-native-reanimated:syncReleaseLibJars
+> Task :react-native-reanimated:bundleReleaseLocalLintAar
+> Task :react-native-splash-screen:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-splash-screen:copyReleaseJniLibsProjectAndLocalJars
+> Task :react-native-splash-screen:extractDeepLinksForAarRelease
+> Task :react-native-splash-screen:extractReleaseAnnotations
+> Task :react-native-splash-screen:mergeReleaseGeneratedProguardFiles
+> Task :react-native-splash-screen:mergeReleaseConsumerProguardFiles
+> Task :react-native-splash-screen:mergeReleaseJavaResource
+> Task :react-native-splash-screen:syncReleaseLibJars
+> Task :react-native-splash-screen:bundleReleaseLocalLintAar
+> Task :react-native-svg:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-svg:copyReleaseJniLibsProjectAndLocalJars
+> Task :react-native-svg:extractDeepLinksForAarRelease
+> Task :react-native-svg:extractReleaseAnnotations
+> Task :react-native-svg:mergeReleaseGeneratedProguardFiles
+> Task :react-native-svg:mergeReleaseConsumerProguardFiles
+> Task :react-native-svg:mergeReleaseJavaResource
+> Task :react-native-svg:syncReleaseLibJars
+> Task :react-native-svg:bundleReleaseLocalLintAar
+> Task :react-native-vector-icons:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-vector-icons:copyReleaseJniLibsProjectAndLocalJars
+> Task :react-native-vector-icons:extractDeepLinksForAarRelease
+> Task :react-native-vector-icons:extractReleaseAnnotations
+> Task :react-native-vector-icons:mergeReleaseGeneratedProguardFiles
+> Task :react-native-vector-icons:mergeReleaseConsumerProguardFiles
+> Task :react-native-vector-icons:mergeReleaseJavaResource
+> Task :react-native-vector-icons:syncReleaseLibJars
+> Task :react-native-vector-icons:bundleReleaseLocalLintAar
+> Task :react-native-version-check:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-version-check:copyReleaseJniLibsProjectAndLocalJars
+> Task :react-native-version-check:extractDeepLinksForAarRelease
+> Task :react-native-version-check:extractReleaseAnnotations
+> Task :react-native-version-check:mergeReleaseGeneratedProguardFiles
+> Task :react-native-version-check:mergeReleaseConsumerProguardFiles
+> Task :react-native-version-check:mergeReleaseJavaResource
+> Task :react-native-version-check:syncReleaseLibJars
+> Task :react-native-version-check:bundleReleaseLocalLintAar
+> Task :react-native-webrtc:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-webrtc:copyReleaseJniLibsProjectAndLocalJars
+> Task :react-native-webrtc:extractDeepLinksForAarRelease
+> Task :react-native-webrtc:extractReleaseAnnotations
+> Task :react-native-webrtc:mergeReleaseGeneratedProguardFiles
+> Task :react-native-webrtc:mergeReleaseConsumerProguardFiles
+> Task :react-native-webrtc:mergeReleaseJavaResource
+> Task :react-native-webrtc:syncReleaseLibJars
+> Task :react-native-webrtc:bundleReleaseLocalLintAar
+> Task :notifee_react-native:lintVitalAnalyzeRelease
+> Task :notifee_react-native:writeReleaseLintModelMetadata
+> Task :react-native-async-storage_async-storage:lintVitalAnalyzeRelease
+> Task :react-native-async-storage_async-storage:writeReleaseLintModelMetadata
+> Task :react-native-background-geolocation:lintVitalAnalyzeRelease
+> Task :react-native-background-geolocation:writeReleaseLintModelMetadata
+> Task :react-native-community_datetimepicker:lintVitalAnalyzeRelease
+> Task :react-native-community_datetimepicker:writeReleaseLintModelMetadata
+> Task :react-native-community_geolocation:lintVitalAnalyzeRelease
+> Task :react-native-community_geolocation:writeReleaseLintModelMetadata
+> Task :react-native-community_netinfo:lintVitalAnalyzeRelease
+> Task :react-native-community_netinfo:writeReleaseLintModelMetadata
+> Task :react-native-community_slider:lintVitalAnalyzeRelease
+> Task :react-native-community_slider:writeReleaseLintModelMetadata
+> Task :react-native-date-picker:lintVitalAnalyzeRelease
+> Task :react-native-date-picker:writeReleaseLintModelMetadata
+> Task :react-native-documents_picker:lintVitalAnalyzeRelease
+> Task :react-native-documents_picker:writeReleaseLintModelMetadata
+> Task :react-native-fast-image:lintVitalAnalyzeRelease
+> Task :react-native-fast-image:writeReleaseLintModelMetadata
+> Task :react-native-file-viewer:lintVitalAnalyzeRelease
+> Task :react-native-file-viewer:writeReleaseLintModelMetadata
+> Task :react-native-firebase_app:lintVitalAnalyzeRelease
+> Task :react-native-firebase_app:writeReleaseLintModelMetadata
+> Task :react-native-firebase_messaging:lintVitalAnalyzeRelease
+> Task :react-native-firebase_messaging:writeReleaseLintModelMetadata
+> Task :react-native-fs:lintVitalAnalyzeRelease
+> Task :react-native-fs:writeReleaseLintModelMetadata
+> Task :react-native-reanimated:writeReleaseLintModelMetadata
+> Task :react-native-svg:writeReleaseLintModelMetadata
+> Task :react-native-gesture-handler:lintVitalAnalyzeRelease
+> Task :react-native-gesture-handler:writeReleaseLintModelMetadata
+> Task :react-native-image-crop-picker:lintVitalAnalyzeRelease
+> Task :react-native-image-crop-picker:writeReleaseLintModelMetadata
+> Task :react-native-image-picker:lintVitalAnalyzeRelease
+> Task :react-native-image-picker:writeReleaseLintModelMetadata
+> Task :react-native-incall-manager:lintVitalAnalyzeRelease
+> Task :react-native-incall-manager:writeReleaseLintModelMetadata
+> Task :react-native-linear-gradient:lintVitalAnalyzeRelease
+> Task :react-native-linear-gradient:writeReleaseLintModelMetadata
+> Task :react-native-localize:lintVitalAnalyzeRelease
+> Task :react-native-localize:writeReleaseLintModelMetadata
+> Task :react-native-maps:lintVitalAnalyzeRelease
+> Task :react-native-maps:writeReleaseLintModelMetadata
+> Task :react-native-masked-view_masked-view:lintVitalAnalyzeRelease
+> Task :react-native-masked-view_masked-view:writeReleaseLintModelMetadata
+> Task :react-native-nitro-modules:lintVitalAnalyzeRelease
+> Task :react-native-nitro-modules:writeReleaseLintModelMetadata
+> Task :react-native-nitro-sound:lintVitalAnalyzeRelease
+> Task :react-native-nitro-sound:writeReleaseLintModelMetadata
+> Task :react-native-permissions:lintVitalAnalyzeRelease
+> Task :react-native-permissions:writeReleaseLintModelMetadata
+> Task :react-native-reanimated:lintVitalAnalyzeRelease
+> Task :react-native-safe-area-context:lintVitalAnalyzeRelease
+> Task :react-native-safe-area-context:writeReleaseLintModelMetadata
+> Task :react-native-screens:lintVitalAnalyzeRelease
+> Task :react-native-screens:writeReleaseLintModelMetadata
+> Task :react-native-splash-screen:lintVitalAnalyzeRelease
+> Task :react-native-splash-screen:writeReleaseLintModelMetadata
+> Task :react-native-svg:lintVitalAnalyzeRelease
+> Task :react-native-vector-icons:lintVitalAnalyzeRelease
+> Task :react-native-vector-icons:writeReleaseLintModelMetadata
+> Task :react-native-version-check:lintVitalAnalyzeRelease
+> Task :react-native-version-check:writeReleaseLintModelMetadata
+> Task :react-native-webrtc:lintVitalAnalyzeRelease
+> Task :react-native-webrtc:writeReleaseLintModelMetadata
+> Task :react-native-webview:lintVitalAnalyzeRelease
+> Task :react-native-webview:writeReleaseLintModelMetadata
+> Task :app:lintVitalAnalyzeRelease
+> Task :notifee_react-native:generateReleaseLintVitalModel
+> Task :react-native-async-storage_async-storage:generateReleaseLintVitalModel
+> Task :react-native-background-geolocation:generateReleaseLintVitalModel
+> Task :react-native-community_datetimepicker:generateReleaseLintVitalModel
+> Task :react-native-community_geolocation:generateReleaseLintVitalModel
+> Task :react-native-community_netinfo:generateReleaseLintVitalModel
+> Task :react-native-community_slider:generateReleaseLintVitalModel
+> Task :react-native-date-picker:generateReleaseLintVitalModel
+> Task :react-native-documents_picker:generateReleaseLintVitalModel
+> Task :react-native-fast-image:generateReleaseLintVitalModel
+> Task :react-native-file-viewer:generateReleaseLintVitalModel
+> Task :react-native-firebase_app:generateReleaseLintVitalModel
+> Task :react-native-firebase_messaging:generateReleaseLintVitalModel
+> Task :react-native-fs:generateReleaseLintVitalModel
+> Task :react-native-gesture-handler:generateReleaseLintVitalModel
+> Task :react-native-image-crop-picker:generateReleaseLintVitalModel
+> Task :react-native-image-picker:generateReleaseLintVitalModel
+> Task :react-native-incall-manager:generateReleaseLintVitalModel
+> Task :react-native-linear-gradient:generateReleaseLintVitalModel
+> Task :react-native-localize:generateReleaseLintVitalModel
+> Task :react-native-maps:generateReleaseLintVitalModel
+> Task :react-native-masked-view_masked-view:generateReleaseLintVitalModel
+> Task :react-native-nitro-modules:generateReleaseLintVitalModel
+> Task :react-native-nitro-sound:generateReleaseLintVitalModel
+> Task :react-native-permissions:generateReleaseLintVitalModel
+> Task :react-native-reanimated:generateReleaseLintVitalModel
+> Task :react-native-safe-area-context:generateReleaseLintVitalModel
+> Task :react-native-screens:generateReleaseLintVitalModel
+> Task :react-native-splash-screen:generateReleaseLintVitalModel
+> Task :react-native-svg:generateReleaseLintVitalModel
+> Task :react-native-vector-icons:generateReleaseLintVitalModel
+> Task :react-native-version-check:generateReleaseLintVitalModel
+> Task :react-native-webrtc:generateReleaseLintVitalModel
+> Task :react-native-webview:generateReleaseLintVitalModel
+> Task :app:lintVitalReportRelease
+> Task :app:lintVitalRelease
+> Task :app:processReleaseJavaRes
+> Task :app:mergeReleaseJavaResource
+> Task :app:optimizeReleaseResources
+> Task :app:collectReleaseDependencies
+> Task :app:sdkReleaseDependencyData
+> Task :app:validateSigningRelease FAILED
+
+[Incubating] Problems report is available at: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/android/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:validateSigningRelease'.
+> Keystore file 'D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\android\app\my-upload-key.keystore' not found for signing config 'release'.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.14.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 9m 39s
+1299 actionable tasks: 869 executed, 430 up-to-date

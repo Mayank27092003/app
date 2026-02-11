@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Deep Link Tester</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+      h1 {
+        color: #333;
+      }
+      .link-section {
+        margin: 20px 0;
+        padding: 15px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        background: #f9f9f9;
+      }
+      .link-section h2 {
+        margin-top: 0;
+        color: #0066cc;
+      }
+      a {
+        display: inline-block;
+        margin: 10px 10px 10px 0;
+        padding: 10px 20px;
+        background: #0066cc;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+      }
+      a:hover {
+        background: #0052a3;
+      }
+      input {
+        padding: 8px;
+        margin: 10px 10px 10px 0;
+        width: 200px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+      }
+      button {
+        padding: 10px 20px;
+        background: #28a745;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      button:hover {
+        background: #218838;
+      }
+      code {
+        background: #eee;
+        padding: 2px 6px;
+        border-radius: 3px;
+        font-family: monospace;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>🔗 Deep Link Tester</h1>
+    
+    <div class="link-section">
+      <h2>Profile Screen</h2>
+      <p>Test deep link to ProfileScreen (Bank Account Management)</p>
+      <a href="gofrts://open/ProfileScreen">Open ProfileScreen</a>
+      <br>
+      <code>gofrts://open/ProfileScreen</code>
+    </div>
+
+    <div class="link-section">
+      <h2>Job Details Screen</h2>
+      <p>Test deep link to JobDetailsScreen with custom Job ID</p>
+      <input type="number" id="jobIdInput" placeholder="Enter Job ID" value="123" />
+      <button onclick="openJobDetail()">Open JobDetailsScreen</button>
+      <br><br>
+      <a href="gofrts://open/JobDetailsScreen/123">Open Job #123</a>
+      <a href="gofrts://open/JobDetailsScreen/456">Open Job #456</a>
+      <br>
+      <code id="jobDetailUrl">gofrts://open/JobDetailsScreen/123</code>
+    </div>
+
+    <div class="link-section">
+      <h2>Create Job Screen</h2>
+      <p>Test deep link to CreateJobScreen</p>
+      <a href="gofrts://open/CreateJobScreen">Open CreateJobScreen</a>
+      <br>
+      <code>gofrts://open/CreateJobScreen</code>
+    </div>
+
+    <script>
+      const packageName = 'com.coinbase';
+
+      function openJobDetail() {
+        const jobId = document.getElementById('jobIdInput').value || '123';
+        const deepLink = `gofrts://open/JobDetailsScreen/${jobId}`;
+        document.getElementById('jobDetailUrl').textContent = deepLink;
+        window.location.href = deepLink;
+      }
+
+      // Auto-open function (commented out by default for testing)
+      /*
+      function tryOpenApp() {
+        const start = Date.now();
+        let hiddenFrame = document.createElement('iframe');
+        hiddenFrame.style.display = 'none';
+        hiddenFrame.src = 'gofrts://open/ProfileScreen';
+        document.body.appendChild(hiddenFrame);
+
+        // In Chrome (and newer Android browsers), fallback to intent
+        setTimeout(() => {
+          document.body.removeChild(hiddenFrame);
+          if (Date.now() - start < 2000) {
+            const intentUrl = `intent://open/ProfileScreen#Intent;scheme=gofrts;package=${packageName};end`;
+            window.location.href = intentUrl;
+          }
+        }, 1000);
+
+        // Final fallback if app not installed
+        setTimeout(() => {
+          if (Date.now() - start < 2500) {
+            window.location.href = `https://play.google.com/store/apps/details?id=${packageName}`;
+          }
+        }, 2500);
+      }
+
+      // ⚡ Delay so Chrome doesn't block it
+      window.addEventListener('load', () => {
+        setTimeout(tryOpenApp, 700);
+      });
+      */
+    </script>
+  </body>
+</html>

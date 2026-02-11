@@ -1,0 +1,27 @@
+Build Failure Analysis
+======================
+
+Error Message:
+--------------
+ninja: error: manifest 'build.ninja' still dirty after 100 tries
+
+Cause:
+------
+This error indicates that the build system (Ninja) detects that the build definition files are changing *during* the build process. This prevents it from establishing a stable build plan.
+
+Common Causes:
+1.  **Corrupted Build Cache**: The `.cxx` directory (C++ build cache) is in an inconsistent state.
+2.  **File Synchronization**: Tools like OneDrive, Dropbox, or Google Drive syncing the build folder can change file timestamps or lock files.
+3.  **Antivirus Interference**: Real-time scanning might modify or lock files momentarily.
+4.  **Clock/Timestamp Issues**: Files with timestamps in the future (though we checked for this and didn't find any).
+5.  **NDK/CMake Mismatch**: Incompatible versions of NDK or CMake.
+
+Resolution Plan:
+----------------
+1.  **Deep Clean**: Manually delete all build artifacts:
+    - android/.gradle
+    - android/.cxx
+    - android/app/build
+    - android/build
+2.  **Reinstall Dependencies**: Remove and reinstall `node_modules` to ensure clean native module linking.
+3.  **Rebuild**: Run `./gradlew assembleRelease` again from a clean state.

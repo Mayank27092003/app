@@ -1,0 +1,280 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.14.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:shared:compileKotlin
+> Task :gradle-plugin:shared:compileJava NO-SOURCE
+> Task :gradle-plugin:shared:processResources NO-SOURCE
+> Task :gradle-plugin:shared:classes UP-TO-DATE
+> Task :gradle-plugin:shared:jar
+> Task :gradle-plugin:settings-plugin:compileKotlin
+> Task :gradle-plugin:settings-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:settings-plugin:pluginDescriptors
+> Task :gradle-plugin:settings-plugin:processResources
+> Task :gradle-plugin:settings-plugin:classes
+> Task :gradle-plugin:settings-plugin:jar
+> Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:react-native-gradle-plugin:compileKotlin
+> Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors
+> Task :gradle-plugin:react-native-gradle-plugin:processResources
+> Task :gradle-plugin:react-native-gradle-plugin:classes
+> Task :gradle-plugin:react-native-gradle-plugin:jar
+
+> Configure project :notifee_react-native
+:notifee_react-native @notifee/react-native found at Z:\node_modules\@notifee\react-native
+:notifee_react-native package.json found at Z:\node_modules\@notifee\react-native\package.json
+:notifee_react-native:version set from package.json: 9.1.8 (9,1,8 - 9001008)
+:notifee_react-native:android.compileSdk using custom value: 35
+:notifee_react-native:android.targetSdk using custom value: 35
+:notifee_react-native:android.minSdk using custom value: 24
+:notifee_react-native:reactNativeAndroidDir Z:\node_modules\react-native
+
+> Configure project :react-native-firebase_app
+:react-native-firebase_app package.json found at Z:\node_modules\@react-native-firebase\app\package.json
+:react-native-firebase_app:firebase.bom using default value: 34.3.0
+:react-native-firebase_app:play.play-services-auth using default value: 21.4.0
+:react-native-firebase_app package.json found at Z:\node_modules\@react-native-firebase\app\package.json
+:react-native-firebase_app:version set from package.json: 23.4.0 (23,4,0 - 23004000)
+:react-native-firebase_app:android.compileSdk using custom value: 35
+:react-native-firebase_app:android.targetSdk using custom value: 35
+:react-native-firebase_app:android.minSdk using custom value: 24
+:react-native-firebase_app:reactNativeAndroidDir Z:\node_modules\react-native
+
+> Configure project :react-native-firebase_messaging
+:react-native-firebase_messaging package.json found at Z:\node_modules\@react-native-firebase\messaging\package.json
+:react-native-firebase_app package.json found at Z:\node_modules\@react-native-firebase\app\package.json
+:react-native-firebase_messaging:firebase.bom using default value: 34.3.0
+:react-native-firebase_messaging package.json found at Z:\node_modules\@react-native-firebase\messaging\package.json
+:react-native-firebase_messaging:version set from package.json: 23.4.0 (23,4,0 - 23004000)
+:react-native-firebase_messaging:android.compileSdk using custom value: 35
+:react-native-firebase_messaging:android.targetSdk using custom value: 35
+:react-native-firebase_messaging:android.minSdk using custom value: 24
+:react-native-firebase_messaging:reactNativeAndroidDir Z:\node_modules\react-native
+
+> Configure project :react-native-nitro-modules
+[NitroModules] ? Your app is boosted by nitro modules!
+
+> Configure project :react-native-nitro-sound
+[NitroModules] ? NitroSound is boosted by nitro!
+
+> Configure project :react-native-reanimated
+Android gradle plugin: 8.9.2
+Gradle: 8.14.1
+
+> Task :app:generateAutolinkingPackageList
+> Task :app:generateCodegenSchemaFromJavaScript SKIPPED
+> Task :app:generateCodegenArtifactsFromSchema SKIPPED
+> Task :app:generateReactNativeEntryPoint
+> Task :app:preBuild
+> Task :app:preReleaseBuild
+> Task :app:mergeReleaseJniLibFolders
+> Task :notifee_react-native:preBuild UP-TO-DATE
+> Task :notifee_react-native:preReleaseBuild UP-TO-DATE
+> Task :notifee_react-native:mergeReleaseJniLibFolders
+> Task :notifee_react-native:mergeReleaseNativeLibs NO-SOURCE
+> Task :notifee_react-native:copyReleaseJniLibsProjectOnly
+> Task :react-native-async-storage_async-storage:preBuild UP-TO-DATE
+> Task :react-native-async-storage_async-storage:preReleaseBuild UP-TO-DATE
+> Task :react-native-async-storage_async-storage:mergeReleaseJniLibFolders
+> Task :react-native-async-storage_async-storage:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-async-storage_async-storage:copyReleaseJniLibsProjectOnly
+> Task :react-native-background-geolocation:preBuild UP-TO-DATE
+> Task :react-native-background-geolocation:preReleaseBuild UP-TO-DATE
+> Task :react-native-background-geolocation:mergeReleaseJniLibFolders
+> Task :react-native-background-geolocation:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-background-geolocation:copyReleaseJniLibsProjectOnly
+> Task :react-native-community_datetimepicker:preBuild UP-TO-DATE
+> Task :react-native-community_datetimepicker:preReleaseBuild UP-TO-DATE
+> Task :react-native-community_datetimepicker:mergeReleaseJniLibFolders
+> Task :react-native-community_datetimepicker:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-community_datetimepicker:copyReleaseJniLibsProjectOnly
+> Task :react-native-community_geolocation:preBuild UP-TO-DATE
+> Task :react-native-community_geolocation:preReleaseBuild UP-TO-DATE
+> Task :react-native-community_geolocation:mergeReleaseJniLibFolders
+> Task :react-native-community_geolocation:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-community_geolocation:copyReleaseJniLibsProjectOnly
+> Task :react-native-community_netinfo:preBuild UP-TO-DATE
+> Task :react-native-community_netinfo:preReleaseBuild UP-TO-DATE
+> Task :react-native-community_netinfo:mergeReleaseJniLibFolders
+> Task :react-native-community_netinfo:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-community_netinfo:copyReleaseJniLibsProjectOnly
+> Task :react-native-community_slider:generateCodegenSchemaFromJavaScript
+> Task :react-native-community_slider:generateCodegenArtifactsFromSchema
+> Task :react-native-community_slider:preBuild
+> Task :react-native-community_slider:preReleaseBuild
+> Task :react-native-community_slider:mergeReleaseJniLibFolders
+> Task :react-native-community_slider:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-community_slider:copyReleaseJniLibsProjectOnly
+> Task :react-native-date-picker:preBuild UP-TO-DATE
+> Task :react-native-date-picker:preReleaseBuild UP-TO-DATE
+> Task :react-native-date-picker:mergeReleaseJniLibFolders
+> Task :react-native-date-picker:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-date-picker:copyReleaseJniLibsProjectOnly
+> Task :react-native-documents_picker:preBuild UP-TO-DATE
+> Task :react-native-documents_picker:preReleaseBuild UP-TO-DATE
+> Task :react-native-documents_picker:mergeReleaseJniLibFolders
+> Task :react-native-documents_picker:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-documents_picker:copyReleaseJniLibsProjectOnly
+> Task :react-native-fast-image:preBuild UP-TO-DATE
+> Task :react-native-fast-image:preReleaseBuild UP-TO-DATE
+> Task :react-native-fast-image:mergeReleaseJniLibFolders
+> Task :react-native-fast-image:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-fast-image:copyReleaseJniLibsProjectOnly
+> Task :react-native-file-viewer:preBuild UP-TO-DATE
+> Task :react-native-file-viewer:preReleaseBuild UP-TO-DATE
+> Task :react-native-file-viewer:mergeReleaseJniLibFolders
+> Task :react-native-file-viewer:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-file-viewer:copyReleaseJniLibsProjectOnly
+> Task :react-native-firebase_app:preBuild UP-TO-DATE
+> Task :react-native-firebase_app:preReleaseBuild UP-TO-DATE
+> Task :react-native-firebase_app:mergeReleaseJniLibFolders
+> Task :react-native-firebase_app:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-firebase_app:copyReleaseJniLibsProjectOnly
+> Task :react-native-firebase_messaging:preBuild UP-TO-DATE
+> Task :react-native-firebase_messaging:preReleaseBuild UP-TO-DATE
+> Task :react-native-firebase_messaging:mergeReleaseJniLibFolders
+> Task :react-native-firebase_messaging:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-firebase_messaging:copyReleaseJniLibsProjectOnly
+> Task :react-native-fs:preBuild UP-TO-DATE
+> Task :react-native-fs:preReleaseBuild UP-TO-DATE
+> Task :react-native-fs:mergeReleaseJniLibFolders
+> Task :react-native-fs:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-fs:copyReleaseJniLibsProjectOnly
+> Task :react-native-gesture-handler:preBuild UP-TO-DATE
+> Task :react-native-gesture-handler:preReleaseBuild UP-TO-DATE
+> Task :react-native-gesture-handler:mergeReleaseJniLibFolders
+> Task :react-native-gesture-handler:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-gesture-handler:copyReleaseJniLibsProjectOnly
+> Task :react-native-image-crop-picker:preBuild UP-TO-DATE
+> Task :react-native-image-crop-picker:preReleaseBuild UP-TO-DATE
+> Task :react-native-image-crop-picker:mergeReleaseJniLibFolders
+> Task :react-native-image-crop-picker:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-image-crop-picker:copyReleaseJniLibsProjectOnly
+> Task :react-native-image-picker:preBuild UP-TO-DATE
+> Task :react-native-image-picker:preReleaseBuild UP-TO-DATE
+> Task :react-native-image-picker:mergeReleaseJniLibFolders
+> Task :react-native-image-picker:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-image-picker:copyReleaseJniLibsProjectOnly
+> Task :react-native-incall-manager:preBuild UP-TO-DATE
+> Task :react-native-incall-manager:preReleaseBuild UP-TO-DATE
+> Task :react-native-incall-manager:mergeReleaseJniLibFolders
+> Task :react-native-incall-manager:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-incall-manager:copyReleaseJniLibsProjectOnly
+> Task :react-native-linear-gradient:preBuild UP-TO-DATE
+> Task :react-native-linear-gradient:preReleaseBuild UP-TO-DATE
+> Task :react-native-linear-gradient:mergeReleaseJniLibFolders
+> Task :react-native-linear-gradient:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-linear-gradient:copyReleaseJniLibsProjectOnly
+> Task :react-native-localize:preBuild UP-TO-DATE
+> Task :react-native-localize:preReleaseBuild UP-TO-DATE
+> Task :react-native-localize:mergeReleaseJniLibFolders
+> Task :react-native-localize:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-localize:copyReleaseJniLibsProjectOnly
+> Task :react-native-maps:preBuild UP-TO-DATE
+> Task :react-native-maps:preReleaseBuild UP-TO-DATE
+> Task :react-native-maps:mergeReleaseJniLibFolders
+> Task :react-native-maps:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-maps:copyReleaseJniLibsProjectOnly
+> Task :react-native-masked-view_masked-view:preBuild UP-TO-DATE
+> Task :react-native-masked-view_masked-view:preReleaseBuild UP-TO-DATE
+> Task :react-native-masked-view_masked-view:mergeReleaseJniLibFolders
+> Task :react-native-masked-view_masked-view:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-masked-view_masked-view:copyReleaseJniLibsProjectOnly
+> Task :react-native-nitro-modules:prepareHeaders
+> Task :react-native-nitro-modules:preBuild
+> Task :react-native-nitro-modules:preReleaseBuild
+> Task :react-native-nitro-modules:configureCMakeRelWithDebInfo[arm64-v8a]
+
+> Task :react-native-nitro-modules:buildCMakeRelWithDebInfo[arm64-v8a]
+C/C++: ninja: Entering directory `Z:\node_modules\react-native-nitro-modules\android\.cxx\RelWithDebInfo\152o3e2b\arm64-v8a'
+C/C++: Z:/node_modules/react-native-nitro-modules/android/src/main/cpp/platform/NitroLogger.cpp:29:33: warning: unused parameter 'level' [-Wunused-parameter]
+C/C++:    29 | void Logger::nativeLog(LogLevel level, const char* tag, const std::string& message) {
+C/C++:       |                                 ^
+C/C++: Z:/node_modules/react-native-nitro-modules/android/src/main/cpp/platform/NitroLogger.cpp:29:52: warning: unused parameter 'tag' [-Wunused-parameter]
+C/C++:    29 | void Logger::nativeLog(LogLevel level, const char* tag, const std::string& message) {
+C/C++:       |                                                    ^
+C/C++: Z:/node_modules/react-native-nitro-modules/android/src/main/cpp/platform/NitroLogger.cpp:29:76: warning: unused parameter 'message' [-Wunused-parameter]
+C/C++:    29 | void Logger::nativeLog(LogLevel level, const char* tag, const std::string& message) {
+C/C++:       |                                                                            ^
+C/C++: 3 warnings generated.
+C/C++: Z:/node_modules/react-native-nitro-modules/cpp/utils/NitroTypeInfo.cpp:38:70: warning: unused parameter 'removeNamespace' [-Wunused-parameter]
+C/C++:    38 | std::string TypeInfo::demangleName(const std::string& typeName, bool removeNamespace) {
+C/C++:       |                                                                      ^
+C/C++: 1 warning generated.
+C/C++: Hard link from 'C:\Users\Hp\.gradle\caches\8.14.1\transforms\950b6193a60660f37e28734b8388a698\transformed\jetified-react-android-0.80.0-release\prefab\modules\reactnative\libs\android.arm64-v8a\libreactnative.so' to 'Z:\node_modules\react-native-nitro-modules\android\build\intermediates\cxx\RelWithDebInfo\152o3e2b\obj\arm64-v8a\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\Hp\.gradle\caches\8.14.1\transforms\950b6193a60660f37e28734b8388a698\transformed\jetified-react-android-0.80.0-release\prefab\modules\reactnative\libs\android.arm64-v8a\libreactnative.so' to 'Z:\node_modules\react-native-nitro-modules\android\build\intermediates\cxx\RelWithDebInfo\152o3e2b\obj\arm64-v8a\libreactnative.so' failed. Doing a slower copy instead.
+
+> Task :react-native-nitro-modules:mergeReleaseJniLibFolders
+> Task :react-native-nitro-modules:mergeReleaseNativeLibs
+> Task :react-native-nitro-modules:copyReleaseJniLibsProjectOnly
+
+> Task :react-native-nitro-modules:externalNativeBuildRelease
+C/C++: Hard link from 'C:\Users\Hp\.gradle\caches\8.14.1\transforms\950b6193a60660f37e28734b8388a698\transformed\jetified-react-android-0.80.0-release\prefab\modules\reactnative\libs\android.arm64-v8a\libreactnative.so' to 'Z:\node_modules\react-native-nitro-modules\android\build\intermediates\cmake\release\obj\arm64-v8a\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\Hp\.gradle\caches\8.14.1\transforms\950b6193a60660f37e28734b8388a698\transformed\jetified-react-android-0.80.0-release\prefab\modules\reactnative\libs\android.arm64-v8a\libreactnative.so' to 'Z:\node_modules\react-native-nitro-modules\android\build\intermediates\cmake\release\obj\arm64-v8a\libreactnative.so' failed. Doing a slower copy instead.
+
+> Task :react-native-nitro-modules:generateJsonModelRelease
+> Task :react-native-nitro-modules:prefabReleaseConfigurePackage
+> Task :react-native-nitro-modules:prefabReleasePackage
+> Task :react-native-nitro-sound:preBuild UP-TO-DATE
+> Task :react-native-nitro-sound:preReleaseBuild UP-TO-DATE
+> Task :react-native-nitro-sound:configureCMakeRelWithDebInfo[arm64-v8a]
+
+> Task :react-native-nitro-sound:buildCMakeRelWithDebInfo[arm64-v8a]
+C/C++: Hard link from 'C:\Users\Hp\.gradle\caches\8.14.1\transforms\950b6193a60660f37e28734b8388a698\transformed\jetified-react-android-0.80.0-release\prefab\modules\reactnative\libs\android.arm64-v8a\libreactnative.so' to 'Z:\node_modules\react-native-nitro-sound\android\build\intermediates\cxx\RelWithDebInfo\3ul15n4z\obj\arm64-v8a\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\Hp\.gradle\caches\8.14.1\transforms\950b6193a60660f37e28734b8388a698\transformed\jetified-react-android-0.80.0-release\prefab\modules\reactnative\libs\android.arm64-v8a\libreactnative.so' to 'Z:\node_modules\react-native-nitro-sound\android\build\intermediates\cxx\RelWithDebInfo\3ul15n4z\obj\arm64-v8a\libreactnative.so' failed. Doing a slower copy instead.
+
+> Task :react-native-nitro-sound:mergeReleaseJniLibFolders
+> Task :react-native-nitro-sound:mergeReleaseNativeLibs
+> Task :react-native-nitro-sound:copyReleaseJniLibsProjectOnly
+> Task :react-native-permissions:preBuild UP-TO-DATE
+> Task :react-native-permissions:preReleaseBuild UP-TO-DATE
+> Task :react-native-permissions:mergeReleaseJniLibFolders
+> Task :react-native-permissions:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-permissions:copyReleaseJniLibsProjectOnly
+> Task :react-native-reanimated:assertMinimalReactNativeVersionTask SKIPPED
+> Task :react-native-reanimated:prepareReanimatedHeadersForPrefabs
+> Task :react-native-reanimated:prepareWorkletsHeadersForPrefabs
+> Task :react-native-reanimated:preBuild
+> Task :react-native-reanimated:preReleaseBuild
+> Task :react-native-reanimated:configureCMakeRelWithDebInfo[arm64-v8a]
+
+> Task :react-native-reanimated:buildCMakeRelWithDebInfo[arm64-v8a][reanimated,worklets]
+C/C++: ninja: fatal: ReadFile: Insufficient system resources exist to complete the requested service.
+
+> Task :react-native-reanimated:buildCMakeRelWithDebInfo[arm64-v8a][reanimated,worklets] FAILED
+
+[Incubating] Problems report is available at: file:///Z:/android/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':react-native-reanimated:buildCMakeRelWithDebInfo[arm64-v8a][reanimated,worklets]'.
+> com.android.ide.common.process.ProcessException: ninja: Entering directory `Z:\node_modules\react-native-reanimated\android\.cxx\RelWithDebInfo\u1z6t691\arm64-v8a'
+  [0/2] Re-checking globbed directories...
+  
+  C++ build system [build] failed while executing:
+      @echo off
+      "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe" ^
+        -C ^
+        "Z:\\node_modules\\react-native-reanimated\\android\\.cxx\\RelWithDebInfo\\u1z6t691\\arm64-v8a" ^
+        reanimated ^
+        worklets
+    from Z:\node_modules\react-native-reanimated\android
+  ninja: fatal: ReadFile: Insufficient system resources exist to complete the requested service.
+  
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.14.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 2m 55s
+79 actionable tasks: 79 executed

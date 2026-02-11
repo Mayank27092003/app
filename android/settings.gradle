@@ -1,0 +1,10 @@
+pluginManagement { includeBuild("../node_modules/@react-native/gradle-plugin") }
+plugins { id("com.facebook.react.settings") }
+extensions.configure(com.facebook.react.ReactSettingsExtension){ ex -> ex.autolinkLibrariesFromCommand() }
+rootProject.name = 'CoinBase'
+include ':app'
+includeBuild('../node_modules/@react-native/gradle-plugin')
+
+include ':react-native-incall-manager'
+project(':react-native-incall-manager').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-incall-manager/android')
+

@@ -1,0 +1,1174 @@
+Starting a Gradle Daemon, 1 incompatible Daemon could not be reused, use --status for details
+> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:shared:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:shared:compileJava NO-SOURCE
+> Task :gradle-plugin:shared:processResources NO-SOURCE
+> Task :gradle-plugin:shared:classes UP-TO-DATE
+> Task :gradle-plugin:shared:jar UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:settings-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:jar UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:react-native-gradle-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:jar UP-TO-DATE
+
+> Configure project :notifee_react-native
+:notifee_react-native @notifee/react-native found at D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\@notifee\react-native
+:notifee_react-native package.json found at D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\@notifee\react-native\package.json
+:notifee_react-native:version set from package.json: 9.1.8 (9,1,8 - 9001008)
+:notifee_react-native:android.compileSdk using custom value: 35
+:notifee_react-native:android.targetSdk using custom value: 35
+:notifee_react-native:android.minSdk using custom value: 24
+:notifee_react-native:reactNativeAndroidDir D:\rn\node_modules\react-native
+
+> Configure project :react-native-firebase_app
+:react-native-firebase_app package.json found at D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\@react-native-firebase\app\package.json
+:react-native-firebase_app:firebase.bom using default value: 34.3.0
+:react-native-firebase_app:play.play-services-auth using default value: 21.4.0
+:react-native-firebase_app package.json found at D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\@react-native-firebase\app\package.json
+:react-native-firebase_app:version set from package.json: 23.4.0 (23,4,0 - 23004000)
+:react-native-firebase_app:android.compileSdk using custom value: 35
+:react-native-firebase_app:android.targetSdk using custom value: 35
+:react-native-firebase_app:android.minSdk using custom value: 24
+:react-native-firebase_app:reactNativeAndroidDir D:\rn\node_modules\react-native
+
+> Configure project :react-native-firebase_messaging
+:react-native-firebase_messaging package.json found at D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\@react-native-firebase\messaging\package.json
+:react-native-firebase_app package.json found at D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\@react-native-firebase\app\package.json
+:react-native-firebase_messaging:firebase.bom using default value: 34.3.0
+:react-native-firebase_messaging package.json found at D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\@react-native-firebase\messaging\package.json
+:react-native-firebase_messaging:version set from package.json: 23.4.0 (23,4,0 - 23004000)
+:react-native-firebase_messaging:android.compileSdk using custom value: 35
+:react-native-firebase_messaging:android.targetSdk using custom value: 35
+:react-native-firebase_messaging:android.minSdk using custom value: 24
+:react-native-firebase_messaging:reactNativeAndroidDir D:\rn\node_modules\react-native
+
+> Configure project :react-native-nitro-modules
+[NitroModules] ? Your app is boosted by nitro modules!
+
+> Configure project :react-native-nitro-sound
+[NitroModules] ? NitroSound is boosted by nitro!
+
+> Configure project :react-native-reanimated
+Android gradle plugin: 8.9.2
+Gradle: 8.14.1
+
+> Task :app:clean
+> Task :notifee_react-native:clean
+> Task :react-native-async-storage_async-storage:clean
+> Task :react-native-background-geolocation:clean
+> Task :react-native-community_datetimepicker:clean
+> Task :react-native-community_geolocation:clean
+> Task :react-native-community_netinfo:clean
+> Task :react-native-community_slider:clean
+> Task :react-native-date-picker:clean
+> Task :react-native-documents_picker:clean
+> Task :react-native-fast-image:clean
+> Task :react-native-file-viewer:clean
+> Task :react-native-firebase_app:clean
+> Task :react-native-firebase_messaging:clean
+> Task :react-native-fs:clean
+> Task :react-native-gesture-handler:clean
+> Task :react-native-image-crop-picker:clean
+> Task :react-native-image-picker:clean
+> Task :react-native-incall-manager:clean
+> Task :react-native-linear-gradient:clean
+> Task :react-native-localize:clean
+> Task :react-native-maps:clean
+> Task :react-native-masked-view_masked-view:clean
+> Task :react-native-nitro-modules:externalNativeBuildCleanDebug
+> Task :react-native-nitro-modules:externalNativeBuildCleanRelease
+> Task :react-native-nitro-modules:clean
+> Task :react-native-nitro-sound:externalNativeBuildCleanDebug
+> Task :react-native-nitro-sound:externalNativeBuildCleanRelease
+> Task :react-native-nitro-sound:clean
+> Task :react-native-permissions:clean
+> Task :react-native-reanimated:cleanCmakeCache
+> Task :react-native-reanimated:externalNativeBuildCleanDebug
+> Task :react-native-reanimated:externalNativeBuildCleanRelease
+> Task :react-native-reanimated:clean
+> Task :react-native-safe-area-context:clean
+
+> Task :react-native-screens:externalNativeBuildCleanDebug
+Clean rnscreens-arm64-v8a
+
+> Task :react-native-screens:externalNativeBuildCleanRelease
+Clean rnscreens-arm64-v8a
+
+> Task :react-native-screens:clean
+> Task :react-native-splash-screen:clean
+> Task :react-native-svg:clean
+> Task :react-native-vector-icons:clean
+> Task :react-native-version-check:clean
+> Task :react-native-webrtc:clean
+> Task :react-native-webview:clean
+> Task :app:generateAutolinkingPackageList
+> Task :app:generateCodegenSchemaFromJavaScript SKIPPED
+> Task :app:generateCodegenArtifactsFromSchema SKIPPED
+> Task :app:generateReactNativeEntryPoint
+> Task :app:preBuild
+> Task :app:preReleaseBuild
+> Task :app:mergeReleaseJniLibFolders
+> Task :notifee_react-native:preBuild UP-TO-DATE
+> Task :notifee_react-native:preReleaseBuild UP-TO-DATE
+> Task :notifee_react-native:mergeReleaseJniLibFolders
+> Task :notifee_react-native:mergeReleaseNativeLibs NO-SOURCE
+> Task :notifee_react-native:copyReleaseJniLibsProjectOnly
+> Task :react-native-async-storage_async-storage:preBuild UP-TO-DATE
+> Task :react-native-async-storage_async-storage:preReleaseBuild UP-TO-DATE
+> Task :react-native-async-storage_async-storage:mergeReleaseJniLibFolders
+> Task :react-native-async-storage_async-storage:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-async-storage_async-storage:copyReleaseJniLibsProjectOnly
+> Task :react-native-background-geolocation:preBuild UP-TO-DATE
+> Task :react-native-background-geolocation:preReleaseBuild UP-TO-DATE
+> Task :react-native-background-geolocation:mergeReleaseJniLibFolders
+> Task :react-native-background-geolocation:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-background-geolocation:copyReleaseJniLibsProjectOnly
+> Task :react-native-community_datetimepicker:preBuild UP-TO-DATE
+> Task :react-native-community_datetimepicker:preReleaseBuild UP-TO-DATE
+> Task :react-native-community_datetimepicker:mergeReleaseJniLibFolders
+> Task :react-native-community_datetimepicker:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-community_datetimepicker:copyReleaseJniLibsProjectOnly
+> Task :react-native-community_geolocation:preBuild UP-TO-DATE
+> Task :react-native-community_geolocation:preReleaseBuild UP-TO-DATE
+> Task :react-native-community_geolocation:mergeReleaseJniLibFolders
+> Task :react-native-community_geolocation:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-community_geolocation:copyReleaseJniLibsProjectOnly
+> Task :react-native-community_netinfo:preBuild UP-TO-DATE
+> Task :react-native-community_netinfo:preReleaseBuild UP-TO-DATE
+> Task :react-native-community_netinfo:mergeReleaseJniLibFolders
+> Task :react-native-community_netinfo:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-community_netinfo:copyReleaseJniLibsProjectOnly
+> Task :react-native-community_slider:generateCodegenSchemaFromJavaScript
+> Task :react-native-community_slider:generateCodegenArtifactsFromSchema
+> Task :react-native-community_slider:preBuild
+> Task :react-native-community_slider:preReleaseBuild
+> Task :react-native-community_slider:mergeReleaseJniLibFolders
+> Task :react-native-community_slider:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-community_slider:copyReleaseJniLibsProjectOnly
+> Task :react-native-date-picker:preBuild UP-TO-DATE
+> Task :react-native-date-picker:preReleaseBuild UP-TO-DATE
+> Task :react-native-date-picker:mergeReleaseJniLibFolders
+> Task :react-native-date-picker:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-date-picker:copyReleaseJniLibsProjectOnly
+> Task :react-native-documents_picker:preBuild UP-TO-DATE
+> Task :react-native-documents_picker:preReleaseBuild UP-TO-DATE
+> Task :react-native-documents_picker:mergeReleaseJniLibFolders
+> Task :react-native-documents_picker:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-documents_picker:copyReleaseJniLibsProjectOnly
+> Task :react-native-fast-image:preBuild UP-TO-DATE
+> Task :react-native-fast-image:preReleaseBuild UP-TO-DATE
+> Task :react-native-fast-image:mergeReleaseJniLibFolders
+> Task :react-native-fast-image:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-fast-image:copyReleaseJniLibsProjectOnly
+> Task :react-native-file-viewer:preBuild UP-TO-DATE
+> Task :react-native-file-viewer:preReleaseBuild UP-TO-DATE
+> Task :react-native-file-viewer:mergeReleaseJniLibFolders
+> Task :react-native-file-viewer:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-file-viewer:copyReleaseJniLibsProjectOnly
+> Task :react-native-firebase_app:preBuild UP-TO-DATE
+> Task :react-native-firebase_app:preReleaseBuild UP-TO-DATE
+> Task :react-native-firebase_app:mergeReleaseJniLibFolders
+> Task :react-native-firebase_app:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-firebase_app:copyReleaseJniLibsProjectOnly
+> Task :react-native-firebase_messaging:preBuild UP-TO-DATE
+> Task :react-native-firebase_messaging:preReleaseBuild UP-TO-DATE
+> Task :react-native-firebase_messaging:mergeReleaseJniLibFolders
+> Task :react-native-firebase_messaging:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-firebase_messaging:copyReleaseJniLibsProjectOnly
+> Task :react-native-fs:preBuild UP-TO-DATE
+> Task :react-native-fs:preReleaseBuild UP-TO-DATE
+> Task :react-native-fs:mergeReleaseJniLibFolders
+> Task :react-native-fs:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-fs:copyReleaseJniLibsProjectOnly
+> Task :react-native-gesture-handler:preBuild UP-TO-DATE
+> Task :react-native-gesture-handler:preReleaseBuild UP-TO-DATE
+> Task :react-native-gesture-handler:mergeReleaseJniLibFolders
+> Task :react-native-gesture-handler:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-gesture-handler:copyReleaseJniLibsProjectOnly
+> Task :react-native-image-crop-picker:preBuild UP-TO-DATE
+> Task :react-native-image-crop-picker:preReleaseBuild UP-TO-DATE
+> Task :react-native-image-crop-picker:mergeReleaseJniLibFolders
+> Task :react-native-image-crop-picker:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-image-crop-picker:copyReleaseJniLibsProjectOnly
+> Task :react-native-image-picker:preBuild UP-TO-DATE
+> Task :react-native-image-picker:preReleaseBuild UP-TO-DATE
+> Task :react-native-image-picker:mergeReleaseJniLibFolders
+> Task :react-native-image-picker:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-image-picker:copyReleaseJniLibsProjectOnly
+> Task :react-native-incall-manager:preBuild UP-TO-DATE
+> Task :react-native-incall-manager:preReleaseBuild UP-TO-DATE
+> Task :react-native-incall-manager:mergeReleaseJniLibFolders
+> Task :react-native-incall-manager:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-incall-manager:copyReleaseJniLibsProjectOnly
+> Task :react-native-linear-gradient:preBuild UP-TO-DATE
+> Task :react-native-linear-gradient:preReleaseBuild UP-TO-DATE
+> Task :react-native-linear-gradient:mergeReleaseJniLibFolders
+> Task :react-native-linear-gradient:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-linear-gradient:copyReleaseJniLibsProjectOnly
+> Task :react-native-localize:preBuild UP-TO-DATE
+> Task :react-native-localize:preReleaseBuild UP-TO-DATE
+> Task :react-native-localize:mergeReleaseJniLibFolders
+> Task :react-native-localize:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-localize:copyReleaseJniLibsProjectOnly
+> Task :react-native-maps:preBuild UP-TO-DATE
+> Task :react-native-maps:preReleaseBuild UP-TO-DATE
+> Task :react-native-maps:mergeReleaseJniLibFolders
+> Task :react-native-maps:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-maps:copyReleaseJniLibsProjectOnly
+> Task :react-native-masked-view_masked-view:preBuild UP-TO-DATE
+> Task :react-native-masked-view_masked-view:preReleaseBuild UP-TO-DATE
+> Task :react-native-masked-view_masked-view:mergeReleaseJniLibFolders
+> Task :react-native-masked-view_masked-view:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-masked-view_masked-view:copyReleaseJniLibsProjectOnly
+> Task :react-native-nitro-modules:prepareHeaders
+> Task :react-native-nitro-modules:preBuild
+> Task :react-native-nitro-modules:preReleaseBuild
+> Task :react-native-nitro-modules:configureCMakeRelWithDebInfo[arm64-v8a]
+
+> Task :react-native-nitro-modules:buildCMakeRelWithDebInfo[arm64-v8a]
+C/C++: ninja: Entering directory `D:\cxx\nm\RelWithDebInfo\65i6t6g5\arm64-v8a'
+C/C++: D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-nitro-modules/android/src/main/cpp/platform/NitroLogger.cpp:29:33: warning: unused parameter 'level' [-Wunused-parameter]
+C/C++:    29 | void Logger::nativeLog(LogLevel level, const char* tag, const std::string& message) {
+C/C++:       |                                 ^
+C/C++: D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-nitro-modules/android/src/main/cpp/platform/NitroLogger.cpp:29:52: warning: unused parameter 'tag' [-Wunused-parameter]
+C/C++:    29 | void Logger::nativeLog(LogLevel level, const char* tag, const std::string& message) {
+C/C++:       |                                                    ^
+C/C++: D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-nitro-modules/android/src/main/cpp/platform/NitroLogger.cpp:29:76: warning: unused parameter 'message' [-Wunused-parameter]
+C/C++:    29 | void Logger::nativeLog(LogLevel level, const char* tag, const std::string& message) {
+C/C++:       |                                                                            ^
+C/C++: 3 warnings generated.
+C/C++: D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-nitro-modules/cpp/utils/NitroTypeInfo.cpp:38:70: warning: unused parameter 'removeNamespace' [-Wunused-parameter]
+C/C++:    38 | std::string TypeInfo::demangleName(const std::string& typeName, bool removeNamespace) {
+C/C++:       |                                                                      ^
+C/C++: 1 warning generated.
+C/C++: Hard link from 'C:\Users\Hp\.gradle\caches\8.14.1\transforms\950b6193a60660f37e28734b8388a698\transformed\jetified-react-android-0.80.0-release\prefab\modules\reactnative\libs\android.arm64-v8a\libreactnative.so' to 'D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\react-native-nitro-modules\android\build\intermediates\cxx\RelWithDebInfo\65i6t6g5\obj\arm64-v8a\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\Hp\.gradle\caches\8.14.1\transforms\950b6193a60660f37e28734b8388a698\transformed\jetified-react-android-0.80.0-release\prefab\modules\reactnative\libs\android.arm64-v8a\libreactnative.so' to 'D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\react-native-nitro-modules\android\build\intermediates\cxx\RelWithDebInfo\65i6t6g5\obj\arm64-v8a\libreactnative.so' failed. Doing a slower copy instead.
+
+> Task :react-native-nitro-modules:mergeReleaseJniLibFolders
+> Task :react-native-nitro-modules:mergeReleaseNativeLibs
+> Task :react-native-nitro-modules:copyReleaseJniLibsProjectOnly
+
+> Task :react-native-nitro-modules:externalNativeBuildRelease
+C/C++: Hard link from 'C:\Users\Hp\.gradle\caches\8.14.1\transforms\950b6193a60660f37e28734b8388a698\transformed\jetified-react-android-0.80.0-release\prefab\modules\reactnative\libs\android.arm64-v8a\libreactnative.so' to 'D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\react-native-nitro-modules\android\build\intermediates\cmake\release\obj\arm64-v8a\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\Hp\.gradle\caches\8.14.1\transforms\950b6193a60660f37e28734b8388a698\transformed\jetified-react-android-0.80.0-release\prefab\modules\reactnative\libs\android.arm64-v8a\libreactnative.so' to 'D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\react-native-nitro-modules\android\build\intermediates\cmake\release\obj\arm64-v8a\libreactnative.so' failed. Doing a slower copy instead.
+
+> Task :react-native-nitro-modules:generateJsonModelRelease
+> Task :react-native-nitro-modules:prefabReleaseConfigurePackage
+> Task :react-native-nitro-modules:prefabReleasePackage
+> Task :react-native-nitro-sound:preBuild UP-TO-DATE
+> Task :react-native-nitro-sound:preReleaseBuild UP-TO-DATE
+> Task :react-native-nitro-sound:configureCMakeRelWithDebInfo[arm64-v8a]
+
+> Task :react-native-nitro-sound:buildCMakeRelWithDebInfo[arm64-v8a]
+C/C++: Hard link from 'C:\Users\Hp\.gradle\caches\8.14.1\transforms\950b6193a60660f37e28734b8388a698\transformed\jetified-react-android-0.80.0-release\prefab\modules\reactnative\libs\android.arm64-v8a\libreactnative.so' to 'D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\react-native-nitro-sound\android\build\intermediates\cxx\RelWithDebInfo\50245j2j\obj\arm64-v8a\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\Hp\.gradle\caches\8.14.1\transforms\950b6193a60660f37e28734b8388a698\transformed\jetified-react-android-0.80.0-release\prefab\modules\reactnative\libs\android.arm64-v8a\libreactnative.so' to 'D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\react-native-nitro-sound\android\build\intermediates\cxx\RelWithDebInfo\50245j2j\obj\arm64-v8a\libreactnative.so' failed. Doing a slower copy instead.
+
+> Task :react-native-nitro-sound:mergeReleaseJniLibFolders
+> Task :react-native-nitro-sound:mergeReleaseNativeLibs
+> Task :react-native-nitro-sound:copyReleaseJniLibsProjectOnly
+> Task :react-native-permissions:preBuild UP-TO-DATE
+> Task :react-native-permissions:preReleaseBuild UP-TO-DATE
+> Task :react-native-permissions:mergeReleaseJniLibFolders
+> Task :react-native-permissions:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-permissions:copyReleaseJniLibsProjectOnly
+> Task :react-native-reanimated:assertMinimalReactNativeVersionTask SKIPPED
+> Task :react-native-reanimated:prepareReanimatedHeadersForPrefabs
+> Task :react-native-reanimated:prepareWorkletsHeadersForPrefabs
+> Task :react-native-reanimated:preBuild
+> Task :react-native-reanimated:preReleaseBuild
+> Task :react-native-reanimated:configureCMakeRelWithDebInfo[arm64-v8a]
+
+> Task :react-native-reanimated:buildCMakeRelWithDebInfo[arm64-v8a][reanimated,worklets]
+C/C++: Hard link from 'C:\Users\Hp\.gradle\caches\8.14.1\transforms\950b6193a60660f37e28734b8388a698\transformed\jetified-react-android-0.80.0-release\prefab\modules\reactnative\libs\android.arm64-v8a\libreactnative.so' to 'D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\react-native-reanimated\android\build\intermediates\cxx\RelWithDebInfo\5w202cc6\obj\arm64-v8a\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\Hp\.gradle\caches\8.14.1\transforms\950b6193a60660f37e28734b8388a698\transformed\jetified-react-android-0.80.0-release\prefab\modules\reactnative\libs\android.arm64-v8a\libreactnative.so' to 'D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\react-native-reanimated\android\build\intermediates\cxx\RelWithDebInfo\5w202cc6\obj\arm64-v8a\libreactnative.so' failed. Doing a slower copy instead.
+
+> Task :react-native-reanimated:packageNdkLibs NO-SOURCE
+> Task :react-native-reanimated:mergeReleaseJniLibFolders
+> Task :react-native-reanimated:mergeReleaseNativeLibs
+> Task :react-native-reanimated:copyReleaseJniLibsProjectOnly
+> Task :react-native-safe-area-context:preBuild UP-TO-DATE
+> Task :react-native-safe-area-context:preReleaseBuild UP-TO-DATE
+> Task :react-native-safe-area-context:mergeReleaseJniLibFolders
+> Task :react-native-safe-area-context:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-safe-area-context:copyReleaseJniLibsProjectOnly
+> Task :react-native-screens:preBuild UP-TO-DATE
+> Task :react-native-screens:preReleaseBuild UP-TO-DATE
+> Task :react-native-screens:configureCMakeRelWithDebInfo[arm64-v8a]
+> Task :react-native-screens:buildCMakeRelWithDebInfo[arm64-v8a]
+> Task :react-native-screens:mergeReleaseJniLibFolders
+> Task :react-native-screens:mergeReleaseNativeLibs
+> Task :react-native-screens:copyReleaseJniLibsProjectOnly
+> Task :react-native-splash-screen:preBuild UP-TO-DATE
+> Task :react-native-splash-screen:preReleaseBuild UP-TO-DATE
+> Task :react-native-splash-screen:mergeReleaseJniLibFolders
+> Task :react-native-splash-screen:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-splash-screen:copyReleaseJniLibsProjectOnly
+> Task :react-native-svg:preBuild UP-TO-DATE
+> Task :react-native-svg:preReleaseBuild UP-TO-DATE
+> Task :react-native-svg:mergeReleaseJniLibFolders
+> Task :react-native-svg:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-svg:copyReleaseJniLibsProjectOnly
+> Task :react-native-vector-icons:preBuild UP-TO-DATE
+> Task :react-native-vector-icons:preReleaseBuild UP-TO-DATE
+> Task :react-native-vector-icons:mergeReleaseJniLibFolders
+> Task :react-native-vector-icons:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-vector-icons:copyReleaseJniLibsProjectOnly
+> Task :react-native-version-check:preBuild UP-TO-DATE
+> Task :react-native-version-check:preReleaseBuild UP-TO-DATE
+> Task :react-native-version-check:mergeReleaseJniLibFolders
+> Task :react-native-version-check:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-version-check:copyReleaseJniLibsProjectOnly
+> Task :react-native-webrtc:preBuild UP-TO-DATE
+> Task :react-native-webrtc:preReleaseBuild UP-TO-DATE
+> Task :react-native-webrtc:mergeReleaseJniLibFolders
+> Task :react-native-webrtc:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-webrtc:copyReleaseJniLibsProjectOnly
+> Task :react-native-webview:preBuild UP-TO-DATE
+> Task :react-native-webview:preReleaseBuild UP-TO-DATE
+> Task :react-native-webview:mergeReleaseJniLibFolders
+> Task :react-native-webview:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-webview:copyReleaseJniLibsProjectOnly
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
+> Task :app:extractReleaseNativeSymbolTables
+> Task :app:mergeReleaseNativeDebugMetadata
+> Task :react-native-community_datetimepicker:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-community_datetimepicker:generateReleaseBuildConfig
+> Task :react-native-community_datetimepicker:generateReleaseResValues
+> Task :react-native-community_datetimepicker:generateReleaseResources
+> Task :react-native-community_datetimepicker:packageReleaseResources
+> Task :react-native-community_datetimepicker:parseReleaseLocalResources
+> Task :react-native-community_datetimepicker:generateReleaseRFile
+> Task :react-native-community_datetimepicker:compileReleaseKotlin
+> Task :react-native-community_datetimepicker:javaPreCompileRelease
+
+> Task :react-native-community_datetimepicker:compileReleaseJavaWithJavac
+D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\@react-native-community\datetimepicker\android\src\main\java\com\reactcommunity\rndatetimepicker\DatePickerModule.java:101: warning: [removal] getCurrentActivity() in ReactContextBaseJavaModule has been deprecated and marked for removal
+    FragmentActivity activity = (FragmentActivity) getCurrentActivity();
+                                                   ^
+D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\@react-native-community\datetimepicker\android\src\main\java\com\reactcommunity\rndatetimepicker\DatePickerModule.java:134: warning: [removal] getCurrentActivity() in ReactContextBaseJavaModule has been deprecated and marked for removal
+    FragmentActivity activity = (FragmentActivity) getCurrentActivity();
+                                                   ^
+D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\@react-native-community\datetimepicker\android\src\main\java\com\reactcommunity\rndatetimepicker\TimePickerModule.java:102: warning: [removal] getCurrentActivity() in ReactContextBaseJavaModule has been deprecated and marked for removal
+    FragmentActivity activity = (FragmentActivity) getCurrentActivity();
+                                                   ^
+D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\@react-native-community\datetimepicker\android\src\main\java\com\reactcommunity\rndatetimepicker\TimePickerModule.java:108: warning: [removal] getCurrentActivity() in ReactContextBaseJavaModule has been deprecated and marked for removal
+    FragmentActivity activity = (FragmentActivity) getCurrentActivity();
+                                                   ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+4 warnings
+
+> Task :react-native-community_datetimepicker:bundleLibRuntimeToDirRelease
+> Task :react-native-documents_picker:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-documents_picker:generateReleaseBuildConfig
+> Task :react-native-documents_picker:generateReleaseResValues
+> Task :react-native-documents_picker:generateReleaseResources
+> Task :react-native-documents_picker:packageReleaseResources
+> Task :react-native-documents_picker:parseReleaseLocalResources
+> Task :react-native-documents_picker:generateReleaseRFile
+
+> Task :react-native-documents_picker:compileReleaseKotlin
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/@react-native-documents/picker/android/src/main/java/com/reactnativedocumentpicker/RNDocumentPickerModule.kt:105:27 'val currentActivity: Activity?' is deprecated. Deprecated in Java.
+
+> Task :react-native-documents_picker:javaPreCompileRelease
+> Task :react-native-documents_picker:compileReleaseJavaWithJavac
+> Task :react-native-documents_picker:bundleLibRuntimeToDirRelease
+> Task :react-native-gesture-handler:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-gesture-handler:generateReleaseBuildConfig
+> Task :react-native-gesture-handler:generateReleaseResValues
+> Task :react-native-gesture-handler:generateReleaseResources
+> Task :react-native-gesture-handler:packageReleaseResources
+> Task :react-native-gesture-handler:parseReleaseLocalResources
+> Task :react-native-gesture-handler:generateReleaseRFile
+> Task :react-native-reanimated:generateReleaseBuildConfig
+> Task :react-native-reanimated:generateReleaseResValues
+> Task :react-native-reanimated:generateReleaseResources
+> Task :react-native-reanimated:packageReleaseResources
+> Task :react-native-reanimated:parseReleaseLocalResources
+> Task :react-native-reanimated:generateReleaseRFile
+> Task :react-native-reanimated:javaPreCompileRelease
+
+> Task :react-native-reanimated:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :react-native-reanimated:bundleLibCompileToJarRelease
+> Task :react-native-svg:generateReleaseBuildConfig
+> Task :react-native-svg:generateReleaseResValues
+> Task :react-native-svg:generateReleaseResources
+> Task :react-native-svg:packageReleaseResources
+> Task :react-native-svg:parseReleaseLocalResources
+> Task :react-native-svg:generateReleaseRFile
+> Task :react-native-svg:javaPreCompileRelease
+
+> Task :react-native-svg:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :react-native-svg:bundleLibCompileToJarRelease
+> Task :react-native-gesture-handler:compileReleaseKotlin
+> Task :react-native-gesture-handler:javaPreCompileRelease
+
+> Task :react-native-gesture-handler:compileReleaseJavaWithJavac
+Note: D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\react-native-gesture-handler\android\paper\src\main\java\com\swmansion\gesturehandler\NativeRNGestureHandlerModuleSpec.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :react-native-gesture-handler:bundleLibRuntimeToDirRelease
+> Task :react-native-localize:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-localize:generateReleaseBuildConfig
+> Task :react-native-localize:generateReleaseResValues
+> Task :react-native-localize:generateReleaseResources
+> Task :react-native-localize:packageReleaseResources
+> Task :react-native-localize:parseReleaseLocalResources
+> Task :react-native-localize:generateReleaseRFile
+
+> Task :react-native-localize:compileReleaseKotlin
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-localize/android/src/main/java/com/zoontek/rnlocalize/RNLocalizeModuleImpl.kt:85:22 'field locale: Locale!' is deprecated. Deprecated in Java.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-localize/android/src/main/java/com/zoontek/rnlocalize/RNLocalizeModuleImpl.kt:93:21 'field locale: Locale!' is deprecated. Deprecated in Java.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-localize/android/src/main/java/com/zoontek/rnlocalize/RNLocalizePackage.kt:3:8 'class TurboReactPackage : BaseReactPackage' is deprecated. Use BaseReactPackage instead.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-localize/android/src/main/java/com/zoontek/rnlocalize/RNLocalizePackage.kt:9:27 'class TurboReactPackage : BaseReactPackage' is deprecated. Use BaseReactPackage instead.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-localize/android/src/main/java/com/zoontek/rnlocalize/RNLocalizePackage.kt:23:24 'constructor(name: String, className: String, canOverrideExistingModule: Boolean, needsEagerInit: Boolean, hasConstants: Boolean, isCxxModule: Boolean, isTurboModule: Boolean): ReactModuleInfo' is deprecated. This constructor is deprecated and will be removed in the future. Use ReactModuleInfo(String, String, boolean, boolean, boolean, boolean)].
+
+> Task :react-native-localize:javaPreCompileRelease
+> Task :react-native-localize:compileReleaseJavaWithJavac
+> Task :react-native-localize:bundleLibRuntimeToDirRelease
+> Task :react-native-maps:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-maps:generateReleaseBuildConfig
+> Task :react-native-maps:generateReleaseResValues
+> Task :react-native-maps:generateReleaseResources
+> Task :react-native-maps:packageReleaseResources
+> Task :react-native-maps:parseReleaseLocalResources
+> Task :react-native-maps:generateReleaseRFile
+> Task :react-native-maps:compileReleaseKotlin NO-SOURCE
+> Task :react-native-maps:javaPreCompileRelease
+
+> Task :react-native-maps:compileReleaseJavaWithJavac
+D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\react-native-maps\android\src\main\java\com\rnmaps\maps\MapModule.java:61: warning: [removal] getCurrentActivity() in ReactContextBaseJavaModule has been deprecated and marked for removal
+        return getCurrentActivity();
+               ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 warning
+
+> Task :react-native-maps:bundleLibRuntimeToDirRelease
+> Task :react-native-nitro-modules:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-nitro-modules:generateReleaseBuildConfig
+> Task :react-native-nitro-modules:generateReleaseResValues
+> Task :react-native-nitro-modules:generateReleaseResources
+> Task :react-native-nitro-modules:packageReleaseResources
+> Task :react-native-nitro-modules:parseReleaseLocalResources
+> Task :react-native-nitro-modules:generateReleaseRFile
+
+> Task :react-native-nitro-modules:compileReleaseKotlin
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-nitro-modules/android/src/main/java/com/margelo/nitro/NitroModulesPackage.kt:3:8 'class TurboReactPackage : BaseReactPackage' is deprecated. Use BaseReactPackage instead.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-nitro-modules/android/src/main/java/com/margelo/nitro/NitroModulesPackage.kt:9:29 'class TurboReactPackage : BaseReactPackage' is deprecated. Use BaseReactPackage instead.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-nitro-modules/android/src/main/java/com/margelo/nitro/NitroModulesPackage.kt:22:46 'constructor(name: String, className: String, canOverrideExistingModule: Boolean, needsEagerInit: Boolean, hasConstants: Boolean, isCxxModule: Boolean, isTurboModule: Boolean): ReactModuleInfo' is deprecated. This constructor is deprecated and will be removed in the future. Use ReactModuleInfo(String, String, boolean, boolean, boolean, boolean)].
+
+> Task :react-native-nitro-modules:javaPreCompileRelease
+> Task :react-native-nitro-modules:compileReleaseJavaWithJavac
+> Task :react-native-nitro-modules:bundleLibCompileToJarRelease
+> Task :react-native-nitro-sound:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-nitro-sound:generateReleaseBuildConfig
+> Task :react-native-nitro-sound:generateReleaseResValues
+> Task :react-native-nitro-sound:generateReleaseResources
+> Task :react-native-nitro-sound:packageReleaseResources
+> Task :react-native-nitro-sound:parseReleaseLocalResources
+> Task :react-native-nitro-sound:generateReleaseRFile
+
+> Task :react-native-nitro-sound:compileReleaseKotlin
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-nitro-sound/android/src/main/java/com/margelo/nitro/audiorecorderplayer/Sound.kt:91:9 The corresponding parameter in the supertype 'HybridSoundSpec' is named 'meteringEnabled'. This may cause problems when calling this function with named arguments.
+
+> Task :react-native-nitro-sound:javaPreCompileRelease
+> Task :react-native-nitro-sound:compileReleaseJavaWithJavac
+> Task :react-native-nitro-sound:bundleLibRuntimeToDirRelease
+> Task :react-native-nitro-modules:bundleLibRuntimeToDirRelease
+> Task :react-native-permissions:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-permissions:generateReleaseBuildConfig
+> Task :react-native-permissions:generateReleaseResValues
+> Task :react-native-permissions:generateReleaseResources
+> Task :react-native-permissions:packageReleaseResources
+> Task :react-native-permissions:parseReleaseLocalResources
+> Task :react-native-permissions:generateReleaseRFile
+
+> Task :react-native-permissions:compileReleaseKotlin
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-permissions/android/src/main/java/com/zoontek/rnpermissions/RNPermissionsPackage.kt:3:8 'class TurboReactPackage : BaseReactPackage' is deprecated. Use BaseReactPackage instead.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-permissions/android/src/main/java/com/zoontek/rnpermissions/RNPermissionsPackage.kt:9:30 'class TurboReactPackage : BaseReactPackage' is deprecated. Use BaseReactPackage instead.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-permissions/android/src/main/java/com/zoontek/rnpermissions/RNPermissionsPackage.kt:22:24 'constructor(name: String, className: String, canOverrideExistingModule: Boolean, needsEagerInit: Boolean, hasConstants: Boolean, isCxxModule: Boolean, isTurboModule: Boolean): ReactModuleInfo' is deprecated. This constructor is deprecated and will be removed in the future. Use ReactModuleInfo(String, String, boolean, boolean, boolean, boolean)].
+
+> Task :react-native-permissions:javaPreCompileRelease
+> Task :react-native-permissions:compileReleaseJavaWithJavac
+> Task :react-native-permissions:bundleLibRuntimeToDirRelease
+> Task :react-native-safe-area-context:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-safe-area-context:generateReleaseBuildConfig
+> Task :react-native-safe-area-context:generateReleaseResValues
+> Task :react-native-safe-area-context:generateReleaseResources
+> Task :react-native-safe-area-context:packageReleaseResources
+> Task :react-native-safe-area-context:parseReleaseLocalResources
+> Task :react-native-safe-area-context:generateReleaseRFile
+
+> Task :react-native-safe-area-context:compileReleaseKotlin
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-safe-area-context/android/src/main/java/com/th3rdwave/safeareacontext/SafeAreaView.kt:59:23 'val uiImplementation: UIImplementation!' is deprecated. Deprecated in Java.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-safe-area-context/android/src/paper/java/com/th3rdwave/safeareacontext/InsetsChangeEvent.kt:19:16 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+
+> Task :react-native-safe-area-context:javaPreCompileRelease
+
+> Task :react-native-safe-area-context:compileReleaseJavaWithJavac
+Note: D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\react-native-safe-area-context\android\src\paper\java\com\th3rdwave\safeareacontext\NativeSafeAreaContextSpec.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :react-native-safe-area-context:bundleLibRuntimeToDirRelease
+> Task :react-native-screens:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-screens:generateReleaseBuildConfig
+> Task :react-native-screens:generateReleaseResValues
+> Task :react-native-screens:generateReleaseResources
+> Task :react-native-screens:packageReleaseResources
+> Task :react-native-screens:parseReleaseLocalResources
+> Task :react-native-screens:generateReleaseRFile
+
+> Task :react-native-screens:compileReleaseKotlin
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/RNScreensPackage.kt:56:9 The corresponding parameter in the supertype 'BaseReactPackage' is named 'name'. This may cause problems when calling this function with named arguments.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/RNScreensPackage.kt:57:9 The corresponding parameter in the supertype 'BaseReactPackage' is named 'reactContext'. This may cause problems when calling this function with named arguments.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/RNScreensPackage.kt:70:17 'constructor(name: String, className: String, canOverrideExistingModule: Boolean, needsEagerInit: Boolean, hasConstants: Boolean, isCxxModule: Boolean, isTurboModule: Boolean): ReactModuleInfo' is deprecated. This constructor is deprecated and will be removed in the future. Use ReactModuleInfo(String, String, boolean, boolean, boolean, boolean)].
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/Screen.kt:48:77 Unchecked cast of '(CoordinatorLayout.Behavior<View!>?..CoordinatorLayout.Behavior<*>?)' to 'BottomSheetBehavior<Screen>'.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/Screen.kt:383:36 'fun setTranslucent(screen: Screen, activity: Activity?, context: ReactContext?): Unit' is deprecated. For apps targeting SDK 35 or above this prop has no effect because edge-to-edge is enabled by default and the status bar is always translucent.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/Screen.kt:402:36 'fun setColor(screen: Screen, activity: Activity?, context: ReactContext?): Unit' is deprecated. For apps targeting SDK 35 or above this prop has no effect because edge-to-edge is enabled by default and the status bar is always translucent.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/Screen.kt:420:36 'fun setNavigationBarColor(screen: Screen, activity: Activity?): Unit' is deprecated. For all apps targeting Android SDK 35 or above edge-to-edge is enabled by default.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/Screen.kt:437:36 'fun setNavigationBarTranslucent(screen: Screen, activity: Activity?): Unit' is deprecated. For all apps targeting Android SDK 35 or above edge-to-edge is enabled by default.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenStackFragment.kt:217:31 'var targetElevation: Float' is deprecated. Deprecated in Java.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenStackFragment.kt:220:13 'fun setHasOptionsMenu(p0: Boolean): Unit' is deprecated. Deprecated in Java.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenStackFragment.kt:397:18 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenStackFragment.kt:404:22 'fun onPrepareOptionsMenu(p0: Menu): Unit' is deprecated. Deprecated in Java.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenStackFragment.kt:407:18 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenStackFragment.kt:412:22 'fun onCreateOptionsMenu(p0: Menu, p1: MenuInflater): Unit' is deprecated. Deprecated in Java.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenViewManager.kt:203:14 'var statusBarColor: Int?' is deprecated. For apps targeting SDK 35 or above this prop has no effect because edge-to-edge is enabled by default and the status bar is always translucent.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenViewManager.kt:220:14 'var isStatusBarTranslucent: Boolean?' is deprecated. For apps targeting SDK 35 or above this prop has no effect because edge-to-edge is enabled by default and the status bar is always translucent.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenViewManager.kt:237:14 'var navigationBarColor: Int?' is deprecated. For all apps targeting Android SDK 35 or above edge-to-edge is enabled by default.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenViewManager.kt:246:14 'var isNavigationBarTranslucent: Boolean?' is deprecated. For all apps targeting Android SDK 35 or above edge-to-edge is enabled by default.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt:55:42 'fun replaceSystemWindowInsets(p0: Int, p1: Int, p2: Int, p3: Int): WindowInsetsCompat' is deprecated. Deprecated in Java.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt:56:39 'val systemWindowInsetLeft: Int' is deprecated. Deprecated in Java.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt:58:39 'val systemWindowInsetRight: Int' is deprecated. Deprecated in Java.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt:59:39 'val systemWindowInsetBottom: Int' is deprecated. Deprecated in Java.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt:102:53 'var statusBarColor: Int' is deprecated. Deprecated in Java.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt:106:37 'var statusBarColor: Int?' is deprecated. For apps targeting SDK 35 or above this prop has no effect because edge-to-edge is enabled by default and the status bar is always translucent.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt:113:48 'var statusBarColor: Int' is deprecated. Deprecated in Java.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt:116:32 'var statusBarColor: Int' is deprecated. Deprecated in Java.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt:162:49 'var isStatusBarTranslucent: Boolean?' is deprecated. For apps targeting SDK 35 or above this prop has no effect because edge-to-edge is enabled by default and the status bar is always translucent.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt:218:43 'var navigationBarColor: Int?' is deprecated. For all apps targeting Android SDK 35 or above edge-to-edge is enabled by default.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt:218:72 'var navigationBarColor: Int' is deprecated. Deprecated in Java.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt:224:16 'var navigationBarColor: Int' is deprecated. Deprecated in Java.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt:241:55 'var isNavigationBarTranslucent: Boolean?' is deprecated. For all apps targeting Android SDK 35 or above edge-to-edge is enabled by default.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt:283:13 'fun setColor(screen: Screen, activity: Activity?, context: ReactContext?): Unit' is deprecated. For apps targeting SDK 35 or above this prop has no effect because edge-to-edge is enabled by default and the status bar is always translucent.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt:285:13 'fun setTranslucent(screen: Screen, activity: Activity?, context: ReactContext?): Unit' is deprecated. For apps targeting SDK 35 or above this prop has no effect because edge-to-edge is enabled by default and the status bar is always translucent.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt:289:13 'fun setNavigationBarColor(screen: Screen, activity: Activity?): Unit' is deprecated. For all apps targeting Android SDK 35 or above edge-to-edge is enabled by default.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt:290:13 'fun setNavigationBarTranslucent(screen: Screen, activity: Activity?): Unit' is deprecated. For all apps targeting Android SDK 35 or above edge-to-edge is enabled by default.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt:354:42 'var statusBarColor: Int?' is deprecated. For apps targeting SDK 35 or above this prop has no effect because edge-to-edge is enabled by default and the status bar is always translucent.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt:356:48 'var isStatusBarTranslucent: Boolean?' is deprecated. For apps targeting SDK 35 or above this prop has no effect because edge-to-edge is enabled by default and the status bar is always translucent.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt:359:57 'var navigationBarColor: Int?' is deprecated. For all apps targeting Android SDK 35 or above edge-to-edge is enabled by default.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt:360:63 'var isNavigationBarTranslucent: Boolean?' is deprecated. For all apps targeting Android SDK 35 or above edge-to-edge is enabled by default.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/BottomSheetDialogRootView.kt:7:8 'object ReactFeatureFlags : Any' is deprecated. Use com.facebook.react.internal.featureflags.ReactNativeFeatureFlags instead.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/BottomSheetDialogRootView.kt:25:13 'object ReactFeatureFlags : Any' is deprecated. Use com.facebook.react.internal.featureflags.ReactNativeFeatureFlags instead.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/BottomSheetDialogRootView.kt:71:9 The corresponding parameter in the supertype 'RootView' is named 'childView'. This may cause problems when calling this function with named arguments.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/BottomSheetDialogRootView.kt:72:9 The corresponding parameter in the supertype 'RootView' is named 'ev'. This may cause problems when calling this function with named arguments.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/BottomSheetDialogRootView.kt:79:46 The corresponding parameter in the supertype 'RootView' is named 'ev'. This may cause problems when calling this function with named arguments.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/BottomSheetDialogRootView.kt:83:9 The corresponding parameter in the supertype 'RootView' is named 'childView'. This may cause problems when calling this function with named arguments.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/BottomSheetDialogRootView.kt:84:9 The corresponding parameter in the supertype 'RootView' is named 'ev'. This may cause problems when calling this function with named arguments.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/BottomSheetDialogRootView.kt:95:34 The corresponding parameter in the supertype 'RootView' is named 't'. This may cause problems when calling this function with named arguments.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/DimmingView.kt:63:9 The corresponding parameter in the supertype 'ReactCompoundView' is named 'touchX'. This may cause problems when calling this function with named arguments.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/DimmingView.kt:64:9 The corresponding parameter in the supertype 'ReactCompoundView' is named 'touchY'. This may cause problems when calling this function with named arguments.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/DimmingView.kt:68:9 The corresponding parameter in the supertype 'ReactCompoundViewGroup' is named 'touchX'. This may cause problems when calling this function with named arguments.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/DimmingView.kt:69:9 The corresponding parameter in the supertype 'ReactCompoundViewGroup' is named 'touchY'. This may cause problems when calling this function with named arguments.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/gamma/tabs/TabsHostViewManager.kt:37:9 The corresponding parameter in the supertype 'TabsHostViewManager' is named 'view'. This may cause problems when calling this function with named arguments.
+
+> Task :react-native-screens:javaPreCompileRelease
+> Task :react-native-screens:compileReleaseJavaWithJavac
+> Task :react-native-screens:bundleLibRuntimeToDirRelease
+> Task :react-native-webview:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-webview:generateReleaseBuildConfig
+> Task :react-native-webview:generateReleaseResValues
+> Task :react-native-webview:generateReleaseResources
+> Task :react-native-webview:packageReleaseResources
+> Task :react-native-webview:parseReleaseLocalResources
+> Task :react-native-webview:generateReleaseRFile
+
+> Task :react-native-webview:compileReleaseKotlin
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/RNCWebViewManagerImpl.kt:22:8 'class MapBuilder : Any' is deprecated. Deprecated in Java.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/RNCWebViewManagerImpl.kt:82:18 'var allowFileAccessFromFileURLs: Boolean' is deprecated. Deprecated in Java.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/RNCWebViewManagerImpl.kt:83:18 'var allowUniversalAccessFromFileURLs: Boolean' is deprecated. Deprecated in Java.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/RNCWebViewManagerImpl.kt:124:21 'fun allowScanningByMediaScanner(): Unit' is deprecated. Deprecated in Java.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/RNCWebViewManagerImpl.kt:161:36 'var systemUiVisibility: Int' is deprecated. Deprecated in Java.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/RNCWebViewManagerImpl.kt:300:14 'class MapBuilder : Any' is deprecated. Deprecated in Java.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/RNCWebViewManagerImpl.kt:350:34 Condition is always 'true'.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/RNCWebViewManagerImpl.kt:369:38 'var allowUniversalAccessFromFileURLs: Boolean' is deprecated. Deprecated in Java.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/RNCWebViewManagerImpl.kt:430:51 Unchecked cast of 'Any?' to 'HashMap<String, String>'.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/RNCWebViewManagerImpl.kt:486:23 'var savePassword: Boolean' is deprecated. Deprecated in Java.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/RNCWebViewManagerImpl.kt:487:23 'var saveFormData: Boolean' is deprecated. Deprecated in Java.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/RNCWebViewManagerImpl.kt:557:23 'var allowFileAccessFromFileURLs: Boolean' is deprecated. Deprecated in Java.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/RNCWebViewManagerImpl.kt:602:52 'static field FORCE_DARK_ON: Int' is deprecated. Deprecated in Java.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/RNCWebViewManagerImpl.kt:602:89 'static field FORCE_DARK_OFF: Int' is deprecated. Deprecated in Java.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/RNCWebViewManagerImpl.kt:603:35 'static fun setForceDark(p0: @NonNull() WebSettings, p1: Int): Unit' is deprecated. Deprecated in Java.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/RNCWebViewManagerImpl.kt:612:35 'static fun setForceDarkStrategy(p0: @NonNull() WebSettings, p1: Int): Unit' is deprecated. Deprecated in Java.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/RNCWebViewManagerImpl.kt:614:39 'static field DARK_STRATEGY_PREFER_WEB_THEME_OVER_USER_AGENT_DARKENING: Int' is deprecated. Deprecated in Java.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/RNCWebViewManagerImpl.kt:658:65 Unchecked cast of 'ArrayList<Any?>' to 'List<Map<String, String>>'.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/RNCWebViewManagerImpl.kt:679:23 'var saveFormData: Boolean' is deprecated. Deprecated in Java.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/SubResourceErrorEvent.kt:5:8 'interface RCTEventEmitter : JavaScriptModule' is deprecated. Use [RCTModernEventEmitter] instead.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/SubResourceErrorEvent.kt:11:3 'constructor<T : Event<T>>(viewTag: Int): Event<T>' is deprecated. Use constructor with explicit surfaceId instead.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/SubResourceErrorEvent.kt:22:16 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/SubResourceErrorEvent.kt:22:42 'interface RCTEventEmitter : JavaScriptModule' is deprecated. Use [RCTModernEventEmitter] instead.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/SubResourceErrorEvent.kt:23:21 'fun receiveEvent(targetTag: Int, eventName: String, params: WritableMap?): Unit' is deprecated. Use [RCTModernEventEmitter.receiveEvent] instead.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/TopCustomMenuSelectionEvent.kt:5:8 'interface RCTEventEmitter : JavaScriptModule' is deprecated. Use [RCTModernEventEmitter] instead.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/TopCustomMenuSelectionEvent.kt:11:3 'constructor<T : Event<T>>(viewTag: Int): Event<T>' is deprecated. Use constructor with explicit surfaceId instead.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/TopCustomMenuSelectionEvent.kt:22:16 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/TopCustomMenuSelectionEvent.kt:22:42 'interface RCTEventEmitter : JavaScriptModule' is deprecated. Use [RCTModernEventEmitter] instead.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/TopCustomMenuSelectionEvent.kt:23:21 'fun receiveEvent(targetTag: Int, eventName: String, params: WritableMap?): Unit' is deprecated. Use [RCTModernEventEmitter.receiveEvent] instead.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/TopHttpErrorEvent.kt:5:8 'interface RCTEventEmitter : JavaScriptModule' is deprecated. Use [RCTModernEventEmitter] instead.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/TopHttpErrorEvent.kt:11:3 'constructor<T : Event<T>>(viewTag: Int): Event<T>' is deprecated. Use constructor with explicit surfaceId instead.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/TopHttpErrorEvent.kt:22:16 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/TopHttpErrorEvent.kt:22:42 'interface RCTEventEmitter : JavaScriptModule' is deprecated. Use [RCTModernEventEmitter] instead.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/TopHttpErrorEvent.kt:23:21 'fun receiveEvent(targetTag: Int, eventName: String, params: WritableMap?): Unit' is deprecated. Use [RCTModernEventEmitter.receiveEvent] instead.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/TopLoadingErrorEvent.kt:5:8 'interface RCTEventEmitter : JavaScriptModule' is deprecated. Use [RCTModernEventEmitter] instead.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/TopLoadingErrorEvent.kt:11:3 'constructor<T : Event<T>>(viewTag: Int): Event<T>' is deprecated. Use constructor with explicit surfaceId instead.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/TopLoadingErrorEvent.kt:22:16 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/TopLoadingErrorEvent.kt:22:42 'interface RCTEventEmitter : JavaScriptModule' is deprecated. Use [RCTModernEventEmitter] instead.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/TopLoadingErrorEvent.kt:23:21 'fun receiveEvent(targetTag: Int, eventName: String, params: WritableMap?): Unit' is deprecated. Use [RCTModernEventEmitter.receiveEvent] instead.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/TopLoadingFinishEvent.kt:5:8 'interface RCTEventEmitter : JavaScriptModule' is deprecated. Use [RCTModernEventEmitter] instead.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/TopLoadingFinishEvent.kt:11:3 'constructor<T : Event<T>>(viewTag: Int): Event<T>' is deprecated. Use constructor with explicit surfaceId instead.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/TopLoadingFinishEvent.kt:22:16 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/TopLoadingFinishEvent.kt:22:42 'interface RCTEventEmitter : JavaScriptModule' is deprecated. Use [RCTModernEventEmitter] instead.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/TopLoadingFinishEvent.kt:23:21 'fun receiveEvent(targetTag: Int, eventName: String, params: WritableMap?): Unit' is deprecated. Use [RCTModernEventEmitter.receiveEvent] instead.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/TopLoadingProgressEvent.kt:5:8 'interface RCTEventEmitter : JavaScriptModule' is deprecated. Use [RCTModernEventEmitter] instead.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/TopLoadingProgressEvent.kt:11:3 'constructor<T : Event<T>>(viewTag: Int): Event<T>' is deprecated. Use constructor with explicit surfaceId instead.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/TopLoadingProgressEvent.kt:22:16 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/TopLoadingProgressEvent.kt:22:42 'interface RCTEventEmitter : JavaScriptModule' is deprecated. Use [RCTModernEventEmitter] instead.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/TopLoadingProgressEvent.kt:23:21 'fun receiveEvent(targetTag: Int, eventName: String, params: WritableMap?): Unit' is deprecated. Use [RCTModernEventEmitter.receiveEvent] instead.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/TopLoadingStartEvent.kt:5:8 'interface RCTEventEmitter : JavaScriptModule' is deprecated. Use [RCTModernEventEmitter] instead.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/TopLoadingStartEvent.kt:11:3 'constructor<T : Event<T>>(viewTag: Int): Event<T>' is deprecated. Use constructor with explicit surfaceId instead.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/TopLoadingStartEvent.kt:22:16 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/TopLoadingStartEvent.kt:22:42 'interface RCTEventEmitter : JavaScriptModule' is deprecated. Use [RCTModernEventEmitter] instead.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/TopLoadingStartEvent.kt:23:21 'fun receiveEvent(targetTag: Int, eventName: String, params: WritableMap?): Unit' is deprecated. Use [RCTModernEventEmitter.receiveEvent] instead.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/TopMessageEvent.kt:5:8 'interface RCTEventEmitter : JavaScriptModule' is deprecated. Use [RCTModernEventEmitter] instead.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/TopMessageEvent.kt:10:75 'constructor<T : Event<T>>(viewTag: Int): Event<T>' is deprecated. Use constructor with explicit surfaceId instead.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/TopMessageEvent.kt:21:16 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/TopMessageEvent.kt:21:42 'interface RCTEventEmitter : JavaScriptModule' is deprecated. Use [RCTModernEventEmitter] instead.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/TopMessageEvent.kt:22:21 'fun receiveEvent(targetTag: Int, eventName: String, params: WritableMap?): Unit' is deprecated. Use [RCTModernEventEmitter.receiveEvent] instead.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/TopNewWindowEvent.kt:5:8 'interface RCTEventEmitter : JavaScriptModule' is deprecated. Use [RCTModernEventEmitter] instead.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/TopNewWindowEvent.kt:11:3 'constructor<T : Event<T>>(viewTag: Int): Event<T>' is deprecated. Use constructor with explicit surfaceId instead.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/TopNewWindowEvent.kt:22:16 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/TopNewWindowEvent.kt:22:42 'interface RCTEventEmitter : JavaScriptModule' is deprecated. Use [RCTModernEventEmitter] instead.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/TopNewWindowEvent.kt:23:21 'fun receiveEvent(targetTag: Int, eventName: String, params: WritableMap?): Unit' is deprecated. Use [RCTModernEventEmitter.receiveEvent] instead.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/TopRenderProcessGoneEvent.kt:5:8 'interface RCTEventEmitter : JavaScriptModule' is deprecated. Use [RCTModernEventEmitter] instead.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/TopRenderProcessGoneEvent.kt:12:3 'constructor<T : Event<T>>(viewTag: Int): Event<T>' is deprecated. Use constructor with explicit surfaceId instead.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/TopRenderProcessGoneEvent.kt:23:16 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/TopRenderProcessGoneEvent.kt:23:42 'interface RCTEventEmitter : JavaScriptModule' is deprecated. Use [RCTModernEventEmitter] instead.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/TopRenderProcessGoneEvent.kt:24:21 'fun receiveEvent(targetTag: Int, eventName: String, params: WritableMap?): Unit' is deprecated. Use [RCTModernEventEmitter.receiveEvent] instead.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/TopShouldStartLoadWithRequestEvent.kt:5:8 'interface RCTEventEmitter : JavaScriptModule' is deprecated. Use [RCTModernEventEmitter] instead.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/TopShouldStartLoadWithRequestEvent.kt:10:89 'constructor<T : Event<T>>(viewTag: Int): Event<T>' is deprecated. Use constructor with explicit surfaceId instead.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/TopShouldStartLoadWithRequestEvent.kt:27:16 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/TopShouldStartLoadWithRequestEvent.kt:27:42 'interface RCTEventEmitter : JavaScriptModule' is deprecated. Use [RCTModernEventEmitter] instead.
+w: file:///D:/logistic-fix-audio-call-issues-1/logistic-fix-audio-call-issues-1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/events/TopShouldStartLoadWithRequestEvent.kt:28:21 'fun receiveEvent(targetTag: Int, eventName: String, params: WritableMap?): Unit' is deprecated. Use [RCTModernEventEmitter.receiveEvent] instead.
+
+> Task :react-native-webview:javaPreCompileRelease
+
+> Task :react-native-webview:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :react-native-webview:bundleLibRuntimeToDirRelease
+> Task :notifee_react-native:generateReleaseBuildConfig
+> Task :notifee_react-native:generateReleaseResValues
+> Task :notifee_react-native:generateReleaseResources
+> Task :notifee_react-native:packageReleaseResources
+> Task :notifee_react-native:parseReleaseLocalResources
+> Task :notifee_react-native:generateReleaseRFile
+> Task :notifee_react-native:javaPreCompileRelease
+
+> Task :notifee_react-native:compileReleaseJavaWithJavac
+D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\@notifee\react-native\android\src\main\java\io\invertase\notifee\NotifeeApiModule.java:42: warning: [removal] onCatalystInstanceDestroy() in NativeModule has been deprecated and marked for removal
+  public void onCatalystInstanceDestroy() {
+              ^
+D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\@notifee\react-native\android\src\main\java\io\invertase\notifee\NotifeeApiModule.java:177: warning: [removal] getCurrentActivity() in ReactContextBaseJavaModule has been deprecated and marked for removal
+            getCurrentActivity(), (e, avoid) -> NotifeeReactUtils.promiseResolver(promise, e));
+            ^
+D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\@notifee\react-native\android\src\main\java\io\invertase\notifee\NotifeeApiModule.java:236: warning: [removal] getCurrentActivity() in ReactContextBaseJavaModule has been deprecated and marked for removal
+            getCurrentActivity(),
+            ^
+D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\@notifee\react-native\android\src\main\java\io\invertase\notifee\NotifeeApiModule.java:259: warning: [removal] getCurrentActivity() in ReactContextBaseJavaModule has been deprecated and marked for removal
+    PermissionAwareActivity activity = (PermissionAwareActivity) getCurrentActivity();
+                                                                 ^
+D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\@notifee\react-native\android\src\main\java\io\invertase\notifee\NotifeeApiModule.java:294: warning: [removal] getCurrentActivity() in ReactContextBaseJavaModule has been deprecated and marked for removal
+            getCurrentActivity(),
+            ^
+D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\@notifee\react-native\android\src\main\java\io\invertase\notifee\NotifeeApiModule.java:302: warning: [removal] getCurrentActivity() in ReactContextBaseJavaModule has been deprecated and marked for removal
+            getCurrentActivity(), (e, aVoid) -> NotifeeReactUtils.promiseResolver(promise, e));
+            ^
+D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\@notifee\react-native\android\src\main\java\io\invertase\notifee\NotifeeApiModule.java:323: warning: [removal] getCurrentActivity() in ReactContextBaseJavaModule has been deprecated and marked for removal
+            getCurrentActivity(), (e, avoid) -> NotifeeReactUtils.promiseResolver(promise, e));
+            ^
+Note: D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\@notifee\react-native\android\src\main\java\io\invertase\notifee\NotifeeReactUtils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+7 warnings
+
+> Task :notifee_react-native:bundleLibRuntimeToDirRelease
+> Task :react-native-async-storage_async-storage:generateReleaseBuildConfig
+> Task :react-native-async-storage_async-storage:generateReleaseResValues
+> Task :react-native-async-storage_async-storage:generateReleaseResources
+> Task :react-native-async-storage_async-storage:packageReleaseResources
+> Task :react-native-async-storage_async-storage:parseReleaseLocalResources
+> Task :react-native-async-storage_async-storage:generateReleaseRFile
+> Task :react-native-async-storage_async-storage:javaPreCompileRelease
+
+> Task :react-native-async-storage_async-storage:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\@react-native-async-storage\async-storage\android\src\javaPackage\java\com\reactnativecommunity\asyncstorage\AsyncStoragePackage.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :react-native-async-storage_async-storage:bundleLibRuntimeToDirRelease
+> Task :react-native-community_geolocation:generateReleaseBuildConfig
+> Task :react-native-community_geolocation:generateReleaseResValues
+> Task :react-native-community_geolocation:generateReleaseResources
+> Task :react-native-community_geolocation:packageReleaseResources
+> Task :react-native-community_geolocation:parseReleaseLocalResources
+> Task :react-native-community_geolocation:generateReleaseRFile
+> Task :react-native-community_geolocation:javaPreCompileRelease
+
+> Task :react-native-community_geolocation:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :react-native-community_geolocation:bundleLibRuntimeToDirRelease
+> Task :react-native-community_netinfo:generateReleaseBuildConfig
+> Task :react-native-community_netinfo:generateReleaseResValues
+> Task :react-native-community_netinfo:generateReleaseResources
+> Task :react-native-community_netinfo:packageReleaseResources
+> Task :react-native-community_netinfo:parseReleaseLocalResources
+> Task :react-native-community_netinfo:generateReleaseRFile
+> Task :react-native-community_netinfo:javaPreCompileRelease
+
+> Task :react-native-community_netinfo:compileReleaseJavaWithJavac
+D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\@react-native-community\netinfo\android\src\main\java\com\reactnativecommunity\netinfo\NetInfoModule.java:47: warning: [removal] onCatalystInstanceDestroy() in NativeModule has been deprecated and marked for removal
+    public void onCatalystInstanceDestroy() {
+                ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+1 warning
+
+> Task :react-native-community_netinfo:bundleLibRuntimeToDirRelease
+> Task :react-native-community_slider:generateReleaseBuildConfig
+> Task :react-native-community_slider:generateReleaseResValues
+> Task :react-native-community_slider:generateReleaseResources
+> Task :react-native-community_slider:packageReleaseResources
+> Task :react-native-community_slider:parseReleaseLocalResources
+> Task :react-native-community_slider:generateReleaseRFile
+> Task :react-native-community_slider:javaPreCompileRelease
+
+> Task :react-native-community_slider:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :react-native-community_slider:bundleLibRuntimeToDirRelease
+> Task :react-native-firebase_app:generateReleaseBuildConfig
+> Task :react-native-firebase_app:generateReleaseResValues
+> Task :react-native-firebase_app:generateReleaseResources
+> Task :react-native-firebase_app:packageReleaseResources
+> Task :react-native-firebase_app:parseReleaseLocalResources
+> Task :react-native-firebase_app:generateReleaseRFile
+> Task :react-native-firebase_app:javaPreCompileRelease
+
+> Task :react-native-firebase_app:compileReleaseJavaWithJavac
+D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\@react-native-firebase\app\android\src\reactnative\java\io\invertase\firebase\common\ReactNativeFirebaseModule.java:132: warning: [removal] getCurrentActivity() in ReactContextBaseJavaModule has been deprecated and marked for removal
+    return getCurrentActivity();
+           ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+1 warning
+
+> Task :react-native-firebase_app:bundleLibCompileToJarRelease
+> Task :react-native-firebase_messaging:generateReleaseBuildConfig
+> Task :react-native-firebase_messaging:generateReleaseResValues
+> Task :react-native-firebase_messaging:generateReleaseResources
+> Task :react-native-firebase_messaging:packageReleaseResources
+> Task :react-native-firebase_messaging:parseReleaseLocalResources
+> Task :react-native-firebase_messaging:generateReleaseRFile
+> Task :react-native-firebase_messaging:javaPreCompileRelease
+
+> Task :react-native-firebase_messaging:compileReleaseJavaWithJavac
+D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\@react-native-firebase\messaging\android\src\main\java\io\invertase\firebase\messaging\ReactNativeFirebaseMessagingModule.java:66: warning: [removal] getCurrentActivity() in ReactContextBaseJavaModule has been deprecated and marked for removal
+      Activity activity = getCurrentActivity();
+                          ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+1 warning
+
+> Task :react-native-firebase_messaging:bundleLibRuntimeToDirRelease
+> Task :react-native-firebase_app:bundleLibRuntimeToDirRelease
+> Task :react-native-masked-view_masked-view:generateReleaseBuildConfig
+> Task :react-native-masked-view_masked-view:generateReleaseResValues
+> Task :react-native-masked-view_masked-view:generateReleaseResources
+> Task :react-native-masked-view_masked-view:packageReleaseResources
+> Task :react-native-masked-view_masked-view:parseReleaseLocalResources
+> Task :react-native-masked-view_masked-view:generateReleaseRFile
+> Task :react-native-masked-view_masked-view:javaPreCompileRelease
+> Task :react-native-masked-view_masked-view:compileReleaseJavaWithJavac
+> Task :react-native-masked-view_masked-view:bundleLibRuntimeToDirRelease
+> Task :react-native-background-geolocation:generateReleaseBuildConfig
+> Task :react-native-background-geolocation:generateReleaseResValues
+> Task :react-native-background-geolocation:generateReleaseResources
+> Task :react-native-background-geolocation:packageReleaseResources
+> Task :react-native-background-geolocation:parseReleaseLocalResources
+> Task :react-native-background-geolocation:generateReleaseRFile
+> Task :react-native-background-geolocation:javaPreCompileRelease
+
+> Task :react-native-background-geolocation:compileReleaseJavaWithJavac
+D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\react-native-background-geolocation\android\src\main\java\com\transistorsoft\rnbackgroundgeolocation\RNBackgroundGeolocationModule.java:1243: warning: [removal] onCatalystInstanceDestroy() in NativeModule has been deprecated and marked for removal
+    public void onCatalystInstanceDestroy() {
+                ^
+D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\react-native-background-geolocation\android\src\main\java\com\transistorsoft\rnbackgroundgeolocation\RNBackgroundGeolocationModule.java:335: warning: [removal] getCurrentActivity() in ReactContextBaseJavaModule has been deprecated and marked for removal
+        Activity activity = getCurrentActivity();
+                            ^
+D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\react-native-background-geolocation\android\src\main\java\com\transistorsoft\rnbackgroundgeolocation\RNBackgroundGeolocationModule.java:905: warning: [removal] getCurrentActivity() in ReactContextBaseJavaModule has been deprecated and marked for removal
+        TSLog.emailLog(getCurrentActivity(), email, query, new TSEmailLogCallback() {
+                       ^
+D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\react-native-background-geolocation\android\src\main\java\com\transistorsoft\rnbackgroundgeolocation\RNBackgroundGeolocationModule.java:1069: warning: [removal] getCurrentActivity() in ReactContextBaseJavaModule has been deprecated and marked for removal
+        Activity activity = getCurrentActivity();
+                            ^
+D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\react-native-background-geolocation\android\src\main\java\com\transistorsoft\rnbackgroundgeolocation\RNBackgroundGeolocationModule.java:1073: warning: [removal] getCurrentActivity() in ReactContextBaseJavaModule has been deprecated and marked for removal
+        GoogleApiAvailability.getInstance().getErrorDialog(getCurrentActivity(), errorCode, 1001).show();
+                                                           ^
+D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\react-native-background-geolocation\android\src\main\java\com\transistorsoft\rnbackgroundgeolocation\RNBackgroundGeolocationModule.java:1206: warning: [removal] getCurrentActivity() in ReactContextBaseJavaModule has been deprecated and marked for removal
+        Activity activity = getCurrentActivity();
+                            ^
+6 warnings
+
+> Task :react-native-background-geolocation:bundleLibRuntimeToDirRelease
+> Task :react-native-date-picker:generateReleaseBuildConfig
+> Task :react-native-date-picker:generateReleaseResValues
+> Task :react-native-date-picker:generateReleaseResources
+> Task :react-native-date-picker:packageReleaseResources
+> Task :react-native-date-picker:parseReleaseLocalResources
+> Task :react-native-date-picker:generateReleaseRFile
+> Task :react-native-date-picker:javaPreCompileRelease
+
+> Task :react-native-date-picker:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :react-native-date-picker:bundleLibRuntimeToDirRelease
+> Task :react-native-fast-image:generateReleaseBuildConfig
+> Task :react-native-fast-image:generateReleaseResValues
+> Task :react-native-fast-image:generateReleaseResources
+> Task :react-native-fast-image:packageReleaseResources
+> Task :react-native-fast-image:parseReleaseLocalResources
+> Task :react-native-fast-image:generateReleaseRFile
+> Task :react-native-fast-image:javaPreCompileRelease
+
+> Task :react-native-fast-image:compileReleaseJavaWithJavac
+Note: [2] Wrote GeneratedAppGlideModule with: [com.bumptech.glide.integration.okhttp3.OkHttpLibraryGlideModule, com.dylanvann.fastimage.FastImageOkHttpProgressGlideModule]
+D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\react-native-fast-image\android\src\main\java\com\dylanvann\fastimage\FastImageViewModule.java:33: warning: [removal] getCurrentActivity() in ReactContextBaseJavaModule has been deprecated and marked for removal
+        final Activity activity = getCurrentActivity();
+                                  ^
+D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\react-native-fast-image\android\src\main\java\com\dylanvann\fastimage\FastImageViewModule.java:63: warning: [removal] getCurrentActivity() in ReactContextBaseJavaModule has been deprecated and marked for removal
+        final Activity activity = getCurrentActivity();
+                                  ^
+D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\react-native-fast-image\android\src\main\java\com\dylanvann\fastimage\FastImageViewModule.java:80: warning: [removal] getCurrentActivity() in ReactContextBaseJavaModule has been deprecated and marked for removal
+        final Activity activity = getCurrentActivity();
+                                  ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+3 warnings
+
+> Task :react-native-fast-image:bundleLibRuntimeToDirRelease
+> Task :react-native-file-viewer:generateReleaseBuildConfig
+> Task :react-native-file-viewer:generateReleaseResValues
+> Task :react-native-file-viewer:generateReleaseResources
+> Task :react-native-file-viewer:packageReleaseResources
+> Task :react-native-file-viewer:parseReleaseLocalResources
+> Task :react-native-file-viewer:generateReleaseRFile
+> Task :react-native-file-viewer:javaPreCompileRelease
+
+> Task :react-native-file-viewer:compileReleaseJavaWithJavac
+D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\react-native-file-viewer\android\src\main\java\com\vinzscam\reactnativefileviewer\RNFileViewerModule.java:55: warning: [removal] getCurrentActivity() in ReactContextBaseJavaModule has been deprecated and marked for removal
+      Activity currentActivity = getCurrentActivity();
+                                 ^
+D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\react-native-file-viewer\android\src\main\java\com\vinzscam\reactnativefileviewer\RNFileViewerModule.java:93: warning: [removal] getCurrentActivity() in ReactContextBaseJavaModule has been deprecated and marked for removal
+    PackageManager pm = getCurrentActivity().getPackageManager();
+                        ^
+D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\react-native-file-viewer\android\src\main\java\com\vinzscam\reactnativefileviewer\RNFileViewerModule.java:97: warning: [removal] getCurrentActivity() in ReactContextBaseJavaModule has been deprecated and marked for removal
+        getCurrentActivity().startActivityForResult(intentActivity, currentId + RN_FILE_VIEWER_REQUEST);
+        ^
+D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\react-native-file-viewer\android\src\main\java\com\vinzscam\reactnativefileviewer\RNFileViewerModule.java:110: warning: [removal] getCurrentActivity() in ReactContextBaseJavaModule has been deprecated and marked for removal
+            getCurrentActivity().startActivity(storeIntent);
+            ^
+4 warnings
+
+> Task :react-native-file-viewer:bundleLibRuntimeToDirRelease
+> Task :react-native-fs:generateReleaseBuildConfig
+> Task :react-native-fs:generateReleaseResValues
+> Task :react-native-fs:generateReleaseResources
+> Task :react-native-fs:packageReleaseResources
+> Task :react-native-fs:parseReleaseLocalResources
+> Task :react-native-fs:generateReleaseRFile
+> Task :react-native-fs:javaPreCompileRelease
+
+> Task :react-native-fs:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :react-native-fs:bundleLibRuntimeToDirRelease
+> Task :react-native-image-crop-picker:generateReleaseBuildConfig
+> Task :react-native-image-crop-picker:generateReleaseResValues
+> Task :react-native-image-crop-picker:generateReleaseResources
+> Task :react-native-image-crop-picker:packageReleaseResources
+> Task :react-native-image-crop-picker:parseReleaseLocalResources
+> Task :react-native-image-crop-picker:generateReleaseRFile
+> Task :react-native-image-crop-picker:javaPreCompileRelease
+
+> Task :react-native-image-crop-picker:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :react-native-image-crop-picker:bundleLibRuntimeToDirRelease
+> Task :react-native-image-picker:generateReleaseBuildConfig
+> Task :react-native-image-picker:generateReleaseResValues
+> Task :react-native-image-picker:generateReleaseResources
+> Task :react-native-image-picker:packageReleaseResources
+> Task :react-native-image-picker:parseReleaseLocalResources
+> Task :react-native-image-picker:generateReleaseRFile
+> Task :react-native-image-picker:javaPreCompileRelease
+
+> Task :react-native-image-picker:compileReleaseJavaWithJavac
+Note: D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\react-native-image-picker\android\src\main\java\com\imagepicker\ImagePickerPackage.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :react-native-image-picker:bundleLibRuntimeToDirRelease
+> Task :react-native-incall-manager:generateReleaseBuildConfig
+> Task :react-native-incall-manager:generateReleaseResValues
+> Task :react-native-incall-manager:generateReleaseResources
+> Task :react-native-incall-manager:packageReleaseResources
+> Task :react-native-incall-manager:parseReleaseLocalResources
+> Task :react-native-incall-manager:generateReleaseRFile
+> Task :react-native-incall-manager:javaPreCompileRelease
+
+> Task :react-native-incall-manager:compileReleaseJavaWithJavac
+D:\rn\node_modules\react-native-incall-manager\android\src\main\java\com\zxcpoiu\incallmanager\InCallManagerModule.java:205: warning: [removal] getCurrentActivity() in ReactContextBaseJavaModule has been deprecated and marked for removal
+        Activity mCurrentActivity = getCurrentActivity();
+                                    ^
+D:\rn\node_modules\react-native-incall-manager\android\src\main\java\com\zxcpoiu\incallmanager\InCallManagerModule.java:226: warning: [removal] getCurrentActivity() in ReactContextBaseJavaModule has been deprecated and marked for removal
+        Activity mCurrentActivity = getCurrentActivity();
+                                    ^
+D:\rn\node_modules\react-native-incall-manager\android\src\main\java\com\zxcpoiu\incallmanager\InCallManagerModule.java:264: warning: [removal] getCurrentActivity() in ReactContextBaseJavaModule has been deprecated and marked for removal
+            if (getCurrentActivity() != null) {
+                ^
+D:\rn\node_modules\react-native-incall-manager\android\src\main\java\com\zxcpoiu\incallmanager\InCallManagerModule.java:265: warning: [removal] getCurrentActivity() in ReactContextBaseJavaModule has been deprecated and marked for removal
+                getCurrentActivity().setVolumeControlStream(AudioManager.USE_DEFAULT_STREAM_TYPE);
+                ^
+D:\rn\node_modules\react-native-incall-manager\android\src\main\java\com\zxcpoiu\incallmanager\InCallManagerModule.java:842: warning: [removal] getCurrentActivity() in ReactContextBaseJavaModule has been deprecated and marked for removal
+        Activity mCurrentActivity = getCurrentActivity();
+                                    ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: D:\rn\node_modules\react-native-incall-manager\android\src\main\java\com\zxcpoiu\incallmanager\InCallManagerModule.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+5 warnings
+
+> Task :react-native-incall-manager:bundleLibRuntimeToDirRelease
+> Task :react-native-linear-gradient:generateReleaseBuildConfig
+> Task :react-native-linear-gradient:generateReleaseResValues
+> Task :react-native-linear-gradient:generateReleaseResources
+> Task :react-native-linear-gradient:packageReleaseResources
+> Task :react-native-linear-gradient:parseReleaseLocalResources
+> Task :react-native-linear-gradient:generateReleaseRFile
+> Task :react-native-linear-gradient:javaPreCompileRelease
+> Task :react-native-linear-gradient:compileReleaseJavaWithJavac
+> Task :react-native-linear-gradient:bundleLibRuntimeToDirRelease
+> Task :react-native-reanimated:bundleLibRuntimeToDirRelease
+> Task :react-native-splash-screen:generateReleaseBuildConfig
+> Task :react-native-splash-screen:generateReleaseResValues
+> Task :react-native-splash-screen:generateReleaseResources
+> Task :react-native-splash-screen:packageReleaseResources
+> Task :react-native-splash-screen:parseReleaseLocalResources
+> Task :react-native-splash-screen:generateReleaseRFile
+> Task :react-native-splash-screen:javaPreCompileRelease
+
+> Task :react-native-splash-screen:compileReleaseJavaWithJavac
+D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\react-native-splash-screen\android\src\main\java\org\devio\rn\splashscreen\SplashScreenModule.java:30: warning: [removal] getCurrentActivity() in ReactContextBaseJavaModule has been deprecated and marked for removal
+        SplashScreen.show(getCurrentActivity());
+                          ^
+D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\react-native-splash-screen\android\src\main\java\org\devio\rn\splashscreen\SplashScreenModule.java:38: warning: [removal] getCurrentActivity() in ReactContextBaseJavaModule has been deprecated and marked for removal
+        SplashScreen.hide(getCurrentActivity());
+                          ^
+2 warnings
+
+> Task :react-native-splash-screen:bundleLibRuntimeToDirRelease
+> Task :react-native-svg:bundleLibRuntimeToDirRelease
+> Task :react-native-vector-icons:generateReleaseBuildConfig
+> Task :react-native-vector-icons:generateReleaseResValues
+> Task :react-native-vector-icons:generateReleaseResources
+> Task :react-native-vector-icons:packageReleaseResources
+> Task :react-native-vector-icons:parseReleaseLocalResources
+> Task :react-native-vector-icons:generateReleaseRFile
+> Task :react-native-vector-icons:javaPreCompileRelease
+
+> Task :react-native-vector-icons:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :react-native-vector-icons:bundleLibRuntimeToDirRelease
+> Task :react-native-version-check:generateReleaseBuildConfig
+> Task :react-native-version-check:generateReleaseResValues
+> Task :react-native-version-check:generateReleaseResources
+> Task :react-native-version-check:packageReleaseResources
+> Task :react-native-version-check:parseReleaseLocalResources
+> Task :react-native-version-check:generateReleaseRFile
+> Task :react-native-version-check:javaPreCompileRelease
+
+> Task :react-native-version-check:compileReleaseJavaWithJavac
+Note: D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\react-native-version-check\android\src\main\java\io\xogus\reactnative\versioncheck\RNVersionCheckModule.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :react-native-version-check:bundleLibRuntimeToDirRelease
+> Task :react-native-webrtc:generateReleaseBuildConfig
+> Task :react-native-webrtc:generateReleaseResValues
+> Task :react-native-webrtc:generateReleaseResources
+> Task :react-native-webrtc:packageReleaseResources
+> Task :react-native-webrtc:parseReleaseLocalResources
+> Task :react-native-webrtc:generateReleaseRFile
+> Task :react-native-webrtc:javaPreCompileRelease
+
+> Task :react-native-webrtc:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\react-native-webrtc\android\src\main\java\com\oney\WebRTCModule\StringUtils.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :react-native-webrtc:bundleLibRuntimeToDirRelease
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:buildKotlinToolingMetadata
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:generateReleaseBuildConfig
+> Task :notifee_react-native:writeReleaseAarMetadata
+> Task :react-native-async-storage_async-storage:writeReleaseAarMetadata
+> Task :react-native-background-geolocation:writeReleaseAarMetadata
+> Task :react-native-community_datetimepicker:writeReleaseAarMetadata
+> Task :react-native-community_geolocation:writeReleaseAarMetadata
+> Task :react-native-community_netinfo:writeReleaseAarMetadata
+> Task :react-native-community_slider:writeReleaseAarMetadata
+> Task :react-native-date-picker:writeReleaseAarMetadata
+> Task :react-native-documents_picker:writeReleaseAarMetadata
+> Task :react-native-fast-image:writeReleaseAarMetadata
+> Task :react-native-file-viewer:writeReleaseAarMetadata
+> Task :react-native-firebase_app:writeReleaseAarMetadata
+> Task :react-native-firebase_messaging:writeReleaseAarMetadata
+> Task :react-native-fs:writeReleaseAarMetadata
+> Task :react-native-gesture-handler:writeReleaseAarMetadata
+> Task :react-native-image-crop-picker:writeReleaseAarMetadata
+> Task :react-native-image-picker:writeReleaseAarMetadata
+> Task :react-native-incall-manager:writeReleaseAarMetadata
+> Task :react-native-linear-gradient:writeReleaseAarMetadata
+> Task :react-native-localize:writeReleaseAarMetadata
+> Task :react-native-maps:writeReleaseAarMetadata
+> Task :react-native-masked-view_masked-view:writeReleaseAarMetadata
+> Task :react-native-nitro-modules:writeReleaseAarMetadata
+> Task :react-native-nitro-sound:writeReleaseAarMetadata
+> Task :react-native-permissions:writeReleaseAarMetadata
+> Task :react-native-reanimated:writeReleaseAarMetadata
+> Task :react-native-safe-area-context:writeReleaseAarMetadata
+> Task :react-native-screens:writeReleaseAarMetadata
+> Task :react-native-splash-screen:writeReleaseAarMetadata
+> Task :react-native-svg:writeReleaseAarMetadata
+> Task :react-native-vector-icons:writeReleaseAarMetadata
+> Task :react-native-version-check:writeReleaseAarMetadata
+> Task :react-native-webrtc:writeReleaseAarMetadata
+> Task :react-native-webview:writeReleaseAarMetadata
+> Task :app:checkReleaseAarMetadata
+
+> Task :app:createBundleReleaseJsAndAssets
+ WARN  the transform cache was reset.
+                Welcome to Metro v0.82.5
+              Fast - Scalable - Integrated
+
+
+transform[stderr]: [baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+transform[stderr]: [baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+transform[stderr]: [baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+transform[stderr]: [baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+transform[stderr]: [baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+transform[stderr]: [baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+transform[stderr]: [baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+transform[stderr]: [baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+Error: Unable to resolve module ../../../rn/app/utils/log from D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\app\main.tsx: 
+
+None of these files exist:
+  * ..\..\rn\app\utils\log(.android.js|.native.js|.js|.android.jsx|.native.jsx|.jsx|.android.json|.native.json|.json|.android.ts|.native.ts|.ts|.android.tsx|.native.tsx|.tsx)
+  * ..\..\rn\app\utils\log
+[0m [90m  5 |[39m
+ [90m  6 |[39m [36mimport[39m [33m*[39m [36mas[39m [33mReact[39m [36mfrom[39m [32m'react'[39m[33m;[39m
+[31m[1m>[22m[39m[90m  7 |[39m [36mimport[39m [32m'@app/utils/log'[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m  8 |[39m [36mimport[39m { [33mLogBox[39m[33m,[39m [33mAppState[39m } [36mfrom[39m [32m'react-native'[39m[33m;[39m
+ [90m  9 |[39m [36mimport[39m { [33mSafeAreaProvider[39m[33m,[39m [33mSafeAreaView[39m } [36mfrom[39m [32m'react-native-safe-area-context'[39m[33m;[39m
+ [90m 10 |[39m [36mimport[39m { [33mProvider[39m } [36mfrom[39m [32m'react-redux'[39m[33m;[39m[0m
+    at ModuleResolver.resolveDependency (D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\metro\src\node-haste\DependencyGraph\ModuleResolution.js:114:15)
+    at DependencyGraph.resolveDependency (D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\metro\src\node-haste\DependencyGraph.js:239:43)
+    at D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\metro\src\lib\transformHelpers.js:161:21
+    at resolveDependencies (D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\metro\src\DeltaBundler\buildSubgraph.js:43:25)
+    at visit (D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\metro\src\DeltaBundler\buildSubgraph.js:81:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Promise.all (index 2)
+    at async visit (D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\metro\src\DeltaBundler\buildSubgraph.js:90:5)
+    at async Promise.all (index 0)
+    at async buildSubgraph (D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\node_modules\metro\src\DeltaBundler\buildSubgraph.js:105:3)
+error Unable to resolve module ../../../rn/app/utils/log from D:\logistic-fix-audio-call-issues-1\logistic-fix-audio-call-issues-1\app\main.tsx: 
+
+None of these files exist:
+  * ..\..\rn\app\utils\log(.android.js|.native.js|.js|.android.jsx|.native.jsx|.jsx|.android.json|.native.json|.json|.android.ts|.native.ts|.ts|.android.tsx|.native.tsx|.tsx)
+  * ..\..\rn\app\utils\log
+[0m [90m  5 |[39m
+ [90m  6 |[39m [36mimport[39m [33m*[39m [36mas[39m [33mReact[39m [36mfrom[39m [32m'react'[39m[33m;[39m
+[31m[1m>[22m[39m[90m  7 |[39m [36mimport[39m [32m'@app/utils/log'[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m  8 |[39m [36mimport[39m { [33mLogBox[39m[33m,[39m [33mAppState[39m } [36mfrom[39m [32m'react-native'[39m[33m;[39m
+ [90m  9 |[39m [36mimport[39m { [33mSafeAreaProvider[39m[33m,[39m [33mSafeAreaView[39m } [36mfrom[39m [32m'react-native-safe-area-context'[39m[33m;[39m
+ [90m 10 |[39m [36mimport[39m { [33mProvider[39m } [36mfrom[39m [32m'react-redux'[39m[33m;[39m[0m.
+
+> Task :app:createBundleReleaseJsAndAssets FAILED
+
+[Incubating] Problems report is available at: file:///D:/rn/android/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:createBundleReleaseJsAndAssets'.
+> Process 'command 'cmd'' finished with non-zero exit value 1
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.14.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 5m 22s
+508 actionable tasks: 498 executed, 10 up-to-date
