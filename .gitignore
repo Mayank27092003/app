@@ -72,3 +72,6 @@ yarn-error.log
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+local_logcat.txt
+verification_logs.txt
+crash_log_role_5.txt
