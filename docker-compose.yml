@@ -1,0 +1,53 @@
+version: '3.8'
+
+services:
+  # Local Postgres Service
+  postgres:
+    image: postgres:15-alpine
+    container_name: loadrider_db
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: ${DB_USER:-postgres}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-postgres}
+      POSTGRES_DB: ${DB_NAME:-loadrider}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - loadrider_network
+    restart: always
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U ${DB_USER:-postgres}" ]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  # Backend Service (Optional, if you want to run the app in Docker too)
+  backend:
+    build: .
+    container_name: loadrider_api
+    restart: always
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
+    environment:
+      - DATABASE_URL=postgres://postgres:postgres@postgres:5432/loadrider
+      - PORT=3000
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - loadrider_network
+    volumes:
+      # Mount source code for live updates (optional, for dev)
+      - ./src:/app/src
+      - /app/node_modules
+
+volumes:
+  postgres_data:
+
+
+networks:
+  loadrider_network:
+    driver: bridge

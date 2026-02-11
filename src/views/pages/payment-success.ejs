@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment Successful</title>
+    <%- include('../partials/styles') %>
+  </head>
+  <body>
+    <div class="card">
+      <div class="icon success">✓</div>
+      <h2 class="success">Payment Successful!</h2>
+      <p>Your job funding payment has been completed successfully.</p>
+      <% if (typeof jobId !== 'undefined' && jobId) { %>
+      <p><strong>Job ID:</strong> <%= jobId %></p>
+      <a
+        href="gofrts://open/job/<%= jobId %>?paymentSuccess=true"
+        class="button success"
+      >
+        Next
+      </a>
+      <% } else { %>
+      <a href="gofrts://open/Home" class="button success"> Open App </a>
+      <% } %>
+    </div>
+  </body>
+</html>

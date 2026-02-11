@@ -1,0 +1,294 @@
+{
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "save": "Guardar",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "seeAll": "Ver Todo",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "done": "Hecho",
+    "retry": "Reintentar",
+    "close": "Cerrar",
+    "yes": "Sí",
+    "no": "No"
+  },
+  "welcome": {
+    "appName": "TruckConnect",
+    "tagline": "Conectando Conductores y Comerciantes",
+    "title": "Bienvenido a TruckConnect",
+    "description": "La plataforma principal que conecta conductores de camiones con transportistas, corredores, expedidores y empresas intermodales.",
+    "signIn": "Iniciar Sesión",
+    "register": "¿No tienes cuenta? Regístrate",
+    "features": {
+      "findJobs": {
+        "title": "Encontrar Trabajos",
+        "description": "Busca y aplica a trabajos de transporte que coincidan con tus preferencias"
+      },
+      "connect": {
+        "title": "Conectar",
+        "description": "Comunicación directa entre conductores y comerciantes"
+      },
+      "multiLanguage": {
+        "title": "Multi-idioma",
+        "description": "Usa la aplicación en tu idioma preferido"
+      },
+      "securePayments": {
+        "title": "Pagos Seguros",
+        "description": "Todas las transacciones se procesan de forma segura a través de la aplicación"
+      }
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Bienvenido de Nuevo",
+      "subtitle": "Inicia sesión para continuar con TruckConnect",
+      "email": "Correo Electrónico",
+      "emailPlaceholder": "Ingresa tu correo electrónico",
+      "password": "Contraseña",
+      "passwordPlaceholder": "Ingresa tu contraseña",
+      "rememberMe": "Recordarme",
+      "forgotPassword": "¿Olvidaste tu contraseña?",
+      "signIn": "Iniciar Sesión",
+      "noAccount": "¿No tienes cuenta? Regístrate",
+      "demoTitle": "Cuentas de Demostración:",
+      "demoDriver": "Conductor: driver@example.com",
+      "demoDriverDesc": "Accede a listados de trabajos, seguimiento y funciones de conductor",
+      "demoMerchant": "Comerciante: merchant@example.com",
+      "demoMerchantDesc": "Publica trabajos, gestiona conductores y rastrea envíos",
+      "demoNote": "(Cualquier contraseña funcionará para las cuentas de demostración)",
+      "errors": {
+        "fillFields": "Por favor ingresa tanto el correo como la contraseña",
+        "invalidCredentials": "Correo o contraseña inválidos",
+        "loginError": "Ocurrió un error durante el inicio de sesión"
+      }
+    },
+    "register": {
+      "title": "Crear Cuenta",
+      "subtitle": "Regístrate para comenzar con TruckConnect",
+      "fullName": "Nombre Completo",
+      "fullNamePlaceholder": "Ingresa tu nombre completo",
+      "email": "Correo Electrónico",
+      "emailPlaceholder": "Ingresa tu correo electrónico",
+      "phone": "Número de Teléfono",
+      "phonePlaceholder": "Ingresa tu número de teléfono",
+      "password": "Contraseña",
+      "passwordPlaceholder": "Crea una contraseña",
+      "confirmPassword": "Confirmar Contraseña",
+      "confirmPasswordPlaceholder": "Confirma tu contraseña",
+      "createAccount": "Crear Cuenta",
+      "termsText": "Al registrarte, aceptas nuestros Términos de Servicio y Política de Privacidad",
+      "termsService": "Términos de Servicio",
+      "privacyPolicy": "Política de Privacidad",
+      "haveAccount": "¿Ya tienes cuenta? Iniciar Sesión",
+      "errors": {
+        "fillFields": "Por favor completa todos los campos",
+        "passwordMismatch": "Las contraseñas no coinciden",
+        "registerError": "Ocurrió un error durante el registro"
+      }
+    },
+    "roleSelect": {
+      "title": "Elige tu Rol",
+      "subtitle": "Selecciona cómo usarás TruckConnect",
+      "driver": {
+        "title": "Conductor",
+        "description": "Encuentra y aplica a trabajos de transporte, rastrea entregas y recibe pagos",
+        "features": [
+          "Encuentra trabajos disponibles",
+          "Rastrea tus ganancias",
+          "Gestiona tu horario",
+          "Construye tu reputación"
+        ]
+      },
+      "merchant": {
+        "title": "Comerciante",
+        "description": "Publica trabajos, encuentra conductores confiables y gestiona envíos",
+        "features": [
+          "Publica trabajos de transporte",
+          "Encuentra conductores calificados",
+          "Rastrea envíos",
+          "Gestiona pagos"
+        ]
+      },
+      "continue": "Continuar"
+    }
+  },
+  "navigation": {
+    "home": "Inicio",
+    "findJobs": "Buscar Trabajos",
+    "myJobs": "Mis Trabajos",
+    "tracking": "Seguimiento",
+    "messages": "Mensajes",
+    "profile": "Perfil"
+  },
+  "home": {
+    "greeting": "Hola",
+    "truckDriver": "Conductor de Camión",
+    "searchJobs": "Buscar trabajos...",
+    "activeJobs": "Trabajos Activos",
+    "recentJobs": "Trabajos Recientes",
+    "completedJobs": "Completados",
+    "rating": "Calificación",
+    "noRecentJobs": "No hay trabajos recientes disponibles",
+    "postNewJob": "Publicar Nuevo Trabajo",
+    "manageJobs": "Gestionar Trabajos",
+    "quickActions": "Acciones Rápidas",
+    "findDrivers": {
+      "title": "Encontrar Conductores",
+      "description": "Busca conductores disponibles en tu área"
+    },
+    "analytics": {
+      "title": "Analíticas",
+      "description": "Ve el rendimiento de tus envíos y estadísticas"
+    }
+  },
+  "jobs": {
+    "title": "Trabajos",
+    "searchPlaceholder": "Buscar trabajos...",
+    "noJobsFound": "No se Encontraron Trabajos",
+    "noJobsDriver": "No pudimos encontrar trabajos que coincidan con tus criterios. Intenta ajustar tus filtros o vuelve más tarde.",
+    "noJobsMerchant": "Aún no has publicado trabajos. Haz clic en el botón + para crear tu primera publicación de trabajo.",
+    "postJob": "Publicar Trabajo",
+    "filters": {
+      "title": "Filtros",
+      "location": "Ubicación",
+      "truckType": "Tipo de Camión",
+      "resetFilters": "Restablecer Filtros"
+    },
+    "locations": {
+      "losAngeles": "Los Ángeles",
+      "sanFrancisco": "San Francisco",
+      "sanDiego": "San Diego"
+    },
+    "truckTypes": {
+      "boxTruck": "Camión de Caja",
+      "flatbed": "Plataforma",
+      "refrigerated": "Refrigerado"
+    }
+  },
+  "messages": {
+    "title": "Mensajes",
+    "searchPlaceholder": "Buscar mensajes...",
+    "chats": "Chats",
+    "archived": "Archivados",
+    "noMessages": "Aún no hay mensajes",
+    "noMessagesDesc": "Inicia una conversación con un comerciante o conductor",
+    "noArchivedDesc": "No tienes conversaciones archivadas",
+    "startNewMessage": "Iniciar Nuevo Mensaje",
+    "options": {
+      "pin": "Fijar Conversación",
+      "unpin": "Desfijar Conversación",
+      "mute": "Silenciar Conversación",
+      "unmute": "Activar Conversación",
+      "archive": "Archivar Conversación",
+      "unarchive": "Desarchivar Conversación",
+      "delete": "Eliminar Conversación"
+    },
+    "messageTypes": {
+      "photo": "📷 Foto",
+      "voice": "🎤 Mensaje de voz",
+      "document": "📄 Documento",
+      "location": "📍 Ubicación"
+    },
+    "yesterday": "Ayer"
+  },
+  "profile": {
+    "editProfile": "Editar Perfil",
+    "verifiedAccount": "Cuenta Verificada",
+    "verificationPending": "Verificación Pendiente",
+    "tabs": {
+      "profile": "Perfil",
+      "transactions": "Transacciones",
+      "paymentMethods": "Métodos de Pago"
+    },
+    "balance": {
+      "available": "Saldo Disponible",
+      "pending": "Pendiente",
+      "withdraw": "Retirar",
+      "addFunds": "Agregar Fondos"
+    },
+    "info": {
+      "truckType": "Tipo de Camión",
+      "rating": "Calificación",
+      "currentLocation": "Ubicación Actual",
+      "company": "Empresa",
+      "address": "Dirección",
+      "notAvailable": "No disponible"
+    },
+    "documents": {
+      "title": "Documentos",
+      "businessTitle": "Documentos Comerciales",
+      "cdl": "Licencia de Conductor Comercial",
+      "cdlExpires": "Expira",
+      "insurance": "Documentos de Seguro",
+      "insuranceDesc": "Ver todos los documentos de seguro",
+      "businessLicense": "Licencia Comercial",
+      "businessLicenseDesc": "Ver licencia comercial"
+    },
+    "transactions": {
+      "recent": "Transacciones Recientes",
+      "noTransactions": "Aún No Hay Transacciones",
+      "noTransactionsDriver": "Completa trabajos para comenzar a ganar y ver tus transacciones aquí.",
+      "noTransactionsMerchant": "Publica trabajos y realiza pagos para ver tus transacciones aquí."
+    },
+    "paymentMethods": {
+      "title": "Tus Métodos de Pago",
+      "addNew": "Agregar Nuevo",
+      "noMethods": "No Hay Métodos de Pago",
+      "noMethodsDesc": "Agrega un método de pago para recibir pagos.",
+      "noMethodsDescMerchant": "Agrega un método de pago para pagar trabajos.",
+      "addPaymentMethod": "Agregar Método de Pago",
+      "bankAccount": "Cuenta Bancaria",
+      "expires": "Expira",
+      "default": "Predeterminado"
+    },
+    "logout": "Cerrar Sesión"
+  },
+  "paymentStatus": {
+    "completed": "Completado",
+    "pending": "Pendiente",
+    "processing": "Procesando",
+    "failed": "Fallido"
+  },
+  "forms": {
+    "email": "Correo Electrónico",
+    "password": "Contraseña",
+    "confirmPassword": "Confirmar Contraseña",
+    "fullName": "Nombre Completo",
+    "phone": "Número de Teléfono",
+    "company": "Empresa",
+    "address": "Dirección"
+  },
+  "buttons": {
+    "signIn": "Iniciar Sesión",
+    "signUp": "Registrarse",
+    "register": "Registrar",
+    "login": "Iniciar Sesión",
+    "logout": "Cerrar Sesión",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "apply": "Aplicar",
+    "submit": "Enviar",
+    "continue": "Continuar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "done": "Hecho",
+    "retry": "Reintentar",
+    "refresh": "Actualizar"
+  },
+  "errors": {
+    "general": "Algo salió mal. Por favor intenta de nuevo.",
+    "network": "Error de red. Por favor verifica tu conexión.",
+    "validation": "Por favor verifica tu entrada e intenta de nuevo.",
+    "unauthorized": "No estás autorizado para realizar esta acción.",
+    "notFound": "El recurso solicitado no fue encontrado."
+  }
+}

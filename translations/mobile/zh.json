@@ -1,0 +1,670 @@
+{
+    "common": {
+      "loading": "加载中...",
+      "error": "错误",
+      "success": "成功",
+      "cancel": "取消",
+      "confirm": "确认",
+      "save": "保存",
+      "edit": "编辑",
+      "delete": "删除",
+      "search": "搜索",
+      "filter": "筛选",
+      "seeAll": "查看全部",
+      "back": "返回",
+      "next": "下一步",
+      "done": "完成",
+      "retry": "重试",
+      "close": "关闭",
+      "yes": "是",
+      "no": "否",
+      "call": "呼叫",
+      "message": "消息",
+      "yesCancel": "是的，取消",
+      "image": "图片",
+      "ok": "确定",
+      "distance": "{value} 英里",
+      "noNotifications": "无通知"
+    },
+    "welcome": {
+      "appName": "卡车互联",
+      "tagline": "连接司机与商户",
+      "title": "欢迎使用卡车互联",
+      "description": "连接卡车司机与承运商、经纪人、货主及多式联运公司的首要平台",
+      "signIn": "登录",
+      "register": "没有账号？注册",
+      "features": {
+        "findJobs": {
+          "title": "寻找工作",
+          "description": "浏览并申请符合您偏好的货运工作"
+        },
+        "connect": {
+          "title": "连接",
+          "description": "司机与商户直接沟通"
+        },
+        "multiLanguage": {
+          "title": "多语言",
+          "description": "使用您首选的语言"
+        },
+        "securePayments": {
+          "title": "安全支付",
+          "description": "所有交易均通过应用安全处理"
+        }
+      }
+    },
+    "auth": {
+      "login": {
+        "title": "欢迎回来",
+        "subtitle": "登录以继续使用卡车互联",
+        "email": "邮箱",
+        "emailPlaceholder": "输入邮箱",
+        "password": "密码",
+        "passwordPlaceholder": "输入密码",
+        "rememberMe": "记住我",
+        "forgotPassword": "忘记密码？",
+        "signIn": "登录",
+        "noAccount": "没有账号？",
+        "register": "注册",
+        "demoTitle": "演示账户：",
+        "demoDriver": "司机：driver@example.com",
+        "demoDriverDesc": "访问工作列表、跟踪和司机功能",
+        "demoMerchant": "商户：merchant@example.com",
+        "demoMerchantDesc": "发布工作、管理司机和跟踪货物",
+        "demoNote": "(演示账户可使用任意密码)",
+        "errors": {
+          "fillFields": "请输入邮箱和密码",
+          "invalidCredentials": "邮箱或密码无效",
+          "loginError": "登录时发生错误"
+        }
+      },
+      "register": {
+        "title": "创建账户",
+        "subtitle": "注册以开始使用卡车互联",
+        "fullName": "全名",
+        "fullNamePlaceholder": "输入全名",
+        "email": "邮箱",
+        "emailPlaceholder": "输入邮箱",
+        "phone": "电话号码",
+        "phonePlaceholder": "输入电话号码",
+        "password": "密码",
+        "passwordPlaceholder": "创建密码",
+        "confirmPassword": "确认密码",
+        "confirmPasswordPlaceholder": "确认密码",
+        "createAccount": "创建账户",
+        "termsText": "注册即表示您同意我们的服务条款和隐私政策",
+        "termsService": "服务条款",
+        "privacyPolicy": "隐私政策",
+        "haveAccount": "已有账户？",
+        "errors": {
+          "fillFields": "请填写所有字段",
+          "passwordMismatch": "密码不匹配",
+          "registerError": "注册时发生错误"
+        }
+      },
+      "roleSelect": {
+        "title": "选择您的角色",
+        "subtitle": "选择您使用卡车互联的方式",
+        "driver": {
+          "title": "司机",
+          "description": "寻找并申请货运工作、跟踪交付并获取报酬",
+          "features": [
+            "查找可用工作",
+            "跟踪您的收入"
+          ]
+        },
+        "merchant": {
+          "title": "商户",
+          "description": "发布工作、寻找可靠司机并管理货物",
+          "features": [
+            "发布货运工作",
+            "寻找合格司机",
+            "跟踪货物",
+            "管理付款"
+          ]
+        },
+        "continue": "继续"
+      }
+    },
+    "navigation": {
+      "home": "首页",
+      "findJobs": "找工作",
+      "myJobs": "我的工作",
+      "tracking": "跟踪",
+      "messages": "消息",
+      "profile": "个人资料",
+      "notification": "通知"
+    },
+    "home": {
+      "greeting": "您好",
+      "yourLocation":"你的位置",
+      "truckDriver": "卡车司机",
+      "carrier": "承运商",
+      "searchJobs": "搜索工作...",
+      "activeJobs": "进行中工作",
+      "recentJobs": "最近工作",
+      "completedJobs": "已完成",
+      "rating": "评分",
+      "noRecentJobs": "无最近工作",
+      "postNewJob": "发布新工作",
+      "manageJobs": "管理工作",
+      "quickActions": "快捷操作",
+      "findDrivers": {
+        "title": "寻找司机",
+        "description": "在您所在区域搜索可用司机"
+      },
+      "analytics": {
+        "title": "分析",
+        "description": "查看您的运输表现和统计数据"
+      }
+    },
+    "jobs": {
+      "jobPosted": "工作已发布",
+      "jobPostedSuccess": "您的工作已成功发布。司机现在可以申请。",
+      "jobDetails": "工作详情",
+      "jobTitle": "工作标题",
+      "jobTitlePlaceholder": "输入描述性标题",
+      "description": "描述",
+      "descriptionPlaceholder": "详细描述工作...",
+      "compensation": "报酬（美元）",
+      "amountPlaceholder": "输入金额",
+      "pickupInfo": "取货信息",
+      "deliveryInfo": "送货信息",
+      "streetAddress": "街道地址",
+      "pickupAddressPlaceholder": "输入取货地址",
+      "deliveryAddressPlaceholder": "输入送货地址",
+      "city": "城市",
+      "state": "州",
+      "zipCode": "邮政编码",
+      "date": "日期",
+      "timeWindow": "时间窗口",
+      "timeWindowPlaceholder": "例如：上午9:00 - 中午12:00",
+      "cargoInfo": "货物信息",
+      "distance": "距离",
+      "distancePlaceholder": "输入距离",
+      "estimatedDuration": "预计时长",
+      "durationPlaceholder": "例如：2.5小时",
+      "cargoType": "货物类型",
+      "cargoTypePlaceholder": "例如：电子产品、家具等",
+      "cargoWeight": "货物重量",
+      "weightPlaceholder": "例如：5,000磅",
+      "requiredTruckType": "所需卡车类型",
+      "truckTypePlaceholder": "例如：厢式货车、平板车等",
+      "specialRequirements": "特殊要求",
+      "specialRequirementsPlaceholder": "任何特殊说明或要求...",
+      "showAdvancedOptions": "显示高级选项",
+      "hideAdvancedOptions": "隐藏高级选项",
+      "termsAgreement": "发布此工作即表示您同意卡车互联的条款和条件。司机需要上传装货前和卸货后的照片。",
+      "title": "工作",
+      "searchPlaceholder": "搜索工作...",
+      "noJobsFound": "未找到工作",
+      "noJobsDriver": "未找到符合条件的工作。请调整筛选条件或稍后再试。",
+      "noJobsMerchant": "您尚未发布任何工作。点击+按钮创建您的第一份工作。",
+      "postJob": "发布工作",
+      "pickup": "取货",
+      "delivery": "送货",
+      "pickupDate": "取货日期",
+      "deliveryDate": "送货日期",
+      "miles": "（英里）",
+      "postedBy": "发布者",
+      "messageToMerchant": "给商户的消息",
+      "messagePlaceholder": "介绍自己并说明为何适合此工作...",
+      "termsAgreementjobApply": "申请此工作即表示您同意卡车互联的条款和条件，包括在运输过程中对任何损坏负责。您需要上传装货前和卸货后的照片。",
+      "noDriverAssigned": "此工作未分配司机",
+      "statusUpdateError": "更新工作状态失败",
+      "driver": "司机",
+      "verification": {
+        "start": "开始验证",
+        "finish": "完成验证",
+        "preTrip": "装货前照片",
+        "postTrip": "卸货后照片"
+      },
+      "filters": {
+        "title": "筛选",
+        "location": "位置",
+        "truckType": "卡车类型",
+        "resetFilters": "重置筛选"
+      },
+      "locations": {
+        "losAngeles": "洛杉矶",
+        "sanFrancisco": "旧金山",
+        "sanDiego": "圣地亚哥"
+      },
+      "truckTypes": {
+        "boxTruck": "厢式货车",
+        "flatbed": "平板车",
+        "refrigerated": "冷藏车"
+      }
+    },
+    "messages": {
+      "title": "消息",
+      "searchPlaceholder": "搜索消息...",
+      "chats": "聊天",
+      "archived": "已归档",
+      "noMessages": "暂无消息",
+      "noMessagesDesc": "开始与商户或司机对话",
+      "noArchivedDesc": "您没有已归档的对话",
+      "startNewMessage": "发起新对话",
+      "typing": "正在输入",
+      "online": "在线",
+      "typeMessagePlaceholder": "输入消息...",
+      "user": "用户",
+      "options": {
+        "pin": "置顶对话",
+        "unpin": "取消置顶",
+        "mute": "静音对话",
+        "unmute": "取消静音",
+        "archive": "归档对话",
+        "unarchive": "取消归档",
+        "delete": "删除对话"
+      },
+      "messageTypes": {
+        "photo": "📷 照片",
+        "voice": "🎤 语音消息",
+        "document": "📄 文件",
+        "location": "📍 位置"
+      },
+      "yesterday": "昨天"
+    },
+    "profile": {
+      "editProfile": "编辑资料",
+      "verifiedAccount": "已验证账户",
+      "verificationPending": "验证待处理",
+      "successMessage": "您的资料已成功更新",
+      "changePhoto": "点击更换头像",
+      "tabs": {
+        "profile": "资料",
+        "transactions": "交易",
+        "paymentMethods": "支付方式"
+      },
+      "balance": {
+        "available": "可用余额",
+        "pending": "处理中",
+        "withdraw": "提现",
+        "addFunds": "充值"
+      },
+      "info": {
+        "truckType": "卡车类型",
+        "rating": "评分",
+        "currentLocation": "当前位置",
+        "company": "公司",
+        "address": "地址",
+        "notAvailable": "不可用"
+      },
+      "documents": {
+        "title": "文件",
+        "businessTitle": "商业文件",
+        "cdl": "商业驾照",
+        "cdlExpires": "到期",
+        "insurance": "保险文件",
+        "insuranceDesc": "查看所有保险文件",
+        "businessLicense": "营业执照",
+        "businessLicenseDesc": "查看营业执照"
+      },
+      "transactions": {
+        "recent": "最近交易",
+        "noTransactions": "暂无交易",
+        "noTransactionsDriver": "完成工作后即可开始赚钱并查看交易记录",
+        "noTransactionsMerchant": "发布工作并付款后即可查看交易记录"
+      },
+      "paymentMethods": {
+        "title": "您的支付方式",
+        "addNew": "新增",
+        "noMethods": "无支付方式",
+        "noMethodsDesc": "添加支付方式以接收付款",
+        "noMethodsDescMerchant": "添加支付方式以支付工作费用",
+        "addPaymentMethod": "添加支付方式",
+        "bankAccount": "银行账户",
+        "expires": "到期",
+        "default": "默认",
+        "paymentRequired": "需要付款",
+        "cardOption": "信用卡/借记卡",
+        "bankOption": "银行账户",
+        "cardNumber": "卡号",
+        "cardName": "持卡人姓名",
+        "expiryDate": "有效期",
+        "cvv": "CVV",
+        "bankName": "银行名称",
+        "accountNumber": "账号",
+        "routingNumber": "路由号码",
+        "accountType": "账户类型",
+        "checking": "支票账户",
+        "savings": "储蓄账户",
+        "setAsDefault": "设为默认支付方式",
+        "placeholders": {
+          "cardNumber": "1234 5678 9012 3456",
+          "cardName": "张三",
+          "expiryDate": "月/年",
+          "cvv": "123",
+          "bankName": "输入银行名称",
+          "accountNumber": "输入账号",
+          "routingNumber": "输入路由号码"
+        }
+      },
+      "logout": "退出登录",
+      "merchantTypes": {
+        "carrier": "承运商",
+        "broker": "经纪人",
+        "shipper": "货主",
+        "intermodal": "多式联运"
+      }
+    },
+    "paymentStatus": {
+      "completed": "已完成",
+      "pending": "处理中",
+      "processing": "处理中",
+      "failed": "失败"
+    },
+    "forms": {
+      "email": "邮箱",
+      "password": "密码",
+      "confirmPassword": "确认密码",
+      "fullName": "全名",
+      "phone": "电话号码",
+      "company": "公司",
+      "address": "地址",
+      "basicInfo": "基本信息",
+      "fullNamePlaceholder": "输入全名",
+      "phonePlaceholder": "输入电话号码",
+      "truckType": "卡车类型",
+      "truckTypePlaceholder": "例如：半挂车、厢式货车等",
+      "truckCapacity": "卡车载重",
+      "truckCapacityPlaceholder": "例如：40,000磅",
+      "licenseNumber": "驾照号码",
+      "licenseNumberPlaceholder": "输入商业驾照号码",
+      "licenseExpiry": "驾照到期日",
+      "licenseExpiryPlaceholder": "月/日/年",
+      "companyName": "公司名称",
+      "companyPlaceholder": "输入公司名称",
+      "companyAddress": "公司地址",
+      "addressPlaceholder": "输入公司地址",
+      "companyType": "公司类型",
+      "companyInformation": "公司信息"
+    },
+    "buttons": {
+      "signIn": "登录",
+      "signUp": "注册",
+      "register": "注册",
+      "login": "登录",
+      "logout": "退出",
+      "save": "保存",
+      "cancel": "取消",
+      "edit": "编辑",
+      "delete": "删除",
+      "apply": "申请",
+      "submit": "提交",
+      "continue": "继续",
+      "back": "返回",
+      "next": "下一步",
+      "done": "完成",
+      "retry": "重试",
+      "refresh": "刷新",
+      "cancelJob": "取消工作",
+      "applyforJob": "申请工作",
+      "submitApplication": "提交申请"
+    },
+    "errors": {
+      "general": "出错了，请重试",
+      "network": "网络错误，请检查连接",
+      "validation": "请检查输入后重试",
+      "unauthorized": "您无权执行此操作",
+      "notFound": "未找到请求的资源",
+      "missingInfo": "信息缺失",
+      "fillAllFields": "请填写所有必填字段",
+      "jobCreationFailed": "创建工作失败",
+      "jobnotfound": "未找到工作",
+      "cancelJobTitle": "取消工作",
+      "cancelJobMessage": "确定要取消此工作吗？此操作不可撤销",
+      "cancelJobSuccessTitle": "成功",
+      "cancelJobSuccessMessage": "工作已取消",
+      "cancelJobErrorTitle": "错误",
+      "cancelJobErrorMessage": "取消工作失败",
+      "chatStartErrorMessage": "无法开始聊天。此工作未分配司机",
+      "insufficientBalanceTitle": "余额不足",
+      "insufficientBalanceMessage": "您的账户余额不足。是否要充值？",
+      "invalidCardNumber": "请输入有效卡号",
+      "missingCardName": "请输入持卡人姓名",
+      "invalidExpiryDate": "请输入有效有效期（月/年）",
+      "invalidCVV": "请输入有效CVV",
+      "missingBankName": "请输入银行名称",
+      "invalidAccountNumber": "请输入有效账号",
+      "invalidRoutingNumber": "请输入有效路由号码"
+    },
+    "drawer": {
+      "settings": "设置",
+      "contact": "联系我们",
+      "privacy": "隐私政策",
+      "terms": "条款和条件",
+      "logout": "退出登录",
+      "signIn": "登录/注册"
+    },
+    "callHistory": {
+      "title": "通话记录",
+      "outgoing": "呼出",
+      "incoming": "呼入",
+      "recorded": "已录音",
+      "jobBadge": "工作 #{{id}}",
+      "emptyTitle": "无通话记录",
+      "emptyDescription": "您尚未通话。联系商户或司机讨论工作详情"
+    },
+    "success": {
+      "added": "支付方式添加成功"
+    },
+    "transaction": {
+      "title": "交易详情",
+      "status": {
+        "completed": "已完成",
+        "pending": "处理中",
+        "processing": "处理中",
+        "failed": "失败"
+      },
+      "type": {
+        "paymentReceived": "收到付款",
+        "paymentSent": "已付款",
+        "withdrawal": "提款",
+        "deposit": "存款",
+        "refundSent": "已退款",
+        "refundReceived": "收到退款"
+      },
+      "details": {
+        "id": "交易ID",
+        "dateTime": "日期和时间",
+        "description": "描述",
+        "jobReference": "工作参考",
+        "paymentMethod": "支付方式",
+        "subtotal": "小计",
+        "platformFee": "平台费",
+        "total": "总计"
+      },
+      "receipt": {
+        "download": "下载收据",
+        "downloadTitle": "下载收据",
+        "downloadMessage": "收据下载已开始",
+        "share": "分享收据",
+        "shareTitle": "分享收据",
+        "shareMessage": "将在此处打开分享面板"
+      },
+      "messages": {
+        "pending": "此交易正在处理中，最多可能需要24小时",
+        "failed": "交易失败，请检查支付方式或联系支持"
+      },
+      "errors": {
+        "notFoundTitle": "未找到交易",
+        "notFoundDescription": "您查找的交易不存在或已被移除"
+      },
+      "support": "需要交易帮助？",
+      "tryAgain": "重试"
+    },
+    "deposit": {
+      "title": "充值",
+      "currentBalance": "当前余额",
+      "depositAmount": "充值金额",
+      "amountPlaceholder": "0.00",
+      "paymentMethod": "支付方式",
+      "bankAccount": "银行账户",
+      "bankAccountDetails": "{{bankName}} - {{accountType}}",
+      "cardExpires": "有效期 {{month}}/{{year}}",
+      "accountTypes": {
+        "checking": "支票账户",
+        "savings": "储蓄账户"
+      },
+      "noPaymentMethods": "您尚未设置任何支付方式",
+      "addPaymentMethod": "添加支付方式",
+      "addFundsButton": "充值 {{amount}}",
+      "depositNote": "资金将立即到账，收据将发送至您的邮箱",
+      "errors": {
+        "invalidAmount": "请输入有效金额",
+        "noPaymentMethod": "请选择支付方式",
+        "depositFailed": "处理存款失败，请重试"
+      },
+      "success": {
+        "title": "充值成功",
+        "message": "您的 {{amount}} 存款已成功处理"
+      }
+    },
+    "payment": {
+      "balance": {
+        "available": "可用余额",
+        "pending": "处理中"
+      },
+      "history": "历史记录",
+      "actions": {
+        "withdraw": "提现",
+        "addFunds": "充值",
+        "paymentMethods": "支付方式"
+      },
+      "tabs": {
+        "transactions": "交易",
+        "methods": "支付方式"
+      },
+      "status": {
+        "completed": "已完成",
+        "pending": "处理中",
+        "processing": "处理中",
+        "failed": "失败"
+      },
+      "methods": {
+        "bankAccount": "银行账户",
+        "bankAccountDetails": "{{bankName}} - {{accountType}}",
+        "cardExpires": "有效期 {{month}}/{{year}}",
+        "accountTypes": {
+          "checking": "支票账户",
+          "savings": "储蓄账户"
+        },
+        "default": "默认"
+      },
+      "recentTransactions": "最近交易",
+      "yourPaymentMethods": "您的支付方式",
+      "addNew": "新增",
+      "noTransactions": "暂无交易",
+      "noPaymentMethods": "无支付方式",
+      "addPaymentMethod": "添加支付方式",
+      "messages": {
+        "driverNoTransactions": "完成工作后即可开始赚钱并查看交易记录",
+        "merchantNoTransactions": "发布工作并付款后即可查看交易记录",
+        "addPaymentMethod": "添加支付方式以{{action}}",
+        "receivePayments": "接收付款",
+        "payForJobs": "支付工作费用"
+      }
+    },
+    "tracking": {
+      "permission": {
+        "title": "需要位置权限",
+        "message": "我们需要您的位置权限以跟踪工作交付期间的位置",
+        "button": "授予权限"
+      },
+      "noJobs": {
+        "title": "无进行中工作",
+        "driverMessage": "您没有可跟踪的进行中工作。寻找并申请工作以开始",
+        "merchantMessage": "您没有可跟踪的进行中工作。发布工作以开始"
+      },
+      "verification": {
+        "title": "工作验证",
+        "start": "开始验证",
+        "finish": "完成验证",
+        "preTrip": "装货前照片",
+        "postTrip": "卸货后照片"
+      },
+      "currentLocation": "当前位置",
+      "coordinates": "纬度：{lat}，经度：{lng}",
+      "updatedAt": "更新于：{time}",
+      "liveTracking": "实时跟踪已激活",
+      "startTracking": "开始跟踪",
+      "noLocationData": "位置数据不可用"
+    },
+    "jobStatus": {
+      "assigned": {
+        "label": "已分配",
+        "button": "开始工作"
+      },
+      "in_progress": {
+        "label": "进行中",
+        "button": "已到达取货点"
+      },
+      "arrived_pickup": {
+        "label": "已到达取货点",
+        "button": "货物已装"
+      },
+      "loaded": {
+        "label": "已装载",
+        "button": "开始运输"
+      },
+      "in_transit": {
+        "label": "运输中",
+        "button": "已到达送货点"
+      },
+      "arrived_delivery": {
+        "label": "已到达送货点",
+        "button": "完成交付"
+      },
+      "delivered": {
+        "label": "已交付"
+      },
+      "completed": {
+        "label": "已完成"
+      },
+      "cancelled": {
+        "label": "已取消"
+      }
+    },
+    "documents": {
+      "uploadSuccessTitle": "文件已上传",
+      "uploadSuccessMessage": "您的文件已上传并等待验证",
+      "subtitle": "上传和管理重要文件。已验证文件将显示验证徽章",
+      "driver": {
+        "license": {
+          "title": "商业驾照",
+          "description": "上传清晰有效的商业驾照照片"
+        },
+        "insurance": {
+          "title": "保险文件",
+          "description": "上传当前卡车保险单"
+        },
+        "registration": {
+          "title": "车辆登记",
+          "description": "上传卡车登记文件"
+        },
+        "preTrip": {
+          "title": "装货前检查",
+          "description": "上传最近装货前检查照片"
+        },
+        "postTrip": {
+          "title": "卸货后检查",
+          "description": "上传最近卸货后检查照片"
+        }
+      },
+      "merchant": {
+        "businessLicense": {
+          "title": "营业执照",
+          "description": "上传营业执照或经营许可证"
+        },
+        "taxId": {
+          "title": "税号文件",
+          "description": "上传税号或雇主识别号文件"
+        },
+        "insurance": {
+          "title": "商业保险",
+          "description": "上传商业责任险"
+        }
+      }
+    }
+  }

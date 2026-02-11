@@ -1,0 +1,694 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "search": "Search",
+    "filter": "Filter",
+    "seeAll": "See All",
+    "back": "Back",
+    "next": "Next",
+    "done": "Done",
+    "retry": "Retry",
+    "close": "Close",
+    "yes": "Yes",
+    "no": "No",
+    "call":"Call",
+    "message":"Message",
+     "yesCancel": "Yes, Cancel",
+     "image":"Image",
+     "ok":"ok",
+     "distance": "{value} miles",
+     "noNotifications":"No Notifications",
+     "getStarted":"Get Started"
+  },
+  
+  "welcome": {
+    "appName": "TruckConnect",
+    "tagline": "Connecting Drivers & Merchants",
+    "title": "Welcome to TruckConnect",
+    "description": "The premier platform connecting truck drivers with carriers, brokers, shippers, and intermodal companies.",
+    "signIn": "Sign In",
+    "register": "Don't have an account? Register",
+    "features": {
+      "findJobs": {
+        "title": "Find Jobs",
+        "description": "Browse and apply for trucking jobs that match your preferences"
+      },
+      "connect": {
+        "title": "Connect",
+        "description": "Direct communication between drivers and merchants"
+      },
+      "multiLanguage": {
+        "title": "Multi-language",
+        "description": "Use the app in your preferred language"
+      },
+      "securePayments": {
+        "title": "Secure Payments",
+        "description": "All transactions are processed securely through the app"
+      }
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome Back",
+      "subtitle": "Sign in to continue to TruckConnect",
+      "email": "Email",
+      "emailPlaceholder": "Enter your email",
+      "password": "Password",
+      "passwordPlaceholder": "Enter your password",
+      "rememberMe": "Remember me",
+      "forgotPassword": "Forgot Password",
+      "signIn": "Sign In",
+      "noAccount": "Don't have an account?",
+       "register": "Register",
+      "demoTitle": "Demo Accounts:",
+      "demoDriver": "Driver: driver@example.com",
+      "demoDriverDesc": "Access job listings, tracking, and driver features",
+      "demoMerchant": "Merchant: merchant@example.com",
+      "demoMerchantDesc": "Post jobs, manage drivers, and track shipments",
+      "demoNote": "(Any password will work for demo accounts)",
+      "errors": {
+        "fillFields": "Please enter both email and password",
+        "invalidCredentials": "Invalid email or password",
+                "invalidEmail": "Invalid email",
+
+        "loginError": "An error occurred during login"
+      }
+    },
+    "register": {
+      "title": "Create Account",
+      "subtitle": "Sign up to get started with TruckConnect",
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "Enter your full name",
+      "email": "Email",
+      "emailPlaceholder": "Enter your email",
+      "phone": "Phone Number",
+      "phonePlaceholder": "Enter your phone number",
+      "password": "Password",
+      "passwordPlaceholder": "Create a password",
+      "confirmPassword": "Confirm Password",
+      "confirmPasswordPlaceholder": "Confirm your password",
+      "createAccount": "Create Account",
+      "termsText": "By signing up, you agree to our Terms of Service and Privacy Policy",
+      "termsService": "Terms of Service",
+      "privacyPolicy": "Privacy Policy",
+      "haveAccount": "Already have an account?",
+      "errors": {
+        "fillFields": "Please fill in all fields",
+        "passwordMismatch": "Passwords do not match",
+        "registerError": "An error occurred during registration"
+      }
+    },
+    "roleSelect": {
+      "title": "Choose Your Role",
+      "subtitle": "Select how you'll use TruckConnect",
+      "driver": {
+        "title": "Driver",
+        "description": "Find and apply for trucking jobs, track deliveries, and get paid",
+        "features": [
+          "Find available jobs",
+          "Track your earnings"
+        ]
+      },
+      "merchant": {
+        "title": "Merchant",
+        "description": "Post jobs, find reliable drivers, and manage shipments",
+        "features": [
+          "Post trucking jobs",
+          "Find qualified drivers",
+          "Track shipments",
+          "Manage payments"
+        ]
+      },
+      "continue": "Continue"
+    }
+  },
+  "navigation": {
+    "home": "Home",
+    "findJobs": "Find Jobs",
+    "myJobs": "My Jobs",
+    "tracking": "Tracking",
+    "messages": "Messages",
+    "profile": "Profile",
+    "notification":"Notification"
+  },
+  "home": {
+    "available": "Available jobs",
+    "availableTitle":"Browse and pick up available jobs as a carrier",
+    "pickJob":"PickJobs",
+    "greeting": "Hello",
+    "yourLocation":"Your Location",
+    "truckDriver": "Truck Driver",
+    "carrier":"Carrier",
+    "searchJobs": "Search for jobs...",
+    "activeJobs": "Active Jobs",
+    "recentJobs": "Recent Jobs",
+    "completedJobs": "Completed",
+    "rating": "Rating",
+    "noRecentJobs": "No recent jobs available",
+    "postNewJob": "Post a New Job",
+    "manageJobs": "Manage Jobs",
+    "quickActions": "Quick Actions",
+    "findDrivers": {
+      "title": "Find Drivers",
+      "description": "Search for available drivers in your area"
+    },
+    "analytics": {
+      "title": "Analytics",
+      "description": "View your shipping performance and statistics"
+    }
+  },
+  "jobs": {
+    "readytoPick":"ready to pick",
+    "jobPosted": "Job Posted",
+    "jobPostedSuccess": "Your job has been posted successfully. Drivers can now apply for it.",
+    "jobDetails": "Job Details",
+    "jobTitle": "Job Title",
+    "jobTitlePlaceholder": "Enter a descriptive title",
+    "description": "Description",
+    "descriptionPlaceholder": "Describe the job in detail...",
+    "compensation": "Compensation (USD)",
+    "amountPlaceholder": "Enter amount",
+    "pickupInfo": "Pickup Information",
+    "deliveryInfo": "Delivery Information",
+    "streetAddress": "Street Address",
+    "pickupAddressPlaceholder": "Enter pickup address",
+    "deliveryAddressPlaceholder": "Enter delivery address",
+    "city": "City",
+    "state": "State",
+    "zipCode": "Zip Code",
+    "date": "Date",
+    "timeWindow": "Time Window",
+    "timeWindowPlaceholder": "e.g. 9:00 AM - 12:00 PM",
+    "cargoInfo": "Cargo Information",
+    "distance": "Distance",
+    "distancePlaceholder": "Enter distance",
+    "estimatedDuration": "Estimated Duration",
+    "durationPlaceholder": "e.g. 2.5 hours",
+    "cargoType": "Cargo Type",
+    "cargoTypePlaceholder": "e.g. Electronics, Furniture, etc.",
+    "cargoWeight": "Cargo Weight",
+    "weightPlaceholder": "e.g. 5,000 lbs",
+    "requiredTruckType": "Required Truck Type",
+    "truckTypePlaceholder": "e.g. Box Truck, Flatbed, etc.",
+    "specialRequirements": "Special Requirements",
+    "specialRequirementsPlaceholder": "Any special instructions or requirements...",
+    "showAdvancedOptions": "Show Advanced Options",
+    "hideAdvancedOptions": "Hide Advanced Options",
+    "termsAgreement": "By posting this job, you agree to TruckConnect's terms and conditions. Drivers will be required to upload pre-trip and post-trip photos.",
+    "title": "Jobs",
+    "searchPlaceholder": "Search jobs...",
+    "noJobsFound": "No Jobs Found",
+    "noJobsDriver": "We couldn't find any jobs matching your criteria. Try adjusting your filters or check back later.",
+    "noJobsMerchant": "You haven't posted any jobs yet. Click the + button to create your first job posting.",
+    "postJob": "Post a Job",
+    "pickup":"Pickup",
+    "delivery":"Delivery",
+    "pickupDate":"Pickup Date",
+    "deliveryDate":"Delivery Date",
+    "miles":"(Miles)",
+    "postedBy":"Posted by",
+    "messageToMerchant": "Message to Merchant",
+    "messagePlaceholder": "Introduce yourself and explain why you're a good fit for this job...",
+    "termsAgreementjobApply": "By applying for this job, you agree to the terms and conditions of TruckConnect, including being responsible for any damages during transport. You will be required to upload pre-trip and post-trip photos.",
+  
+  
+    "noDriverAssigned": "No assigned driver for this job",
+    "statusUpdateError": "Failed to update job status",
+    "driver": "Driver",
+    "verification": {
+      "start": "Start Verification",
+      "finish": "Finish Verification",
+      "preTrip": "Pre-Trip Photos",
+      "postTrip": "Post-Trip Photos"
+    },
+    "filters": {
+      "title": "Filters",
+      "location": "Location",
+      "truckType": "Truck Type",
+      "resetFilters": "Reset Filters"
+    },
+    "locations": {
+      "losAngeles": "Los Angeles",
+      "sanFrancisco": "San Francisco",
+      "sanDiego": "San Diego"
+    },
+    "truckTypes": {
+      "boxTruck": "Box Truck",
+      "flatbed": "Flatbed",
+      "refrigerated": "Refrigerated"
+    }
+  },
+  "messages": {
+    "title": "Messages",
+    "searchPlaceholder": "Search messages...",
+    "chats": "Chats",
+    "archived": "Archived",
+    "noMessages": "No messages yet",
+    "noMessagesDesc": "Start a conversation with a merchant or driver",
+    "noArchivedDesc": "You don't have any archived conversations",
+    "startNewMessage": "Start a New Message",
+    "typing": "typing",
+    "online": "Online",
+    "typeMessagePlaceholder": "Type a message...",
+    "user": "User",
+    "options": {
+      "pin": "Pin Conversation",
+      "unpin": "Unpin Conversation",
+      "mute": "Mute Conversation",
+      "unmute": "Unmute Conversation",
+      "archive": "Archive Conversation",
+      "unarchive": "Unarchive Conversation",
+      "delete": "Delete Conversation"
+    },
+    "messageTypes": {
+      "photo": "📷 Photo",
+      "voice": "🎤 Voice message",
+      "document": "📄 Document",
+      "location": "📍 Location"
+      
+    },
+    "yesterday": "Yesterday"
+  },
+  "profile": {
+    "editProfile": "Edit Profile",
+    "verifiedAccount": "Verified Account",
+    "verificationPending": "Verification Pending",
+    "successMessage": "Your profile has been updated successfully.",
+      "changePhoto": "Tap to change profile photo",
+    "tabs": {
+      "profile": "Profile",
+      "transactions": "Transactions",
+      "paymentMethods": "Payment Methods"
+    },
+    "balance": {
+      "available": "Available Balance",
+      "pending": "Pending",
+      "withdraw": "Withdraw",
+      "addFunds": "Add Funds"
+    },
+    "info": {
+      "truckType": "Truck Type",
+      "rating": "Rating",
+      "currentLocation": "Current Location",
+      "company": "Company",
+      "address": "Address",
+      "notAvailable": "Not available"
+    },
+    "documents": {
+      "title": "Documents",
+      "businessTitle": "Business Documents",
+      "cdl": "Commercial Driver License",
+      "cdlExpires": "Expires",
+      "insurance": "Insurance Documents",
+      "insuranceDesc": "View all insurance documents",
+      "businessLicense": "Business License",
+      "businessLicenseDesc": "View business license"
+    },
+    "transactions": {
+      "recent": "Recent Transactions",
+      "noTransactions": "No Transactions Yet",
+      "noTransactionsDriver": "Complete jobs to start earning and see your transactions here.",
+      "noTransactionsMerchant": "Post jobs and make payments to see your transactions here."
+    },
+    "paymentMethods": {
+      "title": "Your Payment Methods",
+      "addNew": "Add New",
+      "noMethods": "No Payment Methods",
+      "noMethodsDesc": "Add a payment method to receive payments.",
+      "noMethodsDescMerchant": "Add a payment method to pay for jobs.",
+      "addPaymentMethod": "Add Payment Method",
+      "bankAccount": "Bank Account",
+      "expires": "Expires",
+      "default": "Default",
+      "paymentRequired":"Payment Required",
+      "cardOption": "Credit/Debit Card",
+      "bankOption": "Bank Account",
+      "cardNumber": "Card Number",
+      "cardName": "Name on Card",
+      "expiryDate": "Expiry Date",
+      "cvv": "CVV",
+      "bankName": "Bank Name",
+      "accountNumber": "Account Number",
+      "routingNumber": "Routing Number",
+      "accountType": "Account Type",
+      "checking": "Checking",
+      "savings": "Savings",
+      "setAsDefault": "Set as default payment method",
+      "placeholders": {
+        "cardNumber": "1234 5678 9012 3456",
+        "cardName": "John Doe",
+        "expiryDate": "MM/YY",
+        "cvv": "123",
+        "bankName": "Enter your bank name",
+        "accountNumber": "Enter your account number",
+        "routingNumber": "Enter your routing number"
+    }
+    },
+    "logout": "Log Out",
+    "merchantTypes": {
+      "carrier": "Carrier",
+      "broker": "Broker",
+      "shipper": "Shipper",
+      "intermodal": "Intermodal",
+      "merchantType": "Merchant Type"
+      
+    }
+  },
+  "paymentStatus": {
+    "completed": "Completed",
+    "pending": "Pending",
+    "processing": "Processing",
+    "failed": "Failed"
+  },
+  "forms": {
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "fullName": "Full Name",
+    "phone": "Phone Number",
+    "company": "Company",
+    "address": "Address",
+    "basicInfo": "Basic Information",
+    "fullNamePlaceholder": "Enter your full name",
+    "phonePlaceholder": "Enter your phone number",
+    "truckType": "Truck Type",
+    "truckTypePlaceholder": "e.g. Semi-Trailer, Box Truck, etc.",
+    "truckCapacity": "Truck Capacity",
+    "truckCapacityPlaceholder": "e.g. 40,000 lbs",
+    "licenseNumber": "License Number",
+    "licenseNumberPlaceholder": "Enter your CDL number",
+    "licenseExpiry": "License Expiry Date",
+    "licenseExpiryPlaceholder": "MM/DD/YYYY",
+    "companyName": "Company Name",
+    "companyPlaceholder": "Enter your company name",
+    "companyAddress": "Company Address",
+    "addressPlaceholder": "Enter your company address",
+    "companyType": "Company Type",
+    "companyInformation":"Company Information"
+  },
+  "buttons": {
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "register": "Register",
+    "login": "Login",
+    "logout": "Log Out",
+    "save": "Save",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "apply": "Apply",
+    "submit": "Submit",
+    "continue": "Continue",
+    "back": "Back",
+    "next": "Next",
+    "done": "Done",
+    "retry": "Retry",
+    "refresh": "Refresh",
+    "cancelJob":"Cancel Job",
+    "applyforJob":"Apply for Job",
+    "submitApplication": "Submit Application",
+    "select": "Select",
+    "pickjob": "Pick Job"
+
+
+  },
+  "errors": {
+    "general": "Something went wrong. Please try again.",
+    "network": "Network error. Please check your connection.",
+    "validation": "Please check your input and try again.",
+    "unauthorized": "You are not authorized to perform this action.",
+    "notFound": "The requested resource was not found.",
+    "missingInfo": "Missing Information",
+    "fillAllFields": "Please fill in all required fields",
+    "jobCreationFailed": "Failed to create job",
+    "jobnotfound": "Job not found",
+    "cancelJobTitle": "Cancel Job",
+    "cancelJobMessage": "Are you sure you want to cancel this job? This action cannot be undone.",
+    "cancelJobSuccessTitle": "Success",
+    "cancelJobSuccessMessage": "Job has been cancelled",
+    "cancelJobErrorTitle": "Error",
+    "cancelJobErrorMessage": "Failed to cancel job",
+    "chatStartErrorMessage": "Cannot start chat. No assigned driver for this job.",
+    "insufficientBalanceTitle": "Insufficient Balance",
+    "insufficientBalanceMessage": "You do not have enough balance to make this payment. Would you like to add funds to your account?",
+    "invalidCardNumber": "Please enter a valid card number",
+    "missingCardName": "Please enter the name on card",
+    "invalidExpiryDate": "Please enter a valid expiry date (MM/YY)",
+    "invalidCVV": "Please enter a valid CVV",
+    "missingBankName": "Please enter your bank name",
+    "invalidAccountNumber": "Please enter a valid account number",
+    "invalidRoutingNumber": "Please enter a valid routing number"
+  },
+ "drawer": {
+  "settings": "Settings",
+  "contact": "Contact us",
+  "privacy": "Privacy Policy",
+  "terms": "Terms and Conditions",
+  "logout": "Logout",
+  "signIn": "Sign In / Sign Up"
+  
+} ,
+"callHistory": {
+  "title": "Call History",
+  "outgoing": "Outgoing",
+  "incoming": "Incoming",
+  "recorded": "Recorded",
+  "jobBadge": "Job #{{id}}",
+  "emptyTitle": "No Call History",
+  "emptyDescription": "You don't have any calls yet. Call merchants or drivers to discuss job details."
+},
+"success": {
+  "added": "Payment method added successfully"
+},
+"transaction": {
+  "title": "Transaction Details",
+  "status": {
+    "completed": "Completed",
+    "pending": "Pending",
+    "processing": "Processing",
+    "failed": "Failed"
+  },
+  "type": {
+    "paymentReceived": "Payment Received",
+    "paymentSent": "Payment Sent",
+    "withdrawal": "Withdrawal",
+    "deposit": "Deposit",
+    "refundSent": "Refund Sent",
+    "refundReceived": "Refund Received"
+  },
+  "details": {
+    "id": "Transaction ID",
+    "dateTime": "Date & Time",
+    "description": "Description",
+    "jobReference": "Job Reference",
+    "paymentMethod": "Payment Method",
+    "subtotal": "Subtotal",
+    "platformFee": "Platform Fee",
+    "total": "Total"
+  },
+  "receipt": {
+    "download": "Download Receipt",
+    "downloadTitle": "Download Receipt",
+    "downloadMessage": "Receipt download started",
+    "share": "Share Receipt",
+    "shareTitle": "Share Receipt",
+    "shareMessage": "Share sheet would open here"
+  },
+  "messages": {
+    "pending": "This transaction is pending and may take up to 24 hours to process.",
+    "failed": "This transaction failed. Please check your payment method or contact support."
+  },
+  "errors": {
+    "notFoundTitle": "Transaction Not Found",
+    "notFoundDescription": "The transaction you are looking for does not exist or has been removed."
+  },
+  "support": "Need help with this transaction?",
+  "tryAgain": "Try Again"
+},
+
+"deposit": {
+  "title": "Add Funds",
+  "currentBalance": "Current Balance",
+  "depositAmount": "Deposit Amount",
+  "amountPlaceholder": "0.00",
+  "paymentMethod": "Payment Method",
+  "bankAccount": "Bank Account",
+  "bankAccountDetails": "{{bankName}} - {{accountType}}",
+  "cardExpires": "Expires {{month}}/{{year}}",
+  "accountTypes": {
+    "checking": "Checking",
+    "savings": "Savings"
+  },
+  "noPaymentMethods": "You don't have any payment methods set up yet.",
+  "addPaymentMethod": "Add Payment Method",
+  "addFundsButton": "Add {{amount}} Funds",
+  "depositNote": "Funds will be added to your account immediately. A receipt will be sent to your email.",
+  "errors": {
+    "invalidAmount": "Please enter a valid amount",
+    "noPaymentMethod": "Please select a payment method",
+    "depositFailed": "Failed to process deposit. Please try again."
+  },
+  "success": {
+    "title": "Deposit Successful",
+    "message": "Your deposit of {{amount}} has been processed successfully."
+  }
+},
+"payment": {
+  "balance": {
+    "available": "Available Balance",
+    "pending": "Pending"
+  },
+  "history": "History",
+  "actions": {
+    "withdraw": "Withdraw",
+    "addFunds": "Add Funds",
+    "paymentMethods": "Payment Methods"
+  },
+  "tabs": {
+    "transactions": "Transactions",
+    "methods": "Payment Methods"
+  },
+  "status": {
+    "completed": "Completed",
+    "pending": "Pending",
+    "processing": "Processing",
+    "failed": "Failed"
+  },
+  "methods": {
+    "bankAccount": "Bank Account",
+    "bankAccountDetails": "{{bankName}} - {{accountType}}",
+    "cardExpires": "Expires {{month}}/{{year}}",
+    "accountTypes": {
+      "checking": "Checking",
+      "savings": "Savings"
+    },
+    "default": "Default"
+  },
+  "recentTransactions": "Recent Transactions",
+  "yourPaymentMethods": "Your Payment Methods",
+  "addNew": "Add New",
+  "noTransactions": "No Transactions Yet",
+  "noPaymentMethods": "No Payment Methods",
+  "addPaymentMethod": "Add Payment Method",
+  "messages": {
+    "driverNoTransactions": "Complete jobs to start earning and see your transactions here.",
+    "merchantNoTransactions": "Post jobs and make payments to see your transactions here.",
+    "addPaymentMethod": "Add a payment method to {{action}}.",
+    "receivePayments": "receive payments",
+    "payForJobs": "pay for jobs"
+  }
+},
+
+  "tracking": {
+    "permission": {
+      "title": "Location Permission Required",
+      "message": "We need your location permission to track your position during job delivery.",
+      "button": "Grant Permission"
+    },
+    "noJobs": {
+      "title": "No Active Jobs",
+      "driverMessage": "You don't have any active jobs to track. Find and apply for jobs to get started.",
+      "merchantMessage": "You don't have any active jobs to track. Post a job to get started."
+    },
+    "verification": {
+      "title": "Job Verification",
+      "start": "Start Verification",
+      "finish": "Finish Verification",
+      "preTrip": "Pre-Trip Photos",
+      "postTrip": "Post-Trip Photos"
+    },
+    "currentLocation": "Current Location",
+    "coordinates": "Lat: {lat}, Lng: {lng}",
+    "updatedAt": "Updated: {time}",
+    "liveTracking": "Live Tracking Active",
+    "startTracking": "Start Tracking",
+    "noLocationData": "Location data not available"
+  },
+  "jobStatus": {
+    "assigned": {
+      "label": "Assigned",
+      "button": "Start Job"
+    },
+    "in_progress": {
+      "label": "In Progress",
+      "button": "Arrived at Pickup"
+    },
+    "arrived_pickup": {
+      "label": "Arrived at Pickup",
+      "button": "Loaded Cargo"
+    },
+    "loaded": {
+      "label": "Loaded",
+      "button": "Start Transit"
+    },
+    "in_transit": {
+      "label": "In Transit",
+      "button": "Arrived at Delivery"
+    },
+    "arrived_delivery": {
+      "label": "Arrived at Delivery",
+      "button": "Complete Delivery"
+    },
+    "delivered": {
+      "label": "Delivered"
+    },
+    "completed": {
+      "label": "Completed"
+    },
+    "cancelled": {
+      "label": "Cancelled"
+    }
+  },
+  "documents": {
+  "uploadSuccessTitle": "Document Uploaded",
+  "uploadSuccessMessage": "Your document has been uploaded and is pending verification.",
+  "subtitle": "Upload and manage your important documents. Verified documents will display a verification badge.",
+  "driver": {
+    "license": {
+      "title": "Commercial Driver License",
+      "description": "Upload a clear photo of your valid commercial driver license"
+    },
+    "insurance": {
+      "title": "Insurance Documents",
+      "description": "Upload your current truck insurance policy"
+    },
+    "registration": {
+      "title": "Vehicle Registration",
+      "description": "Upload your truck registration documents"
+    },
+    "preTrip": {
+      "title": "Pre-Trip Inspection",
+      "description": "Upload photos from your most recent pre-trip inspection"
+    },
+    "postTrip": {
+      "title": "Post-Trip Inspection",
+      "description": "Upload photos from your most recent post-trip inspection"
+    }
+  },
+  "merchant": {
+    "businessLicense": {
+      "title": "Business License",
+      "description": "Upload your business license or operating authority"
+    },
+    "taxId": {
+      "title": "Tax ID Documentation",
+      "description": "Upload your tax ID or EIN documentation"
+    },
+    "insurance": {
+      "title": "Business Insurance",
+      "description": "Upload your business liability insurance"
+    }
+  }
+}
+
+}
+
+
+  

@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebRTC Audio Test</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 800px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        h1 {
+            color: #667eea;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+        .status {
+            background: #f5f5f5;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+        .status-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 5px 0;
+        }
+        .status-value {
+            font-weight: bold;
+        }
+        .success { color: #10b981; }
+        .error { color: #ef4444; }
+        .warning { color: #f59e0b; }
+        .info { color: #3b82f6; }
+        
+        .user-section {
+            background: #f9fafb;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .user-header {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #374151;
+        }
+        input {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e5e7eb;
+            border-radius: 8px;
+            font-size: 14px;
+            margin-bottom: 10px;
+            transition: border-color 0.3s;
+        }
+        input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        button {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+        .btn-primary {
+            background: #667eea;
+            color: white;
+        }
+        .btn-primary:hover {
+            background: #5568d3;
+        }
+        .btn-success {
+            background: #10b981;
+            color: white;
+        }
+        .btn-success:hover {
+            background: #059669;
+        }
+        .btn-danger {
+            background: #ef4444;
+            color: white;
+        }
+        .btn-danger:hover {
+            background: #dc2626;
+        }
+        .btn-warning {
+            background: #f59e0b;
+            color: white;
+        }
+        button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        .log {
+            background: #1f2937;
+            color: #10b981;
+            padding: 15px;
+            border-radius: 10px;
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+            max-height: 300px;
+            overflow-y: auto;
+            margin-top: 20px;
+        }
+        .log-entry {
+            margin: 3px 0;
+        }
+        .log-entry.error { color: #ef4444; }
+        .log-entry.warning { color: #f59e0b; }
+        .log-entry.info { color: #3b82f6; }
+        .log-entry.success { color: #10b981; }
+        
+        .call-controls {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        
+        .hidden {
+            display: none;
+        }
+        
+        audio {
+            width: 100%;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎵 WebRTC Audio Test</h1>
+        <p class="subtitle">Test the audio fix without frontend code</p>
+        
+        <div class="status">
+            <div class="status-item">
+                <span>Backend:</span>
+                <span class="status-value" id="backendStatus">Checking...</span>
+            </div>
+            <div class="status-item">
+                <span>Socket:</span>
+                <span class="status-value" id="socketStatus">Disconnected</span>
+            </div>
+            <div class="status-item">
+                <span>Auth Token:</span>
+                <span class="status-value" id="authStatus">Not set</span>
+            </div>
+            <div class="status-item">
+                <span>Call Status:</span>
+                <span class="status-value" id="callStatus">No active call</span>
+            </div>
+        </div>
+        
+        <div class="user-section">
+            <div class="user-header">⚙️ Configuration</div>
+            <input type="text" id="backendUrl" placeholder="Backend URL" value="http://localhost:3001">
+            <input type="text" id="authToken" placeholder="Your Auth Token (JWT)">
+            <input type="number" id="userId" placeholder="Your User ID">
+            <input type="number" id="conversationId" placeholder="Conversation ID">
+            <input type="number" id="otherUserId" placeholder="Other User ID (to call)">
+            <button class="btn-primary" onclick="connect()">Connect to Backend</button>
+        </div>
+        
+        <div class="user-section">
+            <div class="user-header">📞 Call Controls</div>
+            <div class="call-controls">
+                <button class="btn-success" onclick="startCall()" id="startCallBtn" disabled>Start Call</button>
+                <button class="btn-success" onclick="acceptCall()" id="acceptCallBtn" disabled>Accept Call</button>
+                <button class="btn-danger" onclick="endCall()" id="endCallBtn" disabled>End Call</button>
+                <button class="btn-warning" onclick="testMicrophone()">Test Microphone</button>
+                <button class="btn-warning" onclick="checkAudio()" style="margin-top: 10px;">🔊 Check Audio Status</button>
+                <button class="btn-warning" onclick="testSpeakers()" style="margin-top: 10px;">🔊 Test Speakers</button>
+                <button class="btn-warning" onclick="forcePlayRemoteAudio()" style="margin-top: 10px;">▶️ Force Play Remote Audio</button>
+            </div>
+            <audio id="localAudio" autoplay muted></audio>
+            <audio id="remoteAudio" autoplay playsinline controls style="width: 100%; margin-top: 15px;"></audio>
+            <div style="margin-top: 10px; text-align: center;">
+                <div style="display: inline-block; padding: 10px; background: #f0f0f0; border-radius: 5px;">
+                    🎤 Microphone: <span id="micStatus" style="font-weight: bold; color: #666;">Not Active</span>
+                    <div id="micLevel" style="width: 200px; height: 10px; background: #ddd; border-radius: 5px; margin-top: 5px; overflow: hidden;">
+                        <div id="micLevelBar" style="width: 0%; height: 100%; background: #4CAF50; transition: width 0.1s;"></div>
+                    </div>
+                </div>
+            </div>
+            <div style="margin-top: 10px; text-align: center; color: #666; font-size: 12px;">
+                👆 If you don't hear audio, check the volume control above and ensure it's not muted
+            </div>
+        </div>
+        
+        <div class="log" id="log"></div>
+    </div>
+
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+    <script>
+        let socket = null;
+        let peerConnection = null;
+        let localStream = null;
+        let currentCallId = null;
+        let myUserId = null;
+        let otherUserId = null;
+        
+        const config = {
+            iceServers: [
+                { urls: 'stun:stun.l.google.com:19302' },
+                { urls: 'stun:stun1.l.google.com:19302' }
+            ]
+        };
+        
+        function log(message, type = 'info') {
+            const logDiv = document.getElementById('log');
+            const timestamp = new Date().toLocaleTimeString();
+            const entry = document.createElement('div');
+            entry.className = `log-entry ${type}`;
+            entry.textContent = `[${timestamp}] ${message}`;
+            logDiv.appendChild(entry);
+            logDiv.scrollTop = logDiv.scrollHeight;
+            console.log(`[${type}]`, message);
+        }
+        
+        function updateStatus(id, text, type = 'info') {
+            const element = document.getElementById(id);
+            element.textContent = text;
+            element.className = `status-value ${type}`;
+        }
+        
+        async function connect() {
+            const backendUrl = document.getElementById('backendUrl').value;
+            const token = document.getElementById('authToken').value;
+            myUserId = parseInt(document.getElementById('userId').value);
+            
+            if (!token || !myUserId) {
+                alert('Please enter Auth Token and User ID');
+                return;
+            }
+            
+            log('Connecting to backend...', 'info');
+            
+            socket = io(backendUrl, {
+                auth: { token: token },
+                transports: ['websocket', 'polling']
+            });
+            
+            socket.on('connect', () => {
+                log('✅ Socket connected: ' + socket.id, 'success');
+                updateStatus('socketStatus', 'Connected', 'success');
+                updateStatus('authStatus', 'Authenticated', 'success');
+                document.getElementById('startCallBtn').disabled = false;
+                setupSocketListeners();
+            });
+            
+            socket.on('disconnect', () => {
+                log('❌ Socket disconnected', 'error');
+                updateStatus('socketStatus', 'Disconnected', 'error');
+            });
+            
+            socket.on('connect_error', (error) => {
+                log('❌ Connection error: ' + error.message, 'error');
+                updateStatus('socketStatus', 'Error', 'error');
+            });
+        }
+        
+        function setupSocketListeners() {
+            socket.on('call_incoming', async (data) => {
+                log('📞 Incoming call from user ' + data.callerId, 'warning');
+                currentCallId = data.callSessionId;
+                otherUserId = data.callerId;
+                updateStatus('callStatus', 'Incoming call...', 'warning');
+                document.getElementById('acceptCallBtn').disabled = false;
+                document.getElementById('otherUserId').value = otherUserId;
+            });
+            
+            socket.on('call_accepted', (data) => {
+                log('✅ Call accepted by user ' + data.acceptedByUserId, 'success');
+                updateStatus('callStatus', 'Call active', 'success');
+            });
+            
+            socket.on('call_ended', (data) => {
+                log('📞 Call ended (duration: ' + data.duration + 's)', 'info');
+                updateStatus('callStatus', 'Call ended', 'info');
+                cleanup();
+            });
+            
+            socket.on('webrtc_signaling', async (data) => {
+                log(`🔊 Received ${data.type} from user ${data.fromUserId} (My ID: ${myUserId}, Other ID: ${otherUserId})`, 'success');
+                log(`   Call ID: ${data.callSessionId}, Current Call ID: ${currentCallId}`, 'info');
+                await handleSignaling(data);
+            });
+        }
+        
+        async function startCall() {
+            const conversationId = parseInt(document.getElementById('conversationId').value);
+            otherUserId = parseInt(document.getElementById('otherUserId').value);
+            
+            if (!conversationId || !otherUserId) {
+                alert('Please enter Conversation ID and Other User ID');
+                return;
+            }
+            
+            log('Starting call...', 'info');
+            updateStatus('callStatus', 'Initiating call...', 'warning');
+            
+            try {
+                // Get user media with better audio constraints
+                log('🎤 Requesting microphone access...', 'info');
+                localStream = await navigator.mediaDevices.getUserMedia({ 
+                    audio: {
+                        echoCancellation: true,
+                        noiseSuppression: true,
+                        autoGainControl: true
+                    }, 
+                    video: false 
+                });
+                
+                document.getElementById('localAudio').srcObject = localStream;
+                
+                // Check if audio track is active
+                const audioTrack = localStream.getAudioTracks()[0];
+                if (audioTrack) {
+                    log('✅ Got microphone: ' + audioTrack.label, 'success');
+                    log('   Track enabled: ' + audioTrack.enabled + ', muted: ' + audioTrack.muted + ', readyState: ' + audioTrack.readyState, 'info');
+                    
+                    // Ensure track is enabled
+                    audioTrack.enabled = true;
+                } else {
+                    log('❌ No audio track in stream!', 'error');
+                }
+                
+                log('✅ Got local media stream', 'success');
+                
+                // Initiate call via API
+                const backendUrl = document.getElementById('backendUrl').value;
+                const token = document.getElementById('authToken').value;
+                
+                const response = await fetch(`${backendUrl}/api/v1/webrtc/calls/initiate`, {
+                    method: 'POST',
+                    headers: {
+                        'Authorization': `Bearer ${token}`,
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        conversationId: conversationId,
+                        callType: 'audio'
+                    })
+                });
+                
+                const result = await response.json();
+                if (result.success) {
+                    currentCallId = result.data.id;
+                    log('✅ Call initiated: ' + currentCallId, 'success');
+                    updateStatus('callStatus', 'Ringing...', 'warning');
+                    
+                    // Setup peer connection
+                    await setupPeerConnection();
+                    
+                    // Create and send offer
+                    const offer = await peerConnection.createOffer();
+                    await peerConnection.setLocalDescription(offer);
+                    log('📤 Sending offer to user ' + otherUserId, 'info');
+                    
+                    socket.emit('webrtc_signaling', {
+                        callSessionId: currentCallId,
+                        type: 'offer',
+                        data: offer,
+                        toUserId: otherUserId
+                    });
+                    
+                    document.getElementById('endCallBtn').disabled = false;
+                } else {
+                    log('❌ Failed to initiate call: ' + result.message, 'error');
+                }
+            } catch (error) {
+                log('❌ Error: ' + error.message, 'error');
+            }
+        }
+        
+        async function acceptCall() {
+            log('Accepting call...', 'info');
+            
+            try {
+                // Get user media with better audio constraints
+                log('🎤 Requesting microphone access...', 'info');
+                localStream = await navigator.mediaDevices.getUserMedia({ 
+                    audio: {
+                        echoCancellation: true,
+                        noiseSuppression: true,
+                        autoGainControl: true
+                    }, 
+                    video: false 
+                });
+                
+                document.getElementById('localAudio').srcObject = localStream;
+                
+                // Check if audio track is active
+                const audioTrack = localStream.getAudioTracks()[0];
+                if (audioTrack) {
+                    log('✅ Got microphone: ' + audioTrack.label, 'success');
+                    log('   Track enabled: ' + audioTrack.enabled + ', muted: ' + audioTrack.muted + ', readyState: ' + audioTrack.readyState, 'info');
+                    
+                    // Ensure track is enabled
+                    audioTrack.enabled = true;
+                } else {
+                    log('❌ No audio track in stream!', 'error');
+                }
+                
+                log('✅ Got local media stream', 'success');
+                
+                // Accept call via API
+                const backendUrl = document.getElementById('backendUrl').value;
+                const token = document.getElementById('authToken').value;
+                
+                const response = await fetch(`${backendUrl}/api/v1/webrtc/calls/${currentCallId}/accept`, {
+                    method: 'POST',
+                    headers: {
+                        'Authorization': `Bearer ${token}`
+                    }
+                });
+                
+                const result = await response.json();
+                if (result.success) {
+                    log('✅ Call accepted', 'success');
+                    updateStatus('callStatus', 'Call active', 'success');
+                    
+                    // Setup peer connection NOW that we have local stream
+                    await setupPeerConnection();
+                    
+                    // Process pending offer if it was received before accepting
+                    if (window.pendingOffer) {
+                        log('📨 Processing pending offer...', 'info');
+                        await handleSignaling(window.pendingOffer);
+                        window.pendingOffer = null;
+                    }
+                    
+                    document.getElementById('acceptCallBtn').disabled = true;
+                    document.getElementById('endCallBtn').disabled = false;
+                } else {
+                    log('❌ Failed to accept call: ' + result.message, 'error');
+                }
+            } catch (error) {
+                log('❌ Error: ' + error.message, 'error');
+            }
+        }
+        
+        async function setupPeerConnection() {
+            peerConnection = new RTCPeerConnection(config);
+            
+            // Add local tracks
+            if (localStream) {
+                localStream.getTracks().forEach(track => {
+                    // Ensure the track is NOT muted
+                    track.enabled = true;
+                    
+                    peerConnection.addTrack(track, localStream);
+                    log('✅ Added local track: ' + track.kind + ' (enabled: ' + track.enabled + ')', 'success');
+                });
+                
+                // Start monitoring microphone level
+                startMicrophoneMonitor();
+            } else {
+                log('⚠️ No local stream to add!', 'warning');
+            }
+            
+            // Handle remote tracks
+            peerConnection.ontrack = (event) => {
+                log('🎵 Received remote track: ' + event.track.kind, 'success');
+                const remoteAudio = document.getElementById('remoteAudio');
+                
+                // Set the stream
+                remoteAudio.srcObject = event.streams[0];
+                remoteAudio.volume = 1.0;
+                remoteAudio.muted = false;
+                
+                // Force play immediately
+                log('▶️ Attempting to play remote audio...', 'info');
+                remoteAudio.play().then(() => {
+                    log('✅ Remote audio playing!', 'success');
+                    
+                    // Double check after a short delay
+                    setTimeout(() => {
+                        if (remoteAudio.paused) {
+                            log('⚠️ Audio paused, trying to play again...', 'warning');
+                            remoteAudio.play().catch(e => log('❌ Play failed: ' + e.message, 'error'));
+                        } else {
+                            log('✅ Audio confirmed playing!', 'success');
+                        }
+                    }, 500);
+                }).catch(err => {
+                    log('⚠️ Autoplay blocked: ' + err.message, 'warning');
+                    log('👆 Click anywhere on the page to enable audio!', 'warning');
+                    
+                    // Add click listener to play audio
+                    const playOnClick = () => {
+                        remoteAudio.play().then(() => {
+                            log('✅ Remote audio playing after user interaction!', 'success');
+                            document.body.removeEventListener('click', playOnClick);
+                        }).catch(e => log('❌ Failed to play: ' + e.message, 'error'));
+                    };
+                    document.body.addEventListener('click', playOnClick);
+                });
+                
+                log('✅ Remote audio connected!', 'success');
+            };
+            
+            // Handle ICE candidates
+            peerConnection.onicecandidate = (event) => {
+                if (event.candidate) {
+                    log('🧊 Sending ICE candidate', 'info');
+                    socket.emit('webrtc_signaling', {
+                        callSessionId: currentCallId,
+                        type: 'ice-candidate',
+                        data: event.candidate,
+                        toUserId: otherUserId
+                    });
+                }
+            };
+            
+            // Monitor connection state
+            peerConnection.oniceconnectionstatechange = () => {
+                const state = peerConnection.iceConnectionState;
+                log('🔗 ICE State: ' + state, state === 'connected' ? 'success' : 'info');
+                if (state === 'connected') {
+                    updateStatus('callStatus', '🎵 Audio connected!', 'success');
+                }
+            };
+            
+            peerConnection.onconnectionstatechange = () => {
+                log('🔗 Connection State: ' + peerConnection.connectionState, 'info');
+            };
+        }
+        
+        async function handleSignaling(data) {
+            log(`📨 Handling ${data.type} signaling`, 'info');
+            
+            try {
+                if (data.type === 'offer') {
+                    log('📨 Processing offer...', 'info');
+                    
+                    // If peer connection doesn't exist AND we don't have local stream yet, wait
+                    if (!peerConnection && !localStream) {
+                        log('⚠️ No local stream yet, waiting for user to accept call...', 'warning');
+                        // Store the offer to process it later when user accepts
+                        window.pendingOffer = data;
+                        return;
+                    }
+                    
+                    if (!peerConnection) {
+                        log('⚠️ Peer connection not ready, setting up...', 'warning');
+                        await setupPeerConnection();
+                    }
+                    
+                    await peerConnection.setRemoteDescription(data.data);
+                    log('✅ Offer set as remote description', 'success');
+                    
+                    const answer = await peerConnection.createAnswer();
+                    await peerConnection.setLocalDescription(answer);
+                    log('📤 Sending answer to user ' + data.fromUserId, 'info');
+                    socket.emit('webrtc_signaling', {
+                        callSessionId: currentCallId,
+                        type: 'answer',
+                        data: answer,
+                        toUserId: data.fromUserId
+                    });
+                } else if (data.type === 'answer') {
+                    log('📨 Processing answer...', 'info');
+                    
+                    if (!peerConnection) {
+                        log('❌ No peer connection to process answer!', 'error');
+                        return;
+                    }
+                    
+                    log('   Peer Connection State: ' + peerConnection.connectionState, 'info');
+                    log('   Signaling State: ' + peerConnection.signalingState, 'info');
+                    await peerConnection.setRemoteDescription(data.data);
+                    log('✅ Answer processed successfully!', 'success');
+                    log('✅ Answer processed', 'success');
+                } else if (data.type === 'ice-candidate') {
+                    log('🧊 Adding ICE candidate', 'info');
+                    
+                    if (!peerConnection) {
+                        log('⚠️ No peer connection yet, candidate will be queued', 'warning');
+                        return;
+                    }
+                    
+                    await peerConnection.addIceCandidate(data.data);
+                }
+            } catch (error) {
+                log('❌ Signaling error: ' + error.message, 'error');
+                console.error('Signaling error details:', error);
+            }
+        }
+        
+        async function endCall() {
+            if (!currentCallId) return;
+            
+            log('Ending call...', 'info');
+            
+            const backendUrl = document.getElementById('backendUrl').value;
+            const token = document.getElementById('authToken').value;
+            
+            await fetch(`${backendUrl}/api/v1/webrtc/calls/${currentCallId}/end`, {
+                method: 'POST',
+                headers: {
+                    'Authorization': `Bearer ${token}`
+                }
+            });
+            
+            cleanup();
+        }
+        
+        function cleanup() {
+            stopMicrophoneMonitor();
+            
+            if (peerConnection) {
+                peerConnection.close();
+                peerConnection = null;
+            }
+            if (localStream) {
+                localStream.getTracks().forEach(track => track.stop());
+                localStream = null;
+            }
+            document.getElementById('localAudio').srcObject = null;
+            document.getElementById('remoteAudio').srcObject = null;
+            document.getElementById('endCallBtn').disabled = true;
+            document.getElementById('acceptCallBtn').disabled = true;
+            currentCallId = null;
+            updateStatus('callStatus', 'No active call', 'info');
+            log('✅ Call cleaned up', 'info');
+        }
+        
+        async function testMicrophone() {
+            try {
+                log('🎤 Testing microphone...', 'info');
+                
+                // Request microphone with detailed constraints
+                const stream = await navigator.mediaDevices.getUserMedia({ 
+                    audio: {
+                        echoCancellation: false, // Turn off echo cancellation for test
+                        noiseSuppression: false,
+                        autoGainControl: true
+                    } 
+                });
+                
+                const audioTrack = stream.getAudioTracks()[0];
+                log('✅ Got microphone: ' + audioTrack.label, 'success');
+                log('   Enabled: ' + audioTrack.enabled + ', Muted: ' + audioTrack.muted + ', State: ' + audioTrack.readyState, 'info');
+                
+                // CRITICAL: Check if track is muted and warn
+                if (audioTrack.muted) {
+                    log('❌ WARNING: Microphone track is MUTED!', 'error');
+                    log('⚠️ This means your microphone is muted at the hardware/system level', 'warning');
+                    log('⚠️ Please check:', 'warning');
+                    log('   1. Windows Sound Settings → Input → Make sure mic is not muted', 'warning');
+                    log('   2. Physical mute button on your laptop/microphone', 'warning');
+                    log('   3. Function key (Fn + mic key) to unmute', 'warning');
+                }
+                
+                // Set up audio context to monitor levels
+                const audioContext = new AudioContext();
+                const analyser = audioContext.createAnalyser();
+                const microphone = audioContext.createMediaStreamSource(stream);
+                analyser.fftSize = 256;
+                const dataArray = new Uint8Array(analyser.frequencyBinCount);
+                
+                microphone.connect(analyser);
+                
+                // Play it back through speakers (unmute)
+                const localAudio = document.getElementById('localAudio');
+                localAudio.srcObject = stream;
+                localAudio.muted = false;
+                localAudio.volume = 1.0;
+                
+                await localAudio.play();
+                
+                log('🔊 Microphone playback active - SPEAK NOW and you should hear yourself!', 'success');
+                log('⚠️ If you don\'t hear yourself, your microphone is not working!', 'warning');
+                
+                // Monitor audio levels
+                let checkCount = 0;
+                const levelCheck = setInterval(() => {
+                    analyser.getByteFrequencyData(dataArray);
+                    const average = dataArray.reduce((a, b) => a + b) / dataArray.length;
+                    const percentage = Math.min(100, (average / 128) * 100);
+                    
+                    if (percentage > 5) {
+                        log('🎤 Audio detected: ' + percentage.toFixed(0) + '% - You should hear this!', 'success');
+                    }
+                    
+                    checkCount++;
+                    if (checkCount > 30 && percentage < 1) {
+                        log('⚠️ No audio detected - Check if your mic is working or muted in Windows', 'warning');
+                        clearInterval(levelCheck);
+                    }
+                }, 100);
+                
+                setTimeout(() => {
+                    clearInterval(levelCheck);
+                    stream.getTracks().forEach(track => track.stop());
+                    localAudio.srcObject = null;
+                    localAudio.muted = true;
+                    audioContext.close();
+                    log('✅ Microphone test ended', 'info');
+                }, 5000); // 5 seconds test
+                
+            } catch (error) {
+                log('❌ Microphone error: ' + error.message, 'error');
+                log('⚠️ Make sure to ALLOW microphone permission when browser asks!', 'warning');
+            }
+        }
+        
+        function checkAudio() {
+            const remoteAudio = document.getElementById('remoteAudio');
+            const localAudio = document.getElementById('localAudio');
+            
+            log('=== AUDIO STATUS CHECK ===', 'info');
+            
+            // Check remote audio
+            if (remoteAudio.srcObject) {
+                const tracks = remoteAudio.srcObject.getTracks();
+                log(`Remote Audio Stream: ${tracks.length} track(s)`, 'info');
+                tracks.forEach((track, i) => {
+                    log(`  Track ${i+1}: ${track.kind}, enabled: ${track.enabled}, muted: ${track.muted}, readyState: ${track.readyState}`, 'info');
+                });
+                log(`Remote Audio Element: paused: ${remoteAudio.paused}, volume: ${remoteAudio.volume}, muted: ${remoteAudio.muted}`, 'info');
+                
+                if (remoteAudio.paused) {
+                    log('⚠️ Remote audio is PAUSED! Attempting to play...', 'warning');
+                    remoteAudio.play().then(() => {
+                        log('✅ Remote audio now playing!', 'success');
+                    }).catch(e => {
+                        log('❌ Failed to play: ' + e.message, 'error');
+                    });
+                }
+                
+                if (remoteAudio.volume === 0 || remoteAudio.muted) {
+                    log('⚠️ Remote audio is MUTED or volume is 0!', 'warning');
+                    remoteAudio.muted = false;
+                    remoteAudio.volume = 1.0;
+                    log('✅ Unmuted and set volume to 1.0', 'success');
+                }
+            } else {
+                log('❌ No remote audio stream!', 'error');
+            }
+            
+            // Check local audio
+            if (localAudio.srcObject) {
+                const tracks = localAudio.srcObject.getTracks();
+                log(`Local Audio Stream: ${tracks.length} track(s)`, 'info');
+                tracks.forEach((track, i) => {
+                    log(`  Track ${i+1}: ${track.kind}, enabled: ${track.enabled}, muted: ${track.muted}, readyState: ${track.readyState}`, 'info');
+                });
+            } else {
+                log('No local audio stream', 'info');
+            }
+            
+            // Check peer connection
+            if (peerConnection) {
+                log(`Peer Connection State: ${peerConnection.connectionState}`, 'info');
+                log(`ICE Connection State: ${peerConnection.iceConnectionState}`, 'info');
+                log(`Signaling State: ${peerConnection.signalingState}`, 'info');
+            } else {
+                log('❌ No peer connection!', 'error');
+            }
+            
+            log('=== END AUDIO STATUS ===', 'info');
+        }
+        
+        function testSpeakers() {
+            log('🔊 Testing speakers with beep sound...', 'info');
+            
+            // Create audio context and play a beep
+            const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+            const oscillator = audioContext.createOscillator();
+            const gainNode = audioContext.createGain();
+            
+            oscillator.connect(gainNode);
+            gainNode.connect(audioContext.destination);
+            
+            oscillator.frequency.value = 440; // A4 note
+            gainNode.gain.value = 0.3;
+            
+            oscillator.start();
+            
+            setTimeout(() => {
+                oscillator.stop();
+                audioContext.close();
+                log('✅ Beep played! Did you hear it?', 'success');
+                log('⚠️ If you did NOT hear the beep, check your laptop volume/speakers!', 'warning');
+            }, 500);
+        }
+        
+        function forcePlayRemoteAudio() {
+            const remoteAudio = document.getElementById('remoteAudio');
+            
+            if (!remoteAudio.srcObject) {
+                log('❌ No remote audio stream to play!', 'error');
+                return;
+            }
+            
+            log('▶️ Force playing remote audio...', 'info');
+            
+            // Ensure it's not muted
+            remoteAudio.muted = false;
+            remoteAudio.volume = 1.0;
+            
+            // Try to play
+            remoteAudio.play().then(() => {
+                log('✅ Remote audio is now playing!', 'success');
+                log(`   Volume: ${remoteAudio.volume}, Muted: ${remoteAudio.muted}, Paused: ${remoteAudio.paused}`, 'info');
+            }).catch(err => {
+                log('❌ Failed to play: ' + err.message, 'error');
+            });
+        }
+        
+        let micMonitorInterval = null;
+        let lastLogTime = 0;
+        
+        function startMicrophoneMonitor() {
+            if (!localStream) {
+                log('❌ Cannot start mic monitor: no localStream', 'error');
+                return;
+            }
+            
+            const audioTrack = localStream.getAudioTracks()[0];
+            if (!audioTrack) {
+                log('❌ Cannot start mic monitor: no audio track', 'error');
+                return;
+            }
+            
+            log('🎤 Starting microphone monitor for track: ' + audioTrack.label, 'info');
+            
+            const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+            const analyser = audioContext.createAnalyser();
+            const microphone = audioContext.createMediaStreamSource(localStream);
+            
+            microphone.connect(analyser);
+            analyser.fftSize = 256;
+            
+            const dataArray = new Uint8Array(analyser.frequencyBinCount);
+            const micStatus = document.getElementById('micStatus');
+            const micLevelBar = document.getElementById('micLevelBar');
+            
+            micStatus.textContent = 'Active';
+            micStatus.style.color = '#4CAF50';
+            
+            let frameCount = 0;
+            
+            micMonitorInterval = setInterval(() => {
+                analyser.getByteFrequencyData(dataArray);
+                const average = dataArray.reduce((a, b) => a + b) / dataArray.length;
+                const percentage = Math.min(100, (average / 128) * 100);
+                
+                micLevelBar.style.width = percentage + '%';
+                
+                frameCount++;
+                
+                // Log every 10 frames (1 second) if there's audio
+                if (frameCount % 10 === 0) {
+                    const now = Date.now();
+                    if (percentage > 5 && now - lastLogTime > 2000) {
+                        log('🎤 Microphone level: ' + percentage.toFixed(0) + '%', 'info');
+                        lastLogTime = now;
+                    }
+                    
+                    // Log if completely silent for too long
+                    if (frameCount > 50 && percentage < 1) {
+                        log('⚠️ Microphone is silent - try speaking or check mic permissions', 'warning');
+                        frameCount = 0;
+                    }
+                }
+            }, 100);
+            
+            log('✅ Microphone monitor started', 'success');
+        }
+        
+        function stopMicrophoneMonitor() {
+            if (micMonitorInterval) {
+                clearInterval(micMonitorInterval);
+                micMonitorInterval = null;
+            }
+            
+            const micStatus = document.getElementById('micStatus');
+            const micLevelBar = document.getElementById('micLevelBar');
+            
+            micStatus.textContent = 'Not Active';
+            micStatus.style.color = '#666';
+            micLevelBar.style.width = '0%';
+        }
+        
+        // Check backend on load
+        window.onload = async () => {
+            const backendUrl = document.getElementById('backendUrl').value;
+            try {
+                const response = await fetch(backendUrl);
+                if (response.ok) {
+                    updateStatus('backendStatus', 'Online', 'success');
+                    log('✅ Backend is reachable', 'success');
+                } else {
+                    updateStatus('backendStatus', 'Error', 'error');
+                }
+            } catch (error) {
+                updateStatus('backendStatus', 'Offline', 'error');
+                log('❌ Backend is not reachable', 'error');
+            }
+        };
+    </script>
+</body>
+</html>

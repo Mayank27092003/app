@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title><%= typeof title !== 'undefined' ? title : 'Done' %></title>
+  <%- include('../partials/styles') %>
+</head>
+<body>
+  <div class="card">
+    <div class="icon primary">✓</div>
+    <h2 class="primary"><%= typeof title !== 'undefined' ? title : 'Done' %></h2>
+    <p><%= typeof message !== 'undefined' ? message : 'Your action has been completed successfully.' %></p>
+    <% if (typeof appScheme !== 'undefined' && appScheme) { %>
+      <a href="<%= appScheme %>" class="button primary">Open App</a>
+    <% } %>
+    <% if (typeof fallbackUrl !== 'undefined' && fallbackUrl) { %>
+      <a href="<%= fallbackUrl %>" class="button <%= typeof appScheme !== 'undefined' && appScheme ? 'secondary' : 'primary' %>">Open in Browser</a>
+    <% } %>
+  </div>
+</body>
+</html>

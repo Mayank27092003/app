@@ -1,0 +1,670 @@
+{
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "save": "Guardar",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "seeAll": "Ver todo",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "done": "Hecho",
+    "retry": "Reintentar",
+    "close": "Cerrar",
+    "yes": "Sí",
+    "no": "No",
+    "call": "Llamar",
+    "message": "Mensaje",
+    "yesCancel": "Sí, cancelar",
+    "image": "Imagen",
+    "ok": "Aceptar",
+    "distance": "{value} millas",
+    "noNotifications": "Sin notificaciones"
+  },
+  "welcome": {
+    "appName": "TruckConnect",
+    "tagline": "Conectando conductores y comerciantes",
+    "title": "Bienvenido a TruckConnect",
+    "description": "La principal plataforma que conecta camioneros con transportistas, agentes, expedidores y empresas intermodales.",
+    "signIn": "Iniciar sesión",
+    "register": "¿No tienes cuenta? Regístrate",
+    "features": {
+      "findJobs": {
+        "title": "Buscar trabajos",
+        "description": "Explora y solicita trabajos de transporte que coincidan con tus preferencias"
+      },
+      "connect": {
+        "title": "Conectar",
+        "description": "Comunicación directa entre conductores y comerciantes"
+      },
+      "multiLanguage": {
+        "title": "Multilingüe",
+        "description": "Usa la app en tu idioma preferido"
+      },
+      "securePayments": {
+        "title": "Pagos seguros",
+        "description": "Todas las transacciones se procesan de forma segura"
+      }
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Bienvenido de nuevo",
+      "subtitle": "Inicia sesión para continuar",
+      "email": "Correo",
+      "emailPlaceholder": "Ingresa tu correo",
+      "password": "Contraseña",
+      "passwordPlaceholder": "Ingresa tu contraseña",
+      "rememberMe": "Recordarme",
+      "forgotPassword": "¿Olvidaste tu contraseña?",
+      "signIn": "Iniciar sesión",
+      "noAccount": "¿No tienes cuenta?",
+      "register": "Regístrate",
+      "demoTitle": "Cuentas demo:",
+      "demoDriver": "Conductor: driver@example.com",
+      "demoDriverDesc": "Accede a trabajos, seguimiento y funciones de conductor",
+      "demoMerchant": "Comerciante: merchant@example.com",
+      "demoMerchantDesc": "Publica trabajos, gestiona conductores y envíos",
+      "demoNote": "(Cualquier contraseña funciona para cuentas demo)",
+      "errors": {
+        "fillFields": "Ingresa correo y contraseña",
+        "invalidCredentials": "Correo o contraseña inválidos",
+        "loginError": "Error al iniciar sesión"
+      }
+    },
+    "register": {
+      "title": "Crear cuenta",
+      "subtitle": "Regístrate para comenzar",
+      "fullName": "Nombre completo",
+      "fullNamePlaceholder": "Ingresa tu nombre completo",
+      "email": "Correo",
+      "emailPlaceholder": "Ingresa tu correo",
+      "phone": "Teléfono",
+      "phonePlaceholder": "Ingresa tu teléfono",
+      "password": "Contraseña",
+      "passwordPlaceholder": "Crea una contraseña",
+      "confirmPassword": "Confirmar contraseña",
+      "confirmPasswordPlaceholder": "Confirma tu contraseña",
+      "createAccount": "Crear cuenta",
+      "termsText": "Al registrarte, aceptas nuestros Términos y Política de Privacidad",
+      "termsService": "Términos de servicio",
+      "privacyPolicy": "Política de privacidad",
+      "haveAccount": "¿Ya tienes cuenta?",
+      "errors": {
+        "fillFields": "Completa todos los campos",
+        "passwordMismatch": "Las contraseñas no coinciden",
+        "registerError": "Error al registrarse"
+      }
+    },
+    "roleSelect": {
+      "title": "Elige tu rol",
+      "subtitle": "Selecciona cómo usarás TruckConnect",
+      "driver": {
+        "title": "Conductor",
+        "description": "Encuentra trabajos de transporte, sigue entregas y recibe pagos",
+        "features": [
+          "Encuentra trabajos disponibles",
+          "Sigue tus ganancias"
+        ]
+      },
+      "merchant": {
+        "title": "Comerciante",
+        "description": "Publica trabajos, encuentra conductores confiables y gestiona envíos",
+        "features": [
+          "Publica trabajos de transporte",
+          "Encuentra conductores calificados",
+          "Sigue envíos",
+          "Gestiona pagos"
+        ]
+      },
+      "continue": "Continuar"
+    }
+  },
+  "navigation": {
+    "home": "Inicio",
+    "findJobs": "Buscar trabajos",
+    "myJobs": "Mis trabajos",
+    "tracking": "Seguimiento",
+    "messages": "Mensajes",
+    "profile": "Perfil",
+    "notification": "Notificaciones"
+  },
+  "home": {
+    "greeting": "Hola",
+    "yourLocation":"Tu ubicación",
+    "truckDriver": "Conductor de camión",
+    "carrier": "Transportista",
+    "searchJobs": "Buscar trabajos...",
+    "activeJobs": "Trabajos activos",
+    "recentJobs": "Trabajos recientes",
+    "completedJobs": "Completados",
+    "rating": "Calificación",
+    "noRecentJobs": "Sin trabajos recientes",
+    "postNewJob": "Publicar trabajo",
+    "manageJobs": "Gestionar trabajos",
+    "quickActions": "Acciones rápidas",
+    "findDrivers": {
+      "title": "Encontrar conductores",
+      "description": "Busca conductores disponibles en tu zona"
+    },
+    "analytics": {
+      "title": "Analíticas",
+      "description": "Ver desempeño de envíos y estadísticas"
+    }
+  },
+  "jobs": {
+    "jobPosted": "Trabajo publicado",
+    "jobPostedSuccess": "Tu trabajo ha sido publicado. Conductores pueden aplicar ahora.",
+    "jobDetails": "Detalles del trabajo",
+    "jobTitle": "Título del trabajo",
+    "jobTitlePlaceholder": "Ingresa un título descriptivo",
+    "description": "Descripción",
+    "descriptionPlaceholder": "Describe el trabajo en detalle...",
+    "compensation": "Pago (USD)",
+    "amountPlaceholder": "Ingresa monto",
+    "pickupInfo": "Información de recogida",
+    "deliveryInfo": "Información de entrega",
+    "streetAddress": "Dirección",
+    "pickupAddressPlaceholder": "Dirección de recogida",
+    "deliveryAddressPlaceholder": "Dirección de entrega",
+    "city": "Ciudad",
+    "state": "Estado",
+    "zipCode": "Código postal",
+    "date": "Fecha",
+    "timeWindow": "Horario",
+    "timeWindowPlaceholder": "ej. 9:00 AM - 12:00 PM",
+    "cargoInfo": "Información de carga",
+    "distance": "Distancia",
+    "distancePlaceholder": "Ingresa distancia",
+    "estimatedDuration": "Duración estimada",
+    "durationPlaceholder": "ej. 2.5 horas",
+    "cargoType": "Tipo de carga",
+    "cargoTypePlaceholder": "ej. Electrónicos, Muebles, etc.",
+    "cargoWeight": "Peso de carga",
+    "weightPlaceholder": "ej. 5,000 lbs",
+    "requiredTruckType": "Tipo de camión requerido",
+    "truckTypePlaceholder": "ej. Furgón, Plataforma, etc.",
+    "specialRequirements": "Requerimientos especiales",
+    "specialRequirementsPlaceholder": "Instrucciones o requerimientos especiales...",
+    "showAdvancedOptions": "Mostrar opciones avanzadas",
+    "hideAdvancedOptions": "Ocultar opciones avanzadas",
+    "termsAgreement": "Al publicar aceptas los términos. Conductores deberán subir fotos pre/post viaje.",
+    "title": "Trabajos",
+    "searchPlaceholder": "Buscar trabajos...",
+    "noJobsFound": "No se encontraron trabajos",
+    "noJobsDriver": "No encontramos trabajos. Ajusta filtros o vuelve luego.",
+    "noJobsMerchant": "Aún no publicas trabajos. Haz clic en + para crear uno.",
+    "postJob": "Publicar trabajo",
+    "pickup": "Recogida",
+    "delivery": "Entrega",
+    "pickupDate": "Fecha recogida",
+    "deliveryDate": "Fecha entrega",
+    "miles": "(Millas)",
+    "postedBy": "Publicado por",
+    "messageToMerchant": "Mensaje al comerciante",
+    "messagePlaceholder": "Preséntate y explica por qué eres ideal...",
+    "termsAgreementjobApply": "Al aplicar aceptas los términos, incluyendo responsabilidad por daños. Deberás subir fotos pre/post viaje.",
+    "noDriverAssigned": "Sin conductor asignado",
+    "statusUpdateError": "Error al actualizar estado",
+    "driver": "Conductor",
+    "verification": {
+      "start": "Iniciar verificación",
+      "finish": "Finalizar verificación",
+      "preTrip": "Fotos previas",
+      "postTrip": "Fotos posteriores"
+    },
+    "filters": {
+      "title": "Filtros",
+      "location": "Ubicación",
+      "truckType": "Tipo de camión",
+      "resetFilters": "Reiniciar filtros"
+    },
+    "locations": {
+      "losAngeles": "Los Ángeles",
+      "sanFrancisco": "San Francisco",
+      "sanDiego": "San Diego"
+    },
+    "truckTypes": {
+      "boxTruck": "Furgón",
+      "flatbed": "Plataforma",
+      "refrigerated": "Refrigerado"
+    }
+  },
+  "messages": {
+    "title": "Mensajes",
+    "searchPlaceholder": "Buscar mensajes...",
+    "chats": "Chats",
+    "archived": "Archivados",
+    "noMessages": "Aún sin mensajes",
+    "noMessagesDesc": "Inicia una conversación con conductor/comerciante",
+    "noArchivedDesc": "Sin conversaciones archivadas",
+    "startNewMessage": "Nuevo mensaje",
+    "typing": "escribiendo",
+    "online": "En línea",
+    "typeMessagePlaceholder": "Escribe un mensaje...",
+    "user": "Usuario",
+    "options": {
+      "pin": "Fijar conversación",
+      "unpin": "Desfijar",
+      "mute": "Silenciar",
+      "unmute": "Activar sonido",
+      "archive": "Archivar",
+      "unarchive": "Desarchivar",
+      "delete": "Eliminar"
+    },
+    "messageTypes": {
+      "photo": "📷 Foto",
+      "voice": "🎤 Mensaje de voz",
+      "document": "📄 Documento",
+      "location": "📍 Ubicación"
+    },
+    "yesterday": "Ayer"
+  },
+  "profile": {
+    "editProfile": "Editar perfil",
+    "verifiedAccount": "Cuenta verificada",
+    "verificationPending": "Verificación pendiente",
+    "successMessage": "Perfil actualizado correctamente",
+    "changePhoto": "Toca para cambiar foto",
+    "tabs": {
+      "profile": "Perfil",
+      "transactions": "Transacciones",
+      "paymentMethods": "Métodos de pago"
+    },
+    "balance": {
+      "available": "Saldo disponible",
+      "pending": "Pendiente",
+      "withdraw": "Retirar",
+      "addFunds": "Agregar fondos"
+    },
+    "info": {
+      "truckType": "Tipo de camión",
+      "rating": "Calificación",
+      "currentLocation": "Ubicación actual",
+      "company": "Empresa",
+      "address": "Dirección",
+      "notAvailable": "No disponible"
+    },
+    "documents": {
+      "title": "Documentos",
+      "businessTitle": "Documentos comerciales",
+      "cdl": "Licencia de conducir comercial",
+      "cdlExpires": "Expira",
+      "insurance": "Documentos de seguro",
+      "insuranceDesc": "Ver todos los seguros",
+      "businessLicense": "Licencia comercial",
+      "businessLicenseDesc": "Ver licencia"
+    },
+    "transactions": {
+      "recent": "Transacciones recientes",
+      "noTransactions": "Sin transacciones aún",
+      "noTransactionsDriver": "Completa trabajos para ver transacciones aquí",
+      "noTransactionsMerchant": "Publica trabajos para ver transacciones aquí"
+    },
+    "paymentMethods": {
+      "title": "Métodos de pago",
+      "addNew": "Agregar nuevo",
+      "noMethods": "Sin métodos de pago",
+      "noMethodsDesc": "Agrega un método para recibir pagos",
+      "noMethodsDescMerchant": "Agrega un método para pagar trabajos",
+      "addPaymentMethod": "Agregar método",
+      "bankAccount": "Cuenta bancaria",
+      "expires": "Expira",
+      "default": "Predeterminado",
+      "paymentRequired": "Pago requerido",
+      "cardOption": "Tarjeta crédito/débito",
+      "bankOption": "Cuenta bancaria",
+      "cardNumber": "Número de tarjeta",
+      "cardName": "Nombre en tarjeta",
+      "expiryDate": "Fecha expiración",
+      "cvv": "CVV",
+      "bankName": "Banco",
+      "accountNumber": "Número de cuenta",
+      "routingNumber": "Número de ruta",
+      "accountType": "Tipo de cuenta",
+      "checking": "Corriente",
+      "savings": "Ahorros",
+      "setAsDefault": "Establecer como predeterminado",
+      "placeholders": {
+        "cardNumber": "1234 5678 9012 3456",
+        "cardName": "Juan Pérez",
+        "expiryDate": "MM/AA",
+        "cvv": "123",
+        "bankName": "Nombre de tu banco",
+        "accountNumber": "Número de cuenta",
+        "routingNumber": "Número de ruta"
+      }
+    },
+    "logout": "Cerrar sesión",
+    "merchantTypes": {
+      "carrier": "Transportista",
+      "broker": "Agente",
+      "shipper": "Expedidor",
+      "intermodal": "Intermodal"
+    }
+  },
+  "paymentStatus": {
+    "completed": "Completado",
+    "pending": "Pendiente",
+    "processing": "Procesando",
+    "failed": "Fallido"
+  },
+  "forms": {
+    "email": "Correo",
+    "password": "Contraseña",
+    "confirmPassword": "Confirmar contraseña",
+    "fullName": "Nombre completo",
+    "phone": "Teléfono",
+    "company": "Empresa",
+    "address": "Dirección",
+    "basicInfo": "Información básica",
+    "fullNamePlaceholder": "Nombre completo",
+    "phonePlaceholder": "Número de teléfono",
+    "truckType": "Tipo de camión",
+    "truckTypePlaceholder": "ej. Remolque, Furgón",
+    "truckCapacity": "Capacidad",
+    "truckCapacityPlaceholder": "ej. 40,000 lbs",
+    "licenseNumber": "Número de licencia",
+    "licenseNumberPlaceholder": "Número CDL",
+    "licenseExpiry": "Vencimiento licencia",
+    "licenseExpiryPlaceholder": "MM/DD/AAAA",
+    "companyName": "Nombre empresa",
+    "companyPlaceholder": "Nombre de tu empresa",
+    "companyAddress": "Dirección empresa",
+    "addressPlaceholder": "Dirección de empresa",
+    "companyType": "Tipo de empresa",
+    "companyInformation": "Información empresarial"
+  },
+  "buttons": {
+    "signIn": "Iniciar sesión",
+    "signUp": "Registrarse",
+    "register": "Registrarse",
+    "login": "Iniciar sesión",
+    "logout": "Cerrar sesión",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "apply": "Aplicar",
+    "submit": "Enviar",
+    "continue": "Continuar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "done": "Hecho",
+    "retry": "Reintentar",
+    "refresh": "Actualizar",
+    "cancelJob": "Cancelar trabajo",
+    "applyforJob": "Aplicar a trabajo",
+    "submitApplication": "Enviar aplicación"
+  },
+  "errors": {
+    "general": "Algo salió mal. Intenta nuevamente.",
+    "network": "Error de red. Verifica tu conexión.",
+    "validation": "Verifica tus datos e intenta nuevamente.",
+    "unauthorized": "No autorizado para esta acción.",
+    "notFound": "Recurso no encontrado.",
+    "missingInfo": "Información faltante",
+    "fillAllFields": "Completa todos los campos obligatorios",
+    "jobCreationFailed": "Error al crear trabajo",
+    "jobnotfound": "Trabajo no encontrado",
+    "cancelJobTitle": "Cancelar trabajo",
+    "cancelJobMessage": "¿Seguro que quieres cancelar este trabajo? Esta acción no se puede deshacer.",
+    "cancelJobSuccessTitle": "Éxito",
+    "cancelJobSuccessMessage": "Trabajo cancelado",
+    "cancelJobErrorTitle": "Error",
+    "cancelJobErrorMessage": "Error al cancelar trabajo",
+    "chatStartErrorMessage": "No se puede iniciar chat. Sin conductor asignado.",
+    "insufficientBalanceTitle": "Saldo insuficiente",
+    "insufficientBalanceMessage": "Saldo insuficiente. ¿Deseas agregar fondos?",
+    "invalidCardNumber": "Número de tarjeta inválido",
+    "missingCardName": "Nombre en tarjeta requerido",
+    "invalidExpiryDate": "Fecha expiración inválida (MM/AA)",
+    "invalidCVV": "CVV inválido",
+    "missingBankName": "Nombre de banco requerido",
+    "invalidAccountNumber": "Número de cuenta inválido",
+    "invalidRoutingNumber": "Número de ruta inválido"
+  },
+  "drawer": {
+    "settings": "Configuración",
+    "contact": "Contáctanos",
+    "privacy": "Política de privacidad",
+    "terms": "Términos y condiciones",
+    "logout": "Cerrar sesión",
+    "signIn": "Iniciar / Registrarse"
+  },
+  "callHistory": {
+    "title": "Historial de llamadas",
+    "outgoing": "Saliente",
+    "incoming": "Entrante",
+    "recorded": "Grabada",
+    "jobBadge": "Trabajo #{{id}}",
+    "emptyTitle": "Sin historial",
+    "emptyDescription": "Aún no tienes llamadas. Llama a comerciantes/conductores para discutir trabajos."
+  },
+  "success": {
+    "added": "Método de pago agregado"
+  },
+  "transaction": {
+    "title": "Detalles de transacción",
+    "status": {
+      "completed": "Completado",
+      "pending": "Pendiente",
+      "processing": "Procesando",
+      "failed": "Fallido"
+    },
+    "type": {
+      "paymentReceived": "Pago recibido",
+      "paymentSent": "Pago enviado",
+      "withdrawal": "Retiro",
+      "deposit": "Depósito",
+      "refundSent": "Reembolso enviado",
+      "refundReceived": "Reembolso recibido"
+    },
+    "details": {
+      "id": "ID Transacción",
+      "dateTime": "Fecha y hora",
+      "description": "Descripción",
+      "jobReference": "Referencia trabajo",
+      "paymentMethod": "Método de pago",
+      "subtotal": "Subtotal",
+      "platformFee": "Tarifa plataforma",
+      "total": "Total"
+    },
+    "receipt": {
+      "download": "Descargar recibo",
+      "downloadTitle": "Descargar recibo",
+      "downloadMessage": "Descarga iniciada",
+      "share": "Compartir recibo",
+      "shareTitle": "Compartir recibo",
+      "shareMessage": "Se abrirá opciones de compartir"
+    },
+    "messages": {
+      "pending": "Transacción pendiente. Puede tardar hasta 24 horas.",
+      "failed": "Transacción fallida. Verifica tu método de pago o contacta soporte."
+    },
+    "errors": {
+      "notFoundTitle": "Transacción no encontrada",
+      "notFoundDescription": "Esta transacción no existe o fue eliminada."
+    },
+    "support": "¿Necesitas ayuda con esta transacción?",
+    "tryAgain": "Reintentar"
+  },
+  "deposit": {
+    "title": "Agregar fondos",
+    "currentBalance": "Saldo actual",
+    "depositAmount": "Monto a depositar",
+    "amountPlaceholder": "0.00",
+    "paymentMethod": "Método de pago",
+    "bankAccount": "Cuenta bancaria",
+    "bankAccountDetails": "{{bankName}} - {{accountType}}",
+    "cardExpires": "Expira {{month}}/{{year}}",
+    "accountTypes": {
+      "checking": "Corriente",
+      "savings": "Ahorros"
+    },
+    "noPaymentMethods": "Aún sin métodos de pago",
+    "addPaymentMethod": "Agregar método",
+    "addFundsButton": "Agregar {{amount}} fondos",
+    "depositNote": "Los fondos se agregarán inmediatamente. Recibirás un recibo por correo.",
+    "errors": {
+      "invalidAmount": "Monto inválido",
+      "noPaymentMethod": "Selecciona un método",
+      "depositFailed": "Error al depositar. Intenta nuevamente."
+    },
+    "success": {
+      "title": "Depósito exitoso",
+      "message": "Tu depósito de {{amount}} se procesó correctamente."
+    }
+  },
+  "payment": {
+    "balance": {
+      "available": "Saldo disponible",
+      "pending": "Pendiente"
+    },
+    "history": "Historial",
+    "actions": {
+      "withdraw": "Retirar",
+      "addFunds": "Agregar fondos",
+      "paymentMethods": "Métodos de pago"
+    },
+    "tabs": {
+      "transactions": "Transacciones",
+      "methods": "Métodos de pago"
+    },
+    "status": {
+      "completed": "Completado",
+      "pending": "Pendiente",
+      "processing": "Procesando",
+      "failed": "Fallido"
+    },
+    "methods": {
+      "bankAccount": "Cuenta bancaria",
+      "bankAccountDetails": "{{bankName}} - {{accountType}}",
+      "cardExpires": "Expira {{month}}/{{year}}",
+      "accountTypes": {
+        "checking": "Corriente",
+        "savings": "Ahorros"
+      },
+      "default": "Predeterminado"
+    },
+    "recentTransactions": "Transacciones recientes",
+    "yourPaymentMethods": "Tus métodos de pago",
+    "addNew": "Agregar nuevo",
+    "noTransactions": "Aún sin transacciones",
+    "noPaymentMethods": "Sin métodos de pago",
+    "addPaymentMethod": "Agregar método",
+    "messages": {
+      "driverNoTransactions": "Completa trabajos para ver transacciones aquí",
+      "merchantNoTransactions": "Publica trabajos para ver transacciones aquí",
+      "addPaymentMethod": "Agrega un método para {{action}}",
+      "receivePayments": "recibir pagos",
+      "payForJobs": "pagar trabajos"
+    }
+  },
+  "tracking": {
+    "permission": {
+      "title": "Permiso de ubicación requerido",
+      "message": "Necesitamos tu ubicación para seguir tu posición durante entregas.",
+      "button": "Permitir"
+    },
+    "noJobs": {
+      "title": "Sin trabajos activos",
+      "driverMessage": "Aún no tienes trabajos activos. Busca y aplica a trabajos.",
+      "merchantMessage": "Aún no tienes trabajos activos. Publica un trabajo."
+    },
+    "verification": {
+      "title": "Verificación de trabajo",
+      "start": "Iniciar verificación",
+      "finish": "Finalizar verificación",
+      "preTrip": "Fotos previas",
+      "postTrip": "Fotos posteriores"
+    },
+    "currentLocation": "Ubicación actual",
+    "coordinates": "Lat: {lat}, Lng: {lng}",
+    "updatedAt": "Actualizado: {time}",
+    "liveTracking": "Seguimiento en vivo activo",
+    "startTracking": "Iniciar seguimiento",
+    "noLocationData": "Ubicación no disponible"
+  },
+  "jobStatus": {
+    "assigned": {
+      "label": "Asignado",
+      "button": "Iniciar trabajo"
+    },
+    "in_progress": {
+      "label": "En progreso",
+      "button": "Llegado a recogida"
+    },
+    "arrived_pickup": {
+      "label": "En punto de recogida",
+      "button": "Carga completada"
+    },
+    "loaded": {
+      "label": "Cargado",
+      "button": "Iniciar transporte"
+    },
+    "in_transit": {
+      "label": "En tránsito",
+      "button": "Llegado a entrega"
+    },
+    "arrived_delivery": {
+      "label": "En punto de entrega",
+      "button": "Completar entrega"
+    },
+    "delivered": {
+      "label": "Entregado"
+    },
+    "completed": {
+      "label": "Completado"
+    },
+    "cancelled": {
+      "label": "Cancelado"
+    }
+  },
+  "documents": {
+    "uploadSuccessTitle": "Documento subido",
+    "uploadSuccessMessage": "Tu documento está pendiente de verificación.",
+    "subtitle": "Sube y gestiona documentos importantes. Los verificados mostrarán un distintivo.",
+    "driver": {
+      "license": {
+        "title": "Licencia de conducir comercial",
+        "description": "Sube foto clara de tu licencia válida"
+      },
+      "insurance": {
+        "title": "Documentos de seguro",
+        "description": "Sube tu póliza de seguro vigente"
+      },
+      "registration": {
+        "title": "Registro vehicular",
+        "description": "Sube documentos de registro"
+      },
+      "preTrip": {
+        "title": "Inspección previa",
+        "description": "Sube fotos de tu última inspección previa"
+      },
+      "postTrip": {
+        "title": "Inspección posterior",
+        "description": "Sube fotos de tu última inspección posterior"
+      }
+    },
+    "merchant": {
+      "businessLicense": {
+        "title": "Licencia comercial",
+        "description": "Sube tu licencia comercial"
+      },
+      "taxId": {
+        "title": "Documentos de identificación fiscal",
+        "description": "Sube tu identificación fiscal o EIN"
+      },
+      "insurance": {
+        "title": "Seguro comercial",
+        "description": "Sube tu seguro de responsabilidad civil"
+      }
+    }
+  }
+}

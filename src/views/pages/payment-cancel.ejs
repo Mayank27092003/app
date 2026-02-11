@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment Cancelled</title>
+    <%- include('../partials/styles') %>
+  </head>
+  <body>
+    <div class="card">
+      <div class="icon warning">×</div>
+      <h2 class="warning">Payment Cancelled</h2>
+      <p>Your payment was cancelled. No charges were made to your account.</p>
+      <% if (typeof jobId !== 'undefined' && jobId) { %>
+      <p><strong>Job ID:</strong> <%= jobId %></p>
+      <a
+        href="gofrts://open/job/<%= jobId %>"
+        class="button success"
+      >
+        Next
+      </a>
+      <% } else { %>
+      <a href="gofrts://open/Home" class="button success"> Open App </a>
+      <% } %>
+      <script>
+        async function retryPayment() {
+          const jobId = "<%= jobId %>";
+          const messageDiv = document.getElementById("retryMessage");
+          const button = event.target;
+
+          button.disabled = true;
+          button.textContent = "Processing...";
+          messageDiv.style.display = "block";
+          messageDiv.textContent = "Creating payment session...";
+          messageDiv.style.color = "var(--muted)";
+
+          try {
+            // Get base URL from current location
+            const baseUrl = window.location.origin;
+            const response = await fetch(
+              `${baseUrl}/api/v1/jobs/${jobId}/payment/retry`,
+              {
+                method: "POST",
+                headers: {
+                  "Content-Type": "application/json",
+                },
+                // Note: In production, you'd need to send the auth token
+                // credentials: 'include' for cookies or Authorization header
+              }
+            );
+
+            const result = await response.json();
+
+            if (result.success && result.data.paymentUrl) {
+              messageDiv.textContent = result.data.isReused
+                ? "Redirecting to existing payment session..."
+                : "Redirecting to payment page...";
+              messageDiv.style.color = "var(--success)";
+
+              // Redirect to payment URL
+              window.location.href = result.data.paymentUrl;
+            } else {
+              throw new Error(
+                result.message || "Failed to create payment session"
+              );
+            }
+          } catch (error) {
+            console.error("Error retrying payment:", error);
+            messageDiv.textContent =
+              "Failed to create payment session. Please try again later or contact support.";
+            messageDiv.style.color = "#ef4444";
+            button.disabled = false;
+            button.textContent = "Retry Payment";
+          }
+        }
+      </script>
+    </div>
+  </body>
+</html>

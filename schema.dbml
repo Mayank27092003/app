@@ -1,0 +1,537 @@
+Enum jobType {
+  short
+  medium
+  long
+}
+
+Enum jobStatus {
+  draft
+  active
+  completed
+  cancelled
+}
+
+Enum paymentStatus {
+  pending
+  succeeded
+  failed
+}
+
+Enum chatType {
+  direct
+  group
+}
+
+Enum jobPhotoType {
+  pre_trip
+  post_trip
+}
+
+Enum disputeStatus {
+  open
+  in_review
+  resolved
+  rejected
+}
+
+Enum contractBillingCycle {
+  hourly
+  weekly
+  monthly
+}
+
+Enum contractStatus {
+  active
+  paused
+  cancelled
+  completed
+}
+
+Enum contractPaymentStatus {
+  created
+  processing
+  succeeded
+  failed
+  cancelled
+}
+
+Table roles {
+  id int [pk, increment]
+  name varchar [unique, not null]
+  description varchar
+  isCompanyRole boolean [default: false]
+  jobPostFee int [default: 0]
+  sortOrder int [default: 0]
+  createdAt timestamp [default: `now()`]
+}
+
+Table paymentProviders {
+  id int [pk, increment]
+  name varchar [unique, not null]
+  description varchar
+  isEnabled boolean [default: true]
+  createdAt timestamp [default: `now()`]
+}
+
+Table users {
+  id int [pk, increment]
+  name varchar [not null]
+  email varchar [unique, not null]
+  password varchar [not null]
+  isEmailVerified boolean [default: false]
+  emailVerifiedAt timestamp
+  emailVerificationToken varchar
+  emailVerificationTokenExpiresAt timestamp
+  createdAt timestamp [default: `now()`]
+  updatedAt timestamp [default: `now()`]
+  deletedAt timestamp
+}
+
+Table otpVerifications {
+  id int [pk, increment]
+  userId int [ref: > users.id, not null]
+  type enum('email', 'phone') [default: 'email']
+  otpCode varchar [not null]
+  isUsed boolean [default: false]
+  expiresAt timestamp [not null]
+  createdAt timestamp [default: `now()`]
+}
+
+Table userRoles {
+  id int [pk, increment]
+  userId int [ref: > users.id, not null]
+  roleId int [ref: > roles.id, not null]
+  sortOrder int [default: 0]
+}
+
+Table admins {
+  id int [pk, increment]
+  userId int [ref: > users.id, not null]
+  createdAt timestamp [default: `now()`]
+}
+
+Table companyTypes {
+  id int [pk, increment]
+  name varchar [unique, not null]
+  description varchar
+  sortOrder int [default: 0]
+}
+
+Table companies {
+  id int [pk, increment]
+  userId int [ref: > users.id, not null]
+  companyName varchar [not null]
+  companyTypeId int [ref: > companyTypes.id]
+  industryType varchar
+  contactNumber varchar
+  createdAt timestamp [default: `now()`]
+  updatedAt timestamp [default: `now()`]
+  deletedAt timestamp
+}
+
+Table companyUsers {
+  id int [pk, increment]
+  companyId int [ref: > companies.id, not null]
+  userId int [ref: > users.id, not null]
+  isPrimary boolean [default: false]
+  roleInCompany varchar [default: 'member']
+  indexes {
+    (companyId, userId) [unique]
+  }
+}
+
+Table drivers {
+  id int [pk, increment]
+  userId int [ref: > users.id, not null]
+  licenseNumber varchar [not null]
+  twicNumber varchar
+  medicalCertificate varchar
+  drugTestResult varchar
+  verified boolean [default: false]
+  workRadius int
+  originCompanyId int [ref: > companies.id]
+  createdAt timestamp [default: `now()`]
+  updatedAt timestamp [default: `now()`]
+  deletedAt timestamp
+}
+
+Table jobPostingFees {
+  id int [pk, increment]
+  jobId int [ref: > jobs.id, not null]
+  chargedByRoleId int [ref: > roles.id]
+  amount decimal(10, 2) [not null]
+  chargedAt timestamp [default: `now()`]
+}
+
+Table jobs {
+  id int [pk, increment]
+  companyId int [ref: > companies.id, not null]
+  title varchar [not null]
+  description text
+  payAmount decimal
+  jobType jobType
+  status jobStatus [default: 'draft']
+  startDate timestamp
+  endDate timestamp
+  tonuAmount decimal
+  isTonuEligible boolean [default: false]
+  pickupLocation jsonb
+  dropoffLocation jsonb
+  payoutStatus paymentStatus [default: 'pending']
+  createdAt timestamp [default: `now()`]
+  updatedAt timestamp [default: `now()`]
+  deletedAt timestamp
+}
+
+Table jobVisibilityRoles {
+  id int [pk, increment]
+  jobId int [ref: > jobs.id, not null]
+  roleId int [ref: > roles.id, not null]
+  sortOrder int [default: 0]
+}
+
+Table jobApplications {
+  id int [pk, increment]
+  jobId int [ref: > jobs.id, not null]
+  applicantUserId int [ref: > users.id, not null]
+  driverId int [ref: > drivers.id]
+  status enum('applied', 'accepted', 'cancelled', 'completed') [default: 'applied']
+  appliedAt timestamp [default: `now()`]
+  updatedAt timestamp [default: `now()`]
+  deletedAt timestamp
+}
+
+Table contracts {
+  id int [pk, increment]
+  jobId int [ref: > jobs.id]
+  hiredByUserId int [ref: > users.id]
+  hiredUserId int [ref: > users.id]
+  amount decimal(10,2) [not null]
+  billingCycle contractBillingCycle [default: 'weekly']
+  status contractStatus [default: 'active']
+  nextBillingDate timestamp [not null]
+  retryCount int [default: 0]
+  lastAttemptedAt timestamp
+  notes text
+  createdAt timestamp [default: `now()`]
+  updatedAt timestamp [default: `now()`]
+}
+
+Table contractPaymentFailures {
+  id int [pk, increment]
+  contractId int [ref: > contracts.id, not null]
+  stripeIntentId varchar [unique]
+  status contractPaymentStatus [default: 'failed']
+  errorMessage text
+  retryAttempt int [default: 1]
+  isRetried boolean [default: false]
+  scheduledRetryAt timestamp
+  createdAt timestamp [default: `now()`]
+  updatedAt timestamp [default: `now()`]
+}
+
+Table providerPaymentIntents {
+  id int [pk, increment]
+  contractId int [ref: > contracts.id, not null]
+  paymentProviderId int [ref: > paymentProviders.id, not null]  // Link to provider (Stripe, PayPal, etc)
+  externalIntentId varchar [not null, unique]                  // Provider's payment intent ID
+  amount decimal(10, 2) [not null]
+  status contractPaymentStatus [default: 'created']
+  failureReason text
+  attemptCount int [default: 1]
+  createdAt timestamp [default: `now()`]
+  updatedAt timestamp [default: `now()`]
+}
+
+
+Table wallets {
+  id int [pk, increment]
+  userId int [ref: > users.id, not null]
+  availableBalance decimal(10, 2) [default: 0]
+  onHold decimal(10, 2) [default: 0]
+  updatedAt timestamp [default: `now()`]
+}
+
+Table walletTransactions {
+  id int [pk, increment]
+  walletId int [ref: > wallets.id, not null]
+  type enum('credit', 'debit', 'hold', 'release', 'withdrawal')
+  amount decimal(10, 2) [not null]
+  status enum('initial', 'withdrawal_requested', 'processing', 'processed', 'failed', 'cancelled') [default: 'initial']
+  description text
+  createdAt timestamp [default: `now()`]
+
+  Note: 'Represents any wallet activity: fund add, hold, release, or withdrawal'
+}
+
+Table walletTransactionStatusHistory {
+  id int [pk, increment]
+  walletTransactionId int [ref: > walletTransactions.id, not null]
+  status enum('initial', 'withdrawal_requested', 'processing', 'processed', 'failed', 'cancelled')
+  remarks text
+  changedByUserId int [ref: > users.id]
+  changedAt timestamp [default: `now()`]
+
+  Note: 'Tracks each change in wallet transaction status'
+}
+
+Table walletHoldLogs {
+  id int [pk, increment]
+  walletId int [ref: > wallets.id, not null]
+  reason varchar
+  holdAmount decimal(10, 2) [not null]
+  releasedAmount decimal(10, 2) [default: 0]
+  relatedJobId int [ref: > jobs.id]
+  relatedContractId int [ref: > contracts.id]
+  holdAt timestamp [default: `now()`]
+  releasedAt timestamp
+
+  Note: 'Detailed record of why and when wallet funds were held or released'
+}
+
+
+Table jobDriverAssignments {
+  id int [pk, increment]
+  jobApplicationId int [ref: > jobApplications.id, not null]
+  assignedByUserId int [ref: > users.id]
+  driverId int [ref: > drivers.id, not null]
+  assignedAt timestamp [default: `now()`]
+}
+
+Table userLocations {
+  id int [pk, increment]
+  userId int [ref: > users.id, not null]
+  latitude decimal(10, 6)
+  longitude decimal(10, 6)
+  recordedAt timestamp [default: `now()`]
+}
+
+Table jobTrackingLocations {
+  id int [pk, increment]
+  jobApplicationId int [ref: > jobApplications.id, not null]
+  userId int [ref: > users.id, not null]
+  latitude decimal(10, 6)
+  longitude decimal(10, 6)
+  recordedAt timestamp [default: `now()`]
+}
+
+Table paymentAccounts {
+  id int [pk, increment]
+  userId int [ref: > users.id, not null]
+  providerId int [ref: > paymentProviders.id, not null]
+  accountId varchar [not null]
+  isVerified boolean [default: false]
+  createdAt timestamp [default: `now()`]
+  updatedAt timestamp [default: `now()`]
+
+  indexes {
+    (userId, providerId) [unique]
+  }
+}
+
+Table jobPayments {
+  id int [pk, increment]
+  jobId int [ref: > jobs.id, not null]
+  companyId int [ref: > companies.id, not null]
+  providerId int [ref: > paymentProviders.id]
+  externalPaymentId varchar [not null]
+  baseAmount decimal(10, 2) [not null]
+  companyCommission decimal(10, 2) [not null]
+  driverCommission decimal(10, 2) [not null]
+  totalAmount decimal(10, 2) [not null]
+  status paymentStatus [default: 'pending']
+  createdAt timestamp [default: `now()`]
+  updatedAt timestamp [default: `now()`]
+}
+
+Table jobTransfers {
+  id int [pk, increment]
+  jobId int [ref: > jobs.id, not null]
+  driverId int [ref: > drivers.id, not null]
+  providerId int [ref: > paymentProviders.id]
+  externalTransferId varchar [not null]
+  amount decimal(10, 2) [not null]
+  status paymentStatus [default: 'pending']
+  createdAt timestamp [default: `now()`]
+  updatedAt timestamp [default: `now()`]
+}
+
+Table userAddHistory {
+  id int [pk, increment]
+  addedByUserId int [ref: > users.id]
+  addedUserId int [ref: > users.id, not null]
+  companyId int [ref: > companies.id]
+  createdAt timestamp [default: `now()`]
+}
+
+Table roleVisibilityPermissions {
+  id int [pk, increment]
+  fromRoleId int [ref: > roles.id, not null]
+  visibleToRoleId int [ref: > roles.id, not null]
+  createdAt timestamp [default: `now()`]
+}
+
+Table documentTypes {
+  id int [pk, increment]
+  name varchar [unique, not null]
+  description varchar
+  requiresExpiry boolean [default: true]
+  createdAt timestamp [default: `now()`]
+}
+
+Table documentTypeRoleRequirements {
+  id int [pk, increment]
+  documentTypeId int [ref: > documentTypes.id, not null]
+  roleId int [ref: > roles.id, not null]
+  sortOrder int [default: 0]
+}
+
+Table documents {
+  id int [pk, increment]
+  userId int [ref: > users.id, not null]
+  documentTypeId int [ref: > documentTypes.id, not null]
+  fileUrl varchar [not null]
+  expiryDate timestamp
+  verified boolean [default: false]
+  createdAt timestamp [default: `now()`]
+  updatedAt timestamp [default: `now()`]
+  deletedAt timestamp
+}
+
+Table conversations {
+  id int [pk, increment]
+  chatType chatType [default: 'direct']
+  title varchar
+  jobId int [ref: > jobs.id]
+  createdByUserId int [ref: > users.id]
+  isArchived boolean [default: false]
+  lastMessageAt timestamp [default: `now()`]
+  createdAt timestamp [default: `now()`]
+  updatedAt timestamp [default: `now()`]
+}
+
+Table conversationParticipants {
+  id int [pk, increment]
+  conversationId int [ref: > conversations.id, not null]
+  userId int [ref: > users.id, not null]
+  joinedAt timestamp [default: `now()`]
+}
+
+Table messages {
+  id int [pk, increment]
+  conversationId int [ref: > conversations.id, not null]
+  senderUserId int [ref: > users.id, not null]
+  content text [not null]
+  sentAt timestamp [default: `now()`]
+}
+
+Table messageStatus {
+  id int [pk, increment]
+  messageId int [ref: > messages.id, not null]
+  userId int [ref: > users.id, not null]
+  isRead boolean [default: false]
+  isDelivered boolean [default: true]
+  readAt timestamp
+}
+
+Table reviews {
+  id int [pk, increment]
+  jobId int [ref: > jobs.id, not null]
+  reviewerUserId int [ref: > users.id, not null]
+  revieweeUserId int [ref: > users.id, not null]
+  rating int [not null]
+  comment text
+  createdAt timestamp [default: `now()`]
+}
+
+Table jobPhotos {
+  id int [pk, increment]
+  jobId int [ref: > jobs.id, not null]
+  driverId int [ref: > drivers.id, not null]
+  type jobPhotoType [not null]
+  photoUrl varchar [not null]
+  description varchar
+  createdAt timestamp [default: `now()`]
+}
+
+Table disputes {
+  id int [pk, increment]
+  jobId int [ref: > jobs.id, not null]
+  raisedByUserId int [ref: > users.id, not null]
+  status disputeStatus [default: 'open']
+  reason text [not null]
+  resolvedAt timestamp
+  createdAt timestamp [default: `now()`]
+}
+
+Table jobDocuments {
+  id int [pk, increment]
+  jobId int [ref: > jobs.id, not null]
+  uploadedByUserId int [ref: > users.id, not null]
+  documentType varchar [default: 'bol']
+  fileUrl varchar [not null]
+  uploadedAt timestamp [default: `now()`]
+}
+
+Table roleCommissions {
+  id int [pk, increment]
+  roleId int [ref: > roles.id, not null]
+  billingCycle contractBillingCycle [not null]
+  platformCommissionPercent decimal(5, 2) [not null]
+  createdAt timestamp [default: `now()`]
+}
+
+Table jobCancellations {
+  id int [pk, increment]
+  jobId int [ref: > jobs.id, not null]
+  cancelledByUserId int [ref: > users.id, not null]
+  reason text
+  isTonuPaid boolean [default: false]
+  tonuAmount decimal(10, 2)
+  cancelledAt timestamp [default: `now()`]
+}
+
+Table contractTransactions {
+  id int [pk, increment]
+  contractId int [ref: > contracts.id, not null]
+  walletTransactionId int [ref: > walletTransactions.id]
+  amount decimal(10, 2)
+  billingCycleStart timestamp
+  billingCycleEnd timestamp
+  status contractPaymentStatus
+  createdAt timestamp [default: `now()`]
+}
+
+Table userPaymentMethods {
+  id int [pk, increment]
+  userId int [ref: > users.id]
+  providerId int [ref: > paymentProviders.id]
+  externalMethodId varchar [not null] // e.g., Stripe payment method ID
+  type varchar [note: 'e.g., card, apple_pay']
+  isDefault boolean [default: false]
+  isActive boolean [default: true]
+  createdAt timestamp [default: `now()`]
+  updatedAt timestamp [default: `now()`]
+  
+  Note: 'Stores saved payment methods like cards (tokenized, never raw).'
+}
+
+Table userBankAccounts {
+  id int [pk, increment]
+  userId int [ref: > users.id]
+  providerId int [ref: > paymentProviders.id]
+  externalBankId varchar [not null] // e.g., Stripe bank account ID
+  bankName varchar
+  last4 varchar(4)
+  country varchar(2)
+  currency varchar(3)
+  isDefault boolean [default: false]
+  isVerified boolean [default: false]
+  isActive boolean [default: true]
+  createdAt timestamp [default: `now()`]
+  updatedAt timestamp [default: `now()`]
+
+  Note: 'Stores connected bank accounts for payouts via provider.'
+}
+
+
